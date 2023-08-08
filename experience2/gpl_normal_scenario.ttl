@@ -1,0 +1,379 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix gpl: <http://graphameleon.com#>.
+@prefix core: <https://ontology.unifiedcyberontology.org/uco/core#>.
+@prefix ucoact: <https://ontology.unifiedcyberontology.org/uco/action#>.
+@prefix ucobs: <https://ontology.unifiedcyberontology.org/uco/observable#>.
+@prefix types: <https://ontology.unifiedcyberontology.org/uco/types#>.
+
+gpl:DOMAIN_F528764D624DB129B32C21FBCA0CB8D6 a ucobs:DomainNameFacet;
+    ucobs:addressValue "127.0.0.1".
+gpl:HTTPCON_CD5D96A23E1794BDA6B954DEDFCB93BF a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "same-origin";
+    ucobs:endTime "2023-07-06T07:18:51.717Z";
+    ucobs:hasFacet gpl:URL_17081A942129061D8C2C5C820F15E599;
+    ucobs:startTime "2023-07-06T07:18:51.686Z".
+gpl:IP_F528764D624DB129B32C21FBCA0CB8D6 a ucobs:IPAddressFacet;
+    ucobs:addressValue "127.0.0.1".
+gpl:TRACE_CD5D96A23E1794BDA6B954DEDFCB93BF a ucoact:ObservableAction;
+    core:objectCreatedTime "2023-07-06T07:18:51.686Z";
+    core:tag "request";
+    core:value "req-http://127.0.0.1:8000/livros/login";
+    ucobs:object gpl:HTTPCON_CD5D96A23E1794BDA6B954DEDFCB93BF.
+gpl:URL_17081A942129061D8C2C5C820F15E599 a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/login";
+    ucobs:host gpl:DOMAIN_F528764D624DB129B32C21FBCA0CB8D6, gpl:IP_F528764D624DB129B32C21FBCA0CB8D6.
+gpl:DOMAIN_7B5DDAC428E9719610789CEFBBEEFFEF a ucobs:DomainNameFacet;
+    ucobs:addressValue "maxcdn.bootstrapcdn.com".
+gpl:HTTPCON_5CC7ABADF0807E49F3C33A2B65C9A5B2 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "script";
+    ucobs:endTime "2023-07-06T07:18:51.755Z";
+    ucobs:hasFacet gpl:URL_02C3F737E31BAEC5B2115F2F31A6D7C0;
+    ucobs:startTime "2023-07-06T07:18:51.745Z".
+gpl:IP_8A7595643BE38BC81272B3E76DEB0F1A a ucobs:IPAddressFacet;
+    ucobs:addressValue "10.193.21.116".
+gpl:TRACE_5CC7ABADF0807E49F3C33A2B65C9A5B2 a ucoact:ObservableAction;
+    core:objectCreatedTime "2023-07-06T07:18:51.745Z";
+    core:tag "request";
+    core:value "req-https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js";
+    ucobs:object gpl:HTTPCON_5CC7ABADF0807E49F3C33A2B65C9A5B2;
+    types:threadPreviousItem gpl:TRACE_CD5D96A23E1794BDA6B954DEDFCB93BF.
+gpl:TRACE_CD5D96A23E1794BDA6B954DEDFCB93BF types:threadNextItem gpl:TRACE_5CC7ABADF0807E49F3C33A2B65C9A5B2.
+gpl:URL_02C3F737E31BAEC5B2115F2F31A6D7C0 a ucobs:URLFacet;
+    ucobs:fullValue "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js";
+    ucobs:host gpl:DOMAIN_7B5DDAC428E9719610789CEFBBEEFFEF, gpl:IP_8A7595643BE38BC81272B3E76DEB0F1A.
+gpl:DOMAIN_C5F1651768B9F419C8C69BBC605D99BE a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdnjs.cloudflare.com".
+gpl:HTTPCON_B080F07AB4267B8B61E57607C74B1189 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "script";
+    ucobs:endTime "2023-07-06T07:18:51.757Z";
+    ucobs:hasFacet gpl:URL_C97CA0283274EE47A20755A9A269131B;
+    ucobs:startTime "2023-07-06T07:18:51.746Z".
+gpl:IP_8A7595643BE38BC81272B3E76DEB0F1A a ucobs:IPAddressFacet;
+    ucobs:addressValue "10.193.21.116".
+gpl:TRACE_5CC7ABADF0807E49F3C33A2B65C9A5B2 types:threadNextItem gpl:TRACE_B080F07AB4267B8B61E57607C74B1189.
+gpl:TRACE_B080F07AB4267B8B61E57607C74B1189 a ucoact:ObservableAction;
+    core:objectCreatedTime "2023-07-06T07:18:51.746Z";
+    core:tag "request";
+    core:value "req-https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js";
+    ucobs:object gpl:HTTPCON_B080F07AB4267B8B61E57607C74B1189;
+    types:threadPreviousItem gpl:TRACE_5CC7ABADF0807E49F3C33A2B65C9A5B2.
+gpl:URL_C97CA0283274EE47A20755A9A269131B a ucobs:URLFacet;
+    ucobs:fullValue "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js";
+    ucobs:host gpl:DOMAIN_C5F1651768B9F419C8C69BBC605D99BE, gpl:IP_8A7595643BE38BC81272B3E76DEB0F1A.
+gpl:DOMAIN_436337C6C568059472E80B993E071453 a ucobs:DomainNameFacet;
+    ucobs:addressValue "code.jquery.com".
+gpl:HTTPCON_423FCE8F9851CF45967B3A5882C2AB60 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "script";
+    ucobs:endTime "2023-07-06T07:18:51.758Z";
+    ucobs:hasFacet gpl:URL_FA23745D4E6BC99D0E191C82E00F6CF9;
+    ucobs:startTime "2023-07-06T07:18:51.746Z".
+gpl:IP_8A7595643BE38BC81272B3E76DEB0F1A a ucobs:IPAddressFacet;
+    ucobs:addressValue "10.193.21.116".
+gpl:TRACE_423FCE8F9851CF45967B3A5882C2AB60 a ucoact:ObservableAction;
+    core:objectCreatedTime "2023-07-06T07:18:51.746Z";
+    core:tag "request";
+    core:value "req-https://code.jquery.com/jquery-3.2.1.slim.min.js";
+    ucobs:object gpl:HTTPCON_423FCE8F9851CF45967B3A5882C2AB60;
+    types:threadPreviousItem gpl:TRACE_B080F07AB4267B8B61E57607C74B1189.
+gpl:TRACE_B080F07AB4267B8B61E57607C74B1189 types:threadNextItem gpl:TRACE_423FCE8F9851CF45967B3A5882C2AB60.
+gpl:URL_FA23745D4E6BC99D0E191C82E00F6CF9 a ucobs:URLFacet;
+    ucobs:fullValue "https://code.jquery.com/jquery-3.2.1.slim.min.js";
+    ucobs:host gpl:DOMAIN_436337C6C568059472E80B993E071453, gpl:IP_8A7595643BE38BC81272B3E76DEB0F1A.
+gpl:DOMAIN_C5F1651768B9F419C8C69BBC605D99BE a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdnjs.cloudflare.com".
+gpl:HTTPCON_FE7FC26ECC73060F0741EBD5F3E6233E a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-07-06T07:18:51.771Z";
+    ucobs:hasFacet gpl:URL_4430A048FDE8FE147F950207CDD9ADDA;
+    ucobs:startTime "2023-07-06T07:18:51.749Z".
+gpl:IP_8A7595643BE38BC81272B3E76DEB0F1A a ucobs:IPAddressFacet;
+    ucobs:addressValue "10.193.21.116".
+gpl:TRACE_423FCE8F9851CF45967B3A5882C2AB60 types:threadNextItem gpl:TRACE_FE7FC26ECC73060F0741EBD5F3E6233E.
+gpl:TRACE_FE7FC26ECC73060F0741EBD5F3E6233E a ucoact:ObservableAction;
+    core:objectCreatedTime "2023-07-06T07:18:51.749Z";
+    core:tag "request";
+    core:value "req-https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js";
+    ucobs:object gpl:HTTPCON_FE7FC26ECC73060F0741EBD5F3E6233E;
+    types:threadPreviousItem gpl:TRACE_423FCE8F9851CF45967B3A5882C2AB60.
+gpl:URL_4430A048FDE8FE147F950207CDD9ADDA a ucobs:URLFacet;
+    ucobs:fullValue "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js";
+    ucobs:host gpl:DOMAIN_C5F1651768B9F419C8C69BBC605D99BE, gpl:IP_8A7595643BE38BC81272B3E76DEB0F1A.
+gpl:TRACE_529CEB785720517856B7458742A9F1FA a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:18:55.342Z";
+    core:tag "click";
+    core:value "clc-username-input";
+    ucobs:location gpl:URL_17081A942129061D8C2C5C820F15E599;
+    types:threadPreviousItem gpl:TRACE_FE7FC26ECC73060F0741EBD5F3E6233E.
+gpl:TRACE_FE7FC26ECC73060F0741EBD5F3E6233E types:threadNextItem gpl:TRACE_529CEB785720517856B7458742A9F1FA.
+gpl:URL_17081A942129061D8C2C5C820F15E599 a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/login".
+gpl:TRACE_529CEB785720517856B7458742A9F1FA types:threadNextItem gpl:TRACE_563F0CE92D82206024C81B069E370AFF.
+gpl:TRACE_563F0CE92D82206024C81B069E370AFF a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:18:58.604Z";
+    core:tag "change";
+    core:value "chg-username-input";
+    ucobs:location gpl:URL_17081A942129061D8C2C5C820F15E599;
+    types:threadPreviousItem gpl:TRACE_529CEB785720517856B7458742A9F1FA.
+gpl:URL_17081A942129061D8C2C5C820F15E599 a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/login".
+gpl:TRACE_3CB2C70C457F773422589D0B49AF5A33 a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:18:58.693Z";
+    core:tag "click";
+    core:value "clc-password-input";
+    ucobs:location gpl:URL_17081A942129061D8C2C5C820F15E599;
+    types:threadPreviousItem gpl:TRACE_563F0CE92D82206024C81B069E370AFF.
+gpl:TRACE_563F0CE92D82206024C81B069E370AFF types:threadNextItem gpl:TRACE_3CB2C70C457F773422589D0B49AF5A33.
+gpl:URL_17081A942129061D8C2C5C820F15E599 a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/login".
+gpl:TRACE_3CB2C70C457F773422589D0B49AF5A33 types:threadNextItem gpl:TRACE_AF27376159D19839B6835FB47BA264BD.
+gpl:TRACE_AF27376159D19839B6835FB47BA264BD a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:19:07.102Z";
+    core:tag "change";
+    core:value "chg-password-input";
+    ucobs:location gpl:URL_17081A942129061D8C2C5C820F15E599;
+    types:threadPreviousItem gpl:TRACE_3CB2C70C457F773422589D0B49AF5A33.
+gpl:URL_17081A942129061D8C2C5C820F15E599 a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/login".
+gpl:TRACE_0A9DD7E0290A77A82C9EACFA1B8D6724 a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:19:07.137Z";
+    core:tag "click";
+    core:value "clc-submit-login-btn";
+    ucobs:location gpl:URL_17081A942129061D8C2C5C820F15E599;
+    types:threadPreviousItem gpl:TRACE_AF27376159D19839B6835FB47BA264BD.
+gpl:TRACE_AF27376159D19839B6835FB47BA264BD types:threadNextItem gpl:TRACE_0A9DD7E0290A77A82C9EACFA1B8D6724.
+gpl:URL_17081A942129061D8C2C5C820F15E599 a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/login".
+gpl:TRACE_0A9DD7E0290A77A82C9EACFA1B8D6724 types:threadNextItem gpl:TRACE_1DC73BDF03B0C8F76ABD11E4D32AD0B9.
+gpl:TRACE_1DC73BDF03B0C8F76ABD11E4D32AD0B9 a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:19:07.138Z";
+    core:tag "submit";
+    core:value "sub-login-form";
+    ucobs:location gpl:URL_17081A942129061D8C2C5C820F15E599;
+    types:threadPreviousItem gpl:TRACE_0A9DD7E0290A77A82C9EACFA1B8D6724.
+gpl:URL_17081A942129061D8C2C5C820F15E599 a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/login".
+gpl:DOMAIN_F528764D624DB129B32C21FBCA0CB8D6 a ucobs:DomainNameFacet;
+    ucobs:addressValue "127.0.0.1".
+gpl:HTTPCON_8C6B0DF49476F222E38E83D435EA2D68 a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "same-origin";
+    ucobs:endTime "2023-07-06T07:19:07.317Z";
+    ucobs:hasFacet gpl:URL_EB12B2E5D576BE599A1AB356FC050C05;
+    ucobs:startTime "2023-07-06T07:19:07.270Z".
+gpl:IP_F528764D624DB129B32C21FBCA0CB8D6 a ucobs:IPAddressFacet;
+    ucobs:addressValue "127.0.0.1".
+gpl:TRACE_1DC73BDF03B0C8F76ABD11E4D32AD0B9 types:threadNextItem gpl:TRACE_8C6B0DF49476F222E38E83D435EA2D68.
+gpl:TRACE_8C6B0DF49476F222E38E83D435EA2D68 a ucoact:ObservableAction;
+    core:objectCreatedTime "2023-07-06T07:19:07.270Z";
+    core:tag "request";
+    core:value "req-http://127.0.0.1:8000/livros/home";
+    ucobs:object gpl:HTTPCON_8C6B0DF49476F222E38E83D435EA2D68;
+    types:threadPreviousItem gpl:TRACE_1DC73BDF03B0C8F76ABD11E4D32AD0B9.
+gpl:URL_EB12B2E5D576BE599A1AB356FC050C05 a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/home";
+    ucobs:host gpl:DOMAIN_F528764D624DB129B32C21FBCA0CB8D6, gpl:IP_F528764D624DB129B32C21FBCA0CB8D6.
+gpl:DOMAIN_436337C6C568059472E80B993E071453 a ucobs:DomainNameFacet;
+    ucobs:addressValue "code.jquery.com".
+gpl:HTTPCON_9E7CDB183F03D24293D1CF8789286E75 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "script";
+    ucobs:endTime "2023-07-06T07:19:07.380Z";
+    ucobs:hasFacet gpl:URL_004D8CE53EF628BA1B3B4510CE1575EF;
+    ucobs:startTime "2023-07-06T07:19:07.369Z".
+gpl:IP_AAE4BD4DEF380A1EFE2E20C27CB293F0 a ucobs:IPAddressFacet;
+    ucobs:addressValue "69.16.175.10".
+gpl:TRACE_8C6B0DF49476F222E38E83D435EA2D68 types:threadNextItem gpl:TRACE_9E7CDB183F03D24293D1CF8789286E75.
+gpl:TRACE_9E7CDB183F03D24293D1CF8789286E75 a ucoact:ObservableAction;
+    core:objectCreatedTime "2023-07-06T07:19:07.369Z";
+    core:tag "request";
+    core:value "req-https://code.jquery.com/jquery-3.2.1.min.js";
+    ucobs:object gpl:HTTPCON_9E7CDB183F03D24293D1CF8789286E75;
+    types:threadPreviousItem gpl:TRACE_8C6B0DF49476F222E38E83D435EA2D68.
+gpl:URL_004D8CE53EF628BA1B3B4510CE1575EF a ucobs:URLFacet;
+    ucobs:fullValue "https://code.jquery.com/jquery-3.2.1.min.js";
+    ucobs:host gpl:DOMAIN_436337C6C568059472E80B993E071453, gpl:IP_AAE4BD4DEF380A1EFE2E20C27CB293F0.
+gpl:TRACE_9E7CDB183F03D24293D1CF8789286E75 types:threadNextItem gpl:TRACE_C45BF2A56A5D2E6A12FB1E08169D9D59.
+gpl:TRACE_C45BF2A56A5D2E6A12FB1E08169D9D59 a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:19:09.866Z";
+    core:tag "click";
+    core:value "clc-sellabook-nav";
+    ucobs:location gpl:URL_EB12B2E5D576BE599A1AB356FC050C05;
+    types:threadPreviousItem gpl:TRACE_9E7CDB183F03D24293D1CF8789286E75.
+gpl:URL_EB12B2E5D576BE599A1AB356FC050C05 a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/home".
+gpl:DOMAIN_F528764D624DB129B32C21FBCA0CB8D6 a ucobs:DomainNameFacet;
+    ucobs:addressValue "127.0.0.1".
+gpl:HTTPCON_441803ECA5E393C711D5B787F0C6A228 a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "same-origin";
+    ucobs:endTime "2023-07-06T07:19:09.901Z";
+    ucobs:hasFacet gpl:URL_F386ABCDB459DE6637C028FC7593533B;
+    ucobs:startTime "2023-07-06T07:19:09.874Z".
+gpl:IP_F528764D624DB129B32C21FBCA0CB8D6 a ucobs:IPAddressFacet;
+    ucobs:addressValue "127.0.0.1".
+gpl:TRACE_441803ECA5E393C711D5B787F0C6A228 a ucoact:ObservableAction;
+    core:objectCreatedTime "2023-07-06T07:19:09.874Z";
+    core:tag "request";
+    core:value "req-http://127.0.0.1:8000/livros/sell";
+    ucobs:object gpl:HTTPCON_441803ECA5E393C711D5B787F0C6A228;
+    types:threadPreviousItem gpl:TRACE_C45BF2A56A5D2E6A12FB1E08169D9D59.
+gpl:TRACE_C45BF2A56A5D2E6A12FB1E08169D9D59 types:threadNextItem gpl:TRACE_441803ECA5E393C711D5B787F0C6A228.
+gpl:URL_F386ABCDB459DE6637C028FC7593533B a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/sell";
+    ucobs:host gpl:DOMAIN_F528764D624DB129B32C21FBCA0CB8D6, gpl:IP_F528764D624DB129B32C21FBCA0CB8D6.
+gpl:TRACE_441803ECA5E393C711D5B787F0C6A228 types:threadNextItem gpl:TRACE_C5CA8D0C121A87B139A462B3FD05A138.
+gpl:TRACE_C5CA8D0C121A87B139A462B3FD05A138 a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:19:11.198Z";
+    core:tag "click";
+    core:value "clc-title-input";
+    ucobs:location gpl:URL_F386ABCDB459DE6637C028FC7593533B;
+    types:threadPreviousItem gpl:TRACE_441803ECA5E393C711D5B787F0C6A228.
+gpl:URL_F386ABCDB459DE6637C028FC7593533B a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/sell".
+gpl:TRACE_96E026A624943861C69B58E86D0178DC a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:19:14.480Z";
+    core:tag "change";
+    core:value "chg-title-input";
+    ucobs:location gpl:URL_F386ABCDB459DE6637C028FC7593533B;
+    types:threadPreviousItem gpl:TRACE_C5CA8D0C121A87B139A462B3FD05A138.
+gpl:TRACE_C5CA8D0C121A87B139A462B3FD05A138 types:threadNextItem gpl:TRACE_96E026A624943861C69B58E86D0178DC.
+gpl:URL_F386ABCDB459DE6637C028FC7593533B a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/sell".
+gpl:TRACE_96E026A624943861C69B58E86D0178DC types:threadNextItem gpl:TRACE_DCF7FA5E1BEA2A89DC65F1325D906D3F.
+gpl:TRACE_DCF7FA5E1BEA2A89DC65F1325D906D3F a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:19:14.566Z";
+    core:tag "click";
+    core:value "clc-author-input";
+    ucobs:location gpl:URL_F386ABCDB459DE6637C028FC7593533B;
+    types:threadPreviousItem gpl:TRACE_96E026A624943861C69B58E86D0178DC.
+gpl:URL_F386ABCDB459DE6637C028FC7593533B a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/sell".
+gpl:TRACE_DCF7FA5E1BEA2A89DC65F1325D906D3F types:threadNextItem gpl:TRACE_E08FC5A541367EF583CA12838CC44742.
+gpl:TRACE_E08FC5A541367EF583CA12838CC44742 a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:19:17.500Z";
+    core:tag "change";
+    core:value "chg-author-input";
+    ucobs:location gpl:URL_F386ABCDB459DE6637C028FC7593533B;
+    types:threadPreviousItem gpl:TRACE_DCF7FA5E1BEA2A89DC65F1325D906D3F.
+gpl:URL_F386ABCDB459DE6637C028FC7593533B a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/sell".
+gpl:TRACE_3263D082BB6C288AD77900C5B495ACC2 a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:19:17.622Z";
+    core:tag "click";
+    core:value "clc-price-input";
+    ucobs:location gpl:URL_F386ABCDB459DE6637C028FC7593533B;
+    types:threadPreviousItem gpl:TRACE_E08FC5A541367EF583CA12838CC44742.
+gpl:TRACE_E08FC5A541367EF583CA12838CC44742 types:threadNextItem gpl:TRACE_3263D082BB6C288AD77900C5B495ACC2.
+gpl:URL_F386ABCDB459DE6637C028FC7593533B a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/sell".
+gpl:TRACE_3263D082BB6C288AD77900C5B495ACC2 types:threadNextItem gpl:TRACE_E29DD8DB05F9D96548E5087D647DA183.
+gpl:TRACE_E29DD8DB05F9D96548E5087D647DA183 a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:19:19.665Z";
+    core:tag "change";
+    core:value "chg-price-input";
+    ucobs:location gpl:URL_F386ABCDB459DE6637C028FC7593533B;
+    types:threadPreviousItem gpl:TRACE_3263D082BB6C288AD77900C5B495ACC2.
+gpl:URL_F386ABCDB459DE6637C028FC7593533B a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/sell".
+gpl:TRACE_1A88821F7B2CB39AC11FA9C52D313627 a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:19:19.760Z";
+    core:tag "click";
+    core:value "clc-cover-input";
+    ucobs:location gpl:URL_F386ABCDB459DE6637C028FC7593533B;
+    types:threadPreviousItem gpl:TRACE_E29DD8DB05F9D96548E5087D647DA183.
+gpl:TRACE_E29DD8DB05F9D96548E5087D647DA183 types:threadNextItem gpl:TRACE_1A88821F7B2CB39AC11FA9C52D313627.
+gpl:URL_F386ABCDB459DE6637C028FC7593533B a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/sell".
+gpl:TRACE_1A88821F7B2CB39AC11FA9C52D313627 types:threadNextItem gpl:TRACE_F3533AE68762CDCCDDB105C3494BF43B.
+gpl:TRACE_F3533AE68762CDCCDDB105C3494BF43B a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:19:21.696Z";
+    core:tag "change";
+    core:value "chg-cover-input";
+    ucobs:location gpl:URL_F386ABCDB459DE6637C028FC7593533B;
+    types:threadPreviousItem gpl:TRACE_1A88821F7B2CB39AC11FA9C52D313627.
+gpl:URL_F386ABCDB459DE6637C028FC7593533B a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/sell".
+gpl:TRACE_C9A34B842892C122CCD0234A300730B2 a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:19:24.310Z";
+    core:tag "click";
+    core:value "clc-submit-sellabook-btn";
+    ucobs:location gpl:URL_F386ABCDB459DE6637C028FC7593533B;
+    types:threadPreviousItem gpl:TRACE_F3533AE68762CDCCDDB105C3494BF43B.
+gpl:TRACE_F3533AE68762CDCCDDB105C3494BF43B types:threadNextItem gpl:TRACE_C9A34B842892C122CCD0234A300730B2.
+gpl:URL_F386ABCDB459DE6637C028FC7593533B a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/sell".
+gpl:TRACE_16690C636346FD7B0C350655CE1578FA a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:19:24.310Z";
+    core:tag "submit";
+    core:value "sub-sellabook-form";
+    ucobs:location gpl:URL_F386ABCDB459DE6637C028FC7593533B;
+    types:threadPreviousItem gpl:TRACE_C9A34B842892C122CCD0234A300730B2.
+gpl:TRACE_C9A34B842892C122CCD0234A300730B2 types:threadNextItem gpl:TRACE_16690C636346FD7B0C350655CE1578FA.
+gpl:URL_F386ABCDB459DE6637C028FC7593533B a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/sell".
+gpl:DOMAIN_F528764D624DB129B32C21FBCA0CB8D6 a ucobs:DomainNameFacet;
+    ucobs:addressValue "127.0.0.1".
+gpl:HTTPCON_457961640FBB06DB14F284FCB5380FE0 a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "same-origin";
+    ucobs:endTime "2023-07-06T07:19:24.371Z";
+    ucobs:hasFacet gpl:URL_F386ABCDB459DE6637C028FC7593533B;
+    ucobs:startTime "2023-07-06T07:19:24.319Z".
+gpl:IP_F528764D624DB129B32C21FBCA0CB8D6 a ucobs:IPAddressFacet;
+    ucobs:addressValue "127.0.0.1".
+gpl:TRACE_16690C636346FD7B0C350655CE1578FA types:threadNextItem gpl:TRACE_457961640FBB06DB14F284FCB5380FE0.
+gpl:TRACE_457961640FBB06DB14F284FCB5380FE0 a ucoact:ObservableAction;
+    core:objectCreatedTime "2023-07-06T07:19:24.319Z";
+    core:tag "request";
+    core:value "req-http://127.0.0.1:8000/livros/sell";
+    ucobs:object gpl:HTTPCON_457961640FBB06DB14F284FCB5380FE0;
+    types:threadPreviousItem gpl:TRACE_16690C636346FD7B0C350655CE1578FA.
+gpl:URL_F386ABCDB459DE6637C028FC7593533B a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/sell";
+    ucobs:host gpl:DOMAIN_F528764D624DB129B32C21FBCA0CB8D6, gpl:IP_F528764D624DB129B32C21FBCA0CB8D6.
+gpl:TRACE_457961640FBB06DB14F284FCB5380FE0 types:threadNextItem gpl:TRACE_CEF3765EE07B14BF38E11C6033DB42BE.
+gpl:TRACE_CEF3765EE07B14BF38E11C6033DB42BE a ucoact:ObservableAction;
+    core:createdBy "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67";
+    core:objectCreatedTime "2023-07-06T07:19:27.002Z";
+    core:tag "click";
+    core:value "clc-backhome-btn";
+    ucobs:location gpl:URL_F386ABCDB459DE6637C028FC7593533B;
+    types:threadPreviousItem gpl:TRACE_457961640FBB06DB14F284FCB5380FE0.
+gpl:URL_F386ABCDB459DE6637C028FC7593533B a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/sell".
+gpl:DOMAIN_F528764D624DB129B32C21FBCA0CB8D6 a ucobs:DomainNameFacet;
+    ucobs:addressValue "127.0.0.1".
+gpl:HTTPCON_FB4B1C3146E728766BDA9B57A7533F0A a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "same-origin";
+    ucobs:endTime "2023-07-06T07:19:27.072Z";
+    ucobs:hasFacet gpl:URL_EB12B2E5D576BE599A1AB356FC050C05;
+    ucobs:startTime "2023-07-06T07:19:27.014Z".
+gpl:IP_F528764D624DB129B32C21FBCA0CB8D6 a ucobs:IPAddressFacet;
+    ucobs:addressValue "127.0.0.1".
+gpl:TRACE_CEF3765EE07B14BF38E11C6033DB42BE types:threadNextItem gpl:TRACE_FB4B1C3146E728766BDA9B57A7533F0A.
+gpl:TRACE_FB4B1C3146E728766BDA9B57A7533F0A a ucoact:ObservableAction;
+    core:objectCreatedTime "2023-07-06T07:19:27.014Z";
+    core:tag "request";
+    core:value "req-http://127.0.0.1:8000/livros/home";
+    ucobs:object gpl:HTTPCON_FB4B1C3146E728766BDA9B57A7533F0A;
+    types:threadPreviousItem gpl:TRACE_CEF3765EE07B14BF38E11C6033DB42BE.
+gpl:URL_EB12B2E5D576BE599A1AB356FC050C05 a ucobs:URLFacet;
+    ucobs:fullValue "http://127.0.0.1:8000/livros/home";
+    ucobs:host gpl:DOMAIN_F528764D624DB129B32C21FBCA0CB8D6, gpl:IP_F528764D624DB129B32C21FBCA0CB8D6.
