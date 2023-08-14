@@ -1,14 +1,9 @@
 # graphameleon-ds
 
 *graphameleon-ds*: a RDF dataset for process mining on Web navigation traces.
+The dataset comes from the Graphameleon Web extension.
 
-## Getting started
-
-*TBD*.
-
-## Usage
-
-*TBD*.
+**UNDER CONSTRUCTION, thanks for your patience!**
 
 ## Citation
 
@@ -33,7 +28,7 @@ Copyright (c) 2023, Orange. All rights reserved.
 
 ## License
 
-[CC BY-NC-SA](license.txt)
+[CC-BY-NC-SA](LICENSE.txt)
 
 ## Maintainer
 
@@ -41,4 +36,3 @@ Copyright (c) 2023, Orange. All rights reserved.
 * [Lionel TAILHARDAT](mailto:lionel.tailhardat@orange.com)
 * [Yoan CHABOT](mailto:yoan.chabot@orange.com)
 * [Raphaël TRONCY](mailto:raphael.troncy@eurecom.fr)
-
