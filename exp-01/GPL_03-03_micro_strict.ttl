@@ -1,0 +1,387 @@
+# Copyright (c) 2022-2023 Orange. All rights reserved in accordance to the CC-BY-NC-SA license
+# Project: graphameleon-ds
+# THIS SOFTWARE IS PROVIDED BY Orange "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Orange BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix gpl: <http://graphameleon.com#>.
+@prefix core: <https://ontology.unifiedcyberontology.org/uco/core#>.
+@prefix ucoact: <https://ontology.unifiedcyberontology.org/uco/action#>.
+@prefix ucobs: <https://ontology.unifiedcyberontology.org/uco/observable#>.
+@prefix types: <https://ontology.unifiedcyberontology.org/uco/types#>.
+
+gpl:DOMAIN_B76D4D109BF320225655428B927C9E11 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e1.nmcdn.io".
+gpl:HTTPCON_83DC1233EEB188B7A4253B040F1445A2 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:57:38.417Z";
+    ucobs:hasFacet gpl:URL_2C41F81BD3E8DE5384BE6FD875DDA51F;
+    ucobs:startTime "2023-08-11T09:57:38.394Z".
+gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.61".
+gpl:URL_2C41F81BD3E8DE5384BE6FD875DDA51F a ucobs:URLFacet;
+    ucobs:fullValue "https://e1.nmcdn.io/iwmf/wp-content/uploads/2022/02/Bido-Action-4.jpg/v:1-width:1400-height:600-fit:cover/Bido-Action-4.jpg?signature";
+    ucobs:host gpl:DOMAIN_B76D4D109BF320225655428B927C9E11, gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36.
+gpl:DOMAIN_B76D4D109BF320225655428B927C9E11 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e1.nmcdn.io".
+gpl:HTTPCON_5B4366AAD909BA80EAC2E9498BD4C70D a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:57:38.421Z";
+    ucobs:hasFacet gpl:URL_C74A326C319D5B3A8B1C6FE5A7FB3D78;
+    ucobs:startTime "2023-08-11T09:57:38.395Z".
+gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.61".
+gpl:URL_C74A326C319D5B3A8B1C6FE5A7FB3D78 a ucobs:URLFacet;
+    ucobs:fullValue "https://e1.nmcdn.io/iwmf/wp-content/uploads/2023/07/PHOTO-2023-06-16-11-26-19-Louisa-Loveluck.jpg/v:1-width:1400-height:600-fit:cover/PHOTO-2023-06-16-11-26-19-Louisa-Loveluck.jpg?signature";
+    ucobs:host gpl:DOMAIN_B76D4D109BF320225655428B927C9E11, gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36.
+gpl:DOMAIN_B76D4D109BF320225655428B927C9E11 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e1.nmcdn.io".
+gpl:HTTPCON_C2810C45B1DD60821C38B918E28A1370 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:57:38.425Z";
+    ucobs:hasFacet gpl:URL_EC932B4821DD57282CAC3885F2D0BA34;
+    ucobs:startTime "2023-08-11T09:57:38.395Z".
+gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.61".
+gpl:URL_EC932B4821DD57282CAC3885F2D0BA34 a ucobs:URLFacet;
+    ucobs:fullValue "https://e1.nmcdn.io/iwmf/wp-content/uploads/2023/05/hefat-slide1.jpg/v:1-width:1400-height:600-fit:cover/hefat-slide1.jpg?signature";
+    ucobs:host gpl:DOMAIN_B76D4D109BF320225655428B927C9E11, gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36.
+gpl:DOMAIN_B76D4D109BF320225655428B927C9E11 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e1.nmcdn.io".
+gpl:HTTPCON_026BB4448742DA860020766EA4C376D8 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:57:38.433Z";
+    ucobs:hasFacet gpl:URL_0BD9E9AAD9B1D7DED3E021537FA055E6;
+    ucobs:startTime "2023-08-11T09:57:38.396Z".
+gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.61".
+gpl:URL_0BD9E9AAD9B1D7DED3E021537FA055E6 a ucobs:URLFacet;
+    ucobs:fullValue "https://e1.nmcdn.io/iwmf/wp-content/uploads/2023/04/shutterstock_1707297181-scaled-e1682546319187.jpg/v:1-width:1400-height:600-fit:cover/shutterstock_1707297181-scaled-e1682546319187.jpg?signature";
+    ucobs:host gpl:DOMAIN_B76D4D109BF320225655428B927C9E11, gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36.
+gpl:DOMAIN_B76D4D109BF320225655428B927C9E11 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e1.nmcdn.io".
+gpl:HTTPCON_A9FD09513C8962F00FE2526469A1424E a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:57:38.436Z";
+    ucobs:hasFacet gpl:URL_20CD75AD12A950A493DC93885ECD48EC;
+    ucobs:startTime "2023-08-11T09:57:38.397Z".
+gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.61".
+gpl:URL_20CD75AD12A950A493DC93885ECD48EC a ucobs:URLFacet;
+    ucobs:fullValue "https://e1.nmcdn.io/iwmf/wp-content/uploads/2023/02/WhatsApp-Image-2022-09-17-at-12.38.53-AM-e1676575824809.jpeg/v:1-width:400-height:400-fit:cover/WhatsApp-Image-2022-09-17-at-12.38.53-AM-e1676575824809.jpeg?signature";
+    ucobs:host gpl:DOMAIN_B76D4D109BF320225655428B927C9E11, gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36.
+gpl:DOMAIN_B76D4D109BF320225655428B927C9E11 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e1.nmcdn.io".
+gpl:HTTPCON_C589FBF79CA6E09171F6E5274DBE166F a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:57:38.438Z";
+    ucobs:hasFacet gpl:URL_25B8C9C8438F066D8814FFD2BB0D2E05;
+    ucobs:startTime "2023-08-11T09:57:38.397Z".
+gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.61".
+gpl:URL_25B8C9C8438F066D8814FFD2BB0D2E05 a ucobs:URLFacet;
+    ucobs:fullValue "https://e1.nmcdn.io/iwmf/wp-content/uploads/2023/02/242662162_4325491244194715_3063553921569790518_n.jpg/v:1-width:400-height:400-fit:cover/242662162_4325491244194715_3063553921569790518_n.jpg?signature";
+    ucobs:host gpl:DOMAIN_B76D4D109BF320225655428B927C9E11, gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36.
+gpl:DOMAIN_B76D4D109BF320225655428B927C9E11 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e1.nmcdn.io".
+gpl:HTTPCON_8B6EB7B92A43AE01BBAC6F7572D028CD a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:57:38.441Z";
+    ucobs:hasFacet gpl:URL_AD3B0C9B5171C7D7C77653522FE7C30F;
+    ucobs:startTime "2023-08-11T09:57:38.398Z".
+gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.61".
+gpl:URL_AD3B0C9B5171C7D7C77653522FE7C30F a ucobs:URLFacet;
+    ucobs:fullValue "https://e1.nmcdn.io/iwmf/wp-content/uploads/2018/05/Debora-interviewing-a-former-combatant.-copy.jpg/v:1-width:400-height:400-fit:cover/Debora-interviewing-a-former-combatant.-copy.jpg?signature";
+    ucobs:host gpl:DOMAIN_B76D4D109BF320225655428B927C9E11, gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36.
+gpl:DOMAIN_B76D4D109BF320225655428B927C9E11 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e1.nmcdn.io".
+gpl:HTTPCON_1F6B9CD405531E2E417194914DCB19BF a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:57:38.443Z";
+    ucobs:hasFacet gpl:URL_832500A2EB7D7EB8615BC8F0461A9EED;
+    ucobs:startTime "2023-08-11T09:57:38.398Z".
+gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.61".
+gpl:URL_832500A2EB7D7EB8615BC8F0461A9EED a ucobs:URLFacet;
+    ucobs:fullValue "https://e1.nmcdn.io/iwmf/wp-content/uploads/2022/02/IMG_5211-scaled.jpg/v:1-width:400-height:400-fit:cover/IMG_5211-scaled.jpg?signature";
+    ucobs:host gpl:DOMAIN_B76D4D109BF320225655428B927C9E11, gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36.
+gpl:DOMAIN_8C561853358F7571D7A42BE0F612289A a ucobs:DomainNameFacet;
+    ucobs:addressValue "ajax.googleapis.com".
+gpl:HTTPCON_19AC680EA9B1EA5D04DBE580B9857899 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:57:38.454Z";
+    ucobs:hasFacet gpl:URL_94AF6A5BE88DBFFBB0317FB65F9C20DA;
+    ucobs:startTime "2023-08-11T09:57:38.392Z".
+gpl:IP_0A105079667DEDB66616E558E9738DC9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.201.170".
+gpl:URL_94AF6A5BE88DBFFBB0317FB65F9C20DA a ucobs:URLFacet;
+    ucobs:fullValue "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js";
+    ucobs:host gpl:DOMAIN_8C561853358F7571D7A42BE0F612289A, gpl:IP_0A105079667DEDB66616E558E9738DC9.
+gpl:DOMAIN_B76D4D109BF320225655428B927C9E11 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e1.nmcdn.io".
+gpl:HTTPCON_B6216D76677B641B9A4F296149BF828C a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:57:38.457Z";
+    ucobs:hasFacet gpl:URL_3AA9A0FE8347A0E80BDD2F2BE64CCCCC;
+    ucobs:startTime "2023-08-11T09:57:38.399Z".
+gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.61".
+gpl:URL_3AA9A0FE8347A0E80BDD2F2BE64CCCCC a ucobs:URLFacet;
+    ucobs:fullValue "https://e1.nmcdn.io/iwmf/wp-content/uploads/2018/04/Grantees.png/v:1-width:400-height:400-fit:cover/Grantees.png?signature";
+    ucobs:host gpl:DOMAIN_B76D4D109BF320225655428B927C9E11, gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36.
+gpl:DOMAIN_B76D4D109BF320225655428B927C9E11 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e1.nmcdn.io".
+gpl:HTTPCON_B88682C8DC26A682060032F58CCCC606 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:57:38.483Z";
+    ucobs:hasFacet gpl:URL_69CAFCC4BF5038A2BC9296790B10CA7F;
+    ucobs:startTime "2023-08-11T09:57:38.400Z".
+gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.61".
+gpl:URL_69CAFCC4BF5038A2BC9296790B10CA7F a ucobs:URLFacet;
+    ucobs:fullValue "https://e1.nmcdn.io/iwmf/wp-content/uploads/2022/06/Kari-in-Cornwall-photo-by-Ben-Adler-e1657032885415.jpg/v:1-width:400-height:400-fit:cover/Kari-in-Cornwall-photo-by-Ben-Adler-e1657032885415.jpg?signature";
+    ucobs:host gpl:DOMAIN_B76D4D109BF320225655428B927C9E11, gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36.
+gpl:DOMAIN_B76D4D109BF320225655428B927C9E11 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e1.nmcdn.io".
+gpl:HTTPCON_7892B6729AE0B2A173117C48BD02253E a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:57:38.484Z";
+    ucobs:hasFacet gpl:URL_C2E4E6BFED0DAFA34C383402152CED3F;
+    ucobs:startTime "2023-08-11T09:57:38.400Z".
+gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.61".
+gpl:URL_C2E4E6BFED0DAFA34C383402152CED3F a ucobs:URLFacet;
+    ucobs:fullValue "https://e1.nmcdn.io/iwmf/wp-content/uploads/2020/04/BTS-team-shot.jpg/v:1-width:600-height:600-fit:cover/BTS-team-shot.jpg?signature";
+    ucobs:host gpl:DOMAIN_B76D4D109BF320225655428B927C9E11, gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36.
+gpl:DOMAIN_B76D4D109BF320225655428B927C9E11 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e1.nmcdn.io".
+gpl:HTTPCON_EFC3FA83B8312D937E9B5DE5455822CA a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:57:38.488Z";
+    ucobs:hasFacet gpl:URL_59FD65727FCFC91D8E7001BDE4BC9902;
+    ucobs:startTime "2023-08-11T09:57:38.401Z".
+gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.61".
+gpl:URL_59FD65727FCFC91D8E7001BDE4BC9902 a ucobs:URLFacet;
+    ucobs:fullValue "https://e1.nmcdn.io/iwmf/wp-content/uploads/2018/04/Tanzania-1024x647.jpg/v:1-width:600-height:300-fit:cover/Tanzania-1024x647.jpg?signature";
+    ucobs:host gpl:DOMAIN_B76D4D109BF320225655428B927C9E11, gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36.
+gpl:DOMAIN_B76D4D109BF320225655428B927C9E11 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e1.nmcdn.io".
+gpl:HTTPCON_B871849962C441A125B19A0A5B5EB2D6 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:57:38.490Z";
+    ucobs:hasFacet gpl:URL_15E6759A5806853B299ECF1104C7E650;
+    ucobs:startTime "2023-08-11T09:57:38.404Z".
+gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.61".
+gpl:URL_15E6759A5806853B299ECF1104C7E650 a ucobs:URLFacet;
+    ucobs:fullValue "https://e1.nmcdn.io/iwmf/wp-content/uploads/2018/05/48947969861_d369ee88c8_w.jpg/v:1-width:600-height:300-fit:cover/48947969861_d369ee88c8_w.jpg?signature";
+    ucobs:host gpl:DOMAIN_B76D4D109BF320225655428B927C9E11, gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36.
+gpl:DOMAIN_B76D4D109BF320225655428B927C9E11 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e1.nmcdn.io".
+gpl:HTTPCON_2564F8280087E5D5BB01191236E441C3 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:57:38.509Z";
+    ucobs:hasFacet gpl:URL_F02B8E8678F00F125B1F745E48FD165D;
+    ucobs:startTime "2023-08-11T09:57:38.461Z".
+gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.61".
+gpl:URL_F02B8E8678F00F125B1F745E48FD165D a ucobs:URLFacet;
+    ucobs:fullValue "https://e1.nmcdn.io/iwmf/wp-content/uploads/2022/02/Bido-Action-4.jpg/v:1-width:330-height:110-fit:cover/Bido-Action-4.jpg?signature";
+    ucobs:host gpl:DOMAIN_B76D4D109BF320225655428B927C9E11, gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36.
+gpl:DOMAIN_B76D4D109BF320225655428B927C9E11 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e1.nmcdn.io".
+gpl:HTTPCON_2B8E124685974DAC70F97C74A2E62321 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:57:38.510Z";
+    ucobs:hasFacet gpl:URL_02ACA43C8BE337712A5F595715527FE2;
+    ucobs:startTime "2023-08-11T09:57:38.461Z".
+gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.61".
+gpl:URL_02ACA43C8BE337712A5F595715527FE2 a ucobs:URLFacet;
+    ucobs:fullValue "https://e1.nmcdn.io/iwmf/wp-content/uploads/2023/07/PHOTO-2023-06-16-11-26-19-Louisa-Loveluck.jpg/v:1-width:330-height:110-fit:cover/PHOTO-2023-06-16-11-26-19-Louisa-Loveluck.jpg?signature";
+    ucobs:host gpl:DOMAIN_B76D4D109BF320225655428B927C9E11, gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36.
+gpl:DOMAIN_B76D4D109BF320225655428B927C9E11 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e1.nmcdn.io".
+gpl:HTTPCON_E0A7397251291C17C3BEF578DDD16393 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:57:38.511Z";
+    ucobs:hasFacet gpl:URL_2A35EF62497E10BC56272FCA82E5C00D;
+    ucobs:startTime "2023-08-11T09:57:38.462Z".
+gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.61".
+gpl:URL_2A35EF62497E10BC56272FCA82E5C00D a ucobs:URLFacet;
+    ucobs:fullValue "https://e1.nmcdn.io/iwmf/wp-content/uploads/2023/05/hefat-slide1.jpg/v:1-width:330-height:110-fit:cover/hefat-slide1.jpg?signature";
+    ucobs:host gpl:DOMAIN_B76D4D109BF320225655428B927C9E11, gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36.
+gpl:DOMAIN_B76D4D109BF320225655428B927C9E11 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e1.nmcdn.io".
+gpl:HTTPCON_D76E6ACE2528710F1F0088D693AB715A a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:57:38.512Z";
+    ucobs:hasFacet gpl:URL_79AB7C3FCF179C11DD784513FD013AE9;
+    ucobs:startTime "2023-08-11T09:57:38.463Z".
+gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.61".
+gpl:URL_79AB7C3FCF179C11DD784513FD013AE9 a ucobs:URLFacet;
+    ucobs:fullValue "https://e1.nmcdn.io/iwmf/wp-content/uploads/2023/04/shutterstock_1707297181-scaled-e1682546319187.jpg/v:1-width:330-height:110-fit:cover/shutterstock_1707297181-scaled-e1682546319187.jpg?signature";
+    ucobs:host gpl:DOMAIN_B76D4D109BF320225655428B927C9E11, gpl:IP_37FEDB4FFD6E18F5156348EC4D585B36.
+gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.iwmf.org".
+gpl:HTTPCON_ED3269614CC9CC662C668773FE951448 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-11T09:57:38.595Z";
+    ucobs:hasFacet gpl:URL_2A5745C875470DA4833EEF2DA74F617C;
+    ucobs:startTime "2023-08-11T09:57:38.374Z".
+gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.206.214.15".
+gpl:URL_2A5745C875470DA4833EEF2DA74F617C a ucobs:URLFacet;
+    ucobs:fullValue "https://www.iwmf.org/wp-content/themes/nmc_iwmf/css/fonts.css?v";
+    ucobs:host gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C, gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B.
+gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.iwmf.org".
+gpl:HTTPCON_5F53F4F3B8D221C3BEEEED2BBA3F7D7D a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-11T09:57:38.596Z";
+    ucobs:hasFacet gpl:URL_F52611B05111088E643AFF375EA98C3F;
+    ucobs:startTime "2023-08-11T09:57:38.374Z".
+gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.206.214.15".
+gpl:URL_F52611B05111088E643AFF375EA98C3F a ucobs:URLFacet;
+    ucobs:fullValue "https://www.iwmf.org/wp-content/plugins/formidable/css/formidableforms.css?v";
+    ucobs:host gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C, gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B.
+gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.iwmf.org".
+gpl:HTTPCON_81BCAE2D564C098B13451BAD0EECE72E a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T09:57:38.598Z";
+    ucobs:hasFacet gpl:URL_2B065D9FC9B82BDA1F3FAC2AD696D206;
+    ucobs:startTime "2023-08-11T09:57:38.393Z".
+gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.206.214.15".
+gpl:URL_2B065D9FC9B82BDA1F3FAC2AD696D206 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.iwmf.org/wp-content/themes/nmc_iwmf/scripts/all.min.js?v";
+    ucobs:host gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C, gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B.
+gpl:DOMAIN_C8D05E189972711044F07858802CC7D8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagmanager.com".
+gpl:HTTPCON_014F4A04FDE77FA8D89AA4C0652BA4CD a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:57:38.599Z";
+    ucobs:hasFacet gpl:URL_E758CDABE5635B0B4A37FB743076B226;
+    ucobs:startTime "2023-08-11T09:57:38.529Z".
+gpl:IP_0BCB7A6800A0630D5FECFD87507D89A0 a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.168".
+gpl:URL_E758CDABE5635B0B4A37FB743076B226 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagmanager.com/gtm.js?id";
+    ucobs:host gpl:DOMAIN_C8D05E189972711044F07858802CC7D8, gpl:IP_0BCB7A6800A0630D5FECFD87507D89A0.
+gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.iwmf.org".
+gpl:HTTPCON_28B94977DC57C2329B28008CFC12AC06 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:57:38.627Z";
+    ucobs:hasFacet gpl:URL_A48AFF8AF980AC96895802B931E978DA;
+    ucobs:startTime "2023-08-11T09:57:38.405Z".
+gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.206.214.15".
+gpl:URL_A48AFF8AF980AC96895802B931E978DA a ucobs:URLFacet;
+    ucobs:fullValue "https://www.iwmf.org/wp-content/themes/nmc_iwmf/css/images/4star.jpg";
+    ucobs:host gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C, gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B.
+gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.iwmf.org".
+gpl:HTTPCON_97801E780AB49DE3D5483088299E18CD a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "none";
+    ucobs:endTime "2023-08-11T09:57:38.376Z";
+    ucobs:hasFacet gpl:URL_74A30531368D56129648394EC4970992;
+    ucobs:startTime "2023-08-11T09:57:38.000Z".
+gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.206.214.15".
+gpl:URL_74A30531368D56129648394EC4970992 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.iwmf.org/";
+    ucobs:host gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C, gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B.
+gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.iwmf.org".
+gpl:HTTPCON_A7E178668FA1ED5BCC6EF176171EF5BC a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:57:38.651Z";
+    ucobs:hasFacet gpl:URL_AE19AA393902A672B2005CDA6C29D9E8;
+    ucobs:startTime "2023-08-11T09:57:38.463Z".
+gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.206.214.15".
+gpl:URL_AE19AA393902A672B2005CDA6C29D9E8 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.iwmf.org/wp-content/themes/nmc_iwmf/css/images/default-red.png";
+    ucobs:host gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C, gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B.
+gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.iwmf.org".
+gpl:HTTPCON_BE908FB730A35A5071003A57CBC02881 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:57:38.652Z";
+    ucobs:hasFacet gpl:URL_2624319B9AFE1BBD499D8B9D5EE0DFB0;
+    ucobs:startTime "2023-08-11T09:57:38.477Z".
+gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.206.214.15".
+gpl:URL_2624319B9AFE1BBD499D8B9D5EE0DFB0 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.iwmf.org/wp-content/themes/nmc_iwmf/css/images/default-brick.png";
+    ucobs:host gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C, gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B.
+gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.iwmf.org".
+gpl:HTTPCON_DFC300EE03EC2384FA9BFEA957633EBA a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:57:38.653Z";
+    ucobs:hasFacet gpl:URL_31C8B6C52BB1D340BAAB217A6D0B58CA;
+    ucobs:startTime "2023-08-11T09:57:38.477Z".
+gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.206.214.15".
+gpl:URL_31C8B6C52BB1D340BAAB217A6D0B58CA a ucobs:URLFacet;
+    ucobs:fullValue "https://www.iwmf.org/wp-content/themes/nmc_iwmf/css/images/default-orange.png";
+    ucobs:host gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C, gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B.
+gpl:DOMAIN_AB3201C6103205C14F6E56B11B2FCD46 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.youtube.com".
+gpl:HTTPCON_1C49A60FC1CEE5CAEED754725B04003D a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:57:39.039Z";
+    ucobs:hasFacet gpl:URL_E16FC868B425493343F7A724127AC6BA;
+    ucobs:startTime "2023-08-11T09:57:39.008Z".
+gpl:IP_62FECC2B3E0056E4E7EA9DD173BD4628 a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.18.206".
+gpl:URL_E16FC868B425493343F7A724127AC6BA a ucobs:URLFacet;
+    ucobs:fullValue "https://www.youtube.com/iframe_api";
+    ucobs:host gpl:DOMAIN_AB3201C6103205C14F6E56B11B2FCD46, gpl:IP_62FECC2B3E0056E4E7EA9DD173BD4628.
+gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.iwmf.org".
+gpl:HTTPCON_06C6A72F2027AD06AA70863526D76220 a ucobs:HTTPConnectionFacet;
+    core:tag "empty", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:57:39.095Z";
+    ucobs:hasFacet gpl:URL_92DE74BAD6590027EFA63A8155B1FD5F;
+    ucobs:startTime "2023-08-11T09:57:39.006Z".
+gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.206.214.15".
+gpl:URL_92DE74BAD6590027EFA63A8155B1FD5F a ucobs:URLFacet;
+    ucobs:fullValue "https://www.iwmf.org/search/";
+    ucobs:host gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C, gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B.
+gpl:DOMAIN_AB3201C6103205C14F6E56B11B2FCD46 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.youtube.com".
+gpl:HTTPCON_7F7C05ACCA4F7E9DE1B2741B9800B617 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:57:39.133Z";
+    ucobs:hasFacet gpl:URL_57F5028B2E4FA6FE6357F077735CA1D9;
+    ucobs:startTime "2023-08-11T09:57:39.082Z".
+gpl:IP_62FECC2B3E0056E4E7EA9DD173BD4628 a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.18.206".
+gpl:URL_57F5028B2E4FA6FE6357F077735CA1D9 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.youtube.com/s/player/4eae42b1/www-widgetapi.vflset/www-widgetapi.js";
+    ucobs:host gpl:DOMAIN_AB3201C6103205C14F6E56B11B2FCD46, gpl:IP_62FECC2B3E0056E4E7EA9DD173BD4628.
+gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.iwmf.org".
+gpl:HTTPCON_8C6DC1B12D286FFFFBF4E412DA8601A6 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:57:39.208Z";
+    ucobs:hasFacet gpl:URL_FC33CD11126D1FECC460D616BA0CF0FB;
+    ucobs:startTime "2023-08-11T09:57:38.967Z".
+gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.206.214.15".
+gpl:URL_FC33CD11126D1FECC460D616BA0CF0FB a ucobs:URLFacet;
+    ucobs:fullValue "https://www.iwmf.org/wp-content/themes/nmc_iwmf/css/images/favicon.png";
+    ucobs:host gpl:DOMAIN_F410706FF944D0F5F60953B2564C541C, gpl:IP_F9E30C92CB817D1BACDB2FDBBEF18B7B.

@@ -1,0 +1,1135 @@
+# Copyright (c) 2022-2023 Orange. All rights reserved in accordance to the CC-BY-NC-SA license
+# Project: graphameleon-ds
+# THIS SOFTWARE IS PROVIDED BY Orange "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Orange BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix gpl: <http://graphameleon.com#>.
+@prefix core: <https://ontology.unifiedcyberontology.org/uco/core#>.
+@prefix ucoact: <https://ontology.unifiedcyberontology.org/uco/action#>.
+@prefix ucobs: <https://ontology.unifiedcyberontology.org/uco/observable#>.
+@prefix types: <https://ontology.unifiedcyberontology.org/uco/types#>.
+
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_E6E830DBBD4BB03790FC28E556833F90 a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "none";
+    ucobs:endTime "2023-08-14T07:52:39.471Z";
+    ucobs:hasFacet gpl:URL_38B84744A16632BF296E11314948CE41;
+    ucobs:startTime "2023-08-14T07:52:39.320Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_38B84744A16632BF296E11314948CE41 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/en";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_D0AE3D7275C40C7C59BD320221B6993C a ucobs:DomainNameFacet;
+    ucobs:addressValue "d335luupugsy2.cloudfront.net".
+gpl:HTTPCON_1B3B277DDA10D40B570A64210ED77176 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T07:52:39.551Z";
+    ucobs:hasFacet gpl:URL_06964F3C1B291CC02414E376F78D85D9;
+    ucobs:startTime "2023-08-14T07:52:39.512Z".
+gpl:IP_7A789386722ECA7BC00C6D03CBFC1BF6 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.153.33".
+gpl:URL_06964F3C1B291CC02414E376F78D85D9 a ucobs:URLFacet;
+    ucobs:fullValue "https://d335luupugsy2.cloudfront.net/js/loader-scripts/0fe23d30-692a-463f-8501-4fc992133362-loader.js";
+    ucobs:host gpl:DOMAIN_D0AE3D7275C40C7C59BD320221B6993C, gpl:IP_7A789386722ECA7BC00C6D03CBFC1BF6.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_6C8E9E593DC6C20226E013AFA9A0394B a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-14T07:52:39.586Z";
+    ucobs:hasFacet gpl:URL_195506484899FE9CC40AE213B3E7E05D;
+    ucobs:startTime "2023-08-14T07:52:39.506Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_195506484899FE9CC40AE213B3E7E05D a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/css/main.css?001";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_8C561853358F7571D7A42BE0F612289A a ucobs:DomainNameFacet;
+    ucobs:addressValue "ajax.googleapis.com".
+gpl:HTTPCON_CC60BAFE71396CB7CC776C0AFCDE13C3 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T07:52:39.625Z";
+    ucobs:hasFacet gpl:URL_E775131953E66978D101A3A69859A560;
+    ucobs:startTime "2023-08-14T07:52:39.525Z".
+gpl:IP_D65566384AC034FA2500BD4B6B403523 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.138".
+gpl:URL_E775131953E66978D101A3A69859A560 a ucobs:URLFacet;
+    ucobs:fullValue "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js";
+    ucobs:host gpl:DOMAIN_8C561853358F7571D7A42BE0F612289A, gpl:IP_D65566384AC034FA2500BD4B6B403523.
+gpl:DOMAIN_81A7D98658965BAC31CEC07C145F2653 a ucobs:DomainNameFacet;
+    ucobs:addressValue "fonts.googleapis.com".
+gpl:HTTPCON_F96D5551E0EF9F786CC6DEF56BE0FB51 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-14T07:52:39.631Z";
+    ucobs:hasFacet gpl:URL_E257901E9F172978B65A4060898C8DA4;
+    ucobs:startTime "2023-08-14T07:52:39.505Z".
+gpl:IP_F19A40D97253B97DD4D8696F30ADDFFE a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.179.74".
+gpl:URL_E257901E9F172978B65A4060898C8DA4 a ucobs:URLFacet;
+    ucobs:fullValue "https://fonts.googleapis.com/css?family";
+    ucobs:host gpl:DOMAIN_81A7D98658965BAC31CEC07C145F2653, gpl:IP_F19A40D97253B97DD4D8696F30ADDFFE.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_BFA52A263903E967442E09846EE94C83 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T07:52:39.680Z";
+    ucobs:hasFacet gpl:URL_91361A3B26B54E1F1914B9E26DD2813C;
+    ucobs:startTime "2023-08-14T07:52:39.506Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_91361A3B26B54E1F1914B9E26DD2813C a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/js/vendor/modernizr-2.6.2.min.js";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_5A5AFDAA1D76E3800A5397E224F5AD1E a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T07:52:39.746Z";
+    ucobs:hasFacet gpl:URL_2CE3D39416A4023D9FDE4F3F40E32CA6;
+    ucobs:startTime "2023-08-14T07:52:39.526Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_2CE3D39416A4023D9FDE4F3F40E32CA6 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/js/vendor/prefixfree.min.js";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_CD1A781F134611F5E4CC24F76562BB7D a ucobs:DomainNameFacet;
+    ucobs:addressValue "fonts.gstatic.com".
+gpl:HTTPCON_0BCEB92472333E8AAD8972452DF21382 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-14T07:52:39.755Z";
+    ucobs:hasFacet gpl:URL_5BBB955314406DE93E0474BC9977ACCB;
+    ucobs:startTime "2023-08-14T07:52:39.738Z".
+gpl:URL_5BBB955314406DE93E0474BC9977ACCB a ucobs:URLFacet;
+    ucobs:fullValue "https://fonts.gstatic.com/s/robotoslab/v25/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2";
+    ucobs:host gpl:DOMAIN_CD1A781F134611F5E4CC24F76562BB7D.
+gpl:DOMAIN_CD1A781F134611F5E4CC24F76562BB7D a ucobs:DomainNameFacet;
+    ucobs:addressValue "fonts.gstatic.com".
+gpl:HTTPCON_0D94A8A9384939C78A2E89AFD6545D31 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-14T07:52:39.756Z";
+    ucobs:hasFacet gpl:URL_5BBB955314406DE93E0474BC9977ACCB;
+    ucobs:startTime "2023-08-14T07:52:39.739Z".
+gpl:URL_5BBB955314406DE93E0474BC9977ACCB a ucobs:URLFacet;
+    ucobs:fullValue "https://fonts.gstatic.com/s/robotoslab/v25/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2";
+    ucobs:host gpl:DOMAIN_CD1A781F134611F5E4CC24F76562BB7D.
+gpl:DOMAIN_CD1A781F134611F5E4CC24F76562BB7D a ucobs:DomainNameFacet;
+    ucobs:addressValue "fonts.gstatic.com".
+gpl:HTTPCON_E685B72405D61F9CDFAC9723CB11A0C6 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-14T07:52:39.756Z";
+    ucobs:hasFacet gpl:URL_5BBB955314406DE93E0474BC9977ACCB;
+    ucobs:startTime "2023-08-14T07:52:39.743Z".
+gpl:URL_5BBB955314406DE93E0474BC9977ACCB a ucobs:URLFacet;
+    ucobs:fullValue "https://fonts.gstatic.com/s/robotoslab/v25/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2";
+    ucobs:host gpl:DOMAIN_CD1A781F134611F5E4CC24F76562BB7D.
+gpl:DOMAIN_CD1A781F134611F5E4CC24F76562BB7D a ucobs:DomainNameFacet;
+    ucobs:addressValue "fonts.gstatic.com".
+gpl:HTTPCON_5A03D3800AE85FE5F0192F61081DD83D a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-14T07:52:39.755Z";
+    ucobs:hasFacet gpl:URL_5BBB955314406DE93E0474BC9977ACCB;
+    ucobs:startTime "2023-08-14T07:52:39.694Z".
+gpl:IP_ADDDF30F4340DEA1069FB81EA9A13AE7 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.179.67".
+gpl:URL_5BBB955314406DE93E0474BC9977ACCB a ucobs:URLFacet;
+    ucobs:fullValue "https://fonts.gstatic.com/s/robotoslab/v25/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2";
+    ucobs:host gpl:DOMAIN_CD1A781F134611F5E4CC24F76562BB7D, gpl:IP_ADDDF30F4340DEA1069FB81EA9A13AE7.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_CFF19B39DA3EA6F227BDA66B6FD214D9 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T07:52:39.762Z";
+    ucobs:hasFacet gpl:URL_5F3ADE0AFB9B36083BA57C143A41E69E;
+    ucobs:startTime "2023-08-14T07:52:39.526Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_5F3ADE0AFB9B36083BA57C143A41E69E a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/js/vendor/jquery.transit.min.js";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_5459FDD87BA9EF539E115A21D492C55C a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:39.823Z";
+    ucobs:hasFacet gpl:URL_4EE42B199549B861150A747403EBA2D0;
+    ucobs:startTime "2023-08-14T07:52:39.512Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_4EE42B199549B861150A747403EBA2D0 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/awwwards.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_15E60357133FD2C8A41CCE8327F11685 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:39.834Z";
+    ucobs:hasFacet gpl:URL_195506484899FE9CC40AE213B3E7E05D;
+    ucobs:startTime "2023-08-14T07:52:39.833Z".
+gpl:URL_195506484899FE9CC40AE213B3E7E05D a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/css/main.css?001";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_EB35296EA1099C6CA71B627F7DA717B9 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T07:52:39.834Z";
+    ucobs:hasFacet gpl:URL_85F326E854DD09466513FB5DA855375F;
+    ucobs:startTime "2023-08-14T07:52:39.527Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_85F326E854DD09466513FB5DA855375F a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/js/vendor/skrollr.min.js";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_F1F26E6E4EA686BCDBE040DEA0CA7379 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T07:52:39.835Z";
+    ucobs:hasFacet gpl:URL_0BC91B31D95F5B6C4CEEB4B65D6B846D;
+    ucobs:startTime "2023-08-14T07:52:39.528Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_0BC91B31D95F5B6C4CEEB4B65D6B846D a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/js/vendor/inline-svg.js";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_5585A9A7624F40BBAFFB6A9B3E3919ED a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T07:52:39.838Z";
+    ucobs:hasFacet gpl:URL_C04F34D7D76E7DB225B7A0D610A8C3F3;
+    ucobs:startTime "2023-08-14T07:52:39.528Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_C04F34D7D76E7DB225B7A0D610A8C3F3 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/js/main.js";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_7D4FF2FC7E880937BC3832DA6765DA95 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:39.840Z";
+    ucobs:hasFacet gpl:URL_3470223B60F2D5BD8C47DE1E6EC5B10D;
+    ucobs:startTime "2023-08-14T07:52:39.513Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_3470223B60F2D5BD8C47DE1E6EC5B10D a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/cssdesignawards.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_CE5C64F5E0282E4AE86643DB33FD7D78 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:39.902Z";
+    ucobs:hasFacet gpl:URL_93727451D983FA72AE55DA176003C951;
+    ucobs:startTime "2023-08-14T07:52:39.513Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_93727451D983FA72AE55DA176003C951 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/onepagelove.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_1FA7FAAE608232475F947793DF501CA7 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:39.912Z";
+    ucobs:hasFacet gpl:URL_E75B951377E1F158552E8A4184FFA047;
+    ucobs:startTime "2023-08-14T07:52:39.514Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_E75B951377E1F158552E8A4184FFA047 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/codrops.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_A8A3CDD7AC2A166BD4DACA38AA9E541C a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:39.919Z";
+    ucobs:hasFacet gpl:URL_026F226D9A8362FE2F6A4F86174FFDEA;
+    ucobs:startTime "2023-08-14T07:52:39.515Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_026F226D9A8362FE2F6A4F86174FFDEA a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/videos/1-ano.jpg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_D9F3A8CFB57030FDBC2BBF357EABA213 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T07:52:39.920Z";
+    ucobs:hasFacet gpl:URL_9C86E516C13D1247C530E1C442C87E99;
+    ucobs:startTime "2023-08-14T07:52:39.527Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_9C86E516C13D1247C530E1C442C87E99 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/js/vendor/snap.svg-min.js";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_36579D7BAD75E8C19DAEA5DBBD872862 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:39.989Z";
+    ucobs:hasFacet gpl:URL_4A8DFFD703E4AD1883E9A4CE2812DED0;
+    ucobs:startTime "2023-08-14T07:52:39.516Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_4A8DFFD703E4AD1883E9A4CE2812DED0 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/videos/toni-mobile.jpg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_E2F42121C0ACC6E07F5C21B393C70A2B a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:39.989Z";
+    ucobs:hasFacet gpl:URL_FFA151A056D170EAC0C31D8C0A156C57;
+    ucobs:startTime "2023-08-14T07:52:39.514Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_FFA151A056D170EAC0C31D8C0A156C57 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/videos/olimoveis.jpg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_EA2A3D9F6943F124534412B8A96E7EFA a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:39.997Z";
+    ucobs:hasFacet gpl:URL_EAE3E5A04F2625337F33509E42817403;
+    ucobs:startTime "2023-08-14T07:52:39.515Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_EAE3E5A04F2625337F33509E42817403 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/videos/panizzon.jpg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_7DF4BFD031A5F730457D249AE772C9D3 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:39.998Z";
+    ucobs:hasFacet gpl:URL_844DE8C0EE99607F3334C86C785EFC09;
+    ucobs:startTime "2023-08-14T07:52:39.522Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_844DE8C0EE99607F3334C86C785EFC09 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/social-facebook.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_0A8191D18EF384CE0F833A63AA6094E1 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.056Z";
+    ucobs:hasFacet gpl:URL_618C921FD6C4080CBE2885E028AC0665;
+    ucobs:startTime "2023-08-14T07:52:39.516Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_618C921FD6C4080CBE2885E028AC0665 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/videos/toni.jpg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_B6966E6881CFA8C2E915CE66A90674FC a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.067Z";
+    ucobs:hasFacet gpl:URL_B657AF71E81F03285EDEB7650509CADF;
+    ucobs:startTime "2023-08-14T07:52:39.957Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_B657AF71E81F03285EDEB7650509CADF a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/garden-small.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_9D14824A2ACA0AB783421469326D6005 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.068Z";
+    ucobs:hasFacet gpl:URL_2437620B94C7BBF4C46DF59E3AFF6AC5;
+    ucobs:startTime "2023-08-14T07:52:39.958Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_2437620B94C7BBF4C46DF59E3AFF6AC5 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/ornamento-small.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_2F0ADB9E344DF4E5FE77AC9094E80D00 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.071Z";
+    ucobs:hasFacet gpl:URL_2437620B94C7BBF4C46DF59E3AFF6AC5;
+    ucobs:startTime "2023-08-14T07:52:39.959Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_2437620B94C7BBF4C46DF59E3AFF6AC5 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/ornamento-small.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_3BF1FAF40578706185209F53406B4F53 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.073Z";
+    ucobs:hasFacet gpl:URL_3F5E724B81F435835864E762746489C5;
+    ucobs:startTime "2023-08-14T07:52:39.517Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_3F5E724B81F435835864E762746489C5 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/videos/mega.jpg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_47D75E2B46A3407F11039AC8D6231F59 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.074Z";
+    ucobs:hasFacet gpl:URL_D6B1846BD7B4F809B55DC268448092C6;
+    ucobs:startTime "2023-08-14T07:52:39.960Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_D6B1846BD7B4F809B55DC268448092C6 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/ornamento.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_47D75E2B46A3407F11039AC8D6231F59 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.134Z";
+    ucobs:hasFacet gpl:URL_D6B1846BD7B4F809B55DC268448092C6;
+    ucobs:startTime "2023-08-14T07:52:39.960Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_D6B1846BD7B4F809B55DC268448092C6 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/ornamento.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_8494291C763044269603D2020A934789 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.145Z";
+    ucobs:hasFacet gpl:URL_C32BE8A67144EF9D03A9A9E00373BD51;
+    ucobs:startTime "2023-08-14T07:52:39.961Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_C32BE8A67144EF9D03A9A9E00373BD51 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/servicos/personalizado.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_AAACEEA43AD0B93BAF94D105C9EB7F18 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.146Z";
+    ucobs:hasFacet gpl:URL_EFEA83CEFB32C4A8AEEE109809951950;
+    ucobs:startTime "2023-08-14T07:52:39.961Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_EFEA83CEFB32C4A8AEEE109809951950 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/servicos/responsivo.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_FA7D87F30A7A199D57774941C17D2F88 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.149Z";
+    ucobs:hasFacet gpl:URL_4F085731C9355FC8382FA73C29F7D89D;
+    ucobs:startTime "2023-08-14T07:52:39.962Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_4F085731C9355FC8382FA73C29F7D89D a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/servicos/ecommerce.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_3709F886DC1103E954ABD42C1FAB158B a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.151Z";
+    ucobs:hasFacet gpl:URL_94B55574E55DBD437FCD8CDE44F31538;
+    ucobs:startTime "2023-08-14T07:52:39.962Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_94B55574E55DBD437FCD8CDE44F31538 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/servicos/app.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_4D2682C7DE01DF79C79EEA46A2F4288A a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.151Z";
+    ucobs:hasFacet gpl:URL_2437620B94C7BBF4C46DF59E3AFF6AC5;
+    ucobs:startTime "2023-08-14T07:52:39.963Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_2437620B94C7BBF4C46DF59E3AFF6AC5 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/ornamento-small.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_A2581568D2CE15D265A5B6B2B6707FDD a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.211Z";
+    ucobs:hasFacet gpl:URL_26305DD907149AD6E37B9EB34889DF8B;
+    ucobs:startTime "2023-08-14T07:52:39.964Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_26305DD907149AD6E37B9EB34889DF8B a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/wireframe-portfolio.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_A2581568D2CE15D265A5B6B2B6707FDD a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.223Z";
+    ucobs:hasFacet gpl:URL_26305DD907149AD6E37B9EB34889DF8B;
+    ucobs:startTime "2023-08-14T07:52:39.964Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_26305DD907149AD6E37B9EB34889DF8B a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/wireframe-portfolio.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_E05F255E8E3C616A0AFB6AAE7F600E37 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.223Z";
+    ucobs:hasFacet gpl:URL_26305DD907149AD6E37B9EB34889DF8B;
+    ucobs:startTime "2023-08-14T07:52:39.965Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_26305DD907149AD6E37B9EB34889DF8B a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/wireframe-portfolio.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_402A50E4514F570C025E2B2E4CB660D7 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.226Z";
+    ucobs:hasFacet gpl:URL_26305DD907149AD6E37B9EB34889DF8B;
+    ucobs:startTime "2023-08-14T07:52:39.966Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_26305DD907149AD6E37B9EB34889DF8B a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/wireframe-portfolio.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_E05F255E8E3C616A0AFB6AAE7F600E37 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.227Z";
+    ucobs:hasFacet gpl:URL_26305DD907149AD6E37B9EB34889DF8B;
+    ucobs:startTime "2023-08-14T07:52:39.965Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_26305DD907149AD6E37B9EB34889DF8B a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/wireframe-portfolio.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_097CCD572C252F8F735B515321999B26 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.228Z";
+    ucobs:hasFacet gpl:URL_4A52FA388D0937F4432349E83A9DB5E6;
+    ucobs:startTime "2023-08-14T07:52:39.966Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_4A52FA388D0937F4432349E83A9DB5E6 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/wireframe-smartphone.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_CEFFBFF006C2338964DE5B369439E583 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.289Z";
+    ucobs:hasFacet gpl:URL_2437620B94C7BBF4C46DF59E3AFF6AC5;
+    ucobs:startTime "2023-08-14T07:52:39.967Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_2437620B94C7BBF4C46DF59E3AFF6AC5 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/ornamento-small.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_CEFFBFF006C2338964DE5B369439E583 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.300Z";
+    ucobs:hasFacet gpl:URL_2437620B94C7BBF4C46DF59E3AFF6AC5;
+    ucobs:startTime "2023-08-14T07:52:39.967Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_2437620B94C7BBF4C46DF59E3AFF6AC5 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/ornamento-small.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_812E7B8AB9E7F417E696B613B82E2BC6 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.301Z";
+    ucobs:hasFacet gpl:URL_D6B1846BD7B4F809B55DC268448092C6;
+    ucobs:startTime "2023-08-14T07:52:39.968Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_D6B1846BD7B4F809B55DC268448092C6 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/ornamento.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_812E7B8AB9E7F417E696B613B82E2BC6 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.303Z";
+    ucobs:hasFacet gpl:URL_D6B1846BD7B4F809B55DC268448092C6;
+    ucobs:startTime "2023-08-14T07:52:39.968Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_D6B1846BD7B4F809B55DC268448092C6 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/ornamento.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_87AE8F5CEB4C02540538C64790DF8BF1 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.304Z";
+    ucobs:hasFacet gpl:URL_2437620B94C7BBF4C46DF59E3AFF6AC5;
+    ucobs:startTime "2023-08-14T07:52:39.968Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_2437620B94C7BBF4C46DF59E3AFF6AC5 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/ornamento-small.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_46D4D40ECC6FB4550D58418D44C1F47D a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.306Z";
+    ucobs:hasFacet gpl:URL_54432078561A753D2AF69BDD007A8A16;
+    ucobs:startTime "2023-08-14T07:52:39.523Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_54432078561A753D2AF69BDD007A8A16 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/social-twitter.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_0EB5BFF8D64642D4E248606BF1CD6607 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.366Z";
+    ucobs:hasFacet gpl:URL_62F29FEA17F6138470482D23ED417E10;
+    ucobs:startTime "2023-08-14T07:52:39.523Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_62F29FEA17F6138470482D23ED417E10 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/social-behance.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_E3B4CB60C5A072F7E7EF35125343BFE7 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.379Z";
+    ucobs:hasFacet gpl:URL_8263F8B400500D0472C60442A38848F2;
+    ucobs:startTime "2023-08-14T07:52:39.517Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_8263F8B400500D0472C60442A38848F2 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/clientes/olimoveis.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_ACCC5551937AAA4FFBC1A0B4ACE211A7 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.379Z";
+    ucobs:hasFacet gpl:URL_56A37FF229361D9F1E6CA05F494EA52B;
+    ucobs:startTime "2023-08-14T07:52:39.518Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_56A37FF229361D9F1E6CA05F494EA52B a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/clientes/sitmed.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_08879C8B736A07E6F399166A01C21433 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.381Z";
+    ucobs:hasFacet gpl:URL_908BF00AF14EC3DA77335CC9F5AFFF6D;
+    ucobs:startTime "2023-08-14T07:52:39.519Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_908BF00AF14EC3DA77335CC9F5AFFF6D a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/clientes/candoo.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_3AF0180FD54CD8E2C1338CC3CE36A2FB a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.381Z";
+    ucobs:hasFacet gpl:URL_1959797E4CE7E7C1C9A4977AFEAE2BB8;
+    ucobs:startTime "2023-08-14T07:52:39.519Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_1959797E4CE7E7C1C9A4977AFEAE2BB8 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/clientes/forbal.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_C48BB7A433F51357870221CE567FF50A a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.383Z";
+    ucobs:hasFacet gpl:URL_E1AF4429C377631001F6FD77297FEE2B;
+    ucobs:startTime "2023-08-14T07:52:39.520Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_E1AF4429C377631001F6FD77297FEE2B a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/clientes/sala.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_146264AF73B74B5E674FE6D47801254A a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.447Z";
+    ucobs:hasFacet gpl:URL_0A865122984EE2C0216FE08C75DA58A8;
+    ucobs:startTime "2023-08-14T07:52:39.521Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_0A865122984EE2C0216FE08C75DA58A8 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/clientes/panizzon.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_688DC916F5FA3E32CBBADBBC62436425 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.457Z";
+    ucobs:hasFacet gpl:URL_D3B56D49A7BE55718F5CB222FD4B140F;
+    ucobs:startTime "2023-08-14T07:52:39.522Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_D3B56D49A7BE55718F5CB222FD4B140F a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/clientes/brogliato.svg";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_4922F633961C31EB44F21C8B86C8FD79 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.459Z";
+    ucobs:hasFacet gpl:URL_EE89DD21959E2F1C46E85EDD778C0EE3;
+    ucobs:startTime "2023-08-14T07:52:39.969Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_EE89DD21959E2F1C46E85EDD778C0EE3 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-garden/12-sol.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_B5CA2FDE0F3DCDF98CFAE3877E0A149A a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.460Z";
+    ucobs:hasFacet gpl:URL_BBD1CB510010B1E2858232E028D6D364;
+    ucobs:startTime "2023-08-14T07:52:39.969Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_BBD1CB510010B1E2858232E028D6D364 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-garden/13-ceu.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_8DC1683EF42BF853D61B897BA8C6661C a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.463Z";
+    ucobs:hasFacet gpl:URL_5FC14ACC3459097BC66E0EF2E220A250;
+    ucobs:startTime "2023-08-14T07:52:39.969Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_5FC14ACC3459097BC66E0EF2E220A250 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-garden/logo.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_060E8D62F91F34F5FB15F2969071C946 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.464Z";
+    ucobs:hasFacet gpl:URL_F0EF10B9EA88592B7B40BA717383B351;
+    ucobs:startTime "2023-08-14T07:52:39.970Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_F0EF10B9EA88592B7B40BA717383B351 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-garden/11-montes.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_6552B4712F3EB50350D08C41851EFE93 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.525Z";
+    ucobs:hasFacet gpl:URL_BD128D64C645C3139B36AA3E3EB1D745;
+    ucobs:startTime "2023-08-14T07:52:39.970Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_BD128D64C645C3139B36AA3E3EB1D745 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-garden/10-montes.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_0EE52713CF429A090D84B0A77859DD7D a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.534Z";
+    ucobs:hasFacet gpl:URL_431C928C98CE515C03F4E9ED0328C56D;
+    ucobs:startTime "2023-08-14T07:52:39.971Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_431C928C98CE515C03F4E9ED0328C56D a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-garden/9-montes.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_6229EF8289485AE48CC4E025D6668ADD a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.535Z";
+    ucobs:hasFacet gpl:URL_3E19A7DA5141999D9C0FB0483CC2B085;
+    ucobs:startTime "2023-08-14T07:52:39.971Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_3E19A7DA5141999D9C0FB0483CC2B085 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-garden/8-montes.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_79EF32F6309BEAE2AAD92AA55D4EA5F6 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.536Z";
+    ucobs:hasFacet gpl:URL_7EBEA4DBE319E3DC970F731BA5673B5A;
+    ucobs:startTime "2023-08-14T07:52:39.972Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_7EBEA4DBE319E3DC970F731BA5673B5A a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-garden/7-montes.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_9B90903FE3B99CF472CEB3C21A2815D5 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.537Z";
+    ucobs:hasFacet gpl:URL_F7665012D66B2C1617975927A1A15133;
+    ucobs:startTime "2023-08-14T07:52:39.972Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_F7665012D66B2C1617975927A1A15133 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-garden/6-arvores.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_634B88DE9C4CFE93810CD5E55199A4D0 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.539Z";
+    ucobs:hasFacet gpl:URL_9927B87A48CA910FDDD1F807E76DEBA4;
+    ucobs:startTime "2023-08-14T07:52:39.972Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_9927B87A48CA910FDDD1F807E76DEBA4 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-garden/5-arvores.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_03A4F00BA81B496890869DDF182AE194 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.601Z";
+    ucobs:hasFacet gpl:URL_234E0856BEEC95E89AC22381004540BE;
+    ucobs:startTime "2023-08-14T07:52:39.973Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_234E0856BEEC95E89AC22381004540BE a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-garden/4-lago.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_F999FECBBF666A95E107E3157A27E2DF a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.614Z";
+    ucobs:hasFacet gpl:URL_2F715CFCB278FB3BB516457224CE4B3A;
+    ucobs:startTime "2023-08-14T07:52:39.973Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_2F715CFCB278FB3BB516457224CE4B3A a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-garden/3-pedra.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_E0338F7ECF810C701F51E102843B6B6B a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.616Z";
+    ucobs:hasFacet gpl:URL_26F1F18BE04136ECFEBF4598547280BF;
+    ucobs:startTime "2023-08-14T07:52:39.975Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_26F1F18BE04136ECFEBF4598547280BF a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-soil/2-chao.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_4CDD0CDF160C39D5A6C749FCE874AAE4 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.616Z";
+    ucobs:hasFacet gpl:URL_5F022A53B4D3C533B504331D7D189345;
+    ucobs:startTime "2023-08-14T07:52:39.975Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_5F022A53B4D3C533B504331D7D189345 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-soil/1-chao.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_DC53D83FD5D1C94D8ED4681F15EC89B9 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.679Z";
+    ucobs:hasFacet gpl:URL_E35794CBB1C6B299DD2ACBD9743A0712;
+    ucobs:startTime "2023-08-14T07:52:39.976Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_E35794CBB1C6B299DD2ACBD9743A0712 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-cave/fundo.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_4A5F76FCB7F7A172555C895237DCE6FF a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.690Z";
+    ucobs:hasFacet gpl:URL_51D2E091841866FA78F2C528CBEA97FC;
+    ucobs:startTime "2023-08-14T07:52:39.976Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_51D2E091841866FA78F2C528CBEA97FC a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-cave/cascata-brilho.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_741B343E43197689620CE6FDDED73CFF a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.690Z";
+    ucobs:hasFacet gpl:URL_1A914E218FFDAA0FE78BCAF64A6064D7;
+    ucobs:startTime "2023-08-14T07:52:39.974Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_1A914E218FFDAA0FE78BCAF64A6064D7 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-garden/2-arvore-dir.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_924A422167FD13D56D9AD640D2E56D4C a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.691Z";
+    ucobs:hasFacet gpl:URL_18F2E3310BA75790AF4696344331E0DE;
+    ucobs:startTime "2023-08-14T07:52:39.974Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_18F2E3310BA75790AF4696344331E0DE a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-garden/1-arvore-esq.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_9611F297B2C25AE016B7007655828356 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.696Z";
+    ucobs:hasFacet gpl:URL_0D1CC391122FBE156E9BC27806C07AF2;
+    ucobs:startTime "2023-08-14T07:52:39.978Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_0D1CC391122FBE156E9BC27806C07AF2 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-cave/camada6-arvores.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_FFE63080ADACE4C5E90E759EAB9868DF a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.757Z";
+    ucobs:hasFacet gpl:URL_F83E90A67D44EE2E404EF2B7A583DF56;
+    ucobs:startTime "2023-08-14T07:52:39.979Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_F83E90A67D44EE2E404EF2B7A583DF56 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-cave/camada5-arvores.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_91FF48572EBCDABD7E46559F39057F21 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.770Z";
+    ucobs:hasFacet gpl:URL_09A1164BC5A294BCE07549066E97E2F8;
+    ucobs:startTime "2023-08-14T07:52:39.977Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_09A1164BC5A294BCE07549066E97E2F8 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-cave/camada8-atmosfera.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_DDB2E0C317102DCD7C7D7B39958B7F1A a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.771Z";
+    ucobs:hasFacet gpl:URL_356226D312FF31BA8213F68BAA107D59;
+    ucobs:startTime "2023-08-14T07:52:39.982Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_356226D312FF31BA8213F68BAA107D59 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-cave/camada2-teto.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_F98B2B921993BA34682A32C829C786D4 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.773Z";
+    ucobs:hasFacet gpl:URL_CD019E7906073BA6D29EE804E5FAAB65;
+    ucobs:startTime "2023-08-14T07:52:39.983Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_CD019E7906073BA6D29EE804E5FAAB65 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-cave/1-teto.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_314A7EBFFC886D4E986B35D6A6A3763D a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.845Z";
+    ucobs:hasFacet gpl:URL_C58FAE864CF0D0C9AD0EEAA00FBF1AC2;
+    ucobs:startTime "2023-08-14T07:52:39.980Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_C58FAE864CF0D0C9AD0EEAA00FBF1AC2 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-cave/camada4-teto-arvores.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_B8A6E03AB5EBB8F0043D89716904AF06 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:40.846Z";
+    ucobs:hasFacet gpl:URL_7F8E87162FE958DB42854917100FC22E;
+    ucobs:startTime "2023-08-14T07:52:39.982Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_7F8E87162FE958DB42854917100FC22E a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/img/parallax-cave/camada3-teto-arvores.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google-analytics.com".
+gpl:HTTPCON_FE373274E7F8E72B9973521AEC139D7D a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T07:52:41.000Z";
+    ucobs:hasFacet gpl:URL_8B79F4996C43469646FB5ED3D37839EA;
+    ucobs:startTime "2023-08-14T07:52:40.022Z".
+gpl:IP_06F031E95CE507600E8FDD93828762EE a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.214.174".
+gpl:URL_8B79F4996C43469646FB5ED3D37839EA a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google-analytics.com/analytics.js";
+    ucobs:host gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1, gpl:IP_06F031E95CE507600E8FDD93828762EE.
+gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google-analytics.com".
+gpl:HTTPCON_61F688412EDA432F8296AB0B8ECE9126 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T07:52:41.031Z";
+    ucobs:hasFacet gpl:URL_4A344730F9D33166390115F4B1120C49;
+    ucobs:startTime "2023-08-14T07:52:41.020Z".
+gpl:IP_06F031E95CE507600E8FDD93828762EE a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.214.174".
+gpl:URL_4A344730F9D33166390115F4B1120C49 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google-analytics.com/j/collect?v&_v&a&t&_s&dl&ul&de&dt&sd&sr&vp&je&_u&jid&gjid&cid&tid&_gid&_slc&z";
+    ucobs:host gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1, gpl:IP_06F031E95CE507600E8FDD93828762EE.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_FB15924A4C23B274F5FCBFAA018685DF a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:41.039Z";
+    ucobs:hasFacet gpl:URL_A9701CF7E2A3EB724EABD5A0F53CA99D;
+    ucobs:startTime "2023-08-14T07:52:40.960Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_A9701CF7E2A3EB724EABD5A0F53CA99D a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/favicon-16x16.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_CE0D4056A22EF85D44E177F56BC563D3 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T07:52:41.044Z";
+    ucobs:hasFacet gpl:URL_692B17B20AE46A0EF1AA03F637BB224C;
+    ucobs:startTime "2023-08-14T07:52:40.960Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:URL_692B17B20AE46A0EF1AA03F637BB224C a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/favicon-196x196.png";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.
+gpl:DOMAIN_F93E75FA4BA70D59E6CE5A69111E0098 a ucobs:DomainNameFacet;
+    ucobs:addressValue "stats.g.doubleclick.net".
+gpl:HTTPCON_74270CB61ECCBF0EEA72676E4FE7FEA0 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T07:52:41.081Z";
+    ucobs:hasFacet gpl:URL_81CA0FBC04ED7F4532DEA115FC01DD0F;
+    ucobs:startTime "2023-08-14T07:52:41.021Z".
+gpl:IP_E9BE94237500B97D0BDBEFBD8DFA9D47 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.194.76.154".
+gpl:URL_81CA0FBC04ED7F4532DEA115FC01DD0F a ucobs:URLFacet;
+    ucobs:fullValue "https://stats.g.doubleclick.net/j/collect?t&aip&_r&v&_v&tid&cid&jid&gjid&_gid&_u&z";
+    ucobs:host gpl:DOMAIN_F93E75FA4BA70D59E6CE5A69111E0098, gpl:IP_E9BE94237500B97D0BDBEFBD8DFA9D47.
+gpl:DOMAIN_C8D05E189972711044F07858802CC7D8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagmanager.com".
+gpl:HTTPCON_75845E4020D543B7DE703E7B0C6E31E0 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T07:52:41.118Z";
+    ucobs:hasFacet gpl:URL_E9B8F7A25669850DC984E71DEEA1C9DB;
+    ucobs:startTime "2023-08-14T07:52:41.036Z".
+gpl:IP_BF475BD30EA4025176BD821466B63690 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.201.168".
+gpl:URL_E9B8F7A25669850DC984E71DEEA1C9DB a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagmanager.com/gtag/js?id&cx&_slc";
+    ucobs:host gpl:DOMAIN_C8D05E189972711044F07858802CC7D8, gpl:IP_BF475BD30EA4025176BD821466B63690.
+gpl:DOMAIN_002953C0A6C6AD060D7204E365FAD0AD a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google.fr".
+gpl:HTTPCON_DFB19B8762409D1702D117488394990B a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T07:52:41.168Z";
+    ucobs:hasFacet gpl:URL_C6861437DA54D45BD1D2C7D200B48DF3;
+    ucobs:startTime "2023-08-14T07:52:41.105Z".
+gpl:IP_1ECC7B809105AC8A0DB615AD6B2D8859 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.75.227".
+gpl:URL_C6861437DA54D45BD1D2C7D200B48DF3 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google.fr/ads/ga-audiences?t&aip&_r&slf_rd&v&_v&tid&cid&jid&_u&z";
+    ucobs:host gpl:DOMAIN_002953C0A6C6AD060D7204E365FAD0AD, gpl:IP_1ECC7B809105AC8A0DB615AD6B2D8859.
+gpl:DOMAIN_0A137B375CC3881A70E186CE2172C8D1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google.com".
+gpl:HTTPCON_35E123CF3471FE242258AFB400E4294F a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T07:52:41.170Z";
+    ucobs:hasFacet gpl:URL_B08EDADE2A06587A4ABEB6EF48301E82;
+    ucobs:startTime "2023-08-14T07:52:41.104Z".
+gpl:IP_0216CC62538C50156CD313365D7B87E5 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.75.228".
+gpl:URL_B08EDADE2A06587A4ABEB6EF48301E82 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google.com/ads/ga-audiences?t&aip&_r&slf_rd&v&_v&tid&cid&jid&_u&z";
+    ucobs:host gpl:DOMAIN_0A137B375CC3881A70E186CE2172C8D1, gpl:IP_0216CC62538C50156CD313365D7B87E5.
+gpl:DOMAIN_4B179FC8D33CD1E3F9E2739E806369AF a ucobs:DomainNameFacet;
+    ucobs:addressValue "region1.analytics.google.com".
+gpl:HTTPCON_3EF4BEC56EC5CBBF84D5D462E803BF52 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-14T07:52:41.177Z";
+    ucobs:hasFacet gpl:URL_ABDE20EDF5BD393776D3F021F1E445EA;
+    ucobs:startTime "2023-08-14T07:52:41.153Z".
+gpl:IP_A58F02CF3B56D080FA2E3C46B74E8367 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.239.34.36".
+gpl:URL_ABDE20EDF5BD393776D3F021F1E445EA a ucobs:URLFacet;
+    ucobs:fullValue "https://region1.analytics.google.com/g/collect?v&tid&_ono&gtm&_p&_gaz&ul&sr&cid&_eu&_s&dl&dt&sid&sct&seg&en&_fv&_ss&_ee";
+    ucobs:host gpl:DOMAIN_4B179FC8D33CD1E3F9E2739E806369AF, gpl:IP_A58F02CF3B56D080FA2E3C46B74E8367.
+gpl:DOMAIN_002953C0A6C6AD060D7204E365FAD0AD a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google.fr".
+gpl:HTTPCON_32825D7EBB5FD9697A50BA8612232165 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T07:52:41.181Z";
+    ucobs:hasFacet gpl:URL_44807DC96FDABB6E15DBF17CD11AD578;
+    ucobs:startTime "2023-08-14T07:52:41.154Z".
+gpl:IP_1ECC7B809105AC8A0DB615AD6B2D8859 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.75.227".
+gpl:URL_44807DC96FDABB6E15DBF17CD11AD578 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google.fr/ads/ga-audiences?v&t&slf_rd&_r&_ono&tid&cid&gtm&aip&z";
+    ucobs:host gpl:DOMAIN_002953C0A6C6AD060D7204E365FAD0AD, gpl:IP_1ECC7B809105AC8A0DB615AD6B2D8859.
+gpl:DOMAIN_F93E75FA4BA70D59E6CE5A69111E0098 a ucobs:DomainNameFacet;
+    ucobs:addressValue "stats.g.doubleclick.net".
+gpl:HTTPCON_AC2DB74490868D5C74F967AE9BD0126D a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-14T07:52:41.766Z";
+    ucobs:hasFacet gpl:URL_6F009F143B901B6DC25E52555CDD502F;
+    ucobs:startTime "2023-08-14T07:52:41.153Z".
+gpl:IP_E9BE94237500B97D0BDBEFBD8DFA9D47 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.194.76.154".
+gpl:URL_6F009F143B901B6DC25E52555CDD502F a ucobs:URLFacet;
+    ucobs:fullValue "https://stats.g.doubleclick.net/g/collect?v&_ono&tid&cid&gtm&aip";
+    ucobs:host gpl:DOMAIN_F93E75FA4BA70D59E6CE5A69111E0098, gpl:IP_E9BE94237500B97D0BDBEFBD8DFA9D47.

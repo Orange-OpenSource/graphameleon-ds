@@ -1,0 +1,387 @@
+# Copyright (c) 2022-2023 Orange. All rights reserved in accordance to the CC-BY-NC-SA license
+# Project: graphameleon-ds
+# THIS SOFTWARE IS PROVIDED BY Orange "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Orange BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix gpl: <http://graphameleon.com#>.
+@prefix core: <https://ontology.unifiedcyberontology.org/uco/core#>.
+@prefix ucoact: <https://ontology.unifiedcyberontology.org/uco/action#>.
+@prefix ucobs: <https://ontology.unifiedcyberontology.org/uco/observable#>.
+@prefix types: <https://ontology.unifiedcyberontology.org/uco/types#>.
+
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_66940ABAC8F7F4A03B5DC2F44CC70213 a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "none";
+    ucobs:endTime "2023-08-11T09:21:06.016Z";
+    ucobs:hasFacet gpl:URL_2EE7BC93B620DA641B8C2EF9F28445FE;
+    ucobs:startTime "2023-08-11T09:21:05.932Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_2EE7BC93B620DA641B8C2EF9F28445FE a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_BA67EB16DE9A6E055EA0BF8239777B6F a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-11T09:21:06.083Z";
+    ucobs:hasFacet gpl:URL_85B8E72867E44E4E297C9BA866950EED;
+    ucobs:startTime "2023-08-11T09:21:06.044Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_85B8E72867E44E4E297C9BA866950EED a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/css/css_AxrMp2NNpMECnjp7kzTMN0neY6nPkuzEFUTf02NmHtU.css";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_46E4E9788A5BAD670AA7E39993711100 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-11T09:21:06.103Z";
+    ucobs:hasFacet gpl:URL_CCD4333A2C86AF7781B7E095D72F786B;
+    ucobs:startTime "2023-08-11T09:21:06.044Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_CCD4333A2C86AF7781B7E095D72F786B a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/css/css_PKoD1c51rXhDWjoL2z3EIsRnpif7i9DxnaRGocb8JzA.css";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_467C84171A736433362284BC1E03446C a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-11T09:21:06.104Z";
+    ucobs:hasFacet gpl:URL_5EDA614CC63EEFB1D6400AF309686080;
+    ucobs:startTime "2023-08-11T09:21:06.045Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_5EDA614CC63EEFB1D6400AF309686080 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/css/css_k9u1IODySqC3j4I1pBBMqRSLt5ZKAL5HHw12USc5C1U.css";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_EF4273FE62771792D814B9F9918FE663 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:06.104Z";
+    ucobs:hasFacet gpl:URL_F1E4FFA77AF991C5390A2D8360B9F598;
+    ucobs:startTime "2023-08-11T09:21:06.046Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_F1E4FFA77AF991C5390A2D8360B9F598 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/themes/custom/trustme/images/header-logo.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_4ACE6133904DEB9FCC19DF1361C43FDE a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:06.105Z";
+    ucobs:hasFacet gpl:URL_ACE005448AB4D49F2FAB512D5CBBFF45;
+    ucobs:startTime "2023-08-11T09:21:06.046Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_ACE005448AB4D49F2FAB512D5CBBFF45 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/images/hero/OxfordLogo%402x_2.png";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_F68767864A55CA3F2578A086A172A5BE a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:06.106Z";
+    ucobs:hasFacet gpl:URL_D996E073B65BEA2F90DAC60220748535;
+    ucobs:startTime "2023-08-11T09:21:06.047Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_D996E073B65BEA2F90DAC60220748535 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/images/hero/ColumbiaLogo%402x_1.png";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_B712C098191A7CEE03E011C6B51C0C4B a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:06.107Z";
+    ucobs:hasFacet gpl:URL_1247EA35A1F8E209D164F6A44016251A;
+    ucobs:startTime "2023-08-11T09:21:06.047Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_1247EA35A1F8E209D164F6A44016251A a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/images/hero/CengageLogo%402x_2.png";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_25C6C172664DBD4CCC2B601BB4687F12 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:06.125Z";
+    ucobs:hasFacet gpl:URL_7B63883F4DE94D99B82C1D532D15F67E;
+    ucobs:startTime "2023-08-11T09:21:06.048Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_7B63883F4DE94D99B82C1D532D15F67E a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/images/whouseit/a70c83d26434d18cd9089a26ad0064f6%20%281%29.png";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_9C953592064A5F93E797A938E04E8E5E a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:06.126Z";
+    ucobs:hasFacet gpl:URL_DF17CB309A4200C6CD2BB97298F8977C;
+    ucobs:startTime "2023-08-11T09:21:06.049Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_DF17CB309A4200C6CD2BB97298F8977C a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/images/whouseit/nasa2.png";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_E9D82F2DFF6D7F24207A4F018F754F71 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:06.127Z";
+    ucobs:hasFacet gpl:URL_125034009D0F22FEC66E188CF5748FF2;
+    ucobs:startTime "2023-08-11T09:21:06.049Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_125034009D0F22FEC66E188CF5748FF2 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/images/whouseit/nytimes-logo-png-new-york-times-speaks-to-dr-derevensky-regarding-internet-gambling-fantasy-sports-betting-430.png";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_B333BEBA957D696B9F8C8F45500E340D a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T09:21:06.127Z";
+    ucobs:hasFacet gpl:URL_6301D965B6B076B6ED76D34E2CE329C3;
+    ucobs:startTime "2023-08-11T09:21:06.050Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_6301D965B6B076B6ED76D34E2CE329C3 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_C51AFEAEF6EEEBED05725D91780E025E a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:06.231Z";
+    ucobs:hasFacet gpl:URL_B5295B4DB1B0A40318E89F5BC3BC6DAB;
+    ucobs:startTime "2023-08-11T09:21:06.212Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_B5295B4DB1B0A40318E89F5BC3BC6DAB a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/6/2801633.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_1D4618430F02C247A287FDC26D88969D a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:06.350Z";
+    ucobs:hasFacet gpl:URL_C7954C4EC7158C2A793B25AB2CC05F2E;
+    ucobs:startTime "2023-08-11T09:21:06.211Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_C7954C4EC7158C2A793B25AB2CC05F2E a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/images/hero/enc_hero01_3.png";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_4EA25672631D23F2215E204207C869FB a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:06.351Z";
+    ucobs:hasFacet gpl:URL_574BDCE55441099B94326E729661566E;
+    ucobs:startTime "2023-08-11T09:21:06.211Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_574BDCE55441099B94326E729661566E a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/0/627218.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_5EE029E3B9B2BAAAC749F0BFB2126A7C a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:06.352Z";
+    ucobs:hasFacet gpl:URL_C8E77B73670C1E52450C4A1D8083C684;
+    ucobs:startTime "2023-08-11T09:21:06.212Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_C8E77B73670C1E52450C4A1D8083C684 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/4/2792955.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_4D04599759B2475906D353885E0EA845 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:06.352Z";
+    ucobs:hasFacet gpl:URL_80757C3DC819763AD5743702F781F80B;
+    ucobs:startTime "2023-08-11T09:21:06.213Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_80757C3DC819763AD5743702F781F80B a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/4/2793250.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_9248F180A3E1C70575AA200E22EBD5A7 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:06.377Z";
+    ucobs:hasFacet gpl:URL_4508BDE181029100C347A2239AE49FBD;
+    ucobs:startTime "2023-08-11T09:21:06.213Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_4508BDE181029100C347A2239AE49FBD a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/4/2796049.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_E1DCCCDFE32F9C6216446CF415D14CE7 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:06.378Z";
+    ucobs:hasFacet gpl:URL_429C6BB5F9C4B95AAE6EC7539E4925E6;
+    ucobs:startTime "2023-08-11T09:21:06.214Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_429C6BB5F9C4B95AAE6EC7539E4925E6 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/6/2801644.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_3B51CD0EE7A6D520B487331FD53426BF a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T09:21:06.379Z";
+    ucobs:hasFacet gpl:URL_35F7DEDCB8B16AC9C2575AC617579B2C;
+    ucobs:startTime "2023-08-11T09:21:06.258Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_35F7DEDCB8B16AC9C2575AC617579B2C a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/js/js_zUQZP_05aEQQEOMOyF3c6jn8AsMhZPB5lR08eWRX8vY.js";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_8E84B21E7E18228E9E4965DA5D05CB34 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T09:21:06.380Z";
+    ucobs:hasFacet gpl:URL_26C62F366D4AFC43B32C0EFBB739E1AE;
+    ucobs:startTime "2023-08-11T09:21:06.259Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_26C62F366D4AFC43B32C0EFBB739E1AE a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/js/js_WGXfBW_MzOchPG9FUX5M7UvHZXqRJrIQ3Tfnf5S1iHg.js";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_5DA21903A9E12BC7623C6D83F2366D0C a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T09:21:06.381Z";
+    ucobs:hasFacet gpl:URL_0C08207048F7F85A38572FBB38D5B553;
+    ucobs:startTime "2023-08-11T09:21:06.259Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_0C08207048F7F85A38572FBB38D5B553 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/js/js_yLV6HYxC2Rnf9ZekS8oWsZmUNhr7FkzcQDF4zydcT90.js";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_3B30CEBEAA01542CBE934B52CAA49732 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T09:21:06.382Z";
+    ucobs:hasFacet gpl:URL_9632BC0972CB9C8AB4E3995882569221;
+    ucobs:startTime "2023-08-11T09:21:06.260Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_9632BC0972CB9C8AB4E3995882569221 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/js/js_7riCSsmZKOyjnTzzQILMa9_W2mWycOMuqO6ECCFCXEk.js";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_86ACDCDA32DCC538BB0288AEA75D6D82 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T09:21:06.388Z";
+    ucobs:hasFacet gpl:URL_714447FBA2737254DE7F29B865CE6DAA;
+    ucobs:startTime "2023-08-11T09:21:06.260Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_714447FBA2737254DE7F29B865CE6DAA a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/js/js_zqxY3WQzYNR0NiKCpM5itT0--wb4EaKcun2onM0X1is.js";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_1A282883EC2C4EC0B00674EB19F2313A a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T09:21:06.390Z";
+    ucobs:hasFacet gpl:URL_F07CB8EC6CD17F361A90427C001691F5;
+    ucobs:startTime "2023-08-11T09:21:06.261Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_F07CB8EC6CD17F361A90427C001691F5 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/js/js_c8LbWbHV1txem3q8oAzuadnL-HiBShaQH_WRviNqT_g.js";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_C8D05E189972711044F07858802CC7D8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagmanager.com".
+gpl:HTTPCON_81D031B8242F5819D51C5337BE690483 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:21:06.463Z";
+    ucobs:hasFacet gpl:URL_E758CDABE5635B0B4A37FB743076B226;
+    ucobs:startTime "2023-08-11T09:21:06.308Z".
+gpl:IP_36175DF5E3F24F01F51C7658FA12D7AC a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.136".
+gpl:URL_E758CDABE5635B0B4A37FB743076B226 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagmanager.com/gtm.js?id";
+    ucobs:host gpl:DOMAIN_C8D05E189972711044F07858802CC7D8, gpl:IP_36175DF5E3F24F01F51C7658FA12D7AC.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_CC6CD5618F14C45C827AC4E1725CE3BC a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:06.570Z";
+    ucobs:hasFacet gpl:URL_2CDB07B1926572AB768D51079D2465EE;
+    ucobs:startTime "2023-08-11T09:21:06.553Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_2CDB07B1926572AB768D51079D2465EE a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/pick_of_the_week?_format";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_C8D05E189972711044F07858802CC7D8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagmanager.com".
+gpl:HTTPCON_B238C4D58A410D357368398B4E1EAA96 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:21:06.575Z";
+    ucobs:hasFacet gpl:URL_8E8C08FB725739C3C425CECDB035FE6C;
+    ucobs:startTime "2023-08-11T09:21:06.549Z".
+gpl:IP_36175DF5E3F24F01F51C7658FA12D7AC a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.136".
+gpl:URL_8E8C08FB725739C3C425CECDB035FE6C a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagmanager.com/gtag/js?id&l&cx";
+    ucobs:host gpl:DOMAIN_C8D05E189972711044F07858802CC7D8, gpl:IP_36175DF5E3F24F01F51C7658FA12D7AC.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_CAD6500B9C91A72E4A88041DDD7D9441 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:06.603Z";
+    ucobs:hasFacet gpl:URL_5714EBEDC0A71596741FEE6F51429EFA;
+    ucobs:startTime "2023-08-11T09:21:06.584Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_5714EBEDC0A71596741FEE6F51429EFA a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/3/2792793.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_11DCDDF28A8365587D86301072580D24 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:06.719Z";
+    ucobs:hasFacet gpl:URL_A1D5125275CC83E45D3BC3C3B1D65854;
+    ucobs:startTime "2023-08-11T09:21:06.517Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_A1D5125275CC83E45D3BC3C3B1D65854 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/favicon.ico";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_8E40CD9B63F9EA236ED48C0FCC7EB26E a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:21:07.232Z";
+    ucobs:hasFacet gpl:URL_4B081FCBE31101E344B2DF5E5EBC8F4E;
+    ucobs:startTime "2023-08-11T09:21:06.583Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:URL_4B081FCBE31101E344B2DF5E5EBC8F4E a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/4/2795801.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.

@@ -1,0 +1,603 @@
+# Copyright (c) 2022-2023 Orange. All rights reserved in accordance to the CC-BY-NC-SA license
+# Project: graphameleon-ds
+# THIS SOFTWARE IS PROVIDED BY Orange "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Orange BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix gpl: <http://graphameleon.com#>.
+@prefix core: <https://ontology.unifiedcyberontology.org/uco/core#>.
+@prefix ucoact: <https://ontology.unifiedcyberontology.org/uco/action#>.
+@prefix ucobs: <https://ontology.unifiedcyberontology.org/uco/observable#>.
+@prefix types: <https://ontology.unifiedcyberontology.org/uco/types#>.
+
+gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.rti.org".
+gpl:HTTPCON_DF6E76349424E44361924FB03359FE7B a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "none";
+    ucobs:endTime "2023-08-14T08:03:59.593Z";
+    ucobs:hasFacet gpl:URL_6751CF8B0C843065D41B8C28E5C98459;
+    ucobs:startTime "2023-08-14T08:03:58.800Z".
+gpl:IP_E209A1ABC33FC81761C0479D142F3097 a ucobs:IPAddressFacet;
+    ucobs:addressValue "54.197.91.96".
+gpl:URL_6751CF8B0C843065D41B8C28E5C98459 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.rti.org/";
+    ucobs:host gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF, gpl:IP_E209A1ABC33FC81761C0479D142F3097.
+gpl:DOMAIN_4B179FC8D33CD1E3F9E2739E806369AF a ucobs:DomainNameFacet;
+    ucobs:addressValue "region1.analytics.google.com".
+gpl:HTTPCON_AA4A1CC5CBC9D777F6560CE053C2C6CD a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-14T08:03:59.617Z";
+    ucobs:hasFacet gpl:URL_8C2506CC2C0670BE467A5567F8041FE7;
+    ucobs:startTime "2023-08-14T08:03:59.571Z".
+gpl:IP_A58F02CF3B56D080FA2E3C46B74E8367 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.239.34.36".
+gpl:URL_8C2506CC2C0670BE467A5567F8041FE7 a ucobs:URLFacet;
+    ucobs:fullValue "https://region1.analytics.google.com/g/collect?v&tid&_ono&gtm&_p&_gaz&cid&ul&sr&_s&sid&sct&seg&dl&dt&en&_et";
+    ucobs:host gpl:DOMAIN_4B179FC8D33CD1E3F9E2739E806369AF, gpl:IP_A58F02CF3B56D080FA2E3C46B74E8367.
+gpl:DOMAIN_002953C0A6C6AD060D7204E365FAD0AD a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google.fr".
+gpl:HTTPCON_9CFFEA6DF21FA0A93C1E3AE6D625D384 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:03:59.620Z";
+    ucobs:hasFacet gpl:URL_44807DC96FDABB6E15DBF17CD11AD578;
+    ucobs:startTime "2023-08-14T08:03:59.572Z".
+gpl:IP_617C73BF99CBF91447023F9EDC99F034 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.214.163".
+gpl:URL_44807DC96FDABB6E15DBF17CD11AD578 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google.fr/ads/ga-audiences?v&t&slf_rd&_r&_ono&tid&cid&gtm&aip&z";
+    ucobs:host gpl:DOMAIN_002953C0A6C6AD060D7204E365FAD0AD, gpl:IP_617C73BF99CBF91447023F9EDC99F034.
+gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44 a ucobs:DomainNameFacet;
+    ucobs:addressValue "d7fi61gsgzcz4.cloudfront.net".
+gpl:HTTPCON_67C37824C172B2643F0381526B607B55 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-14T08:03:59.718Z";
+    ucobs:hasFacet gpl:URL_DC036A31D7A45BCCB1A6292A16C12146;
+    ucobs:startTime "2023-08-14T08:03:59.637Z".
+gpl:IP_5F4786A8ACC938570F31364BB77629D4 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.196.142".
+gpl:URL_DC036A31D7A45BCCB1A6292A16C12146 a ucobs:URLFacet;
+    ucobs:fullValue "https://d7fi61gsgzcz4.cloudfront.net/proximanova-thin-webfont.woff2";
+    ucobs:host gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44, gpl:IP_5F4786A8ACC938570F31364BB77629D4.
+gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44 a ucobs:DomainNameFacet;
+    ucobs:addressValue "d7fi61gsgzcz4.cloudfront.net".
+gpl:HTTPCON_9D737E9B760F20FEC177D8C9486F041A a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-14T08:03:59.733Z";
+    ucobs:hasFacet gpl:URL_264F6FC155B54A657220BE17621B6F68;
+    ucobs:startTime "2023-08-14T08:03:59.636Z".
+gpl:IP_5F4786A8ACC938570F31364BB77629D4 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.196.142".
+gpl:URL_264F6FC155B54A657220BE17621B6F68 a ucobs:URLFacet;
+    ucobs:fullValue "https://d7fi61gsgzcz4.cloudfront.net/proximanova-reg-webfont.woff2";
+    ucobs:host gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44, gpl:IP_5F4786A8ACC938570F31364BB77629D4.
+gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44 a ucobs:DomainNameFacet;
+    ucobs:addressValue "d7fi61gsgzcz4.cloudfront.net".
+gpl:HTTPCON_7409F9FAB49EDEE02891A30B84EE9B15 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:03:59.743Z";
+    ucobs:hasFacet gpl:URL_68EAC5951B7FA54CC115C207224DF2BD;
+    ucobs:startTime "2023-08-14T08:03:59.638Z".
+gpl:IP_5F4786A8ACC938570F31364BB77629D4 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.196.142".
+gpl:URL_68EAC5951B7FA54CC115C207224DF2BD a ucobs:URLFacet;
+    ucobs:fullValue "https://d7fi61gsgzcz4.cloudfront.net/sites/all/themes/rti2/scripts/jquery-3.4.1.min.js?v";
+    ucobs:host gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44, gpl:IP_5F4786A8ACC938570F31364BB77629D4.
+gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44 a ucobs:DomainNameFacet;
+    ucobs:addressValue "d7fi61gsgzcz4.cloudfront.net".
+gpl:HTTPCON_83AFF13820502668468ECE61B382300A a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-14T08:03:59.750Z";
+    ucobs:hasFacet gpl:URL_41C55B208B555D1CE93593DAA2AAA85A;
+    ucobs:startTime "2023-08-14T08:03:59.637Z".
+gpl:IP_5F4786A8ACC938570F31364BB77629D4 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.196.142".
+gpl:URL_41C55B208B555D1CE93593DAA2AAA85A a ucobs:URLFacet;
+    ucobs:fullValue "https://d7fi61gsgzcz4.cloudfront.net/proximanova-bold-webfont.woff2";
+    ucobs:host gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44, gpl:IP_5F4786A8ACC938570F31364BB77629D4.
+gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44 a ucobs:DomainNameFacet;
+    ucobs:addressValue "d7fi61gsgzcz4.cloudfront.net".
+gpl:HTTPCON_139B5674A6C41EE100EF55006216BE44 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:03:59.761Z";
+    ucobs:hasFacet gpl:URL_AF786FFFB66EEB68E15B09A7FDBDC1BD;
+    ucobs:startTime "2023-08-14T08:03:59.638Z".
+gpl:IP_5F4786A8ACC938570F31364BB77629D4 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.196.142".
+gpl:URL_AF786FFFB66EEB68E15B09A7FDBDC1BD a ucobs:URLFacet;
+    ucobs:fullValue "https://d7fi61gsgzcz4.cloudfront.net/assets/rti-home-mobile-hero.jpg/dynamic:1-aspect:0.67-fit:cover-strategy:entropy/rti-home-mobile-hero--480.webp";
+    ucobs:host gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44, gpl:IP_5F4786A8ACC938570F31364BB77629D4.
+gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.rti.org".
+gpl:HTTPCON_945D504B6161C837A4EC2523464B8530 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:03:59.768Z";
+    ucobs:hasFacet gpl:URL_EB11A33169A5E02D3D2C20C03D189FEB;
+    ucobs:startTime "2023-08-14T08:03:59.639Z".
+gpl:IP_E209A1ABC33FC81761C0479D142F3097 a ucobs:IPAddressFacet;
+    ucobs:addressValue "54.197.91.96".
+gpl:URL_EB11A33169A5E02D3D2C20C03D189FEB a ucobs:URLFacet;
+    ucobs:fullValue "https://www.rti.org/sites/all/themes/rti2/scripts/all.min.js?rz6ea7";
+    ucobs:host gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF, gpl:IP_E209A1ABC33FC81761C0479D142F3097.
+gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.rti.org".
+gpl:HTTPCON_4A689F800DAE9A1FEB10D839D599F383 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-14T08:03:59.819Z";
+    ucobs:hasFacet gpl:URL_F13F99CDBA86FB39AB6F63A07735FADF;
+    ucobs:startTime "2023-08-14T08:03:59.703Z".
+gpl:IP_E209A1ABC33FC81761C0479D142F3097 a ucobs:IPAddressFacet;
+    ucobs:addressValue "54.197.91.96".
+gpl:URL_F13F99CDBA86FB39AB6F63A07735FADF a ucobs:URLFacet;
+    ucobs:fullValue "https://www.rti.org/sites/default/files/css/css_8oaODwmgeeBELRlTvY4WvjW_1UQuJaxhM6YPqtNYBDY.css";
+    ucobs:host gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF, gpl:IP_E209A1ABC33FC81761C0479D142F3097.
+gpl:DOMAIN_C8D05E189972711044F07858802CC7D8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagmanager.com".
+gpl:HTTPCON_7DC3BDFFA5BAC1C775D7B29B329BDB89 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:03:59.833Z";
+    ucobs:hasFacet gpl:URL_E758CDABE5635B0B4A37FB743076B226;
+    ucobs:startTime "2023-08-14T08:03:59.766Z".
+gpl:IP_B8D0BFB90218030797C80DDE2A549A69 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.214.72".
+gpl:URL_E758CDABE5635B0B4A37FB743076B226 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagmanager.com/gtm.js?id";
+    ucobs:host gpl:DOMAIN_C8D05E189972711044F07858802CC7D8, gpl:IP_B8D0BFB90218030797C80DDE2A549A69.
+gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44 a ucobs:DomainNameFacet;
+    ucobs:addressValue "d7fi61gsgzcz4.cloudfront.net".
+gpl:HTTPCON_C484CCCF849F4A761D68415D3B9FC57F a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:03:59.865Z";
+    ucobs:hasFacet gpl:URL_40FFFEFD1D23F97CD7EA06B98D280A7F;
+    ucobs:startTime "2023-08-14T08:03:59.856Z".
+gpl:IP_5F4786A8ACC938570F31364BB77629D4 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.196.142".
+gpl:URL_40FFFEFD1D23F97CD7EA06B98D280A7F a ucobs:URLFacet;
+    ucobs:fullValue "https://d7fi61gsgzcz4.cloudfront.net/assets/featured-story-images/arpa-h_focus_page_image_380.jpg/dynamic:1-aspect:0.85-fit:cover/arpa-h_focus_page_image_380--400.webp";
+    ucobs:host gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44, gpl:IP_5F4786A8ACC938570F31364BB77629D4.
+gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44 a ucobs:DomainNameFacet;
+    ucobs:addressValue "d7fi61gsgzcz4.cloudfront.net".
+gpl:HTTPCON_6270DBB2787AC1FF2B54ACD920460C0B a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:03:59.867Z";
+    ucobs:hasFacet gpl:URL_D9B9A4307E36BD125D83D4586AC2CBBA;
+    ucobs:startTime "2023-08-14T08:03:59.856Z".
+gpl:IP_5F4786A8ACC938570F31364BB77629D4 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.196.142".
+gpl:URL_D9B9A4307E36BD125D83D4586AC2CBBA a ucobs:URLFacet;
+    ucobs:fullValue "https://d7fi61gsgzcz4.cloudfront.net/assets/announcement-images/cristina-bisson.jpg/dynamic:1-aspect:0.85-fit:cover/cristina-bisson--400.webp";
+    ucobs:host gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44, gpl:IP_5F4786A8ACC938570F31364BB77629D4.
+gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.rti.org".
+gpl:HTTPCON_56BB6E50753E786DC2378BEE778022D7 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:03:59.910Z";
+    ucobs:hasFacet gpl:URL_BD49C92F372AE928B5A1119AFB6F4509;
+    ucobs:startTime "2023-08-14T08:03:59.825Z".
+gpl:IP_E209A1ABC33FC81761C0479D142F3097 a ucobs:IPAddressFacet;
+    ucobs:addressValue "54.197.91.96".
+gpl:URL_BD49C92F372AE928B5A1119AFB6F4509 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.rti.org/sites/all/themes/rti2/assets/arrow-breadcrumb.svg";
+    ucobs:host gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF, gpl:IP_E209A1ABC33FC81761C0479D142F3097.
+gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.rti.org".
+gpl:HTTPCON_1379D8BC9CFABF4008659E075C6BA3D3 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:03:59.920Z";
+    ucobs:hasFacet gpl:URL_7104D97844CB13115BE33076377D00E0;
+    ucobs:startTime "2023-08-14T08:03:59.825Z".
+gpl:IP_E209A1ABC33FC81761C0479D142F3097 a ucobs:IPAddressFacet;
+    ucobs:addressValue "54.197.91.96".
+gpl:URL_7104D97844CB13115BE33076377D00E0 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.rti.org/sites/all/themes/rti2/assets/ambient-video-play.svg";
+    ucobs:host gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF, gpl:IP_E209A1ABC33FC81761C0479D142F3097.
+gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.rti.org".
+gpl:HTTPCON_A90012848363EA6B1859694ACF81F6DA a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:03:59.922Z";
+    ucobs:hasFacet gpl:URL_A2D27A66C5B66D4036E2AFCECE73318A;
+    ucobs:startTime "2023-08-14T08:03:59.826Z".
+gpl:IP_E209A1ABC33FC81761C0479D142F3097 a ucobs:IPAddressFacet;
+    ucobs:addressValue "54.197.91.96".
+gpl:URL_A2D27A66C5B66D4036E2AFCECE73318A a ucobs:URLFacet;
+    ucobs:fullValue "https://www.rti.org/sites/all/themes/rti2/assets/pause.png";
+    ucobs:host gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF, gpl:IP_E209A1ABC33FC81761C0479D142F3097.
+gpl:DOMAIN_C8D05E189972711044F07858802CC7D8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagmanager.com".
+gpl:HTTPCON_220FAE10AC09D6F87D9D3E131621B130 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:04:00.082Z";
+    ucobs:hasFacet gpl:URL_8E8C08FB725739C3C425CECDB035FE6C;
+    ucobs:startTime "2023-08-14T08:04:00.041Z".
+gpl:IP_B8D0BFB90218030797C80DDE2A549A69 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.214.72".
+gpl:URL_8E8C08FB725739C3C425CECDB035FE6C a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagmanager.com/gtag/js?id&l&cx";
+    ucobs:host gpl:DOMAIN_C8D05E189972711044F07858802CC7D8, gpl:IP_B8D0BFB90218030797C80DDE2A549A69.
+gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.rti.org".
+gpl:HTTPCON_F61DAECEE5501F3E8D1539145BE5B223 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:04:00.104Z";
+    ucobs:hasFacet gpl:URL_7D84946AF269D14E7353FDC294C24ED2;
+    ucobs:startTime "2023-08-14T08:03:59.853Z".
+gpl:IP_E209A1ABC33FC81761C0479D142F3097 a ucobs:IPAddressFacet;
+    ucobs:addressValue "54.197.91.96".
+gpl:URL_7D84946AF269D14E7353FDC294C24ED2 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.rti.org/sites/all/themes/rti2/templates/_svg/facebook-icon.svg";
+    ucobs:host gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF, gpl:IP_E209A1ABC33FC81761C0479D142F3097.
+gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.rti.org".
+gpl:HTTPCON_EC5A295F1A68988C99491D645CB8DBBE a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:04:00.105Z";
+    ucobs:hasFacet gpl:URL_AB62E9AC98BDAA8733A7973B5BEB6A62;
+    ucobs:startTime "2023-08-14T08:03:59.854Z".
+gpl:IP_E209A1ABC33FC81761C0479D142F3097 a ucobs:IPAddressFacet;
+    ucobs:addressValue "54.197.91.96".
+gpl:URL_AB62E9AC98BDAA8733A7973B5BEB6A62 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.rti.org/sites/all/themes/rti2/templates/_svg/twitter-icon.svg";
+    ucobs:host gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF, gpl:IP_E209A1ABC33FC81761C0479D142F3097.
+gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.rti.org".
+gpl:HTTPCON_6B12FB7DE891136CD9A30F491A039B84 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:04:00.105Z";
+    ucobs:hasFacet gpl:URL_F3E6505FEEA5AC1A6FCE0308B79A0739;
+    ucobs:startTime "2023-08-14T08:03:59.854Z".
+gpl:IP_E209A1ABC33FC81761C0479D142F3097 a ucobs:IPAddressFacet;
+    ucobs:addressValue "54.197.91.96".
+gpl:URL_F3E6505FEEA5AC1A6FCE0308B79A0739 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.rti.org/sites/all/themes/rti2/templates/_svg/instagram-icon.svg";
+    ucobs:host gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF, gpl:IP_E209A1ABC33FC81761C0479D142F3097.
+gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.rti.org".
+gpl:HTTPCON_626CDC22BF45487DFF28F1202ABDA4FB a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:04:00.106Z";
+    ucobs:hasFacet gpl:URL_FA520187704544DCB83BA19D1D505983;
+    ucobs:startTime "2023-08-14T08:03:59.855Z".
+gpl:IP_E209A1ABC33FC81761C0479D142F3097 a ucobs:IPAddressFacet;
+    ucobs:addressValue "54.197.91.96".
+gpl:URL_FA520187704544DCB83BA19D1D505983 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.rti.org/sites/all/themes/rti2/templates/_svg/youtube-icon.svg";
+    ucobs:host gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF, gpl:IP_E209A1ABC33FC81761C0479D142F3097.
+gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.rti.org".
+gpl:HTTPCON_4DA01C05B77DD94497E3530DFBECE2B0 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:04:00.106Z";
+    ucobs:hasFacet gpl:URL_AB026AB904DE8CBE9A864FA237DB5B21;
+    ucobs:startTime "2023-08-14T08:03:59.855Z".
+gpl:IP_E209A1ABC33FC81761C0479D142F3097 a ucobs:IPAddressFacet;
+    ucobs:addressValue "54.197.91.96".
+gpl:URL_AB026AB904DE8CBE9A864FA237DB5B21 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.rti.org/sites/all/themes/rti2/templates/_svg/linkedin-icon.svg";
+    ucobs:host gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF, gpl:IP_E209A1ABC33FC81761C0479D142F3097.
+gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.rti.org".
+gpl:HTTPCON_72F63EA0317BD2B6B1ECA95B440A01BC a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "video";
+    ucobs:endTime "2023-08-14T08:04:00.159Z";
+    ucobs:hasFacet gpl:URL_E0EEA170F263FE7A13DD285764C1F6D5;
+    ucobs:startTime "2023-08-14T08:03:59.853Z".
+gpl:IP_E209A1ABC33FC81761C0479D142F3097 a ucobs:IPAddressFacet;
+    ucobs:addressValue "54.197.91.96".
+gpl:URL_E0EEA170F263FE7A13DD285764C1F6D5 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.rti.org/sites/default/files/featured-story-videos/rti_logo_340x400.mp4";
+    ucobs:host gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF, gpl:IP_E209A1ABC33FC81761C0479D142F3097.
+gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6 a ucobs:DomainNameFacet;
+    ucobs:addressValue "newmediacampaigns.report-uri.com".
+gpl:HTTPCON_86C95371032D5D14328CF3CEBF6BC91D a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "report";
+    ucobs:endTime "2023-08-14T08:04:00.292Z";
+    ucobs:hasFacet gpl:URL_21A5962DEABA1B03825C2AB2FC245942;
+    ucobs:startTime "2023-08-14T08:04:00.193Z".
+gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.17.186.88".
+gpl:URL_21A5962DEABA1B03825C2AB2FC245942 a ucobs:URLFacet;
+    ucobs:fullValue "https://newmediacampaigns.report-uri.com/r/d/csp/enforce";
+    ucobs:host gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6, gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9.
+gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6 a ucobs:DomainNameFacet;
+    ucobs:addressValue "newmediacampaigns.report-uri.com".
+gpl:HTTPCON_81010A62F76687E5EBB89978D3E8BD03 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "report";
+    ucobs:endTime "2023-08-14T08:04:00.304Z";
+    ucobs:hasFacet gpl:URL_21A5962DEABA1B03825C2AB2FC245942;
+    ucobs:startTime "2023-08-14T08:04:00.192Z".
+gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.17.186.88".
+gpl:URL_21A5962DEABA1B03825C2AB2FC245942 a ucobs:URLFacet;
+    ucobs:fullValue "https://newmediacampaigns.report-uri.com/r/d/csp/enforce";
+    ucobs:host gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6, gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9.
+gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google-analytics.com".
+gpl:HTTPCON_2722CD1349F9C9939F4C3EF00AA81039 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:04:00.470Z";
+    ucobs:hasFacet gpl:URL_8B79F4996C43469646FB5ED3D37839EA;
+    ucobs:startTime "2023-08-14T08:04:00.122Z".
+gpl:IP_D7DB10AAE67F4748EAF414B4FC4EAB13 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.75.238".
+gpl:URL_8B79F4996C43469646FB5ED3D37839EA a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google-analytics.com/analytics.js";
+    ucobs:host gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1, gpl:IP_D7DB10AAE67F4748EAF414B4FC4EAB13.
+gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.rti.org".
+gpl:HTTPCON_C1D46DFFC3C95F517178A25AB7FB4BFF a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "video";
+    ucobs:endTime "2023-08-14T08:04:00.496Z";
+    ucobs:hasFacet gpl:URL_A4EF5059B68DE512EBBB622829EB6DF2;
+    ucobs:startTime "2023-08-14T08:03:59.882Z".
+gpl:IP_E209A1ABC33FC81761C0479D142F3097 a ucobs:IPAddressFacet;
+    ucobs:addressValue "54.197.91.96".
+gpl:URL_A4EF5059B68DE512EBBB622829EB6DF2 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.rti.org/sites/all/themes/rti2/assets/rti-homepage-video.mp4";
+    ucobs:host gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF, gpl:IP_E209A1ABC33FC81761C0479D142F3097.
+gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.rti.org".
+gpl:HTTPCON_3682F6211B43B00B4F122A81E788D158 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:04:00.518Z";
+    ucobs:hasFacet gpl:URL_9758F7B9DBE216E98486404A1964735D;
+    ucobs:startTime "2023-08-14T08:04:00.423Z".
+gpl:IP_E209A1ABC33FC81761C0479D142F3097 a ucobs:IPAddressFacet;
+    ucobs:addressValue "54.197.91.96".
+gpl:URL_9758F7B9DBE216E98486404A1964735D a ucobs:URLFacet;
+    ucobs:fullValue "https://www.rti.org/sites/default/files/favicon_0_0.png";
+    ucobs:host gpl:DOMAIN_0FE0D09B3090555B1347AE0B5A7BFEAF, gpl:IP_E209A1ABC33FC81761C0479D142F3097.
+gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google-analytics.com".
+gpl:HTTPCON_6F744479B14BC5F45837F34AB910A504 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:04:00.520Z";
+    ucobs:hasFacet gpl:URL_21A66009C1E686AE5B734E17DB26CE10;
+    ucobs:startTime "2023-08-14T08:04:00.507Z".
+gpl:IP_D7DB10AAE67F4748EAF414B4FC4EAB13 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.75.238".
+gpl:URL_21A66009C1E686AE5B734E17DB26CE10 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google-analytics.com/j/collect?v&_v&aip&a&t&_s&dl&ul&de&dt&sd&sr&vp&je&_u&jid&gjid&cid&tid&_gid&_r&_slc&gtm&cd18&z";
+    ucobs:host gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1, gpl:IP_D7DB10AAE67F4748EAF414B4FC4EAB13.
+gpl:DOMAIN_F93E75FA4BA70D59E6CE5A69111E0098 a ucobs:DomainNameFacet;
+    ucobs:addressValue "stats.g.doubleclick.net".
+gpl:HTTPCON_306C634017F41E9C00E59BEC495A6AFA a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:04:00.696Z";
+    ucobs:hasFacet gpl:URL_81CA0FBC04ED7F4532DEA115FC01DD0F;
+    ucobs:startTime "2023-08-14T08:04:00.539Z".
+gpl:IP_D73E27DBB2A1DB17888D09F7562A0D26 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.251.5.156".
+gpl:URL_81CA0FBC04ED7F4532DEA115FC01DD0F a ucobs:URLFacet;
+    ucobs:fullValue "https://stats.g.doubleclick.net/j/collect?t&aip&_r&v&_v&tid&cid&jid&gjid&_gid&_u&z";
+    ucobs:host gpl:DOMAIN_F93E75FA4BA70D59E6CE5A69111E0098, gpl:IP_D73E27DBB2A1DB17888D09F7562A0D26.
+gpl:DOMAIN_4FD99008ECA7BC7FAC01947DA18CBD55 a ucobs:DomainNameFacet;
+    ucobs:addressValue "tag.demandbase.com".
+gpl:HTTPCON_93FB681E7793DB1A61966BAD41F2B02B a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:04:00.962Z";
+    ucobs:hasFacet gpl:URL_C6164E09F416D1F48C7FE91B90C26CBC;
+    ucobs:startTime "2023-08-14T08:04:00.907Z".
+gpl:IP_069B3A1C49ABCB904FC414DF57DEEFBD a ucobs:IPAddressFacet;
+    ucobs:addressValue "18.164.52.83".
+gpl:URL_C6164E09F416D1F48C7FE91B90C26CBC a ucobs:URLFacet;
+    ucobs:fullValue "https://tag.demandbase.com/f5c6ea62.min.js";
+    ucobs:host gpl:DOMAIN_4FD99008ECA7BC7FAC01947DA18CBD55, gpl:IP_069B3A1C49ABCB904FC414DF57DEEFBD.
+gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6 a ucobs:DomainNameFacet;
+    ucobs:addressValue "newmediacampaigns.report-uri.com".
+gpl:HTTPCON_FD4FC4ADBAEC903C7AB5B00E9B123B68 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "report";
+    ucobs:endTime "2023-08-14T08:04:01.005Z";
+    ucobs:hasFacet gpl:URL_21A5962DEABA1B03825C2AB2FC245942;
+    ucobs:startTime "2023-08-14T08:04:00.993Z".
+gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.17.186.88".
+gpl:URL_21A5962DEABA1B03825C2AB2FC245942 a ucobs:URLFacet;
+    ucobs:fullValue "https://newmediacampaigns.report-uri.com/r/d/csp/enforce";
+    ucobs:host gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6, gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9.
+gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6 a ucobs:DomainNameFacet;
+    ucobs:addressValue "newmediacampaigns.report-uri.com".
+gpl:HTTPCON_40910F80CBF5EC2D013F3AC65986904E a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "report";
+    ucobs:endTime "2023-08-14T08:04:01.034Z";
+    ucobs:hasFacet gpl:URL_21A5962DEABA1B03825C2AB2FC245942;
+    ucobs:startTime "2023-08-14T08:04:00.992Z".
+gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.17.186.88".
+gpl:URL_21A5962DEABA1B03825C2AB2FC245942 a ucobs:URLFacet;
+    ucobs:fullValue "https://newmediacampaigns.report-uri.com/r/d/csp/enforce";
+    ucobs:host gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6, gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9.
+gpl:DOMAIN_8A116D9D48F6A6C6BA9B562A6DFFD1DF a ucobs:DomainNameFacet;
+    ucobs:addressValue "api.company-target.com".
+gpl:HTTPCON_4C43FA6C87DF088D790453270BCF6C4E a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:04:01.149Z";
+    ucobs:hasFacet gpl:URL_D1FD8D15347C308FF7100EF762C4D1F7;
+    ucobs:startTime "2023-08-14T08:04:01.001Z".
+gpl:IP_80FE5E3228898550B554F83957B992B8 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.225.34.64".
+gpl:URL_D1FD8D15347C308FF7100EF762C4D1F7 a ucobs:URLFacet;
+    ucobs:fullValue "https://api.company-target.com/api/v2/ip.json?referrer&page&page_title";
+    ucobs:host gpl:DOMAIN_8A116D9D48F6A6C6BA9B562A6DFFD1DF, gpl:IP_80FE5E3228898550B554F83957B992B8.
+gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6 a ucobs:DomainNameFacet;
+    ucobs:addressValue "newmediacampaigns.report-uri.com".
+gpl:HTTPCON_3FE2D6CF97276C93358D97EFD8787F41 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "report";
+    ucobs:endTime "2023-08-14T08:04:01.187Z";
+    ucobs:hasFacet gpl:URL_21A5962DEABA1B03825C2AB2FC245942;
+    ucobs:startTime "2023-08-14T08:04:01.171Z".
+gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.17.186.88".
+gpl:URL_21A5962DEABA1B03825C2AB2FC245942 a ucobs:URLFacet;
+    ucobs:fullValue "https://newmediacampaigns.report-uri.com/r/d/csp/enforce";
+    ucobs:host gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6, gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9.
+gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6 a ucobs:DomainNameFacet;
+    ucobs:addressValue "newmediacampaigns.report-uri.com".
+gpl:HTTPCON_3FE2D6CF97276C93358D97EFD8787F41 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "report";
+    ucobs:endTime "2023-08-14T08:04:01.189Z";
+    ucobs:hasFacet gpl:URL_21A5962DEABA1B03825C2AB2FC245942;
+    ucobs:startTime "2023-08-14T08:04:01.171Z".
+gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.17.186.88".
+gpl:URL_21A5962DEABA1B03825C2AB2FC245942 a ucobs:URLFacet;
+    ucobs:fullValue "https://newmediacampaigns.report-uri.com/r/d/csp/enforce";
+    ucobs:host gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6, gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9.
+gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6 a ucobs:DomainNameFacet;
+    ucobs:addressValue "newmediacampaigns.report-uri.com".
+gpl:HTTPCON_CE879027B4566B853F826D47F139C2DF a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "report";
+    ucobs:endTime "2023-08-14T08:04:01.195Z";
+    ucobs:hasFacet gpl:URL_21A5962DEABA1B03825C2AB2FC245942;
+    ucobs:startTime "2023-08-14T08:04:01.170Z".
+gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.17.186.88".
+gpl:URL_21A5962DEABA1B03825C2AB2FC245942 a ucobs:URLFacet;
+    ucobs:fullValue "https://newmediacampaigns.report-uri.com/r/d/csp/enforce";
+    ucobs:host gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6, gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9.
+gpl:DOMAIN_C1165620DE0FD47A4A7185ABC74694A3 a ucobs:DomainNameFacet;
+    ucobs:addressValue "snap.licdn.com".
+gpl:HTTPCON_BBCD40CA09B5BCD0E09AE4C57A6FADD7 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:04:01.409Z";
+    ucobs:hasFacet gpl:URL_AF5AF0FB39E0804126A0467F342A24A3;
+    ucobs:startTime "2023-08-14T08:04:01.252Z".
+gpl:IP_277CC4D69DF097C5FC516B4AFCADE539 a ucobs:IPAddressFacet;
+    ucobs:addressValue "96.17.206.207".
+gpl:URL_AF5AF0FB39E0804126A0467F342A24A3 a ucobs:URLFacet;
+    ucobs:fullValue "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+    ucobs:host gpl:DOMAIN_C1165620DE0FD47A4A7185ABC74694A3, gpl:IP_277CC4D69DF097C5FC516B4AFCADE539.
+gpl:DOMAIN_320BBC79AFB00196B25F04A786C332AD a ucobs:DomainNameFacet;
+    ucobs:addressValue "pi.pardot.com".
+gpl:HTTPCON_7EAE164292EA70B85C02F22F94572B26 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:04:01.440Z";
+    ucobs:hasFacet gpl:URL_CDAEC5E01DC8866A87EC738F73C4665D;
+    ucobs:startTime "2023-08-14T08:04:01.006Z".
+gpl:IP_8A6B0875B3AF67D184BC253846100EE1 a ucobs:IPAddressFacet;
+    ucobs:addressValue "34.237.219.119".
+gpl:URL_CDAEC5E01DC8866A87EC738F73C4665D a ucobs:URLFacet;
+    ucobs:fullValue "https://pi.pardot.com/pd.js";
+    ucobs:host gpl:DOMAIN_320BBC79AFB00196B25F04A786C332AD, gpl:IP_8A6B0875B3AF67D184BC253846100EE1.
+gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6 a ucobs:DomainNameFacet;
+    ucobs:addressValue "newmediacampaigns.report-uri.com".
+gpl:HTTPCON_F3C83D852678D8BB708B6308B3B83484 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "report";
+    ucobs:endTime "2023-08-14T08:04:01.481Z";
+    ucobs:hasFacet gpl:URL_21A5962DEABA1B03825C2AB2FC245942;
+    ucobs:startTime "2023-08-14T08:04:01.466Z".
+gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.17.186.88".
+gpl:URL_21A5962DEABA1B03825C2AB2FC245942 a ucobs:URLFacet;
+    ucobs:fullValue "https://newmediacampaigns.report-uri.com/r/d/csp/enforce";
+    ucobs:host gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6, gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9.
+gpl:DOMAIN_7A341617DD2834A3CE044E1BB07BA452 a ucobs:DomainNameFacet;
+    ucobs:addressValue "px.ads.linkedin.com".
+gpl:HTTPCON_84BF6E562572EAA75AD8E2DB1E9061EA a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:04:01.881Z";
+    ucobs:hasFacet gpl:URL_F716CA5A6355FD6B1CB60660404E5FBC;
+    ucobs:startTime "2023-08-14T08:04:01.754Z".
+gpl:IP_0345CA6B36D1EC626AE5B861F7EB85D9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.107.42.14".
+gpl:URL_F716CA5A6355FD6B1CB60660404E5FBC a ucobs:URLFacet;
+    ucobs:fullValue "https://px.ads.linkedin.com/collect?v&fmt&pid&time&url&cookiesTest";
+    ucobs:host gpl:DOMAIN_7A341617DD2834A3CE044E1BB07BA452, gpl:IP_0345CA6B36D1EC626AE5B861F7EB85D9.
+gpl:DOMAIN_320BBC79AFB00196B25F04A786C332AD a ucobs:DomainNameFacet;
+    ucobs:addressValue "pi.pardot.com".
+gpl:HTTPCON_340E65F480DBBC55BE918B9D1CD0FE1D a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:04:01.884Z";
+    ucobs:hasFacet gpl:URL_E309D5FA6A55CCEBF690F810259262C7;
+    ucobs:startTime "2023-08-14T08:04:01.466Z".
+gpl:IP_8A6B0875B3AF67D184BC253846100EE1 a ucobs:IPAddressFacet;
+    ucobs:addressValue "34.237.219.119".
+gpl:URL_E309D5FA6A55CCEBF690F810259262C7 a ucobs:URLFacet;
+    ucobs:fullValue "https://pi.pardot.com/analytics?ver&visitor_id&visitor_id_sign&pi_opt_in&campaign_id&account_id&title&url&referrer";
+    ucobs:host gpl:DOMAIN_320BBC79AFB00196B25F04A786C332AD, gpl:IP_8A6B0875B3AF67D184BC253846100EE1.
+gpl:DOMAIN_20BF0F41CC1026CBC4D53114516E7888 a ucobs:DomainNameFacet;
+    ucobs:addressValue "go.rti.org".
+gpl:HTTPCON_FA1B96460CC9F6B503E97FB2372F2B71 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "script";
+    ucobs:endTime "2023-08-14T08:04:02.559Z";
+    ucobs:hasFacet gpl:URL_03BEEBEF33D01B08FD39A78AC8162FF8;
+    ucobs:startTime "2023-08-14T08:04:01.890Z".
+gpl:IP_6131A72E0B3828BE9F4AB7F84EF47967 a ucobs:IPAddressFacet;
+    ucobs:addressValue "3.92.120.28".
+gpl:URL_03BEEBEF33D01B08FD39A78AC8162FF8 a ucobs:URLFacet;
+    ucobs:fullValue "https://go.rti.org/analytics?conly&visitor_id&visitor_id_sign&pi_opt_in&campaign_id&account_id&title&url&referrer";
+    ucobs:host gpl:DOMAIN_20BF0F41CC1026CBC4D53114516E7888, gpl:IP_6131A72E0B3828BE9F4AB7F84EF47967.
+gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44 a ucobs:DomainNameFacet;
+    ucobs:addressValue "d7fi61gsgzcz4.cloudfront.net".
+gpl:HTTPCON_28630C48E9799C54457B40BEFB26B302 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:04:02.868Z";
+    ucobs:hasFacet gpl:URL_0E4E4D1CDF7EBA5C072191B8B0C44626;
+    ucobs:startTime "2023-08-14T08:04:02.857Z".
+gpl:IP_5F4786A8ACC938570F31364BB77629D4 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.196.142".
+gpl:URL_0E4E4D1CDF7EBA5C072191B8B0C44626 a ucobs:URLFacet;
+    ucobs:fullValue "https://d7fi61gsgzcz4.cloudfront.net/assets/event-images/istock-1129342100_practice_areas_247.jpg/dynamic:1-aspect:1.33-fit:cover-strategy:entropy/istock-1129342100_practice_areas_247--640.jpg";
+    ucobs:host gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44, gpl:IP_5F4786A8ACC938570F31364BB77629D4.
+gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44 a ucobs:DomainNameFacet;
+    ucobs:addressValue "d7fi61gsgzcz4.cloudfront.net".
+gpl:HTTPCON_30CCBB21C8B2265F2935A62FAC9CCD1A a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:04:02.871Z";
+    ucobs:hasFacet gpl:URL_24FB6E31194BC6BBE77FBD36C064683B;
+    ucobs:startTime "2023-08-14T08:04:02.856Z".
+gpl:IP_5F4786A8ACC938570F31364BB77629D4 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.196.142".
+gpl:URL_24FB6E31194BC6BBE77FBD36C064683B a ucobs:URLFacet;
+    ucobs:fullValue "https://d7fi61gsgzcz4.cloudfront.net/assets/page-hero-images/052319_sort-a-rama_07_2500.jpg/dynamic:1-aspect:1.33-fit:cover-strategy:entropy/052319_sort-a-rama_07_2500--640.jpg";
+    ucobs:host gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44, gpl:IP_5F4786A8ACC938570F31364BB77629D4.
+gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44 a ucobs:DomainNameFacet;
+    ucobs:addressValue "d7fi61gsgzcz4.cloudfront.net".
+gpl:HTTPCON_7E0D8399BE3A650104DCAFFDEE5C9D7B a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:04:02.873Z";
+    ucobs:hasFacet gpl:URL_25B2CF4346EC54615C2DB6DB7B66CFE2;
+    ucobs:startTime "2023-08-14T08:04:02.857Z".
+gpl:IP_5F4786A8ACC938570F31364BB77629D4 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.196.142".
+gpl:URL_25B2CF4346EC54615C2DB6DB7B66CFE2 a ucobs:URLFacet;
+    ucobs:fullValue "https://d7fi61gsgzcz4.cloudfront.net/assets/page-hero-images/p010192_roc_survey_data_collection_2500.jpg/dynamic:1-aspect:1.33-fit:cover-strategy:entropy/p010192_roc_survey_data_collection_2500--640.jpg";
+    ucobs:host gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44, gpl:IP_5F4786A8ACC938570F31364BB77629D4.
+gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44 a ucobs:DomainNameFacet;
+    ucobs:addressValue "d7fi61gsgzcz4.cloudfront.net".
+gpl:HTTPCON_CC01FD5CEA45CA2A91B77F2B4E9623CC a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:04:02.877Z";
+    ucobs:hasFacet gpl:URL_CBD9DF45383AFE174BB291C0B132B0CB;
+    ucobs:startTime "2023-08-14T08:04:02.858Z".
+gpl:IP_5F4786A8ACC938570F31364BB77629D4 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.196.142".
+gpl:URL_CBD9DF45383AFE174BB291C0B132B0CB a ucobs:URLFacet;
+    ucobs:fullValue "https://d7fi61gsgzcz4.cloudfront.net/assets/menu-overview-images/fighting_ntds_in_south_sumatra_247.jpg/dynamic:1-aspect:1.33-fit:cover-strategy:entropy/fighting_ntds_in_south_sumatra_247--640.jpg";
+    ucobs:host gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44, gpl:IP_5F4786A8ACC938570F31364BB77629D4.
+gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44 a ucobs:DomainNameFacet;
+    ucobs:addressValue "d7fi61gsgzcz4.cloudfront.net".
+gpl:HTTPCON_8F3B5D685AA3BFE2D58117C1CC0D4362 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:04:02.880Z";
+    ucobs:hasFacet gpl:URL_9A2DB756B01D2712C1F8FC0A36613298;
+    ucobs:startTime "2023-08-14T08:04:02.859Z".
+gpl:IP_5F4786A8ACC938570F31364BB77629D4 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.196.142".
+gpl:URL_9A2DB756B01D2712C1F8FC0A36613298 a ucobs:URLFacet;
+    ucobs:fullValue "https://d7fi61gsgzcz4.cloudfront.net/assets/menu-overview-images/rti-experts_menu.jpg/dynamic:1-aspect:1.33-fit:cover-strategy:entropy/rti-experts_menu--640.jpg";
+    ucobs:host gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44, gpl:IP_5F4786A8ACC938570F31364BB77629D4.
+gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44 a ucobs:DomainNameFacet;
+    ucobs:addressValue "d7fi61gsgzcz4.cloudfront.net".
+gpl:HTTPCON_ADD8FBDA78A2A67733AED9E37D40178E a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:04:02.883Z";
+    ucobs:hasFacet gpl:URL_46AFE49B65AC81F0B53124FFE7321535;
+    ucobs:startTime "2023-08-14T08:04:02.860Z".
+gpl:IP_5F4786A8ACC938570F31364BB77629D4 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.196.142".
+gpl:URL_46AFE49B65AC81F0B53124FFE7321535 a ucobs:URLFacet;
+    ucobs:fullValue "https://d7fi61gsgzcz4.cloudfront.net/assets/page-hero-images/istock_000065754413_emerging_issues_2500.jpg/dynamic:1-aspect:1.33-fit:cover-strategy:entropy/istock_000065754413_emerging_issues_2500--640.jpg";
+    ucobs:host gpl:DOMAIN_540669A20B62131FDC0AC94E93A63E44, gpl:IP_5F4786A8ACC938570F31364BB77629D4.

@@ -1,0 +1,28 @@
+Complexity category;Website name;Landing page;Collect mode;Tracking mode;Remarks;Export file;Capture date;Requests;Responses;Interactions;Vertices;Edges;Triples count;Subjects count;uco/action#ObservableAction;uco/observable#DomainNameFacet;uco/observable#HTTPConnectionFacet;uco/observable#IPAddressFacet;uco/observable#URLFacet
+One-Page;Swappa Bottle;https://swappabottle.com/;Micro;Strict;access issue: SSL_ERROR_NO_CYPHER_OVERLAP;n.a.;2023-08-11;0;0;0;0;0;0;0;0;0;0;0;0
+One-Page;Swappa Bottle;https://swappabottle.com/;Macro;Strict;access issue: SSL_ERROR_NO_CYPHER_OVERLAP;n.a.;2023-08-11;0;0;0;0;0;0;0;0;0;0;0;0
+One-Page;Swappa Bottle;https://swappabottle.com/;Micro;Standard;access issue: SSL_ERROR_NO_CYPHER_OVERLAP;n.a.;2023-08-14;0;0;0;0;0;0;0;0;0;0;0;0
+One-Page;Garden Studio;https://gardenestudio.com.br/en;Micro;Strict;;GPL_01-02_micro_strict.ttl;2023-08-11;85;85;0;848;1277;886;163;0;5;84;5;69
+One-Page;Garden Studio;https://gardenestudio.com.br/en;Macro;Strict;;GPL_01-02_macro_strict.ttl;2023-08-11;1;1;0;22;22;21;5;1;1;1;1;1
+One-Page;Garden Studio;https://gardenestudio.com.br/en;Micro;Standard;;GPL_01-02_micro_std.ttl;2023-08-14;94;94;0;942;1400;985;189;0;11;89;11;78
+One-Page;Mark My Images (MMI);https://www.markmyimages.com/;Micro;Strict;;GPL_01-03_micro_strict.ttl;2023-08-11;39;38;0;390;572;427;81;0;3;38;3;37
+One-Page;Mark My Images (MMI);https://www.markmyimages.com/;Macro;Strict;;GPL_01-03_macro_strict.ttl;2023-08-11;1;1;0;22;22;21;5;1;1;1;1;1
+One-Page;Mark My Images (MMI);https://www.markmyimages.com/;Micro;Standard;;GPL_01-03_micro_std.ttl;2023-08-14;38;38;0;389;572;423;80;0;3;38;3;36
+Encyclopedia;Encyclopedia Britannica Online (EBO);https://www.britannica.com/;Micro;Strict;;GPL_02-01_micro_strict.ttl;2023-08-11;54;54;0;559;812;599;122;0;13;54;13;42
+Encyclopedia;Encyclopedia Britannica Online (EBO);https://www.britannica.com/;Macro;Strict;;GPL_02-01_macro_strict.ttl;2023-08-11;1;1;0;22;22;21;5;1;1;1;1;1
+Encyclopedia;Encyclopedia Britannica Online (EBO);https://www.britannica.com/;Micro;Standard;;GPL_02-01_micro_std.ttl;2023-08-14;206;200;0;2077;3002;2195;472;0;71;194;70;137
+Encyclopedia;Scholarpedia;http://www.scholarpedia.org/article/Main_Page;Micro;Strict;;GPL_02-02_micro_strict.ttl;2023-08-11;56;55;0;414;685;452;111;0;4;55;4;48
+Encyclopedia;Scholarpedia;http://www.scholarpedia.org/article/Main_Page;Macro;Strict;capture issue: no requests/responses parsed;n.a.;2023-08-11;0;0;0;0;0;21;5;0;0;0;0;0
+Encyclopedia;Scholarpedia;http://www.scholarpedia.org/article/Main_Page;Micro;Standard;;GPL_02-02_micro_std.ttl;2023-08-14;67;64;0;518;820;579;143;0;11;64;11;57
+Encyclopedia;Encyclopedia.com;https://www.encyclopedia.com/;Micro;Strict;;GPL_02-03_micro_strict.ttl;2023-08-11;31;31;0;319;467;350;66;0;2;31;2;31
+Encyclopedia;Encyclopedia.com;https://www.encyclopedia.com/;Macro;Strict;;GPL_02-03_macro_strict.ttl;2023-08-11;1;1;0;22;22;21;5;1;1;1;1;1
+Encyclopedia;Encyclopedia.com;https://www.encyclopedia.com/;Micro;Standard;;GPL_02-03_micro_std.ttl;2023-08-14;131;128;0;1349;1922;1483;320;0;44;125;44;107
+Content-Heavy;RTI International;https://www.rti.org/;Micro;Strict;;GPL_03-01_micro_strict.ttl;2023-08-11;34;34;0;353;512;381;76;0;6;33;6;31
+Content-Heavy;RTI International;https://www.rti.org/;Macro;Strict;;GPL_03-01_macro_strict.ttl;2023-08-11;1;1;0;22;22;21;5;1;1;1;1;1
+Content-Heavy;RTI International;https://www.rti.org/;Micro;Standard;;GPL_03-01_micro_std.ttl;2023-08-14;50;49;0;515;737;562;118;0;14;48;14;42
+Content-Heavy;PrintMag;https://www.printmag.com/;Micro;Strict;;GPL_03-02_micro_strict.ttl;2023-08-11;47;47;0;492;707;552;111;0;9;47;8;47
+Content-Heavy;PrintMag;https://www.printmag.com/;Macro;Strict;;GPL_03-02_macro_strict.ttl;2023-08-11;1;1;0;22;22;21;5;1;1;1;1;1
+Content-Heavy;PrintMag;https://www.printmag.com/;Micro;Standard;;GPL_03-02_micro_std.ttl;2023-08-14;102;102;0;1055;1532;1143;234;0;25;101;24;84
+Content-Heavy;International Women’s Media Foundation (IWMF);https://www.iwmf.org/;Micro;Strict;;GPL_03-03_micro_strict.ttl;2023-08-11;31;31;0;325;467;362;72;0;5;31;5;31
+Content-Heavy;International Women’s Media Foundation (IWMF);https://www.iwmf.org/;Macro;Strict;;GPL_03-03_macro_strict.ttl;2023-08-11;1;1;0;22;22;21;5;1;1;1;1;1
+Content-Heavy;International Women’s Media Foundation (IWMF);https://www.iwmf.org/;Micro;Standard;;GPL_03-03_micro_std.ttl;2023-08-14;33;33;0;347;497;388;78;0;6;33;6;6
