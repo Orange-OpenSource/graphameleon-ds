@@ -1,6 +1,7 @@
 # graphameleon-ds
 
 *graphameleon-ds*: a RDF dataset for process mining on Web navigation traces.
+The dataset comes from the Graphameleon Web extension.
 
 The following dataset was built using the *[Graphameleon](https://github.com/Orange-OpenSource/graphameleon)* Web extension,
 an open-source plug-in that captures Web navigation traces and transforms them into a [RDF](https://www.w3.org/RDF/) graph for further exploration
@@ -52,7 +53,7 @@ Semantic representation of a micro-activity:
 If you use this dataset in a scientific publication, please cite:
 
 > Benjamin Stach, Lionel Tailhardat, Yoan Chabot, and Raphaël Troncy. 2023.
-> Web Navigation Capture for Anomaly Detection: a Web Browser-Level Approach Leveraging Knowledge Graphs.
+> Graphameleon: Relational Learning and Anomaly Detection on Web Navigation Traces Captured as Knowledge Graphs.
 
 BibTex format:
 
