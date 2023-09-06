@@ -1,0 +1,1551 @@
+# Copyright (c) 2022-2023 Orange. All rights reserved in accordance to the CC-BY-NC-SA license
+# Project: graphameleon-ds
+# THIS SOFTWARE IS PROVIDED BY Orange "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Orange BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix gpl: <http://graphameleon.com#>.
+@prefix core: <https://ontology.unifiedcyberontology.org/uco/core#>.
+@prefix ucoact: <https://ontology.unifiedcyberontology.org/uco/action#>.
+@prefix ucobs: <https://ontology.unifiedcyberontology.org/uco/observable#>.
+@prefix types: <https://ontology.unifiedcyberontology.org/uco/types#>.
+
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_CB17085061AB7456495C6ED32940C06A a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-14T08:01:55.651Z";
+    ucobs:hasFacet gpl:URL_85B8E72867E44E4E297C9BA866950EED;
+    ucobs:startTime "2023-08-14T08:01:55.628Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_85B8E72867E44E4E297C9BA866950EED a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/css/css_AxrMp2NNpMECnjp7kzTMN0neY6nPkuzEFUTf02NmHtU.css";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_E306C7DE027BB2DCC42CBA7CF8DDBB46 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:55.652Z";
+    ucobs:hasFacet gpl:URL_F1E4FFA77AF991C5390A2D8360B9F598;
+    ucobs:startTime "2023-08-14T08:01:55.630Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_F1E4FFA77AF991C5390A2D8360B9F598 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/themes/custom/trustme/images/header-logo.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_794BE9B4D6AD8BEE3C6B17215C03EE01 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-14T08:01:55.679Z";
+    ucobs:hasFacet gpl:URL_CCD4333A2C86AF7781B7E095D72F786B;
+    ucobs:startTime "2023-08-14T08:01:55.629Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_CCD4333A2C86AF7781B7E095D72F786B a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/css/css_PKoD1c51rXhDWjoL2z3EIsRnpif7i9DxnaRGocb8JzA.css";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_9153969264BFCF0A656C4D28D0D40AEC a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-14T08:01:55.682Z";
+    ucobs:hasFacet gpl:URL_5EDA614CC63EEFB1D6400AF309686080;
+    ucobs:startTime "2023-08-14T08:01:55.630Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_5EDA614CC63EEFB1D6400AF309686080 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/css/css_k9u1IODySqC3j4I1pBBMqRSLt5ZKAL5HHw12USc5C1U.css";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_ED414A7500370646F1965A649A1CF681 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:55.683Z";
+    ucobs:hasFacet gpl:URL_ACE005448AB4D49F2FAB512D5CBBFF45;
+    ucobs:startTime "2023-08-14T08:01:55.631Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_ACE005448AB4D49F2FAB512D5CBBFF45 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/images/hero/OxfordLogo%402x_2.png";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_883FBCB10A39011A3E73B7E1EF78A3B6 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:55.685Z";
+    ucobs:hasFacet gpl:URL_D996E073B65BEA2F90DAC60220748535;
+    ucobs:startTime "2023-08-14T08:01:55.632Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_D996E073B65BEA2F90DAC60220748535 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/images/hero/ColumbiaLogo%402x_1.png";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_3B128C2CB25D526DF8A531DCCA6C3986 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:55.691Z";
+    ucobs:hasFacet gpl:URL_1247EA35A1F8E209D164F6A44016251A;
+    ucobs:startTime "2023-08-14T08:01:55.632Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_1247EA35A1F8E209D164F6A44016251A a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/images/hero/CengageLogo%402x_2.png";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_7FCE3B8065DBCC73680E591232394F96 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:55.693Z";
+    ucobs:hasFacet gpl:URL_DF17CB309A4200C6CD2BB97298F8977C;
+    ucobs:startTime "2023-08-14T08:01:55.634Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_DF17CB309A4200C6CD2BB97298F8977C a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/images/whouseit/nasa2.png";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_21CDC41C7E5B8CD29459A1170A6A9F50 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:55.695Z";
+    ucobs:hasFacet gpl:URL_7B63883F4DE94D99B82C1D532D15F67E;
+    ucobs:startTime "2023-08-14T08:01:55.633Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_7B63883F4DE94D99B82C1D532D15F67E a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/images/whouseit/a70c83d26434d18cd9089a26ad0064f6%20%281%29.png";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_8C2030F70896B4C05C8B4B9036FC538E a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:55.697Z";
+    ucobs:hasFacet gpl:URL_6301D965B6B076B6ED76D34E2CE329C3;
+    ucobs:startTime "2023-08-14T08:01:55.635Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_6301D965B6B076B6ED76D34E2CE329C3 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_D8BB66D3D68EF010BFEC77A72CAA98DA a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:55.740Z";
+    ucobs:hasFacet gpl:URL_574BDCE55441099B94326E729661566E;
+    ucobs:startTime "2023-08-14T08:01:55.726Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_574BDCE55441099B94326E729661566E a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/0/627218.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_CAF5EB306950896898E1781B1B718E39 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:55.742Z";
+    ucobs:hasFacet gpl:URL_C8E77B73670C1E52450C4A1D8083C684;
+    ucobs:startTime "2023-08-14T08:01:55.726Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_C8E77B73670C1E52450C4A1D8083C684 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/4/2792955.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_E084D64B1C19517EAC55991C00F387A4 a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "none";
+    ucobs:endTime "2023-08-14T08:01:55.569Z";
+    ucobs:hasFacet gpl:URL_2EE7BC93B620DA641B8C2EF9F28445FE;
+    ucobs:startTime "2023-08-14T08:01:55.494Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_2EE7BC93B620DA641B8C2EF9F28445FE a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_665A46367AE2CB68F57C94C839D5C772 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:55.778Z";
+    ucobs:hasFacet gpl:URL_C7954C4EC7158C2A793B25AB2CC05F2E;
+    ucobs:startTime "2023-08-14T08:01:55.725Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_C7954C4EC7158C2A793B25AB2CC05F2E a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/images/hero/enc_hero01_3.png";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_8310C7DFD1D6101F8C5041DDBAE0538A a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:55.786Z";
+    ucobs:hasFacet gpl:URL_429C6BB5F9C4B95AAE6EC7539E4925E6;
+    ucobs:startTime "2023-08-14T08:01:55.729Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_429C6BB5F9C4B95AAE6EC7539E4925E6 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/6/2801644.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_16447E5F501EACB6088147DB85E54869 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:55.790Z";
+    ucobs:hasFacet gpl:URL_35F7DEDCB8B16AC9C2575AC617579B2C;
+    ucobs:startTime "2023-08-14T08:01:55.745Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_35F7DEDCB8B16AC9C2575AC617579B2C a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/js/js_zUQZP_05aEQQEOMOyF3c6jn8AsMhZPB5lR08eWRX8vY.js";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_77DBB99761D2EBA29197BE8AEA202492 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:55.793Z";
+    ucobs:hasFacet gpl:URL_26C62F366D4AFC43B32C0EFBB739E1AE;
+    ucobs:startTime "2023-08-14T08:01:55.747Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_26C62F366D4AFC43B32C0EFBB739E1AE a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/js/js_WGXfBW_MzOchPG9FUX5M7UvHZXqRJrIQ3Tfnf5S1iHg.js";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_179A3D384691E64B4E3ADFEE95AF658A a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:55.795Z";
+    ucobs:hasFacet gpl:URL_0C08207048F7F85A38572FBB38D5B553;
+    ucobs:startTime "2023-08-14T08:01:55.747Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_0C08207048F7F85A38572FBB38D5B553 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/js/js_yLV6HYxC2Rnf9ZekS8oWsZmUNhr7FkzcQDF4zydcT90.js";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_473D1D4312F7984F17C396CAF51AB50F a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:55.796Z";
+    ucobs:hasFacet gpl:URL_9632BC0972CB9C8AB4E3995882569221;
+    ucobs:startTime "2023-08-14T08:01:55.748Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_9632BC0972CB9C8AB4E3995882569221 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/js/js_7riCSsmZKOyjnTzzQILMa9_W2mWycOMuqO6ECCFCXEk.js";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_076F8BA35D9C83A5177214161D9817F1 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:55.797Z";
+    ucobs:hasFacet gpl:URL_714447FBA2737254DE7F29B865CE6DAA;
+    ucobs:startTime "2023-08-14T08:01:55.749Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_714447FBA2737254DE7F29B865CE6DAA a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/js/js_zqxY3WQzYNR0NiKCpM5itT0--wb4EaKcun2onM0X1is.js";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_2F692B9F1906D51738071DEBCF039E56 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:55.798Z";
+    ucobs:hasFacet gpl:URL_F07CB8EC6CD17F361A90427C001691F5;
+    ucobs:startTime "2023-08-14T08:01:55.749Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_F07CB8EC6CD17F361A90427C001691F5 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/js/js_c8LbWbHV1txem3q8oAzuadnL-HiBShaQH_WRviNqT_g.js";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_1D782E6FE5D14ABF060ED66E01D20E6D a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:55.800Z";
+    ucobs:hasFacet gpl:URL_4508BDE181029100C347A2239AE49FBD;
+    ucobs:startTime "2023-08-14T08:01:55.729Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_4508BDE181029100C347A2239AE49FBD a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/4/2796049.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_C8D05E189972711044F07858802CC7D8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagmanager.com".
+gpl:HTTPCON_5A7885F4A40DD2DA57B0AD6F1718BF74 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:01:55.801Z";
+    ucobs:hasFacet gpl:URL_E758CDABE5635B0B4A37FB743076B226;
+    ucobs:startTime "2023-08-14T08:01:55.748Z".
+gpl:IP_B8D0BFB90218030797C80DDE2A549A69 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.214.72".
+gpl:URL_E758CDABE5635B0B4A37FB743076B226 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagmanager.com/gtm.js?id";
+    ucobs:host gpl:DOMAIN_C8D05E189972711044F07858802CC7D8, gpl:IP_B8D0BFB90218030797C80DDE2A549A69.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_1549D03698FD4F68951DD76C1466D88E a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:55.811Z";
+    ucobs:hasFacet gpl:URL_125034009D0F22FEC66E188CF5748FF2;
+    ucobs:startTime "2023-08-14T08:01:55.634Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_125034009D0F22FEC66E188CF5748FF2 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/images/whouseit/nytimes-logo-png-new-york-times-speaks-to-dr-derevensky-regarding-internet-gambling-fantasy-sports-betting-430.png";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_C8D05E189972711044F07858802CC7D8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagmanager.com".
+gpl:HTTPCON_5FD20A4C180321765971C029D922084F a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:01:56.004Z";
+    ucobs:hasFacet gpl:URL_8E8C08FB725739C3C425CECDB035FE6C;
+    ucobs:startTime "2023-08-14T08:01:55.979Z".
+gpl:IP_B8D0BFB90218030797C80DDE2A549A69 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.214.72".
+gpl:URL_8E8C08FB725739C3C425CECDB035FE6C a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagmanager.com/gtag/js?id&l&cx";
+    ucobs:host gpl:DOMAIN_C8D05E189972711044F07858802CC7D8, gpl:IP_B8D0BFB90218030797C80DDE2A549A69.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_262E05E18D13DC76DF0B44DDA30D78BA a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:56.063Z";
+    ucobs:hasFacet gpl:URL_80757C3DC819763AD5743702F781F80B;
+    ucobs:startTime "2023-08-14T08:01:55.728Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_80757C3DC819763AD5743702F781F80B a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/4/2793250.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_F593D7B07221A64608CD098408AE3423 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:56.066Z";
+    ucobs:hasFacet gpl:URL_B5295B4DB1B0A40318E89F5BC3BC6DAB;
+    ucobs:startTime "2023-08-14T08:01:55.727Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_B5295B4DB1B0A40318E89F5BC3BC6DAB a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/6/2801633.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_4B179FC8D33CD1E3F9E2739E806369AF a ucobs:DomainNameFacet;
+    ucobs:addressValue "region1.analytics.google.com".
+gpl:HTTPCON_42C2FACEE4AE76239D5C6B04CED39331 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-14T08:01:56.163Z";
+    ucobs:hasFacet gpl:URL_BF17A77FA5D4C30DF072830DC18D650D;
+    ucobs:startTime "2023-08-14T08:01:56.124Z".
+gpl:IP_A58F02CF3B56D080FA2E3C46B74E8367 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.239.34.36".
+gpl:URL_BF17A77FA5D4C30DF072830DC18D650D a ucobs:URLFacet;
+    ucobs:fullValue "https://region1.analytics.google.com/g/collect?v&tid&_ono&gtm&_p&_gaz&cid&ul&sr&_s&sid&sct&seg&dl&dt&en&_fv&_nsi&_ss";
+    ucobs:host gpl:DOMAIN_4B179FC8D33CD1E3F9E2739E806369AF, gpl:IP_A58F02CF3B56D080FA2E3C46B74E8367.
+gpl:DOMAIN_002953C0A6C6AD060D7204E365FAD0AD a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google.fr".
+gpl:HTTPCON_E64C79386EDA88761449479E49970EE0 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:01:56.176Z";
+    ucobs:hasFacet gpl:URL_44807DC96FDABB6E15DBF17CD11AD578;
+    ucobs:startTime "2023-08-14T08:01:56.126Z".
+gpl:IP_617C73BF99CBF91447023F9EDC99F034 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.214.163".
+gpl:URL_44807DC96FDABB6E15DBF17CD11AD578 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google.fr/ads/ga-audiences?v&t&slf_rd&_r&_ono&tid&cid&gtm&aip&z";
+    ucobs:host gpl:DOMAIN_002953C0A6C6AD060D7204E365FAD0AD, gpl:IP_617C73BF99CBF91447023F9EDC99F034.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_CD4CAE18F2FD163128DF56948A7300B8 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:56.193Z";
+    ucobs:hasFacet gpl:URL_A1D5125275CC83E45D3BC3C3B1D65854;
+    ucobs:startTime "2023-08-14T08:01:56.172Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_A1D5125275CC83E45D3BC3C3B1D65854 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/favicon.ico";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_A6AA60270761625A7E07B3D1BB925D85 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:56.227Z";
+    ucobs:hasFacet gpl:URL_2CDB07B1926572AB768D51079D2465EE;
+    ucobs:startTime "2023-08-14T08:01:56.215Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_2CDB07B1926572AB768D51079D2465EE a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/pick_of_the_week?_format";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google-analytics.com".
+gpl:HTTPCON_B916DEF06D431231FC4ACE9B26338DF5 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:01:56.259Z";
+    ucobs:hasFacet gpl:URL_8B79F4996C43469646FB5ED3D37839EA;
+    ucobs:startTime "2023-08-14T08:01:56.217Z".
+gpl:IP_04E87896B7E198A8565080777E404620 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.213.78".
+gpl:URL_8B79F4996C43469646FB5ED3D37839EA a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google-analytics.com/analytics.js";
+    ucobs:host gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1, gpl:IP_04E87896B7E198A8565080777E404620.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_68B5D4D62E770B4C104F21AABED462C9 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:56.278Z";
+    ucobs:hasFacet gpl:URL_4B081FCBE31101E344B2DF5E5EBC8F4E;
+    ucobs:startTime "2023-08-14T08:01:56.261Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_4B081FCBE31101E344B2DF5E5EBC8F4E a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/4/2795801.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_FCF8BA2CCD79F97DEA23B524E4B435E5 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:56.283Z";
+    ucobs:hasFacet gpl:URL_5714EBEDC0A71596741FEE6F51429EFA;
+    ucobs:startTime "2023-08-14T08:01:56.262Z".
+gpl:IP_CDB616D5FCC326BB2BE661D3B464449D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.74.5".
+gpl:URL_5714EBEDC0A71596741FEE6F51429EFA a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/sites/default/files/3/2792793.jpg";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_CDB616D5FCC326BB2BE661D3B464449D.
+gpl:DOMAIN_1154222CA8DCF7957AA1B0FA57E7283C a ucobs:DomainNameFacet;
+    ucobs:addressValue "ads.adthrive.com".
+gpl:HTTPCON_294AB64B9849B6B19788E5FBD9714A6D a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:01:56.285Z";
+    ucobs:hasFacet gpl:URL_58D2856EB22E3407A86E33D6285E3E21;
+    ucobs:startTime "2023-08-14T08:01:56.210Z".
+gpl:IP_EB515ED813152FE86D2936E644346A74 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.84.174.59".
+gpl:URL_58D2856EB22E3407A86E33D6285E3E21 a ucobs:URLFacet;
+    ucobs:fullValue "https://ads.adthrive.com/sites/5dc336ff22eddf534ab4417c/ads.min.js?referrer";
+    ucobs:host gpl:DOMAIN_1154222CA8DCF7957AA1B0FA57E7283C, gpl:IP_EB515ED813152FE86D2936E644346A74.
+gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google-analytics.com".
+gpl:HTTPCON_A3E9E53B7F33BB6B385BCCDCE8B873BA a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:56.292Z";
+    ucobs:hasFacet gpl:URL_9631705602B24FDD5322DDAF7923F740;
+    ucobs:startTime "2023-08-14T08:01:56.282Z".
+gpl:IP_04E87896B7E198A8565080777E404620 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.213.78".
+gpl:URL_9631705602B24FDD5322DDAF7923F740 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google-analytics.com/j/collect?v&_v&a&t&_s&dl&ul&de&dt&sd&sr&vp&je&_u&jid&gjid&cid&tid&_gid&_r&_slc&z";
+    ucobs:host gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1, gpl:IP_04E87896B7E198A8565080777E404620.
+gpl:DOMAIN_1154222CA8DCF7957AA1B0FA57E7283C a ucobs:DomainNameFacet;
+    ucobs:addressValue "ads.adthrive.com".
+gpl:HTTPCON_2045C318CB111A5181F74E228015BBF5 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:56.429Z";
+    ucobs:hasFacet gpl:URL_0F118BBC98E0E543384D78654C975B93;
+    ucobs:startTime "2023-08-14T08:01:56.383Z".
+gpl:IP_EB515ED813152FE86D2936E644346A74 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.84.174.59".
+gpl:URL_0F118BBC98E0E543384D78654C975B93 a ucobs:URLFacet;
+    ucobs:fullValue "https://ads.adthrive.com/api/v2/host/floors/www.encyclopedia.com";
+    ucobs:host gpl:DOMAIN_1154222CA8DCF7957AA1B0FA57E7283C, gpl:IP_EB515ED813152FE86D2936E644346A74.
+gpl:DOMAIN_F93E75FA4BA70D59E6CE5A69111E0098 a ucobs:DomainNameFacet;
+    ucobs:addressValue "stats.g.doubleclick.net".
+gpl:HTTPCON_F47395795DDC5D0B126722142D70343B a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:56.432Z";
+    ucobs:hasFacet gpl:URL_81CA0FBC04ED7F4532DEA115FC01DD0F;
+    ucobs:startTime "2023-08-14T08:01:56.384Z".
+gpl:IP_ED92693F6AC4F3BA5D2FA38B0A2F971F a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.194.76.155".
+gpl:URL_81CA0FBC04ED7F4532DEA115FC01DD0F a ucobs:URLFacet;
+    ucobs:fullValue "https://stats.g.doubleclick.net/j/collect?t&aip&_r&v&_v&tid&cid&jid&gjid&_gid&_u&z";
+    ucobs:host gpl:DOMAIN_F93E75FA4BA70D59E6CE5A69111E0098, gpl:IP_ED92693F6AC4F3BA5D2FA38B0A2F971F.
+gpl:DOMAIN_1154222CA8DCF7957AA1B0FA57E7283C a ucobs:DomainNameFacet;
+    ucobs:addressValue "ads.adthrive.com".
+gpl:HTTPCON_88718F59DEB7F0DAD9419135C91857E0 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:01:56.444Z";
+    ucobs:hasFacet gpl:URL_B8FA295857D5804C7FB0C538A2CE6306;
+    ucobs:startTime "2023-08-14T08:01:56.384Z".
+gpl:IP_EB515ED813152FE86D2936E644346A74 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.84.174.59".
+gpl:URL_B8FA295857D5804C7FB0C538A2CE6306 a ucobs:URLFacet;
+    ucobs:fullValue "https://ads.adthrive.com/builds/customizations/5dc336ff22eddf534ab4417c.js";
+    ucobs:host gpl:DOMAIN_1154222CA8DCF7957AA1B0FA57E7283C, gpl:IP_EB515ED813152FE86D2936E644346A74.
+gpl:DOMAIN_1154222CA8DCF7957AA1B0FA57E7283C a ucobs:DomainNameFacet;
+    ucobs:addressValue "ads.adthrive.com".
+gpl:HTTPCON_C2C606C29ADA9C4280A68F65DFB1368A a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:01:56.453Z";
+    ucobs:hasFacet gpl:URL_1ECFDEEC7907E37DEC8353FDBD44EF56;
+    ucobs:startTime "2023-08-14T08:01:56.383Z".
+gpl:IP_EB515ED813152FE86D2936E644346A74 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.84.174.59".
+gpl:URL_1ECFDEEC7907E37DEC8353FDBD44EF56 a ucobs:URLFacet;
+    ucobs:fullValue "https://ads.adthrive.com/builds/core/079609f/es2018/js/adthrive.min.js?deployment&bucket&deliveryFeatures&siteid";
+    ucobs:host gpl:DOMAIN_1154222CA8DCF7957AA1B0FA57E7283C, gpl:IP_EB515ED813152FE86D2936E644346A74.
+gpl:DOMAIN_347BF7FCD008087C47E9DEF4AA27DA23 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c.amazon-adsystem.com".
+gpl:HTTPCON_27991199E3671691EDE23395658CD51C a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:01:56.463Z";
+    ucobs:hasFacet gpl:URL_06C1D9AFB37183DC13004EA89E33E5B6;
+    ucobs:startTime "2023-08-14T08:01:56.389Z".
+gpl:IP_C7923FD58D2C651E4D9EAA422456DC5C a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.84.193.215".
+gpl:URL_06C1D9AFB37183DC13004EA89E33E5B6 a ucobs:URLFacet;
+    ucobs:fullValue "https://c.amazon-adsystem.com/aax2/apstag.js";
+    ucobs:host gpl:DOMAIN_347BF7FCD008087C47E9DEF4AA27DA23, gpl:IP_C7923FD58D2C651E4D9EAA422456DC5C.
+gpl:DOMAIN_1154222CA8DCF7957AA1B0FA57E7283C a ucobs:DomainNameFacet;
+    ucobs:addressValue "ads.adthrive.com".
+gpl:HTTPCON_76BE16597147C08FB3D13BB70018F949 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:01:56.464Z";
+    ucobs:hasFacet gpl:URL_E55C32E89262B16660FED85A23F8B569;
+    ucobs:startTime "2023-08-14T08:01:56.382Z".
+gpl:IP_EB515ED813152FE86D2936E644346A74 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.84.174.59".
+gpl:URL_E55C32E89262B16660FED85A23F8B569 a ucobs:URLFacet;
+    ucobs:fullValue "https://ads.adthrive.com/builds/core/079609f/gdpr/vendor/prebid/es2018/prebid.min.js";
+    ucobs:host gpl:DOMAIN_1154222CA8DCF7957AA1B0FA57E7283C, gpl:IP_EB515ED813152FE86D2936E644346A74.
+gpl:DOMAIN_1154222CA8DCF7957AA1B0FA57E7283C a ucobs:DomainNameFacet;
+    ucobs:addressValue "ads.adthrive.com".
+gpl:HTTPCON_C7DEA222B0C5B198057475566BC5C883 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:56.466Z";
+    ucobs:hasFacet gpl:URL_F021AFEE3619016807DDC5B807F02697;
+    ucobs:startTime "2023-08-14T08:01:56.381Z".
+gpl:IP_EB515ED813152FE86D2936E644346A74 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.84.174.59".
+gpl:URL_F021AFEE3619016807DDC5B807F02697 a ucobs:URLFacet;
+    ucobs:fullValue "https://ads.adthrive.com/api/v1/marmalade?siteid&url&deliveryFeatures";
+    ucobs:host gpl:DOMAIN_1154222CA8DCF7957AA1B0FA57E7283C, gpl:IP_EB515ED813152FE86D2936E644346A74.
+gpl:DOMAIN_002953C0A6C6AD060D7204E365FAD0AD a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google.fr".
+gpl:HTTPCON_4921C048D843B0AE6F27305B16FDA99D a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:01:56.492Z";
+    ucobs:hasFacet gpl:URL_C6861437DA54D45BD1D2C7D200B48DF3;
+    ucobs:startTime "2023-08-14T08:01:56.441Z".
+gpl:IP_617C73BF99CBF91447023F9EDC99F034 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.214.163".
+gpl:URL_C6861437DA54D45BD1D2C7D200B48DF3 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google.fr/ads/ga-audiences?t&aip&_r&slf_rd&v&_v&tid&cid&jid&_u&z";
+    ucobs:host gpl:DOMAIN_002953C0A6C6AD060D7204E365FAD0AD, gpl:IP_617C73BF99CBF91447023F9EDC99F034.
+gpl:DOMAIN_0A137B375CC3881A70E186CE2172C8D1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google.com".
+gpl:HTTPCON_488E1D0AEFA6C3F7E865088DC4F6C331 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:01:56.504Z";
+    ucobs:hasFacet gpl:URL_B08EDADE2A06587A4ABEB6EF48301E82;
+    ucobs:startTime "2023-08-14T08:01:56.441Z".
+gpl:IP_1F4CE9509CD91AB638DEC7140C5C1E5E a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.164".
+gpl:URL_B08EDADE2A06587A4ABEB6EF48301E82 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google.com/ads/ga-audiences?t&aip&_r&slf_rd&v&_v&tid&cid&jid&_u&z";
+    ucobs:host gpl:DOMAIN_0A137B375CC3881A70E186CE2172C8D1, gpl:IP_1F4CE9509CD91AB638DEC7140C5C1E5E.
+gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765 a ucobs:DomainNameFacet;
+    ucobs:addressValue "securepubads.g.doubleclick.net".
+gpl:HTTPCON_22EEE8989726C5BCB62E435AB95B58B4 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:01:56.529Z";
+    ucobs:hasFacet gpl:URL_5CBD058A2D0DD2BE4390164D6D0ACCA6;
+    ucobs:startTime "2023-08-14T08:01:56.389Z".
+gpl:IP_4ACD9712D72B224E85EEA0483A84F029 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.201.162".
+gpl:URL_5CBD058A2D0DD2BE4390164D6D0ACCA6 a ucobs:URLFacet;
+    ucobs:fullValue "https://securepubads.g.doubleclick.net/tag/js/gpt.js";
+    ucobs:host gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765, gpl:IP_4ACD9712D72B224E85EEA0483A84F029.
+gpl:DOMAIN_347BF7FCD008087C47E9DEF4AA27DA23 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c.amazon-adsystem.com".
+gpl:HTTPCON_204D77B14450957E00D3E7EBF639F61B a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:56.531Z";
+    ucobs:hasFacet gpl:URL_E00F3FEDD36FC7DA227FFDB3D0AADB69;
+    ucobs:startTime "2023-08-14T08:01:56.499Z".
+gpl:IP_C7923FD58D2C651E4D9EAA422456DC5C a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.84.193.215".
+gpl:URL_E00F3FEDD36FC7DA227FFDB3D0AADB69 a ucobs:URLFacet;
+    ucobs:fullValue "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js";
+    ucobs:host gpl:DOMAIN_347BF7FCD008087C47E9DEF4AA27DA23, gpl:IP_C7923FD58D2C651E4D9EAA422456DC5C.
+gpl:DOMAIN_939CF3EF703667AAD7D9EB5550B1542C a ucobs:DomainNameFacet;
+    ucobs:addressValue "gdpr-wrapper.privacymanager.io".
+gpl:HTTPCON_18D74E9BE6038908D9170F52FA2030E1 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:01:56.744Z";
+    ucobs:hasFacet gpl:URL_5E9DF8BC59C9C957A23D625785C887F2;
+    ucobs:startTime "2023-08-14T08:01:56.671Z".
+gpl:IP_5EF0BD7B10AD930C6AC1F069D0434B72 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.86".
+gpl:URL_5E9DF8BC59C9C957A23D625785C887F2 a ucobs:URLFacet;
+    ucobs:fullValue "https://gdpr-wrapper.privacymanager.io/gdpr/34233849-5500-4e44-8601-5006ae8d13fe/gdpr-liveramp.js";
+    ucobs:host gpl:DOMAIN_939CF3EF703667AAD7D9EB5550B1542C, gpl:IP_5EF0BD7B10AD930C6AC1F069D0434B72.
+gpl:DOMAIN_F93E75FA4BA70D59E6CE5A69111E0098 a ucobs:DomainNameFacet;
+    ucobs:addressValue "stats.g.doubleclick.net".
+gpl:HTTPCON_9F66D4FC7DC6BEC0F62F9645ADCA10AF a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-14T08:01:56.753Z";
+    ucobs:hasFacet gpl:URL_6F009F143B901B6DC25E52555CDD502F;
+    ucobs:startTime "2023-08-14T08:01:56.125Z".
+gpl:IP_ED92693F6AC4F3BA5D2FA38B0A2F971F a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.194.76.155".
+gpl:URL_6F009F143B901B6DC25E52555CDD502F a ucobs:URLFacet;
+    ucobs:fullValue "https://stats.g.doubleclick.net/g/collect?v&_ono&tid&cid&gtm&aip";
+    ucobs:host gpl:DOMAIN_F93E75FA4BA70D59E6CE5A69111E0098, gpl:IP_ED92693F6AC4F3BA5D2FA38B0A2F971F.
+gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765 a ucobs:DomainNameFacet;
+    ucobs:addressValue "securepubads.g.doubleclick.net".
+gpl:HTTPCON_B048513110B83EC22D07E19CCFED981D a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:01:56.765Z";
+    ucobs:hasFacet gpl:URL_F6DFF45042DC67C214E173D91117A907;
+    ucobs:startTime "2023-08-14T08:01:56.673Z".
+gpl:IP_4ACD9712D72B224E85EEA0483A84F029 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.201.162".
+gpl:URL_F6DFF45042DC67C214E173D91117A907 a ucobs:URLFacet;
+    ucobs:fullValue "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202308080102/pubads_impl.js?cb";
+    ucobs:host gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765, gpl:IP_4ACD9712D72B224E85EEA0483A84F029.
+gpl:DOMAIN_BC7C37BFF6B170320FA5586F153C2E2A a ucobs:DomainNameFacet;
+    ucobs:addressValue "gdpr.privacymanager.io".
+gpl:HTTPCON_9875357C4295AD0359A479E7F066DC3E a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:01:56.810Z";
+    ucobs:hasFacet gpl:URL_99F5A9B4835D99F73E661DCC8FB7742C;
+    ucobs:startTime "2023-08-14T08:01:56.763Z".
+gpl:IP_9089A23B46D30C158013D71A1FE36E1A a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.101".
+gpl:URL_99F5A9B4835D99F73E661DCC8FB7742C a ucobs:URLFacet;
+    ucobs:fullValue "https://gdpr.privacymanager.io/latest/gdpr.bundle.js";
+    ucobs:host gpl:DOMAIN_BC7C37BFF6B170320FA5586F153C2E2A, gpl:IP_9089A23B46D30C158013D71A1FE36E1A.
+gpl:DOMAIN_347BF7FCD008087C47E9DEF4AA27DA23 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c.amazon-adsystem.com".
+gpl:HTTPCON_E0F8A7A8A940CFCF8C1D92DB82B82E82 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:56.856Z";
+    ucobs:hasFacet gpl:URL_469E6CDEA25858FD0AA78FC432DD068D;
+    ucobs:startTime "2023-08-14T08:01:56.820Z".
+gpl:IP_C7923FD58D2C651E4D9EAA422456DC5C a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.84.193.215".
+gpl:URL_469E6CDEA25858FD0AA78FC432DD068D a ucobs:URLFacet;
+    ucobs:fullValue "https://c.amazon-adsystem.com/cdn/prod/config?src&u&pubid";
+    ucobs:host gpl:DOMAIN_347BF7FCD008087C47E9DEF4AA27DA23, gpl:IP_C7923FD58D2C651E4D9EAA422456DC5C.
+gpl:DOMAIN_1154222CA8DCF7957AA1B0FA57E7283C a ucobs:DomainNameFacet;
+    ucobs:addressValue "ads.adthrive.com".
+gpl:HTTPCON_FE7976DF8ABC86EA7A94CDA3AF51E410 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-14T08:01:56.857Z";
+    ucobs:hasFacet gpl:URL_48FE2EFBE553F1BD668A524C47099B2D;
+    ucobs:startTime "2023-08-14T08:01:56.819Z".
+gpl:IP_EB515ED813152FE86D2936E644346A74 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.84.174.59".
+gpl:URL_48FE2EFBE553F1BD668A524C47099B2D a ucobs:URLFacet;
+    ucobs:fullValue "https://ads.adthrive.com/sites/5dc336ff22eddf534ab4417c/ads.min.css";
+    ucobs:host gpl:DOMAIN_1154222CA8DCF7957AA1B0FA57E7283C, gpl:IP_EB515ED813152FE86D2936E644346A74.
+gpl:DOMAIN_DD1D1205DF8B3E38BAC78DD2F3F1E06C a ucobs:DomainNameFacet;
+    ucobs:addressValue "gum.criteo.com".
+gpl:HTTPCON_E9B88CEC8480272166A08E732BF0C96C a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:56.858Z";
+    ucobs:hasFacet gpl:URL_1E2C87ECF351DC9572043C0588445840;
+    ucobs:startTime "2023-08-14T08:01:56.801Z".
+gpl:IP_586D95042B984D15F3CBB2AEFAC219A9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "178.250.7.13".
+gpl:URL_1E2C87ECF351DC9572043C0588445840 a ucobs:URLFacet;
+    ucobs:fullValue "https://gum.criteo.com/sid/json?origin&topUrl&domain&cw&lsw";
+    ucobs:host gpl:DOMAIN_DD1D1205DF8B3E38BAC78DD2F3F1E06C, gpl:IP_586D95042B984D15F3CBB2AEFAC219A9.
+gpl:DOMAIN_CAB5969BD6E3A87CC2E5C069381AE910 a ucobs:DomainNameFacet;
+    ucobs:addressValue "api.rlcdn.com".
+gpl:HTTPCON_25E520D81AF0EFB7D957F5E5D98F6584 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:56.869Z";
+    ucobs:hasFacet gpl:URL_376E12E97DA38BB9FEE83F7CE6892D10;
+    ucobs:startTime "2023-08-14T08:01:56.802Z".
+gpl:IP_8013904F75C16F38A8F5ADBD92CA1CA1 a ucobs:IPAddressFacet;
+    ucobs:addressValue "34.120.133.55".
+gpl:URL_376E12E97DA38BB9FEE83F7CE6892D10 a ucobs:URLFacet;
+    ucobs:fullValue "https://api.rlcdn.com/api/identity/envelope?pid";
+    ucobs:host gpl:DOMAIN_CAB5969BD6E3A87CC2E5C069381AE910, gpl:IP_8013904F75C16F38A8F5ADBD92CA1CA1.
+gpl:DOMAIN_1F36251F1313ECFB2B141067EF15086C a ucobs:DomainNameFacet;
+    ucobs:addressValue "ups.analytics.yahoo.com".
+gpl:HTTPCON_6F65806D9ED618384EA629B0477E6C9B a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:56.872Z";
+    ucobs:hasFacet gpl:URL_B6125B960A1E67AAECD76BADCDBBF0E9;
+    ucobs:startTime "2023-08-14T08:01:56.794Z".
+gpl:IP_2DF2886F968F66F372054002530B4DBE a ucobs:IPAddressFacet;
+    ucobs:addressValue "3.75.62.37".
+gpl:URL_B6125B960A1E67AAECD76BADCDBBF0E9 a ucobs:URLFacet;
+    ucobs:fullValue "https://ups.analytics.yahoo.com/ups/58404/fed?v&1p&gdpr&gdpr_consent&us_privacy&url&pixelId";
+    ucobs:host gpl:DOMAIN_1F36251F1313ECFB2B141067EF15086C, gpl:IP_2DF2886F968F66F372054002530B4DBE.
+gpl:DOMAIN_135B955866E31CE0532FCD132ECF0D9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "id5-sync.com".
+gpl:HTTPCON_76AAC9C1D2AEAE9F8616E649502FFABE a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:56.880Z";
+    ucobs:hasFacet gpl:URL_45EC2A51E83FCF8812BF9FCF4C092D34;
+    ucobs:startTime "2023-08-14T08:01:56.801Z".
+gpl:IP_3BF13348512F8C04434E5A122A102421 a ucobs:IPAddressFacet;
+    ucobs:addressValue "162.19.138.117".
+gpl:URL_45EC2A51E83FCF8812BF9FCF4C092D34 a ucobs:URLFacet;
+    ucobs:fullValue "https://id5-sync.com/api/config/prebid";
+    ucobs:host gpl:DOMAIN_135B955866E31CE0532FCD132ECF0D9B, gpl:IP_3BF13348512F8C04434E5A122A102421.
+gpl:DOMAIN_DD1D1205DF8B3E38BAC78DD2F3F1E06C a ucobs:DomainNameFacet;
+    ucobs:addressValue "gum.criteo.com".
+gpl:HTTPCON_D3518C7DC1584187D267B6C641F521FA a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:56.881Z";
+    ucobs:hasFacet gpl:URL_1E2C87ECF351DC9572043C0588445840;
+    ucobs:startTime "2023-08-14T08:01:56.797Z".
+gpl:IP_586D95042B984D15F3CBB2AEFAC219A9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "178.250.7.13".
+gpl:URL_1E2C87ECF351DC9572043C0588445840 a ucobs:URLFacet;
+    ucobs:fullValue "https://gum.criteo.com/sid/json?origin&topUrl&domain&cw&lsw";
+    ucobs:host gpl:DOMAIN_DD1D1205DF8B3E38BAC78DD2F3F1E06C, gpl:IP_586D95042B984D15F3CBB2AEFAC219A9.
+gpl:DOMAIN_3CFB8329280B70D07CC0671FF0880115 a ucobs:DomainNameFacet;
+    ucobs:addressValue "match.adsrvr.org".
+gpl:HTTPCON_BFAA4DD5E950D873844C7C5BE1DDBE0D a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:56.899Z";
+    ucobs:hasFacet gpl:URL_48354DD304460EF7F92DD94BDDB4199B;
+    ucobs:startTime "2023-08-14T08:01:56.805Z".
+gpl:IP_7DB197E6EC3A10C225955652147DE82D a ucobs:IPAddressFacet;
+    ucobs:addressValue "3.33.220.150".
+gpl:URL_48354DD304460EF7F92DD94BDDB4199B a ucobs:URLFacet;
+    ucobs:fullValue "https://match.adsrvr.org/track/rid?ttd_pid&fmt";
+    ucobs:host gpl:DOMAIN_3CFB8329280B70D07CC0671FF0880115, gpl:IP_7DB197E6EC3A10C225955652147DE82D.
+gpl:DOMAIN_939CF3EF703667AAD7D9EB5550B1542C a ucobs:DomainNameFacet;
+    ucobs:addressValue "gdpr-wrapper.privacymanager.io".
+gpl:HTTPCON_E7A63A7443516BA67637D747180FB493 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:56.911Z";
+    ucobs:hasFacet gpl:URL_2188C080C2A49EEADC2997D94C3AD7DA;
+    ucobs:startTime "2023-08-14T08:01:56.887Z".
+gpl:IP_5EF0BD7B10AD930C6AC1F069D0434B72 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.86".
+gpl:URL_2188C080C2A49EEADC2997D94C3AD7DA a ucobs:URLFacet;
+    ucobs:fullValue "https://gdpr-wrapper.privacymanager.io/gdpr/34233849-5500-4e44-8601-5006ae8d13fe/vendor-list.json";
+    ucobs:host gpl:DOMAIN_939CF3EF703667AAD7D9EB5550B1542C, gpl:IP_5EF0BD7B10AD930C6AC1F069D0434B72.
+gpl:DOMAIN_939CF3EF703667AAD7D9EB5550B1542C a ucobs:DomainNameFacet;
+    ucobs:addressValue "gdpr-wrapper.privacymanager.io".
+gpl:HTTPCON_97186189629E093D85DB95D27B60195C a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:56.917Z";
+    ucobs:hasFacet gpl:URL_2188C080C2A49EEADC2997D94C3AD7DA;
+    ucobs:startTime "2023-08-14T08:01:56.885Z".
+gpl:IP_5EF0BD7B10AD930C6AC1F069D0434B72 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.249.9.86".
+gpl:URL_2188C080C2A49EEADC2997D94C3AD7DA a ucobs:URLFacet;
+    ucobs:fullValue "https://gdpr-wrapper.privacymanager.io/gdpr/34233849-5500-4e44-8601-5006ae8d13fe/vendor-list.json";
+    ucobs:host gpl:DOMAIN_939CF3EF703667AAD7D9EB5550B1542C, gpl:IP_5EF0BD7B10AD930C6AC1F069D0434B72.
+gpl:DOMAIN_28824A914DBBD4C67A87FA6E360F660D a ucobs:DomainNameFacet;
+    ucobs:addressValue "id.crwdcntrl.net".
+gpl:HTTPCON_A00EB2E3A5681132120468BBE4C74B90 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:56.918Z";
+    ucobs:hasFacet gpl:URL_6355B908A30951A542770F703EA46DAE;
+    ucobs:startTime "2023-08-14T08:01:56.812Z".
+gpl:IP_663706B9C434C12B24A3BC57861B603F a ucobs:IPAddressFacet;
+    ucobs:addressValue "54.72.84.52".
+gpl:URL_6355B908A30951A542770F703EA46DAE a ucobs:URLFacet;
+    ucobs:fullValue "https://id.crwdcntrl.net/id?c";
+    ucobs:host gpl:DOMAIN_28824A914DBBD4C67A87FA6E360F660D, gpl:IP_663706B9C434C12B24A3BC57861B603F.
+gpl:DOMAIN_88F2B66EFB8C91345CF80317C8CFE97B a ucobs:DomainNameFacet;
+    ucobs:addressValue "lb.eu-1-id5-sync.com".
+gpl:HTTPCON_7286B2274B348ACD80DC77EEF9A2A113 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.084Z";
+    ucobs:hasFacet gpl:URL_7514329A212EB816E20C8272CDFE1181;
+    ucobs:startTime "2023-08-14T08:01:57.038Z".
+gpl:IP_661993E21C2DC974756FCFF7CD2CA54F a ucobs:IPAddressFacet;
+    ucobs:addressValue "162.19.138.116".
+gpl:URL_7514329A212EB816E20C8272CDFE1181 a ucobs:URLFacet;
+    ucobs:fullValue "https://lb.eu-1-id5-sync.com/lb/v1";
+    ucobs:host gpl:DOMAIN_88F2B66EFB8C91345CF80317C8CFE97B, gpl:IP_661993E21C2DC974756FCFF7CD2CA54F.
+gpl:DOMAIN_41765D89BC229ACCBB3FF8998C3AAA9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "aax.amazon-adsystem.com".
+gpl:HTTPCON_D7E43EF4D0E8F6F595A9688B4722B31B a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.132Z";
+    ucobs:hasFacet gpl:URL_2BB9EE294DE129315D05EBC8DD5BF943;
+    ucobs:startTime "2023-08-14T08:01:57.080Z".
+gpl:IP_FB5A47E9288873F8A8FDCBC36FE44069 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.158.68".
+gpl:URL_2BB9EE294DE129315D05EBC8DD5BF943 a ucobs:URLFacet;
+    ucobs:fullValue "https://aax.amazon-adsystem.com/e/dtb/bid?src&u&pid&cb&ws&v&t&slots&pj&schain&pubid&gdpre&gdprl";
+    ucobs:host gpl:DOMAIN_41765D89BC229ACCBB3FF8998C3AAA9B, gpl:IP_FB5A47E9288873F8A8FDCBC36FE44069.
+gpl:DOMAIN_135B955866E31CE0532FCD132ECF0D9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "id5-sync.com".
+gpl:HTTPCON_DECA85276AFB9EFED617A9D279AA891A a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.160Z";
+    ucobs:hasFacet gpl:URL_38BE60CFE7CB898096DEBB96CB007AA2;
+    ucobs:startTime "2023-08-14T08:01:57.110Z".
+gpl:IP_3BF13348512F8C04434E5A122A102421 a ucobs:IPAddressFacet;
+    ucobs:addressValue "162.19.138.117".
+gpl:URL_38BE60CFE7CB898096DEBB96CB007AA2 a ucobs:URLFacet;
+    ucobs:fullValue "https://id5-sync.com/g/v2/367.json";
+    ucobs:host gpl:DOMAIN_135B955866E31CE0532FCD132ECF0D9B, gpl:IP_3BF13348512F8C04434E5A122A102421.
+gpl:DOMAIN_73116AE3F29DCD7036126A624394C0BE a ucobs:DomainNameFacet;
+    ucobs:addressValue "idx.liadm.com".
+gpl:HTTPCON_FEBF045A64DFE396538C0A80174FA45E a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.167Z";
+    ucobs:hasFacet gpl:URL_3BDE4F20D14A42AC90F07FC4546EA7E4;
+    ucobs:startTime "2023-08-14T08:01:56.808Z".
+gpl:IP_C95CDEADD967DE5733733C3E1D3FCE7B a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.1.99.83".
+gpl:URL_3BDE4F20D14A42AC90F07FC4546EA7E4 a ucobs:URLFacet;
+    ucobs:fullValue "https://idx.liadm.com/idex/prebid/any?duid&resolve&resolve&resolve&resolve&resolve";
+    ucobs:host gpl:DOMAIN_73116AE3F29DCD7036126A624394C0BE, gpl:IP_C95CDEADD967DE5733733C3E1D3FCE7B.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_5ACFB3612D1B9C9C6AFAD66FF4415431 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "iframe", "navigate";
+    ucobs:endTime "2023-08-14T08:01:57.206Z";
+    ucobs:hasFacet gpl:URL_13B9FA3743FFB81C57895F0D5FBBB4EA;
+    ucobs:startTime "2023-08-14T08:01:57.079Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_13B9FA3743FFB81C57895F0D5FBBB4EA a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme&useSystemFonts&cmpType";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_5E3E1CB1C01BF4027B6EFC823733942C a ucobs:DomainNameFacet;
+    ucobs:addressValue "prebid-server.rubiconproject.com".
+gpl:HTTPCON_9FE1234AAE669978EFB03F4B80D6E487 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.234Z";
+    ucobs:hasFacet gpl:URL_F4B38076D5E88CD0A179CF770370427E;
+    ucobs:startTime "2023-08-14T08:01:57.162Z".
+gpl:IP_011AB1DEE73CF7A23E3DCDA3EEA23F2D a ucobs:IPAddressFacet;
+    ucobs:addressValue "69.173.144.137".
+gpl:URL_F4B38076D5E88CD0A179CF770370427E a ucobs:URLFacet;
+    ucobs:fullValue "https://prebid-server.rubiconproject.com/cookie_sync";
+    ucobs:host gpl:DOMAIN_5E3E1CB1C01BF4027B6EFC823733942C, gpl:IP_011AB1DEE73CF7A23E3DCDA3EEA23F2D.
+gpl:DOMAIN_A8001D81EF6B5A20676ACC702C53C84D a ucobs:DomainNameFacet;
+    ucobs:addressValue "a.teads.tv".
+gpl:HTTPCON_DAF7C375CA8ACC083C601D1C229083C4 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.343Z";
+    ucobs:hasFacet gpl:URL_6B180B45B063CCE8159B6FEB26F4D5C9;
+    ucobs:startTime "2023-08-14T08:01:57.164Z".
+gpl:IP_A4EA2AF5C2102751847A28E88C023D3C a ucobs:IPAddressFacet;
+    ucobs:addressValue "23.77.161.49".
+gpl:URL_6B180B45B063CCE8159B6FEB26F4D5C9 a ucobs:URLFacet;
+    ucobs:fullValue "https://a.teads.tv/hb/bid-request";
+    ucobs:host gpl:DOMAIN_A8001D81EF6B5A20676ACC702C53C84D, gpl:IP_A4EA2AF5C2102751847A28E88C023D3C.
+gpl:DOMAIN_B46BFE24273E2362A46CB995304FFDAA a ucobs:DomainNameFacet;
+    ucobs:addressValue "bidder.criteo.com".
+gpl:HTTPCON_1B851DCDA026C248A4B8A19D81605D89 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.478Z";
+    ucobs:hasFacet gpl:URL_BF7C4E77B767A5D09771B0B10E620693;
+    ucobs:startTime "2023-08-14T08:01:57.168Z".
+gpl:IP_16E7B76EBC515E8FE696AA7E02D68B9A a ucobs:IPAddressFacet;
+    ucobs:addressValue "178.250.7.10".
+gpl:URL_BF7C4E77B767A5D09771B0B10E620693 a ucobs:URLFacet;
+    ucobs:fullValue "https://bidder.criteo.com/cdb?profileId&av&wv&cb&lsavail";
+    ucobs:host gpl:DOMAIN_B46BFE24273E2362A46CB995304FFDAA, gpl:IP_16E7B76EBC515E8FE696AA7E02D68B9A.
+gpl:DOMAIN_5E3E1CB1C01BF4027B6EFC823733942C a ucobs:DomainNameFacet;
+    ucobs:addressValue "prebid-server.rubiconproject.com".
+gpl:HTTPCON_BF779237ABD2FD11E92D162E6CC81612 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.479Z";
+    ucobs:hasFacet gpl:URL_EDC8901C8B28C46E8F3908AF49E7BBAD;
+    ucobs:startTime "2023-08-14T08:01:57.163Z".
+gpl:IP_011AB1DEE73CF7A23E3DCDA3EEA23F2D a ucobs:IPAddressFacet;
+    ucobs:addressValue "69.173.144.137".
+gpl:URL_EDC8901C8B28C46E8F3908AF49E7BBAD a ucobs:URLFacet;
+    ucobs:fullValue "https://prebid-server.rubiconproject.com/openrtb2/auction";
+    ucobs:host gpl:DOMAIN_5E3E1CB1C01BF4027B6EFC823733942C, gpl:IP_011AB1DEE73CF7A23E3DCDA3EEA23F2D.
+gpl:DOMAIN_88A493D0A331B1C2F25516B43349BD1C a ucobs:DomainNameFacet;
+    ucobs:addressValue "rtb.openx.net".
+gpl:HTTPCON_DF4B49D03232AE580560EB1C72B4AFD9 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.569Z";
+    ucobs:hasFacet gpl:URL_BB568C27B5496A5A9F5284B0A21028EC;
+    ucobs:startTime "2023-08-14T08:01:57.516Z".
+gpl:IP_2B643ABC34CFCE849AAC3586E4E1D73E a ucobs:IPAddressFacet;
+    ucobs:addressValue "35.186.253.211".
+gpl:URL_BB568C27B5496A5A9F5284B0A21028EC a ucobs:URLFacet;
+    ucobs:fullValue "https://rtb.openx.net/openrtbb/prebidjs";
+    ucobs:host gpl:DOMAIN_88A493D0A331B1C2F25516B43349BD1C, gpl:IP_2B643ABC34CFCE849AAC3586E4E1D73E.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_0DCB4905C0D9666DECEE1A0ACA68E8F8 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-14T08:01:57.602Z";
+    ucobs:hasFacet gpl:URL_5C2F36E3777BEBE5D2060F73BC724260;
+    ucobs:startTime "2023-08-14T08:01:57.582Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_5C2F36E3777BEBE5D2060F73BC724260 a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/styles.css";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_7B938A1D13C792F831CE360754E5B90E a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-14T08:01:57.603Z";
+    ucobs:hasFacet gpl:URL_91EA0563E298E3659D94D15F7558E934;
+    ucobs:startTime "2023-08-14T08:01:57.582Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_91EA0563E298E3659D94D15F7558E934 a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/openSans.css";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_D9D683D7E47D6502F52547DB0004A27C a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:57.604Z";
+    ucobs:hasFacet gpl:URL_CD697A1855ED934A07B280F274A0EC96;
+    ucobs:startTime "2023-08-14T08:01:57.583Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_CD697A1855ED934A07B280F274A0EC96 a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/runtime.js";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_8A8BC1C2C1194EBA31AC2DC8FB3E1948 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:57.611Z";
+    ucobs:hasFacet gpl:URL_4E6A5207A80E3A08CE8C77D698369DE6;
+    ucobs:startTime "2023-08-14T08:01:57.584Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_4E6A5207A80E3A08CE8C77D698369DE6 a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/polyfills.js";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_809A2ACB6C07B775C334623DEAB7F4EF a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:57.612Z";
+    ucobs:hasFacet gpl:URL_6975E52ED09E3730A1DC7F5FBFE24153;
+    ucobs:startTime "2023-08-14T08:01:57.584Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_6975E52ED09E3730A1DC7F5FBFE24153 a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/vendor.js";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_6A48F7C88FDA3687DC78B9AC360681C0 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:57.618Z";
+    ucobs:hasFacet gpl:URL_3742F39604FF19FDD442172C6CF73CDB;
+    ucobs:startTime "2023-08-14T08:01:57.585Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_3742F39604FF19FDD442172C6CF73CDB a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/main.js";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_E96E1079EE8E9680EBD74CDAEC40D111 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:57.619Z";
+    ucobs:hasFacet gpl:URL_CD697A1855ED934A07B280F274A0EC96;
+    ucobs:startTime "2023-08-14T08:01:57.585Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_CD697A1855ED934A07B280F274A0EC96 a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/runtime.js";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_30C397BE25ABAF99E430C2D64A100FE4 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:57.620Z";
+    ucobs:hasFacet gpl:URL_4E6A5207A80E3A08CE8C77D698369DE6;
+    ucobs:startTime "2023-08-14T08:01:57.586Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_4E6A5207A80E3A08CE8C77D698369DE6 a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/polyfills.js";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_863B30B29D5B77A00465B19A0FDD3A99 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:57.666Z";
+    ucobs:hasFacet gpl:URL_6975E52ED09E3730A1DC7F5FBFE24153;
+    ucobs:startTime "2023-08-14T08:01:57.586Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_6975E52ED09E3730A1DC7F5FBFE24153 a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/vendor.js";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_548350E499E67BCD908B5941A55FEC7C a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:57.668Z";
+    ucobs:hasFacet gpl:URL_3742F39604FF19FDD442172C6CF73CDB;
+    ucobs:startTime "2023-08-14T08:01:57.587Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_3742F39604FF19FDD442172C6CF73CDB a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/main.js";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_9B403E636803DF1BB4CBAA578C25BF03 a ucobs:DomainNameFacet;
+    ucobs:addressValue "tlx.3lift.com".
+gpl:HTTPCON_BBCE4F0DE28FD7ABA90219F3584E2C58 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.669Z";
+    ucobs:hasFacet gpl:URL_7FC6BC2396AEF64CCBCF6EAFE0F23C20;
+    ucobs:startTime "2023-08-14T08:01:57.516Z".
+gpl:IP_3701DA96BDE2637B7127EAB92A5B8A30 a ucobs:IPAddressFacet;
+    ucobs:addressValue "3.65.117.10".
+gpl:URL_7FC6BC2396AEF64CCBCF6EAFE0F23C20 a ucobs:URLFacet;
+    ucobs:fullValue "https://tlx.3lift.com/header/auction?lib&v&referrer&tmax";
+    ucobs:host gpl:DOMAIN_9B403E636803DF1BB4CBAA578C25BF03, gpl:IP_3701DA96BDE2637B7127EAB92A5B8A30.
+gpl:DOMAIN_5CDA25C9BF558795E8266024A5841D87 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c2shb.ssp.yahoo.com".
+gpl:HTTPCON_3F8E127BD429FDC9DC2DC55C37E401C7 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.671Z";
+    ucobs:hasFacet gpl:URL_085957D456D5AACB69F95BC6504EF992;
+    ucobs:startTime "2023-08-14T08:01:57.517Z".
+gpl:IP_C83281EF8E0CDF90FF7751DCD657EFBB a ucobs:IPAddressFacet;
+    ucobs:addressValue "35.157.246.167".
+gpl:URL_085957D456D5AACB69F95BC6504EF992 a ucobs:URLFacet;
+    ucobs:fullValue "https://c2shb.ssp.yahoo.com/bidRequest?dcn&pos&cmd&sens&eidpubcid.org&secure";
+    ucobs:host gpl:DOMAIN_5CDA25C9BF558795E8266024A5841D87, gpl:IP_C83281EF8E0CDF90FF7751DCD657EFBB.
+gpl:DOMAIN_5CDA25C9BF558795E8266024A5841D87 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c2shb.ssp.yahoo.com".
+gpl:HTTPCON_952CED2CC73EF33C8BC28ABA5CCA59BD a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.673Z";
+    ucobs:hasFacet gpl:URL_085957D456D5AACB69F95BC6504EF992;
+    ucobs:startTime "2023-08-14T08:01:57.518Z".
+gpl:IP_C83281EF8E0CDF90FF7751DCD657EFBB a ucobs:IPAddressFacet;
+    ucobs:addressValue "35.157.246.167".
+gpl:URL_085957D456D5AACB69F95BC6504EF992 a ucobs:URLFacet;
+    ucobs:fullValue "https://c2shb.ssp.yahoo.com/bidRequest?dcn&pos&cmd&sens&eidpubcid.org&secure";
+    ucobs:host gpl:DOMAIN_5CDA25C9BF558795E8266024A5841D87, gpl:IP_C83281EF8E0CDF90FF7751DCD657EFBB.
+gpl:DOMAIN_50FBB858C32B045B323F64625C7499A3 a ucobs:DomainNameFacet;
+    ucobs:addressValue "ib.adnxs.com".
+gpl:HTTPCON_B9EE66B6B24C0C7542FFF0CFBAC1179A a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.681Z";
+    ucobs:hasFacet gpl:URL_E05F26CA0BE2AC825092DD37EBEC1DB5;
+    ucobs:startTime "2023-08-14T08:01:57.529Z".
+gpl:IP_4C57E7CE52CE5658B1C3E9B2C655F7B2 a ucobs:IPAddressFacet;
+    ucobs:addressValue "185.89.210.244".
+gpl:URL_E05F26CA0BE2AC825092DD37EBEC1DB5 a ucobs:URLFacet;
+    ucobs:fullValue "https://ib.adnxs.com/ut/v3/prebid";
+    ucobs:host gpl:DOMAIN_50FBB858C32B045B323F64625C7499A3, gpl:IP_4C57E7CE52CE5658B1C3E9B2C655F7B2.
+gpl:DOMAIN_5CDA25C9BF558795E8266024A5841D87 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c2shb.ssp.yahoo.com".
+gpl:HTTPCON_952CED2CC73EF33C8BC28ABA5CCA59BD a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.684Z";
+    ucobs:hasFacet gpl:URL_085957D456D5AACB69F95BC6504EF992;
+    ucobs:startTime "2023-08-14T08:01:57.518Z".
+gpl:IP_C83281EF8E0CDF90FF7751DCD657EFBB a ucobs:IPAddressFacet;
+    ucobs:addressValue "35.157.246.167".
+gpl:URL_085957D456D5AACB69F95BC6504EF992 a ucobs:URLFacet;
+    ucobs:fullValue "https://c2shb.ssp.yahoo.com/bidRequest?dcn&pos&cmd&sens&eidpubcid.org&secure";
+    ucobs:host gpl:DOMAIN_5CDA25C9BF558795E8266024A5841D87, gpl:IP_C83281EF8E0CDF90FF7751DCD657EFBB.
+gpl:DOMAIN_2A50CA9EE8A940A96C53F60744D1C2E8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "btlr.sharethrough.com".
+gpl:HTTPCON_0BD1EE6FBEAF4B169B756CB6B2EA7E51 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.688Z";
+    ucobs:hasFacet gpl:URL_55A06B24C815DD6C656F0A9A5623BA5A;
+    ucobs:startTime "2023-08-14T08:01:57.531Z".
+gpl:IP_48E939D8EA4FD4998C49C4AE5DACEC45 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.58.17.56".
+gpl:URL_55A06B24C815DD6C656F0A9A5623BA5A a ucobs:URLFacet;
+    ucobs:fullValue "https://btlr.sharethrough.com/universal/v1?supply_id";
+    ucobs:host gpl:DOMAIN_2A50CA9EE8A940A96C53F60744D1C2E8, gpl:IP_48E939D8EA4FD4998C49C4AE5DACEC45.
+gpl:DOMAIN_2A50CA9EE8A940A96C53F60744D1C2E8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "btlr.sharethrough.com".
+gpl:HTTPCON_0BD1EE6FBEAF4B169B756CB6B2EA7E51 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.695Z";
+    ucobs:hasFacet gpl:URL_55A06B24C815DD6C656F0A9A5623BA5A;
+    ucobs:startTime "2023-08-14T08:01:57.531Z".
+gpl:IP_48E939D8EA4FD4998C49C4AE5DACEC45 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.58.17.56".
+gpl:URL_55A06B24C815DD6C656F0A9A5623BA5A a ucobs:URLFacet;
+    ucobs:fullValue "https://btlr.sharethrough.com/universal/v1?supply_id";
+    ucobs:host gpl:DOMAIN_2A50CA9EE8A940A96C53F60744D1C2E8, gpl:IP_48E939D8EA4FD4998C49C4AE5DACEC45.
+gpl:DOMAIN_4E9A59F177FD5DC89685ABD3A8B28656 a ucobs:DomainNameFacet;
+    ucobs:addressValue "direct.adsrvr.org".
+gpl:HTTPCON_186AF7148A01F28ABBE0A2B168887E32 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.727Z";
+    ucobs:hasFacet gpl:URL_40FFA3E8A59C36163580D3B3CD0F1218;
+    ucobs:startTime "2023-08-14T08:01:57.533Z".
+gpl:IP_AA7B8F7E83CDE0105BBC7B50D5E00F0E a ucobs:IPAddressFacet;
+    ucobs:addressValue "35.71.161.21".
+gpl:URL_40FFA3E8A59C36163580D3B3CD0F1218 a ucobs:URLFacet;
+    ucobs:fullValue "https://direct.adsrvr.org/bid/bidder/cafemedia";
+    ucobs:host gpl:DOMAIN_4E9A59F177FD5DC89685ABD3A8B28656, gpl:IP_AA7B8F7E83CDE0105BBC7B50D5E00F0E.
+gpl:DOMAIN_ECBBBE2D7626705F5E4D876304388DF2 a ucobs:DomainNameFacet;
+    ucobs:addressValue "hbopenbid.pubmatic.com".
+gpl:HTTPCON_7D07ABD843885F97B4CA39BDF1193B33 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.729Z";
+    ucobs:hasFacet gpl:URL_604E1BA43A22777096F393FCABD95530;
+    ucobs:startTime "2023-08-14T08:01:57.519Z".
+gpl:IP_5DDD8456D72C95FEF244E7019C65D81A a ucobs:IPAddressFacet;
+    ucobs:addressValue "185.64.190.77".
+gpl:URL_604E1BA43A22777096F393FCABD95530 a ucobs:URLFacet;
+    ucobs:fullValue "https://hbopenbid.pubmatic.com/translator?source";
+    ucobs:host gpl:DOMAIN_ECBBBE2D7626705F5E4D876304388DF2, gpl:IP_5DDD8456D72C95FEF244E7019C65D81A.
+gpl:DOMAIN_2A50CA9EE8A940A96C53F60744D1C2E8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "btlr.sharethrough.com".
+gpl:HTTPCON_9EF03F15ED565C3C03C538F0A93F9513 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.755Z";
+    ucobs:hasFacet gpl:URL_55A06B24C815DD6C656F0A9A5623BA5A;
+    ucobs:startTime "2023-08-14T08:01:57.530Z".
+gpl:IP_48E939D8EA4FD4998C49C4AE5DACEC45 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.58.17.56".
+gpl:URL_55A06B24C815DD6C656F0A9A5623BA5A a ucobs:URLFacet;
+    ucobs:fullValue "https://btlr.sharethrough.com/universal/v1?supply_id";
+    ucobs:host gpl:DOMAIN_2A50CA9EE8A940A96C53F60744D1C2E8, gpl:IP_48E939D8EA4FD4998C49C4AE5DACEC45.
+gpl:DOMAIN_ECB14DDD2808A61BC3F0A0282A429A6C a ucobs:DomainNameFacet;
+    ucobs:addressValue "c2shb.pubgw.yahoo.com".
+gpl:HTTPCON_84E04916A573CD8197DA7A4B044491AF a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.764Z";
+    ucobs:hasFacet gpl:URL_24053D5FDF636B07C0E544420A921AEF;
+    ucobs:startTime "2023-08-14T08:01:57.687Z".
+gpl:IP_A5C4DC68B8E75C63DDF6AF1172F7423B a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.28.203.152".
+gpl:URL_24053D5FDF636B07C0E544420A921AEF a ucobs:URLFacet;
+    ucobs:fullValue "https://c2shb.pubgw.yahoo.com/bidRequest";
+    ucobs:host gpl:DOMAIN_ECB14DDD2808A61BC3F0A0282A429A6C, gpl:IP_A5C4DC68B8E75C63DDF6AF1172F7423B.
+gpl:DOMAIN_2A50CA9EE8A940A96C53F60744D1C2E8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "btlr.sharethrough.com".
+gpl:HTTPCON_DB0CCEC44E914CB736E6F2C7C5B60703 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.765Z";
+    ucobs:hasFacet gpl:URL_55A06B24C815DD6C656F0A9A5623BA5A;
+    ucobs:startTime "2023-08-14T08:01:57.529Z".
+gpl:IP_48E939D8EA4FD4998C49C4AE5DACEC45 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.58.17.56".
+gpl:URL_55A06B24C815DD6C656F0A9A5623BA5A a ucobs:URLFacet;
+    ucobs:fullValue "https://btlr.sharethrough.com/universal/v1?supply_id";
+    ucobs:host gpl:DOMAIN_2A50CA9EE8A940A96C53F60744D1C2E8, gpl:IP_48E939D8EA4FD4998C49C4AE5DACEC45.
+gpl:DOMAIN_ECB14DDD2808A61BC3F0A0282A429A6C a ucobs:DomainNameFacet;
+    ucobs:addressValue "c2shb.pubgw.yahoo.com".
+gpl:HTTPCON_24058DAB7CC5EFA772DB2F8F38F7CDA2 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.766Z";
+    ucobs:hasFacet gpl:URL_24053D5FDF636B07C0E544420A921AEF;
+    ucobs:startTime "2023-08-14T08:01:57.686Z".
+gpl:IP_A5C4DC68B8E75C63DDF6AF1172F7423B a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.28.203.152".
+gpl:URL_24053D5FDF636B07C0E544420A921AEF a ucobs:URLFacet;
+    ucobs:fullValue "https://c2shb.pubgw.yahoo.com/bidRequest";
+    ucobs:host gpl:DOMAIN_ECB14DDD2808A61BC3F0A0282A429A6C, gpl:IP_A5C4DC68B8E75C63DDF6AF1172F7423B.
+gpl:DOMAIN_ECB14DDD2808A61BC3F0A0282A429A6C a ucobs:DomainNameFacet;
+    ucobs:addressValue "c2shb.pubgw.yahoo.com".
+gpl:HTTPCON_24058DAB7CC5EFA772DB2F8F38F7CDA2 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.767Z";
+    ucobs:hasFacet gpl:URL_24053D5FDF636B07C0E544420A921AEF;
+    ucobs:startTime "2023-08-14T08:01:57.686Z".
+gpl:IP_A5C4DC68B8E75C63DDF6AF1172F7423B a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.28.203.152".
+gpl:URL_24053D5FDF636B07C0E544420A921AEF a ucobs:URLFacet;
+    ucobs:fullValue "https://c2shb.pubgw.yahoo.com/bidRequest";
+    ucobs:host gpl:DOMAIN_ECB14DDD2808A61BC3F0A0282A429A6C, gpl:IP_A5C4DC68B8E75C63DDF6AF1172F7423B.
+gpl:DOMAIN_2A50CA9EE8A940A96C53F60744D1C2E8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "btlr.sharethrough.com".
+gpl:HTTPCON_D277F22D470E591F015E2B8C576BFE20 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.797Z";
+    ucobs:hasFacet gpl:URL_55A06B24C815DD6C656F0A9A5623BA5A;
+    ucobs:startTime "2023-08-14T08:01:57.532Z".
+gpl:IP_48E939D8EA4FD4998C49C4AE5DACEC45 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.58.17.56".
+gpl:URL_55A06B24C815DD6C656F0A9A5623BA5A a ucobs:URLFacet;
+    ucobs:fullValue "https://btlr.sharethrough.com/universal/v1?supply_id";
+    ucobs:host gpl:DOMAIN_2A50CA9EE8A940A96C53F60744D1C2E8, gpl:IP_48E939D8EA4FD4998C49C4AE5DACEC45.
+gpl:DOMAIN_ECB14DDD2808A61BC3F0A0282A429A6C a ucobs:DomainNameFacet;
+    ucobs:addressValue "c2shb.pubgw.yahoo.com".
+gpl:HTTPCON_D4F5AB818D1C0ACCB95BC17CD2FFA5D9 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.802Z";
+    ucobs:hasFacet gpl:URL_24053D5FDF636B07C0E544420A921AEF;
+    ucobs:startTime "2023-08-14T08:01:57.528Z".
+gpl:IP_A5C4DC68B8E75C63DDF6AF1172F7423B a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.28.203.152".
+gpl:URL_24053D5FDF636B07C0E544420A921AEF a ucobs:URLFacet;
+    ucobs:fullValue "https://c2shb.pubgw.yahoo.com/bidRequest";
+    ucobs:host gpl:DOMAIN_ECB14DDD2808A61BC3F0A0282A429A6C, gpl:IP_A5C4DC68B8E75C63DDF6AF1172F7423B.
+gpl:DOMAIN_ECB14DDD2808A61BC3F0A0282A429A6C a ucobs:DomainNameFacet;
+    ucobs:addressValue "c2shb.pubgw.yahoo.com".
+gpl:HTTPCON_E858C6441C9DF72ADC67F379865A795D a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.803Z";
+    ucobs:hasFacet gpl:URL_24053D5FDF636B07C0E544420A921AEF;
+    ucobs:startTime "2023-08-14T08:01:57.527Z".
+gpl:IP_A5C4DC68B8E75C63DDF6AF1172F7423B a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.28.203.152".
+gpl:URL_24053D5FDF636B07C0E544420A921AEF a ucobs:URLFacet;
+    ucobs:fullValue "https://c2shb.pubgw.yahoo.com/bidRequest";
+    ucobs:host gpl:DOMAIN_ECB14DDD2808A61BC3F0A0282A429A6C, gpl:IP_A5C4DC68B8E75C63DDF6AF1172F7423B.
+gpl:DOMAIN_ECB14DDD2808A61BC3F0A0282A429A6C a ucobs:DomainNameFacet;
+    ucobs:addressValue "c2shb.pubgw.yahoo.com".
+gpl:HTTPCON_8AF2946FB6454F4A8FD7E2201FA1883C a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.811Z";
+    ucobs:hasFacet gpl:URL_24053D5FDF636B07C0E544420A921AEF;
+    ucobs:startTime "2023-08-14T08:01:57.521Z".
+gpl:IP_A5C4DC68B8E75C63DDF6AF1172F7423B a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.28.203.152".
+gpl:URL_24053D5FDF636B07C0E544420A921AEF a ucobs:URLFacet;
+    ucobs:fullValue "https://c2shb.pubgw.yahoo.com/bidRequest";
+    ucobs:host gpl:DOMAIN_ECB14DDD2808A61BC3F0A0282A429A6C, gpl:IP_A5C4DC68B8E75C63DDF6AF1172F7423B.
+gpl:DOMAIN_90F3D313A94AE42BFF1F180DF53B773B a ucobs:DomainNameFacet;
+    ucobs:addressValue "exchange.postrelease.com".
+gpl:HTTPCON_EF8676340BC9AA7E4DEBC24924902A5D a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.815Z";
+    ucobs:hasFacet gpl:URL_1A340F1A7260F6C134960B23DB5BBC23;
+    ucobs:startTime "2023-08-14T08:01:57.535Z".
+gpl:IP_D29BDD0A554D8E1BDAB311DB615628BE a ucobs:IPAddressFacet;
+    ucobs:addressValue "54.170.165.235".
+gpl:URL_1A340F1A7260F6C134960B23DB5BBC23 a ucobs:URLFacet;
+    ucobs:fullValue "https://exchange.postrelease.com/prebid?ntv_pb_eid&ntv_pbv&ntv_pb_rid&ntv_ppc&ntv_dbr&ntv_url";
+    ucobs:host gpl:DOMAIN_90F3D313A94AE42BFF1F180DF53B773B, gpl:IP_D29BDD0A554D8E1BDAB311DB615628BE.
+gpl:DOMAIN_413C5D69ED0163589C3543B88DD3C1E3 a ucobs:DomainNameFacet;
+    ucobs:addressValue "g2.gumgum.com".
+gpl:HTTPCON_FE4FA52137711FB83569437637E08A27 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.832Z";
+    ucobs:hasFacet gpl:URL_B3F6E9153AA9FA65739F2262F9BE3715;
+    ucobs:startTime "2023-08-14T08:01:57.534Z".
+gpl:IP_F34AA7D8A0077FBFBD8990E84077C094 a ucobs:IPAddressFacet;
+    ucobs:addressValue "54.76.97.138".
+gpl:URL_B3F6E9153AA9FA65739F2262F9BE3715 a ucobs:URLFacet;
+    ucobs:fullValue "https://g2.gumgum.com/hbid/imp?lt&to&aun&pubcid&gpid&t&pi&schain&vw&vh&sw&sh&pu&ce&dpr&jcsi&ogu";
+    ucobs:host gpl:DOMAIN_413C5D69ED0163589C3543B88DD3C1E3, gpl:IP_F34AA7D8A0077FBFBD8990E84077C094.
+gpl:DOMAIN_4D708947E4A0CE8F99F5846DA37CD5CF a ucobs:DomainNameFacet;
+    ucobs:addressValue "htlb.casalemedia.com".
+gpl:HTTPCON_E148557990948487D129AC3F2DF3F7B7 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.837Z";
+    ucobs:hasFacet gpl:URL_9EB43AB32DD237512E6279B9E8374952;
+    ucobs:startTime "2023-08-14T08:01:57.165Z".
+gpl:IP_BFFDC5FDE6E69715FC3764F9FB1574D9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.18.24.185".
+gpl:URL_9EB43AB32DD237512E6279B9E8374952 a ucobs:URLFacet;
+    ucobs:fullValue "https://htlb.casalemedia.com/openrtb/pbjs?s";
+    ucobs:host gpl:DOMAIN_4D708947E4A0CE8F99F5846DA37CD5CF, gpl:IP_BFFDC5FDE6E69715FC3764F9FB1574D9.
+gpl:DOMAIN_83715EB7864C37EEF6C4D332E7D7019A a ucobs:DomainNameFacet;
+    ucobs:addressValue "colossusssp.com".
+gpl:HTTPCON_A8CD43EF66FD53AA96373B5E76031DAC a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.894Z";
+    ucobs:hasFacet gpl:URL_52FD9C1774C667AB80FC47956D4FB80F;
+    ucobs:startTime "2023-08-14T08:01:57.534Z".
+gpl:IP_8C82476ACC6076818730CC1A4C135B37 a ucobs:IPAddressFacet;
+    ucobs:addressValue "64.247.192.254".
+gpl:URL_52FD9C1774C667AB80FC47956D4FB80F a ucobs:URLFacet;
+    ucobs:fullValue "https://colossusssp.com/?c&m";
+    ucobs:host gpl:DOMAIN_83715EB7864C37EEF6C4D332E7D7019A, gpl:IP_8C82476ACC6076818730CC1A4C135B37.
+gpl:DOMAIN_4D694545CA3D4A5026031502D10E4952 a ucobs:DomainNameFacet;
+    ucobs:addressValue "fastlane.rubiconproject.com".
+gpl:HTTPCON_AC218490F810CE6BE545EDF5F692907A a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:57.940Z";
+    ucobs:hasFacet gpl:URL_CAF8D5B0930854C3A6AA42CC5236E3ED;
+    ucobs:startTime "2023-08-14T08:01:57.520Z".
+gpl:IP_A0F66312C3F427B3407B62F83D61FE27 a ucobs:IPAddressFacet;
+    ucobs:addressValue "213.19.162.44".
+gpl:URL_CAF8D5B0930854C3A6AA42CC5236E3ED a ucobs:URLFacet;
+    ucobs:fullValue "https://fastlane.rubiconproject.com/a/api/fastlane.json?account_id&site_id&zone_id&size_id&alt_size_ids&rp_schain&eid_pubcid.org&rf&kw&tg_i.domain&tg_i.page&tg_i.privacypolicy&tg_i.mobile&tg_i.site_id&tg_i.sens&tg_i.verticals&tg_i.pmp_elig&tg_i.refresh&tg_i.vp&tg_i.pbadslot&tk_flint&x_source.tid&l_pb_bid_id&p_screen_res&rp_secure&x_imp.ext.tid&rp_maxbids&p_gpid&slots&rand";
+    ucobs:host gpl:DOMAIN_4D694545CA3D4A5026031502D10E4952, gpl:IP_A0F66312C3F427B3407B62F83D61FE27.
+gpl:DOMAIN_67B26E9BA92BB608B7758EB5797B2F22 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn-ima.33across.com".
+gpl:HTTPCON_B9661E7C07F7806591D019F267FFF3D0 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:01:58.126Z";
+    ucobs:hasFacet gpl:URL_B673DA9CCC3DD7EF60F6B2773A1A6CBD;
+    ucobs:startTime "2023-08-14T08:01:56.891Z".
+gpl:IP_F7CF109B749688C58601FB8C7B66F77B a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.18.25.112".
+gpl:URL_B673DA9CCC3DD7EF60F6B2773A1A6CBD a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn-ima.33across.com/ima.js";
+    ucobs:host gpl:DOMAIN_67B26E9BA92BB608B7758EB5797B2F22, gpl:IP_F7CF109B749688C58601FB8C7B66F77B.
+gpl:DOMAIN_D8B068F6C756680A3845EFCC5F3F77DC a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.id5-sync.com".
+gpl:HTTPCON_558DA9E595B6C146D1E81A97DB916DFE a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:01:58.132Z";
+    ucobs:hasFacet gpl:URL_C08608E5962D9B74A18D82904F474939;
+    ucobs:startTime "2023-08-14T08:01:56.891Z".
+gpl:IP_9B3AA70BA725A625CC8DE4E6F5C6F55D a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.67.38.106".
+gpl:URL_C08608E5962D9B74A18D82904F474939 a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.id5-sync.com/api/1.0/id5-api.js";
+    ucobs:host gpl:DOMAIN_D8B068F6C756680A3845EFCC5F3F77DC, gpl:IP_9B3AA70BA725A625CC8DE4E6F5C6F55D.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_282AA854B1DE63A4AF3271648AD9D9D5 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:58.160Z";
+    ucobs:hasFacet gpl:URL_D551F5807B8D771E5D18311738994406;
+    ucobs:startTime "2023-08-14T08:01:58.153Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_D551F5807B8D771E5D18311738994406 a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/847.js";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_2847E104B817B2785ED261065EDB3E13 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:58.161Z";
+    ucobs:hasFacet gpl:URL_3F5641799C6CF5D5547433B2F436DAC0;
+    ucobs:startTime "2023-08-14T08:01:58.154Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_3F5641799C6CF5D5547433B2F436DAC0 a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/650.js";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_49BD801C827B2824FCD5689B81D47AF9 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.jwplayer.com".
+gpl:HTTPCON_B4220A4D1FE4144B704B54C25F5F3FCE a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:58.336Z";
+    ucobs:hasFacet gpl:URL_2AD079BDFF80F5C95E3007DA45078E35;
+    ucobs:startTime "2023-08-14T08:01:58.284Z".
+gpl:IP_FFE3123278727347BB06383B5B53CDEB a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.169.112".
+gpl:URL_2AD079BDFF80F5C95E3007DA45078E35 a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.jwplayer.com/v2/playlists/WQuApcCp?max_resolution";
+    ucobs:host gpl:DOMAIN_49BD801C827B2824FCD5689B81D47AF9, gpl:IP_FFE3123278727347BB06383B5B53CDEB.
+gpl:DOMAIN_41765D89BC229ACCBB3FF8998C3AAA9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "aax.amazon-adsystem.com".
+gpl:HTTPCON_89F5A9C8B50A08AE919FB0B17678647F a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-14T08:01:58.339Z";
+    ucobs:hasFacet gpl:URL_E49DAF6EA2B1E9B0A8BE9FD0695B2381;
+    ucobs:startTime "2023-08-14T08:01:58.284Z".
+gpl:IP_FB5A47E9288873F8A8FDCBC36FE44069 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.158.68".
+gpl:URL_E49DAF6EA2B1E9B0A8BE9FD0695B2381 a ucobs:URLFacet;
+    ucobs:fullValue "https://aax.amazon-adsystem.com/x/px/p/PH/%7B%22_tl%22%3A%22aps-tag%22%2C%22_type%22%3A%22featureUsage%22%2C%22src%22%3A%22kraken%22%2C%22pubid%22%3A%224fbba76f-7987-4fa2-9733-c27eb3a2170b%22%2C%22p%22%3A%5B%7B%22cat%22%3A%22log%252Flibrary%252FdidUseFeature%22%2C%22feat%22%3A%22started%22%7D%5D%2C%22u%22%3A%22https%253A%252F%252Fwww.encyclopedia.com%252F%22%2C%22lv%22%3A%2223.725.1446%22%7D";
+    ucobs:host gpl:DOMAIN_41765D89BC229ACCBB3FF8998C3AAA9B, gpl:IP_FB5A47E9288873F8A8FDCBC36FE44069.
+gpl:DOMAIN_41765D89BC229ACCBB3FF8998C3AAA9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "aax.amazon-adsystem.com".
+gpl:HTTPCON_2D94106BFDCC8E55BFC8B91460BB1780 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-14T08:01:58.341Z";
+    ucobs:hasFacet gpl:URL_F32EB9408F4CB18FDA42630EE28AE8E3;
+    ucobs:startTime "2023-08-14T08:01:58.286Z".
+gpl:IP_FB5A47E9288873F8A8FDCBC36FE44069 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.158.68".
+gpl:URL_F32EB9408F4CB18FDA42630EE28AE8E3 a ucobs:URLFacet;
+    ucobs:fullValue "https://aax.amazon-adsystem.com/x/px/p/PH/%7B%22_tl%22%3A%22aps-tag%22%2C%22_type%22%3A%22featureUsage%22%2C%22src%22%3A%22kraken%22%2C%22pubid%22%3A%224fbba76f-7987-4fa2-9733-c27eb3a2170b%22%2C%22p%22%3A%5B%7B%22cat%22%3A%22log%252Flibrary%252FdidUseFeature%22%2C%22feat%22%3A%22cancelled%22%7D%5D%2C%22u%22%3A%22https%253A%252F%252Fwww.encyclopedia.com%252F%22%2C%22lv%22%3A%2223.725.1446%22%7D";
+    ucobs:host gpl:DOMAIN_41765D89BC229ACCBB3FF8998C3AAA9B, gpl:IP_FB5A47E9288873F8A8FDCBC36FE44069.
+gpl:DOMAIN_41765D89BC229ACCBB3FF8998C3AAA9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "aax.amazon-adsystem.com".
+gpl:HTTPCON_CFFE19F4264FB54F968C5EAB1CB45FD0 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-14T08:01:58.348Z";
+    ucobs:hasFacet gpl:URL_F32EB9408F4CB18FDA42630EE28AE8E3;
+    ucobs:startTime "2023-08-14T08:01:58.285Z".
+gpl:IP_FB5A47E9288873F8A8FDCBC36FE44069 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.158.68".
+gpl:URL_F32EB9408F4CB18FDA42630EE28AE8E3 a ucobs:URLFacet;
+    ucobs:fullValue "https://aax.amazon-adsystem.com/x/px/p/PH/%7B%22_tl%22%3A%22aps-tag%22%2C%22_type%22%3A%22featureUsage%22%2C%22src%22%3A%22kraken%22%2C%22pubid%22%3A%224fbba76f-7987-4fa2-9733-c27eb3a2170b%22%2C%22p%22%3A%5B%7B%22cat%22%3A%22log%252Flibrary%252FdidUseFeature%22%2C%22feat%22%3A%22cancelled%22%7D%5D%2C%22u%22%3A%22https%253A%252F%252Fwww.encyclopedia.com%252F%22%2C%22lv%22%3A%2223.725.1446%22%7D";
+    ucobs:host gpl:DOMAIN_41765D89BC229ACCBB3FF8998C3AAA9B, gpl:IP_FB5A47E9288873F8A8FDCBC36FE44069.
+gpl:DOMAIN_3DA7FF62A35824569C4B19B1BAB46F37 a ucobs:DomainNameFacet;
+    ucobs:addressValue "rp.liadm.com".
+gpl:HTTPCON_D94E2DF8E286B7B234F4A6A0018BE1D0 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:58.366Z";
+    ucobs:hasFacet gpl:URL_402CECC7EA808871C6659A78CAE6B3AC;
+    ucobs:startTime "2023-08-14T08:01:58.283Z".
+gpl:IP_F0DF927B7AC3939D327558A007832684 a ucobs:IPAddressFacet;
+    ucobs:addressValue "34.238.87.60".
+gpl:URL_402CECC7EA808871C6659A78CAE6B3AC a ucobs:URLFacet;
+    ucobs:fullValue "https://rp.liadm.com/j?dtstmp&se&duid&pu&wpn&n3pc";
+    ucobs:host gpl:DOMAIN_3DA7FF62A35824569C4B19B1BAB46F37, gpl:IP_F0DF927B7AC3939D327558A007832684.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_7421A0C19D1EC0F2BDBFEC565B586954 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-14T08:01:58.399Z";
+    ucobs:hasFacet gpl:URL_F1E0D2F8878F3B93EFD4105AC3FFEE8A;
+    ucobs:startTime "2023-08-14T08:01:58.392Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_F1E0D2F8878F3B93EFD4105AC3FFEE8A a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/blueLagoon.css";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_FD789A3F531CC63DF84770CFD3BCFE88 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:01:58.400Z";
+    ucobs:hasFacet gpl:URL_391AA59CD971AE902ADB56A14C9AFF30;
+    ucobs:startTime "2023-08-14T08:01:58.393Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_391AA59CD971AE902ADB56A14C9AFF30 a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/702.js";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_5F08ADCD7C8326E229E6B9E79CFC127F a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "font", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:58.401Z";
+    ucobs:hasFacet gpl:URL_DD906165E6FE9C204CD5A2C056E388BA;
+    ucobs:startTime "2023-08-14T08:01:58.393Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_DD906165E6FE9C204CD5A2C056E388BA a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/open-sans-latin-400-normal.woff2";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_FBBA2ACA141CB764D5ACB8F6C1C2D177 a ucobs:DomainNameFacet;
+    ucobs:addressValue "vendors.privacymanager.io".
+gpl:HTTPCON_B2981E379F8D65CC61AD0CB4999227D8 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:58.536Z";
+    ucobs:hasFacet gpl:URL_B0E856E8C37721594445A28C7403E8E0;
+    ucobs:startTime "2023-08-14T08:01:58.495Z".
+gpl:IP_506D6B8F0F7205693905098A296C94B8 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.26".
+gpl:URL_B0E856E8C37721594445A28C7403E8E0 a ucobs:URLFacet;
+    ucobs:fullValue "https://vendors.privacymanager.io/purposes-fr.json";
+    ucobs:host gpl:DOMAIN_FBBA2ACA141CB764D5ACB8F6C1C2D177, gpl:IP_506D6B8F0F7205693905098A296C94B8.
+gpl:DOMAIN_FBBA2ACA141CB764D5ACB8F6C1C2D177 a ucobs:DomainNameFacet;
+    ucobs:addressValue "vendors.privacymanager.io".
+gpl:HTTPCON_1E85DA798609DA5C937B71F0BF77692D a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:01:58.540Z";
+    ucobs:hasFacet gpl:URL_B0E856E8C37721594445A28C7403E8E0;
+    ucobs:startTime "2023-08-14T08:01:58.496Z".
+gpl:IP_506D6B8F0F7205693905098A296C94B8 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.26".
+gpl:URL_B0E856E8C37721594445A28C7403E8E0 a ucobs:URLFacet;
+    ucobs:fullValue "https://vendors.privacymanager.io/purposes-fr.json";
+    ucobs:host gpl:DOMAIN_FBBA2ACA141CB764D5ACB8F6C1C2D177, gpl:IP_506D6B8F0F7205693905098A296C94B8.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_1321DA0B2A3D955E5C419D8F37D258FD a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "font", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:58.544Z";
+    ucobs:hasFacet gpl:URL_DD906165E6FE9C204CD5A2C056E388BA;
+    ucobs:startTime "2023-08-14T08:01:58.539Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_DD906165E6FE9C204CD5A2C056E388BA a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/open-sans-latin-400-normal.woff2";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_BC7C37BFF6B170320FA5586F153C2E2A a ucobs:DomainNameFacet;
+    ucobs:addressValue "gdpr.privacymanager.io".
+gpl:HTTPCON_1F010EB0FAB04E9A04068274B7772573 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-site";
+    ucobs:endTime "2023-08-14T08:01:58.612Z";
+    ucobs:hasFacet gpl:URL_4046350C777FB1F79BF8C4B977D3689A;
+    ucobs:startTime "2023-08-14T08:01:58.594Z".
+gpl:IP_9089A23B46D30C158013D71A1FE36E1A a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.101".
+gpl:URL_4046350C777FB1F79BF8C4B977D3689A a ucobs:URLFacet;
+    ucobs:fullValue "https://gdpr.privacymanager.io/1/fingerprint-logo.png";
+    ucobs:host gpl:DOMAIN_BC7C37BFF6B170320FA5586F153C2E2A, gpl:IP_9089A23B46D30C158013D71A1FE36E1A.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_491530C7950C1997190507B76DF2AD16 a ucobs:HTTPConnectionFacet;
+    core:tag "empty", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:58.613Z";
+    ucobs:hasFacet gpl:URL_E76E520D9A7F6A568392CCD211527AB1;
+    ucobs:startTime "2023-08-14T08:01:58.593Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_E76E520D9A7F6A568392CCD211527AB1 a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/defaultTheme.css";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_3570CA5B5A50003C1E203F5F09B03122 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "image", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:58.623Z";
+    ucobs:hasFacet gpl:URL_DE649E2C143EFDC854591193CEED156B;
+    ucobs:startTime "2023-08-14T08:01:58.616Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_DE649E2C143EFDC854591193CEED156B a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/icon-chevron-left.svg";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_9871975F1C91A1BC1C7848F6DBEA661E a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "font", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:58.624Z";
+    ucobs:hasFacet gpl:URL_BF9BB646D3C3E5D3F3AB23BD1A00B741;
+    ucobs:startTime "2023-08-14T08:01:58.617Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_BF9BB646D3C3E5D3F3AB23BD1A00B741 a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/open-sans-latin-700-normal.woff2";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_5441D58F68D0ADC608F505E230C5E513 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "font", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:58.626Z";
+    ucobs:hasFacet gpl:URL_1EC205345C1882824255A08097E4C173;
+    ucobs:startTime "2023-08-14T08:01:58.617Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_1EC205345C1882824255A08097E4C173 a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/open-sans-latin-600-normal.woff2";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "cmp-consent-tool.privacymanager.io".
+gpl:HTTPCON_F1CC452F47943F8B2B867DC094B18CBC a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "font", "same-origin";
+    ucobs:endTime "2023-08-14T08:01:58.627Z";
+    ucobs:hasFacet gpl:URL_277D34620AFBED3BFCCFB2C2EE480692;
+    ucobs:startTime "2023-08-14T08:01:58.619Z".
+gpl:IP_4F24365F52DE134226125FDE0F5EF609 a ucobs:IPAddressFacet;
+    ucobs:addressValue "13.32.145.103".
+gpl:URL_277D34620AFBED3BFCCFB2C2EE480692 a ucobs:URLFacet;
+    ucobs:fullValue "https://cmp-consent-tool.privacymanager.io/latest/open-sans-latin-400-italic.woff2";
+    ucobs:host gpl:DOMAIN_36E29BC9091C6F9BDF8AAAF3FF8BA3BB, gpl:IP_4F24365F52DE134226125FDE0F5EF609.
+gpl:DOMAIN_AD7B53EA8F2CAC66C784F44D6C7CBBD4 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gdpr-web-dau-prod.privacymanager.io".
+gpl:HTTPCON_33FF6EEBA1E40360BDD497B603FE430E a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:02:12.036Z";
+    ucobs:hasFacet gpl:URL_96E34E746D504F42BE1129ED17CF3B36;
+    ucobs:startTime "2023-08-14T08:02:11.976Z".
+gpl:IP_1D20FEDF30ACE2268138C89FF610F04B a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.85".
+gpl:URL_96E34E746D504F42BE1129ED17CF3B36 a ucobs:URLFacet;
+    ucobs:fullValue "https://gdpr-web-dau-prod.privacymanager.io/kinesis/streams/tcf-web-daily-active-users-prod/records";
+    ucobs:host gpl:DOMAIN_AD7B53EA8F2CAC66C784F44D6C7CBBD4, gpl:IP_1D20FEDF30ACE2268138C89FF610F04B.
+gpl:DOMAIN_AD7B53EA8F2CAC66C784F44D6C7CBBD4 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gdpr-web-dau-prod.privacymanager.io".
+gpl:HTTPCON_33890DDD229E85B2D25D1DB8771816CD a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:02:12.071Z";
+    ucobs:hasFacet gpl:URL_96E34E746D504F42BE1129ED17CF3B36;
+    ucobs:startTime "2023-08-14T08:02:11.971Z".
+gpl:IP_1D20FEDF30ACE2268138C89FF610F04B a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.85".
+gpl:URL_96E34E746D504F42BE1129ED17CF3B36 a ucobs:URLFacet;
+    ucobs:fullValue "https://gdpr-web-dau-prod.privacymanager.io/kinesis/streams/tcf-web-daily-active-users-prod/records";
+    ucobs:host gpl:DOMAIN_AD7B53EA8F2CAC66C784F44D6C7CBBD4, gpl:IP_1D20FEDF30ACE2268138C89FF610F04B.

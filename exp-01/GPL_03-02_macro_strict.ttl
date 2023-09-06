@@ -1,0 +1,32 @@
+# Copyright (c) 2022-2023 Orange. All rights reserved in accordance to the CC-BY-NC-SA license
+# Project: graphameleon-ds
+# THIS SOFTWARE IS PROVIDED BY Orange "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Orange BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix gpl: <http://graphameleon.com#>.
+@prefix core: <https://ontology.unifiedcyberontology.org/uco/core#>.
+@prefix ucoact: <https://ontology.unifiedcyberontology.org/uco/action#>.
+@prefix ucobs: <https://ontology.unifiedcyberontology.org/uco/observable#>.
+@prefix types: <https://ontology.unifiedcyberontology.org/uco/types#>.
+
+gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.printmag.com".
+gpl:HTTPCON_4F9CD57FC0AB945AE98AC29B31C6FCE8 a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "none";
+    ucobs:endTime "2023-08-11T09:38:56.425Z";
+    ucobs:hasFacet gpl:URL_F060E505BD8D677C4C7A56C91FF1C435;
+    ucobs:startTime "2023-08-11T09:38:56.195Z".
+gpl:IP_0789BEDC243CEDD9475D3DC45A07245C a ucobs:IPAddressFacet;
+    ucobs:addressValue "199.16.173.242".
+gpl:TRACE_4F9CD57FC0AB945AE98AC29B31C6FCE8 a ucoact:ObservableAction;
+    core:objectCreatedTime "2023-08-11T09:38:56.195Z";
+    core:tag "request";
+    core:value "req-https://www.printmag.com/";
+    ucobs:object gpl:HTTPCON_4F9CD57FC0AB945AE98AC29B31C6FCE8.
+gpl:URL_F060E505BD8D677C4C7A56C91FF1C435 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.printmag.com/";
+    ucobs:host gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7, gpl:IP_0789BEDC243CEDD9475D3DC45A07245C.

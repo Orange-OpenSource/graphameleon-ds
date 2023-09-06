@@ -1,0 +1,736 @@
+# Copyright (c) 2022-2023 Orange. All rights reserved in accordance to the CC-BY-NC-SA license
+# Project: graphameleon-ds
+# THIS SOFTWARE IS PROVIDED BY Orange "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Orange BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix gpl: <http://graphameleon.com#>.
+@prefix core: <https://ontology.unifiedcyberontology.org/uco/core#>.
+@prefix ucoact: <https://ontology.unifiedcyberontology.org/uco/action#>.
+@prefix ucobs: <https://ontology.unifiedcyberontology.org/uco/observable#>.
+@prefix types: <https://ontology.unifiedcyberontology.org/uco/types#>.
+
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_52263BECBF884C62D034B61E183F93AE a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:53.958Z";
+    ucobs:hasFacet gpl:URL_F11893F02A903D1E7E6CFA8BE4903D9F;
+    ucobs:startTime "2023-08-14T07:59:52.915Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_F11893F02A903D1E7E6CFA8BE4903D9F a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/article/Main_Page";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_1146112B23B70FDF80D7010DB2B57E97 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.112Z";
+    ucobs:hasFacet gpl:URL_60952A184E70BC1319EA3C8459227861;
+    ucobs:startTime "2023-08-14T07:59:54.030Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_60952A184E70BC1319EA3C8459227861 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/font-awesome.min.css";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_4B179FC8D33CD1E3F9E2739E806369AF a ucobs:DomainNameFacet;
+    ucobs:addressValue "region1.analytics.google.com".
+gpl:HTTPCON_42ED9C327165FFD17FFD32D8C84D7BA1 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-14T07:59:54.000Z";
+    ucobs:hasFacet gpl:URL_154D8B31EF35E6B1ED19CA713E661AAC;
+    ucobs:startTime "2023-08-14T07:59:53.961Z".
+gpl:IP_A58F02CF3B56D080FA2E3C46B74E8367 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.239.34.36".
+gpl:URL_154D8B31EF35E6B1ED19CA713E661AAC a ucobs:URLFacet;
+    ucobs:fullValue "https://region1.analytics.google.com/g/collect?v&tid&gtm&_p&_gaz&cid&ul&sr&_s&sid&sct&seg&dl&dt&en&ep.page_type&ep.leg&ep.gisted&_et";
+    ucobs:host gpl:DOMAIN_4B179FC8D33CD1E3F9E2739E806369AF, gpl:IP_A58F02CF3B56D080FA2E3C46B74E8367.
+gpl:DOMAIN_002953C0A6C6AD060D7204E365FAD0AD a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google.fr".
+gpl:HTTPCON_35C23BF39B9060FA12456335AFAD620B a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T07:59:54.021Z";
+    ucobs:hasFacet gpl:URL_27549C2D88BCF0398EA66943E139C5BC;
+    ucobs:startTime "2023-08-14T07:59:53.963Z".
+gpl:IP_617C73BF99CBF91447023F9EDC99F034 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.214.163".
+gpl:URL_27549C2D88BCF0398EA66943E139C5BC a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google.fr/ads/ga-audiences?v&t&slf_rd&_r&tid&cid&gtm&aip&z";
+    ucobs:host gpl:DOMAIN_002953C0A6C6AD060D7204E365FAD0AD, gpl:IP_617C73BF99CBF91447023F9EDC99F034.
+gpl:DOMAIN_C333F8DAFC080266B345002A8A5A5FB5 a ucobs:DomainNameFacet;
+    ucobs:addressValue "ssl.gstatic.com".
+gpl:HTTPCON_6737CBDEA76685C9B220BFF6C539AEC2 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T07:59:54.108Z";
+    ucobs:hasFacet gpl:URL_5AD9D5DEF873B93BDB7634456BA1A92B;
+    ucobs:startTime "2023-08-14T07:59:54.051Z".
+gpl:IP_1D68F68183CEC9D2BEB192C3150A596C a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.201.163".
+gpl:URL_5AD9D5DEF873B93BDB7634456BA1A92B a ucobs:URLFacet;
+    ucobs:fullValue "https://ssl.gstatic.com/images/icons/gplus-16.png";
+    ucobs:host gpl:DOMAIN_C333F8DAFC080266B345002A8A5A5FB5, gpl:IP_1D68F68183CEC9D2BEB192C3150A596C.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_F08B4E73828314CA364B6F2BFD147B4C a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.189Z";
+    ucobs:hasFacet gpl:URL_9FCF846B5C128CDF360A1729A9EB402D;
+    ucobs:startTime "2023-08-14T07:59:54.055Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_9FCF846B5C128CDF360A1729A9EB402D a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/load.php?debug&lang&modules&only&skin&*";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_23209ABB41D07B041DA807213E3163E0 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.193Z";
+    ucobs:hasFacet gpl:URL_0C50485D5BCB1A37EFD502A9A8409438;
+    ucobs:startTime "2023-08-14T07:59:54.031Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_0C50485D5BCB1A37EFD502A9A8409438 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/local-screen.css";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_0CD1B8743F675FA214D5D4103F81C087 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.337Z";
+    ucobs:hasFacet gpl:URL_9FCF846B5C128CDF360A1729A9EB402D;
+    ucobs:startTime "2023-08-14T07:59:54.031Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_9FCF846B5C128CDF360A1729A9EB402D a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/load.php?debug&lang&modules&only&skin&*";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_FF6B769BE99E3DCA47D2944FD24C32FD a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.349Z";
+    ucobs:hasFacet gpl:URL_9FCF846B5C128CDF360A1729A9EB402D;
+    ucobs:startTime "2023-08-14T07:59:54.058Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_9FCF846B5C128CDF360A1729A9EB402D a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/load.php?debug&lang&modules&only&skin&*";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_F4433B2637716814A7A9B101475110DE a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.354Z";
+    ucobs:hasFacet gpl:URL_9FCF846B5C128CDF360A1729A9EB402D;
+    ucobs:startTime "2023-08-14T07:59:54.030Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_9FCF846B5C128CDF360A1729A9EB402D a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/load.php?debug&lang&modules&only&skin&*";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_FCDE81B79473AD1BD45872A867C063FC a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.408Z";
+    ucobs:hasFacet gpl:URL_9FCF846B5C128CDF360A1729A9EB402D;
+    ucobs:startTime "2023-08-14T07:59:54.032Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_9FCF846B5C128CDF360A1729A9EB402D a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/load.php?debug&lang&modules&only&skin&*";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_FE0AB6B6FDDAD28355255BF70E35F2E4 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.485Z";
+    ucobs:hasFacet gpl:URL_A2A21C02631CF83575F6797060FB51F6;
+    ucobs:startTime "2023-08-14T07:59:54.036Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_A2A21C02631CF83575F6797060FB51F6 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/images/1/1a/List_bullet.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_6A2C007CB3364CE9E71B8DC4AF17E3B7 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.487Z";
+    ucobs:hasFacet gpl:URL_133C078BE04E23FB1A8B2DD49E27BD61;
+    ucobs:startTime "2023-08-14T07:59:54.034Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_133C078BE04E23FB1A8B2DD49E27BD61 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/images/9/96/Stages_arrow.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_B93AD42AA3D08100C6AA3B07107B3BC3 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.503Z";
+    ucobs:hasFacet gpl:URL_1306F1572C648C7355854F4761446FFD;
+    ucobs:startTime "2023-08-14T07:59:54.035Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_1306F1572C648C7355854F4761446FFD a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/images/a/af/Icon_planet.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_82966F500CF840A6B408FB9BDAC35D4B a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.504Z";
+    ucobs:hasFacet gpl:URL_FC9F3178BCFD1C504DDC72EBEE707367;
+    ucobs:startTime "2023-08-14T07:59:54.036Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_FC9F3178BCFD1C504DDC72EBEE707367 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/images/5/5b/Icon_curate.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_4B1E988AAA2A7324EA1BB2BCDAD18ABD a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.506Z";
+    ucobs:hasFacet gpl:URL_527B5EDF47C30AF51731666AA97F7A1D;
+    ucobs:startTime "2023-08-14T07:59:54.034Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_527B5EDF47C30AF51731666AA97F7A1D a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/images/e/ef/Icon_write.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_51129FFA3AA22D05F67742ECE146E799 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.509Z";
+    ucobs:hasFacet gpl:URL_5CEE168AFF7C756168D307573CE87195;
+    ucobs:startTime "2023-08-14T07:59:54.033Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_5CEE168AFF7C756168D307573CE87195 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/images/a/a7/White_arrow.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_74878880D3048EEFF0D33A04E3E0872B a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.561Z";
+    ucobs:hasFacet gpl:URL_0C2C53A5A1A8A42BBB8102C10B04DEC3;
+    ucobs:startTime "2023-08-14T07:59:54.036Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_0C2C53A5A1A8A42BBB8102C10B04DEC3 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/images/2/28/Icon_published.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_2AC3E04C61B12DA5F171072D1363F6FB a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.579Z";
+    ucobs:hasFacet gpl:URL_D63BC589372E535AAA6F3F194495FB53;
+    ucobs:startTime "2023-08-14T07:59:54.038Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_D63BC589372E535AAA6F3F194495FB53 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/images/a/ac/Icon_more.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_690BDB12BA43469E4CDF869CC16774EC a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.582Z";
+    ucobs:hasFacet gpl:URL_82F955B2AFD7F4C381437E84FEFFACB8;
+    ucobs:startTime "2023-08-14T07:59:54.049Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_82F955B2AFD7F4C381437E84FEFFACB8 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/images/3/36/Icon_editorial.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_8EE42EF8A26D640BC677E15F91D57D3D a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.585Z";
+    ucobs:hasFacet gpl:URL_A961D7EED33B0F9439496E2CF16A4F5B;
+    ucobs:startTime "2023-08-14T07:59:54.037Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_A961D7EED33B0F9439496E2CF16A4F5B a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/images/thumb/f/fa/Expckm_rhoeta_large.png/90px-Expckm_rhoeta_large.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_F97D7D3FACE865DF4D15E106DA69B263 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.587Z";
+    ucobs:hasFacet gpl:URL_B0D8FC50EA347D08777703BD533C5993;
+    ucobs:startTime "2023-08-14T07:59:54.038Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_B0D8FC50EA347D08777703BD533C5993 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/images/thumb/f/f5/FF_scheme.png/90px-FF_scheme.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_3B4B6DCE2FDC966E1E9DEF5018DED28F a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.647Z";
+    ucobs:hasFacet gpl:URL_D6EBB87B50CD452CBFCD10EA51683548;
+    ucobs:startTime "2023-08-14T07:59:54.048Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_D6EBB87B50CD452CBFCD10EA51683548 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/images/thumb/d/d5/SET_book_cover.jpg/90px-SET_book_cover.jpg";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_93204A20CCC841A3AAAB33203C8D1F60 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.658Z";
+    ucobs:hasFacet gpl:URL_F9A3F72B9A3B1E392982650709363E58;
+    ucobs:startTime "2023-08-14T07:59:54.053Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_F9A3F72B9A3B1E392982650709363E58 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/images/linkedin.png?303";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_15F8B6909B19FA32166CE07D722788CD a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.662Z";
+    ucobs:hasFacet gpl:URL_2C3B7477A77E9C476A1E8AB5334F5CAB;
+    ucobs:startTime "2023-08-14T07:59:54.048Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_2C3B7477A77E9C476A1E8AB5334F5CAB a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/images/9/9c/Icon_encyclopedia.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_130622E2247E87579BA92C0930BC2262 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.663Z";
+    ucobs:hasFacet gpl:URL_9D93F4CA57D84043666BD975CAE75F9C;
+    ucobs:startTime "2023-08-14T07:59:54.052Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_9D93F4CA57D84043666BD975CAE75F9C a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/images/facebook.png?303";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_4200CB94BF8A55A7E6C6F637FB420180 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.715Z";
+    ucobs:hasFacet gpl:URL_B62F439A98DF33A50573CB1CD618723B;
+    ucobs:startTime "2023-08-14T07:59:54.050Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_B62F439A98DF33A50573CB1CD618723B a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/images/search-ltr.png?303";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_76F2371D7114B528EF740BA9DBC5B3A2 a ucobs:DomainNameFacet;
+    ucobs:addressValue "csm.fr3.eu.criteo.net".
+gpl:HTTPCON_7E8001C417DD09E432D934EB28214F70 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-14T07:59:54.712Z";
+    ucobs:hasFacet gpl:URL_AED9C1548FA17FDDB41BC1A4755F8E8A;
+    ucobs:startTime "2023-08-14T07:59:53.960Z".
+gpl:IP_AD93FF1B28FACB2D059073D5F2D05619 a ucobs:IPAddressFacet;
+    ucobs:addressValue "178.250.7.17".
+gpl:URL_AED9C1548FA17FDDB41BC1A4755F8E8A a ucobs:URLFacet;
+    ucobs:fullValue "https://csm.fr3.eu.criteo.net/iev?entry&entry&entry";
+    ucobs:host gpl:DOMAIN_76F2371D7114B528EF740BA9DBC5B3A2, gpl:IP_AD93FF1B28FACB2D059073D5F2D05619.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_45EC67A18AED8097B9161F27CE1A6025 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.753Z";
+    ucobs:hasFacet gpl:URL_7BB736558487C2154233A35E2974DA05;
+    ucobs:startTime "2023-08-14T07:59:54.054Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_7BB736558487C2154233A35E2974DA05 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/common/images/MathJaxBadge.gif";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_9CF8AD58ACCAE6E4EA8AA8406D05A88D a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.753Z";
+    ucobs:hasFacet gpl:URL_EEEB252D857E7392C746D67ACACF2FC4;
+    ucobs:startTime "2023-08-14T07:59:54.051Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_EEEB252D857E7392C746D67ACACF2FC4 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/images/twitter.png?303";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_4F0BA5C17DBF936B4C18E0DDD61E4699 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.754Z";
+    ucobs:hasFacet gpl:URL_8931A02FB0B86B486BDB82A26D726452;
+    ucobs:startTime "2023-08-14T07:59:54.055Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_8931A02FB0B86B486BDB82A26D726452 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/skins/common/88x31.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_387D960544B3932914A3145A44C6F430 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.792Z";
+    ucobs:hasFacet gpl:URL_254502CDAB349290269B9498CBF520B6;
+    ucobs:startTime "2023-08-14T07:59:54.053Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_254502CDAB349290269B9498CBF520B6 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/common/images/poweredby_mediawiki_88x31.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_2318D6C8F1490FD9292158F2C96BAB74 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.817Z";
+    ucobs:hasFacet gpl:URL_F56F291409AF0623EF9828D7ABC780AE;
+    ucobs:startTime "2023-08-14T07:59:54.033Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_F56F291409AF0623EF9828D7ABC780AE a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/images/4/4e/Header_img.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_067692C47A9AABF198425B1AD27872C8 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.844Z";
+    ucobs:hasFacet gpl:URL_F907A9F126E9213B0DB16694040BC402;
+    ucobs:startTime "2023-08-14T07:59:54.435Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_F907A9F126E9213B0DB16694040BC402 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/load.php?debug&lang&modules&only&skin&version";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_B5DB7AF6A21734794F40FAD348F2C12C a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:54.978Z";
+    ucobs:hasFacet gpl:URL_4218FD06A0A02972ADE0EB83724E7639;
+    ucobs:startTime "2023-08-14T07:59:54.873Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_4218FD06A0A02972ADE0EB83724E7639 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/load.php?debug&lang&modules&skin&version&*";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_7B221C1636D3EBB0034E6AB2F44FA9DE a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:55.119Z";
+    ucobs:hasFacet gpl:URL_64FE3648AC85BFDE871906A86434C0E3;
+    ucobs:startTime "2023-08-14T07:59:54.986Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_64FE3648AC85BFDE871906A86434C0E3 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/images/main-bg.jpg";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_247AC0D4D770C8F2C2FD3D9AE5573DC4 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:55.126Z";
+    ucobs:hasFacet gpl:URL_4218FD06A0A02972ADE0EB83724E7639;
+    ucobs:startTime "2023-08-14T07:59:55.005Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_4218FD06A0A02972ADE0EB83724E7639 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/load.php?debug&lang&modules&skin&version&*";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_B4187EC29FF82E2FA254DE37173AFD29 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:55.128Z";
+    ucobs:hasFacet gpl:URL_189ACAED052BCC349AB9114D5E5C6A79;
+    ucobs:startTime "2023-08-14T07:59:55.019Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_189ACAED052BCC349AB9114D5E5C6A79 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/images/shadow-left.gif";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_1928401C49AE239854F4AC303EBF9BC5 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:55.130Z";
+    ucobs:hasFacet gpl:URL_459BF5388706A9C976C31484C295B63D;
+    ucobs:startTime "2023-08-14T07:59:55.020Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_459BF5388706A9C976C31484C295B63D a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/images/bullet-icon.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_CA55B563C6BC796A1D9C791DDA176A6A a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:55.237Z";
+    ucobs:hasFacet gpl:URL_29A6038D676C3860A32E4E35E44DAAB0;
+    ucobs:startTime "2023-08-14T07:59:55.029Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_29A6038D676C3860A32E4E35E44DAAB0 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/images/header-line.gif";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_B2DF0316BE42BC702A03FB48CEFFD1F7 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:55.238Z";
+    ucobs:hasFacet gpl:URL_BC864BE869EAB4B4DC195CD6C1B5E8FD;
+    ucobs:startTime "2023-08-14T07:59:55.029Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_BC864BE869EAB4B4DC195CD6C1B5E8FD a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/images/bg-header.gif";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_10A7E43C5214669FECE4E9A89075CAF6 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:55.245Z";
+    ucobs:hasFacet gpl:URL_C667087954DE3F264D5C8169A3F41BCB;
+    ucobs:startTime "2023-08-14T07:59:55.031Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_C667087954DE3F264D5C8169A3F41BCB a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/images/user-icon.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_3E0A302F46C5A2723A2B4EA30C3C9ECE a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:55.246Z";
+    ucobs:hasFacet gpl:URL_84AC6F831AE3B8CE97C0EC39C0B4346A;
+    ucobs:startTime "2023-08-14T07:59:55.032Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_84AC6F831AE3B8CE97C0EC39C0B4346A a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/images/nav-divider.gif";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_E5F218686CED89AFB05EC1DBB7ABAA22 a ucobs:DomainNameFacet;
+    ucobs:addressValue "e.clarity.ms".
+gpl:HTTPCON_5BAA7A192C7234FF3AFA80EB638DD3A3 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-14T07:59:54.936Z";
+    ucobs:hasFacet gpl:URL_1DD253CAB9B365C939EF3A8750AF17C1;
+    ucobs:startTime "2023-08-14T07:59:53.963Z".
+gpl:IP_F4B0A437284E834C6940FE9ED92AE94C a ucobs:IPAddressFacet;
+    ucobs:addressValue "20.62.48.180".
+gpl:URL_1DD253CAB9B365C939EF3A8750AF17C1 a ucobs:URLFacet;
+    ucobs:fullValue "https://e.clarity.ms/collect";
+    ucobs:host gpl:DOMAIN_E5F218686CED89AFB05EC1DBB7ABAA22, gpl:IP_F4B0A437284E834C6940FE9ED92AE94C.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_2BABE0FB0A8285989DC8CAFE1FE45A19 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:55.253Z";
+    ucobs:hasFacet gpl:URL_4218FD06A0A02972ADE0EB83724E7639;
+    ucobs:startTime "2023-08-14T07:59:55.012Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_4218FD06A0A02972ADE0EB83724E7639 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/load.php?debug&lang&modules&skin&version&*";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_B81CEF6D7823726E0289EB728DC6E6E9 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:55.255Z";
+    ucobs:hasFacet gpl:URL_EED7B19D3503A1198258CE288DFD18F4;
+    ucobs:startTime "2023-08-14T07:59:55.032Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_EED7B19D3503A1198258CE288DFD18F4 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/images/bg-search-box.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_B3C1417BA955D76357438E8F6DC5D825 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:55.261Z";
+    ucobs:hasFacet gpl:URL_6ED12E6624E89092B212D14FB0B3A79B;
+    ucobs:startTime "2023-08-14T07:59:55.033Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_6ED12E6624E89092B212D14FB0B3A79B a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/images/splogo.png";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_A1021511C8B6F85557B5A983DB745F21 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:55.313Z";
+    ucobs:hasFacet gpl:URL_4218FD06A0A02972ADE0EB83724E7639;
+    ucobs:startTime "2023-08-14T07:59:55.013Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_4218FD06A0A02972ADE0EB83724E7639 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/load.php?debug&lang&modules&skin&version&*";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_E42B2935022BE5F8E25FB030E1E552F6 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:55.329Z";
+    ucobs:hasFacet gpl:URL_6B4284A24043A0CD7845C1881C013A4C;
+    ucobs:startTime "2023-08-14T07:59:55.248Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_6B4284A24043A0CD7845C1881C013A4C a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/images/shadow-bottom.gif";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_9F5030D896F797E5A1648FF2494F42B8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "apis.google.com".
+gpl:HTTPCON_4FE622002D1CF98595B9529A13713D3C a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T07:59:55.306Z";
+    ucobs:hasFacet gpl:URL_F01762A233DDEAA5F68236EAF27890EF;
+    ucobs:startTime "2023-08-14T07:59:55.002Z".
+gpl:IP_E4008C140D86835277578D2A8016600E a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.215.46".
+gpl:URL_F01762A233DDEAA5F68236EAF27890EF a ucobs:URLFacet;
+    ucobs:fullValue "https://apis.google.com/js/plusone.js";
+    ucobs:host gpl:DOMAIN_9F5030D896F797E5A1648FF2494F42B8, gpl:IP_E4008C140D86835277578D2A8016600E.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_44CE7C76532B844A9A443169834C9C2B a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:55.520Z";
+    ucobs:hasFacet gpl:URL_D0AB6DCAA73A7E20A8CA6A6544875B9F;
+    ucobs:startTime "2023-08-14T07:59:55.429Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_D0AB6DCAA73A7E20A8CA6A6544875B9F a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/images/arrow-expand.gif";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_6CDF51DA222FD9429511BEF4459C3563 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:55.521Z";
+    ucobs:hasFacet gpl:URL_528AE13CF64A810846ECF15B58AA30D9;
+    ucobs:startTime "2023-08-14T07:59:55.429Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_528AE13CF64A810846ECF15B58AA30D9 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/skins/vector/images/arrow-collapsed.gif";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_9F5030D896F797E5A1648FF2494F42B8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "apis.google.com".
+gpl:HTTPCON_0BD4D0051FC5640C20FA4DF398FA4F6D a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T07:59:55.480Z";
+    ucobs:hasFacet gpl:URL_ACEC2FFA4EC28C2F73FAEADE7EF3FC98;
+    ucobs:startTime "2023-08-14T07:59:55.430Z".
+gpl:IP_E4008C140D86835277578D2A8016600E a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.215.46".
+gpl:URL_ACEC2FFA4EC28C2F73FAEADE7EF3FC98 a ucobs:URLFacet;
+    ucobs:fullValue "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.fr.VePzHPs6qN8.O/m=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo9VLeukmHJGBafBpBAYYNVj4Nyt4A/cb=gapi.loaded_0?le";
+    ucobs:host gpl:DOMAIN_9F5030D896F797E5A1648FF2494F42B8, gpl:IP_E4008C140D86835277578D2A8016600E.
+gpl:DOMAIN_9F5030D896F797E5A1648FF2494F42B8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "apis.google.com".
+gpl:HTTPCON_FAA25499A4E20789175252DFE204BECF a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T07:59:55.506Z";
+    ucobs:hasFacet gpl:URL_830F996C7EF3776AB01A405C56FB1CE9;
+    ucobs:startTime "2023-08-14T07:59:55.431Z".
+gpl:IP_E4008C140D86835277578D2A8016600E a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.215.46".
+gpl:URL_830F996C7EF3776AB01A405C56FB1CE9 a ucobs:URLFacet;
+    ucobs:fullValue "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.fr.VePzHPs6qN8.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/rs=AHpOoo9VLeukmHJGBafBpBAYYNVj4Nyt4A/cb=gapi.loaded_1?le";
+    ucobs:host gpl:DOMAIN_9F5030D896F797E5A1648FF2494F42B8, gpl:IP_E4008C140D86835277578D2A8016600E.
+gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google-analytics.com".
+gpl:HTTPCON_D479854A503AFA6123A21E12DBDAB4A6 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T07:59:55.513Z";
+    ucobs:hasFacet gpl:URL_CD6547E3F130F8308F95F7C54F304F9F;
+    ucobs:startTime "2023-08-14T07:59:55.428Z".
+gpl:IP_04E87896B7E198A8565080777E404620 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.213.78".
+gpl:URL_CD6547E3F130F8308F95F7C54F304F9F a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google-analytics.com/ga.js";
+    ucobs:host gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1, gpl:IP_04E87896B7E198A8565080777E404620.
+gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google-analytics.com".
+gpl:HTTPCON_8BA737BEB1068A6EB69254AA3CC123AA a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T07:59:55.648Z";
+    ucobs:hasFacet gpl:URL_AC701DA33A6208240D92D2ED39664280;
+    ucobs:startTime "2023-08-14T07:59:55.560Z".
+gpl:IP_04E87896B7E198A8565080777E404620 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.213.78".
+gpl:URL_AC701DA33A6208240D92D2ED39664280 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google-analytics.com/r/__utm.gif?utmwv&utms&utmn&utmhn&utmcs&utmsr&utmvp&utmsc&utmul&utmje&utmfl&utmdt&utmhid&utmr&utmp&utmht&utmac&utmcc&utmjid&utmredir&utmu";
+    ucobs:host gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1, gpl:IP_04E87896B7E198A8565080777E404620.
+gpl:DOMAIN_D10FA3EC03504C1EC2B2935971366B02 a ucobs:DomainNameFacet;
+    ucobs:addressValue "connect.facebook.net".
+gpl:HTTPCON_C1627CE760021BDBD0F38FBC6CD256CD a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T07:59:55.665Z";
+    ucobs:hasFacet gpl:URL_2364B6D8781912A899A67B6FF3821412;
+    ucobs:startTime "2023-08-14T07:59:55.631Z".
+gpl:IP_6D91145C974A03EC23B02F938915F57C a ucobs:IPAddressFacet;
+    ucobs:addressValue "163.70.128.23".
+gpl:URL_2364B6D8781912A899A67B6FF3821412 a ucobs:URLFacet;
+    ucobs:fullValue "https://connect.facebook.net/en_US/all.js#xfbml=1";
+    ucobs:host gpl:DOMAIN_D10FA3EC03504C1EC2B2935971366B02, gpl:IP_6D91145C974A03EC23B02F938915F57C.
+gpl:DOMAIN_D10FA3EC03504C1EC2B2935971366B02 a ucobs:DomainNameFacet;
+    ucobs:addressValue "connect.facebook.net".
+gpl:HTTPCON_67291FEEB5968B9B1064D63B7136BA85 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "script";
+    ucobs:endTime "2023-08-14T07:59:55.706Z";
+    ucobs:hasFacet gpl:URL_120A8B90778BE2B90FAA2E8B5D16ED61;
+    ucobs:startTime "2023-08-14T07:59:55.671Z".
+gpl:IP_6D91145C974A03EC23B02F938915F57C a ucobs:IPAddressFacet;
+    ucobs:addressValue "163.70.128.23".
+gpl:URL_120A8B90778BE2B90FAA2E8B5D16ED61 a ucobs:URLFacet;
+    ucobs:fullValue "https://connect.facebook.net/en_US/all.js?hash";
+    ucobs:host gpl:DOMAIN_D10FA3EC03504C1EC2B2935971366B02, gpl:IP_6D91145C974A03EC23B02F938915F57C.
+gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.scholarpedia.org".
+gpl:HTTPCON_99256BA7F70EA6BEC5B33744B88AFE50 a ucobs:HTTPConnectionFacet;
+    ucobs:endTime "2023-08-14T07:59:55.735Z";
+    ucobs:hasFacet gpl:URL_8C3948E94FF9D81C1BCC1DE223DE5CC2;
+    ucobs:startTime "2023-08-14T07:59:55.634Z".
+gpl:IP_34D0FEE270E9E65418E37220A004EF82 a ucobs:IPAddressFacet;
+    ucobs:addressValue "173.255.237.117".
+gpl:URL_8C3948E94FF9D81C1BCC1DE223DE5CC2 a ucobs:URLFacet;
+    ucobs:fullValue "http://www.scholarpedia.org/w/images/6/64/Favicon.ico";
+    ucobs:host gpl:DOMAIN_AE7A31826BB7E50EEF1302F9605E7225, gpl:IP_34D0FEE270E9E65418E37220A004EF82.
+gpl:DOMAIN_4B73253FA4BA145311540A716D94B453 a ucobs:DomainNameFacet;
+    ucobs:addressValue "accounts.google.com".
+gpl:HTTPCON_069D2F1B41E23A43E84026391AFD5C10 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "iframe", "navigate";
+    ucobs:endTime "2023-08-14T07:59:55.746Z";
+    ucobs:hasFacet gpl:URL_5AF4C0D4EC6EE55D069B9A79C7318754;
+    ucobs:startTime "2023-08-14T07:59:55.538Z".
+gpl:IP_60D9F159A17A7CE0DDE6C430A2F14703 a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.205".
+gpl:URL_5AF4C0D4EC6EE55D069B9A79C7318754 a ucobs:URLFacet;
+    ucobs:fullValue "https://accounts.google.com/o/oauth2/postmessageRelay?parent&jsh&forcesecure";
+    ucobs:host gpl:DOMAIN_4B73253FA4BA145311540A716D94B453, gpl:IP_60D9F159A17A7CE0DDE6C430A2F14703.
+gpl:DOMAIN_C333F8DAFC080266B345002A8A5A5FB5 a ucobs:DomainNameFacet;
+    ucobs:addressValue "ssl.gstatic.com".
+gpl:HTTPCON_F5A750D59DF06EFE02AB731089BBB0E0 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T07:59:55.795Z";
+    ucobs:hasFacet gpl:URL_97CBD9A6F50F25F155C4A4AD6CB04D98;
+    ucobs:startTime "2023-08-14T07:59:55.783Z".
+gpl:IP_1D68F68183CEC9D2BEB192C3150A596C a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.201.163".
+gpl:URL_97CBD9A6F50F25F155C4A4AD6CB04D98 a ucobs:URLFacet;
+    ucobs:fullValue "https://ssl.gstatic.com/accounts/o/3698212825-postmessagerelay.js";
+    ucobs:host gpl:DOMAIN_C333F8DAFC080266B345002A8A5A5FB5, gpl:IP_1D68F68183CEC9D2BEB192C3150A596C.
+gpl:DOMAIN_9F5030D896F797E5A1648FF2494F42B8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "apis.google.com".
+gpl:HTTPCON_3413CCD3CD1983ADE5DAB6EED4FABC1F a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "script";
+    ucobs:endTime "2023-08-14T07:59:55.823Z";
+    ucobs:hasFacet gpl:URL_D221A4B3E22C6611926B3E01CD41FF16;
+    ucobs:startTime "2023-08-14T07:59:55.784Z".
+gpl:IP_E4008C140D86835277578D2A8016600E a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.215.46".
+gpl:URL_D221A4B3E22C6611926B3E01CD41FF16 a ucobs:URLFacet;
+    ucobs:fullValue "https://apis.google.com/js/rpc:shindig_random.js?onload";
+    ucobs:host gpl:DOMAIN_9F5030D896F797E5A1648FF2494F42B8, gpl:IP_E4008C140D86835277578D2A8016600E.
+gpl:DOMAIN_9F5030D896F797E5A1648FF2494F42B8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "apis.google.com".
+gpl:HTTPCON_71B41A5547120AC4E2F027216170733C a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "script";
+    ucobs:endTime "2023-08-14T07:59:55.836Z";
+    ucobs:hasFacet gpl:URL_DC7DB9214C221B6286F6EB7F9397CB69;
+    ucobs:startTime "2023-08-14T07:59:55.830Z".
+gpl:IP_E4008C140D86835277578D2A8016600E a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.215.46".
+gpl:URL_DC7DB9214C221B6286F6EB7F9397CB69 a ucobs:URLFacet;
+    ucobs:fullValue "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.fr.VePzHPs6qN8.O/m=rpc,shindig_random/rt=j/sv=1/d=1/ed=1/rs=AHpOoo9VLeukmHJGBafBpBAYYNVj4Nyt4A/cb=gapi.loaded_0?le";
+    ucobs:host gpl:DOMAIN_9F5030D896F797E5A1648FF2494F42B8, gpl:IP_E4008C140D86835277578D2A8016600E.
+gpl:DOMAIN_660328A7F9004D462085AA67A82065DB a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.facebook.com".
+gpl:HTTPCON_7355CB19214161E0426AFCBCDE78E0E5 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "iframe", "navigate";
+    ucobs:endTime "2023-08-14T07:59:57.051Z";
+    ucobs:hasFacet gpl:URL_6C493E0C6E2F040226395F138D9B34A5;
+    ucobs:startTime "2023-08-14T07:59:56.867Z".
+gpl:IP_2312FDA23035DB33DD1C449E34FF78CA a ucobs:IPAddressFacet;
+    ucobs:addressValue "163.70.128.35".
+gpl:URL_6C493E0C6E2F040226395F138D9B34A5 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.facebook.com/plugins/like.php?app_id&channel&container_width&font&href&locale&sdk&send&show_faces&width";
+    ucobs:host gpl:DOMAIN_660328A7F9004D462085AA67A82065DB, gpl:IP_2312FDA23035DB33DD1C449E34FF78CA.

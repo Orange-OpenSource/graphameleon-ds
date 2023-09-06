@@ -1,0 +1,32 @@
+# Copyright (c) 2022-2023 Orange. All rights reserved in accordance to the CC-BY-NC-SA license
+# Project: graphameleon-ds
+# THIS SOFTWARE IS PROVIDED BY Orange "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Orange BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix gpl: <http://graphameleon.com#>.
+@prefix core: <https://ontology.unifiedcyberontology.org/uco/core#>.
+@prefix ucoact: <https://ontology.unifiedcyberontology.org/uco/action#>.
+@prefix ucobs: <https://ontology.unifiedcyberontology.org/uco/observable#>.
+@prefix types: <https://ontology.unifiedcyberontology.org/uco/types#>.
+
+gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.encyclopedia.com".
+gpl:HTTPCON_42E1DAED97C0A2C3ACB8B223A49DB0E6 a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "none";
+    ucobs:endTime "2023-08-11T09:25:12.849Z";
+    ucobs:hasFacet gpl:URL_2EE7BC93B620DA641B8C2EF9F28445FE;
+    ucobs:startTime "2023-08-11T09:25:12.760Z".
+gpl:IP_002E4055193AF01DABD783E431718271 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.9.13".
+gpl:TRACE_42E1DAED97C0A2C3ACB8B223A49DB0E6 a ucoact:ObservableAction;
+    core:objectCreatedTime "2023-08-11T09:25:12.760Z";
+    core:tag "request";
+    core:value "req-https://www.encyclopedia.com/";
+    ucobs:object gpl:HTTPCON_42E1DAED97C0A2C3ACB8B223A49DB0E6.
+gpl:URL_2EE7BC93B620DA641B8C2EF9F28445FE a ucobs:URLFacet;
+    ucobs:fullValue "https://www.encyclopedia.com/";
+    ucobs:host gpl:DOMAIN_6B4155400EC98A059BAC3643E9982A5B, gpl:IP_002E4055193AF01DABD783E431718271.

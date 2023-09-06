@@ -1,0 +1,32 @@
+# Copyright (c) 2022-2023 Orange. All rights reserved in accordance to the CC-BY-NC-SA license
+# Project: graphameleon-ds
+# THIS SOFTWARE IS PROVIDED BY Orange "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Orange BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix gpl: <http://graphameleon.com#>.
+@prefix core: <https://ontology.unifiedcyberontology.org/uco/core#>.
+@prefix ucoact: <https://ontology.unifiedcyberontology.org/uco/action#>.
+@prefix ucobs: <https://ontology.unifiedcyberontology.org/uco/observable#>.
+@prefix types: <https://ontology.unifiedcyberontology.org/uco/types#>.
+
+gpl:DOMAIN_CA926EF763DE8BBEDC9D87A5B3991FFE a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.britannica.com".
+gpl:HTTPCON_4C8C54120BFF52574A3357EFAA084C60 a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "none";
+    ucobs:endTime "2023-08-11T09:02:19.244Z";
+    ucobs:hasFacet gpl:URL_5854C86D4BD204BA79BCA787A54A2FC7;
+    ucobs:startTime "2023-08-11T09:02:18.578Z".
+gpl:IP_4AE84FA01138F3AAEA150447127F67AF a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.18.4.110".
+gpl:TRACE_4C8C54120BFF52574A3357EFAA084C60 a ucoact:ObservableAction;
+    core:objectCreatedTime "2023-08-11T09:02:18.578Z";
+    core:tag "request";
+    core:value "req-https://www.britannica.com/";
+    ucobs:object gpl:HTTPCON_4C8C54120BFF52574A3357EFAA084C60.
+gpl:URL_5854C86D4BD204BA79BCA787A54A2FC7 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.britannica.com/";
+    ucobs:host gpl:DOMAIN_CA926EF763DE8BBEDC9D87A5B3991FFE, gpl:IP_4AE84FA01138F3AAEA150447127F67AF.

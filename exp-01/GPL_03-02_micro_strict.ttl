@@ -1,0 +1,579 @@
+# Copyright (c) 2022-2023 Orange. All rights reserved in accordance to the CC-BY-NC-SA license
+# Project: graphameleon-ds
+# THIS SOFTWARE IS PROVIDED BY Orange "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Orange BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix gpl: <http://graphameleon.com#>.
+@prefix core: <https://ontology.unifiedcyberontology.org/uco/core#>.
+@prefix ucoact: <https://ontology.unifiedcyberontology.org/uco/action#>.
+@prefix ucobs: <https://ontology.unifiedcyberontology.org/uco/observable#>.
+@prefix types: <https://ontology.unifiedcyberontology.org/uco/types#>.
+
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_B016A524D068C05C6757836835055DBB a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-11T09:36:18.506Z";
+    ucobs:hasFacet gpl:URL_521179FE0EC028E210AD3531F828A955;
+    ucobs:startTime "2023-08-11T09:36:18.455Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_521179FE0EC028E210AD3531F828A955 a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/css/dist/block-library/style.min.css";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_EA88BA6216A47812E37C0CAC25C771A6 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-11T09:36:18.507Z";
+    ucobs:hasFacet gpl:URL_42B81F136AFB9306D4556CEB2352FD19;
+    ucobs:startTime "2023-08-11T09:36:18.457Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_42B81F136AFB9306D4556CEB2352FD19 a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_153CE96DFC78D1E74F54560F460DB452 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-11T09:36:18.509Z";
+    ucobs:hasFacet gpl:URL_C7243A414241E939E7044CEBF7CE45C3;
+    ucobs:startTime "2023-08-11T09:36:18.455Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_C7243A414241E939E7044CEBF7CE45C3 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/video/view.css?minify&ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_9FB587C3E9408E9E52C418F69334C396 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-11T09:36:18.510Z";
+    ucobs:hasFacet gpl:URL_201105689295BB2359E0AA772430CF2D;
+    ucobs:startTime "2023-08-11T09:36:18.456Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_201105689295BB2359E0AA772430CF2D a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/modal-block/dist/blocks.style.build.css?ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_90B64F4694F668F0787491DE41201355 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-11T09:36:18.514Z";
+    ucobs:hasFacet gpl:URL_BD2D1AD177FA6896E705596348163FF4;
+    ucobs:startTime "2023-08-11T09:36:18.458Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_BD2D1AD177FA6896E705596348163FF4 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/style.css?ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_13650FB6FD3D48FEB1AE6106931DAD3E a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-11T09:36:18.517Z";
+    ucobs:hasFacet gpl:URL_71880E19291747952B3F4BC4D02B845B;
+    ucobs:startTime "2023-08-11T09:36:18.457Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_71880E19291747952B3F4BC4D02B845B a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/mediaelement/wp-mediaelement.min.css";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_84C2B050B0D5D4EAA944F4CE63C99251 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-11T09:36:18.519Z";
+    ucobs:hasFacet gpl:URL_C45645894084B0EB78F5B7770FD5ED17;
+    ucobs:startTime "2023-08-11T09:36:18.458Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_C45645894084B0EB78F5B7770FD5ED17 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/jetpack/css/jetpack.css?ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_AC8C54E75F8D55171ABEB0EFDA4D6C10 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.520Z";
+    ucobs:hasFacet gpl:URL_90E5FCB926AA04B338B5D915DD137FC0;
+    ucobs:startTime "2023-08-11T09:36:18.465Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_90E5FCB926AA04B338B5D915DD137FC0 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/jetpack-boost/jetpack_vendor/automattic/jetpack-assets/build/i18n-loader.js?minify&ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_40AEB268C252EF3A71C71C60805E3BAD a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-11T09:36:18.521Z";
+    ucobs:hasFacet gpl:URL_E545D9E3011A889C50B677520C2FA6E9;
+    ucobs:startTime "2023-08-11T09:36:18.470Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_E545D9E3011A889C50B677520C2FA6E9 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/fonts/Newsreader-Regular.woff2";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_6905B523088B4647AD36BF1AB208699B a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-11T09:36:18.525Z";
+    ucobs:hasFacet gpl:URL_EDABEB757B6F8D29EEE9452F336001D4;
+    ucobs:startTime "2023-08-11T09:36:18.471Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_EDABEB757B6F8D29EEE9452F336001D4 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/fonts/Inter-Regular.woff2";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_9ABC0473AB4CB43F389DAF5F3263B7F4 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.526Z";
+    ucobs:hasFacet gpl:URL_FC0344291BE70844DE491261ED91832B;
+    ucobs:startTime "2023-08-11T09:36:18.459Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_FC0344291BE70844DE491261ED91832B a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/jquery/jquery.min.js";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_C65E1EB52BC46BFF6AE048CD5AA79FBD a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.529Z";
+    ucobs:hasFacet gpl:URL_5A93F07B4C8752CC6B99EAE4B7ED7E0F;
+    ucobs:startTime "2023-08-11T09:36:18.459Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_5A93F07B4C8752CC6B99EAE4B7ED7E0F a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/jquery/jquery-migrate.min.js";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_07BF28D7268821F64E1B6EA7FCED3A5A a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.532Z";
+    ucobs:hasFacet gpl:URL_8077C5383DBABD8C0AB9DAE3583AF9CB;
+    ucobs:startTime "2023-08-11T09:36:18.460Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_8077C5383DBABD8C0AB9DAE3583AF9CB a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_11333B448F4C7762E9456B82BFF63E13 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.533Z";
+    ucobs:hasFacet gpl:URL_61F924A3594CFA79C7BEB88C269421D3;
+    ucobs:startTime "2023-08-11T09:36:18.461Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_61F924A3594CFA79C7BEB88C269421D3 a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/dist/vendor/regenerator-runtime.min.js";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_2AA2113C2F916E4E6C82F5764F431BB9 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.534Z";
+    ucobs:hasFacet gpl:URL_E0A57299E7956E39F8DC3051ECEF309D;
+    ucobs:startTime "2023-08-11T09:36:18.464Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_E0A57299E7956E39F8DC3051ECEF309D a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/dist/vendor/wp-polyfill.min.js";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_B62D137E6DEF9F9473D8A3471AC8A50A a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.535Z";
+    ucobs:hasFacet gpl:URL_26E4A42791EA5CE653D4FA5961C47C7D;
+    ucobs:startTime "2023-08-11T09:36:18.464Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_26E4A42791EA5CE653D4FA5961C47C7D a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/dist/hooks.min.js";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_C8A711D324A33FB42AFD9E43952A0514 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.537Z";
+    ucobs:hasFacet gpl:URL_AFC33A66297FD8FA51E188CC908E1947;
+    ucobs:startTime "2023-08-11T09:36:18.465Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_AFC33A66297FD8FA51E188CC908E1947 a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/dist/i18n.min.js";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_C8D05E189972711044F07858802CC7D8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagmanager.com".
+gpl:HTTPCON_B951FA26493DEA2F7B4E947276630A2C a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.546Z";
+    ucobs:hasFacet gpl:URL_8291C4692408AA7C540F4749D4C94C5A;
+    ucobs:startTime "2023-08-11T09:36:18.467Z".
+gpl:IP_BF475BD30EA4025176BD821466B63690 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.201.168".
+gpl:URL_8291C4692408AA7C540F4749D4C94C5A a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagmanager.com/gtag/js?id";
+    ucobs:host gpl:DOMAIN_C8D05E189972711044F07858802CC7D8, gpl:IP_BF475BD30EA4025176BD821466B63690.
+gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.printmag.com".
+gpl:HTTPCON_41493F1C1006AE8D4143ADE347999160 a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "none";
+    ucobs:endTime "2023-08-11T09:36:18.516Z";
+    ucobs:hasFacet gpl:URL_F060E505BD8D677C4C7A56C91FF1C435;
+    ucobs:startTime "2023-08-11T09:36:18.178Z".
+gpl:IP_0789BEDC243CEDD9475D3DC45A07245C a ucobs:IPAddressFacet;
+    ucobs:addressValue "199.16.173.242".
+gpl:URL_F060E505BD8D677C4C7A56C91FF1C435 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.printmag.com/";
+    ucobs:host gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7, gpl:IP_0789BEDC243CEDD9475D3DC45A07245C.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_D45CB76FA2B86820DA59405C68260DEB a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.725Z";
+    ucobs:hasFacet gpl:URL_1C6CA93186FE4206C0C9492113D9170B;
+    ucobs:startTime "2023-08-11T09:36:18.579Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_1C6CA93186FE4206C0C9492113D9170B a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/dist/url.min.js";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_C1328F8EBE0FAC4FE47F7524A40B704C a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.726Z";
+    ucobs:hasFacet gpl:URL_EEE04A43BB85865D4F7C69D567F73D6F;
+    ucobs:startTime "2023-08-11T09:36:18.577Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_EEE04A43BB85865D4F7C69D567F73D6F a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/jetpack-boost/jetpack_vendor/automattic/jetpack-image-cdn/dist/image-cdn.js?minify&ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_0F94D6C3416BE16CE1ACF0F41B5A1F02 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.728Z";
+    ucobs:hasFacet gpl:URL_61F6BE57EC774727075AE0D3B5D28195;
+    ucobs:startTime "2023-08-11T09:36:18.578Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_61F6BE57EC774727075AE0D3B5D28195 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/modal-block/dist/modal.js?ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_A3CAF5FE611888FFEFF4AD016D1CD9A7 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.729Z";
+    ucobs:hasFacet gpl:URL_2E8ACF8036B40E4BEC31DF8EE262B41C;
+    ucobs:startTime "2023-08-11T09:36:18.578Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_2E8ACF8036B40E4BEC31DF8EE262B41C a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/mu-plugins/printmag-post-type-archive-block/build/frontend.js?ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_098838C2C37737C8168F9E2C2465F3E3 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.732Z";
+    ucobs:hasFacet gpl:URL_6E6EBB259BCB54190682C79761730FA3;
+    ucobs:startTime "2023-08-11T09:36:18.580Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_6E6EBB259BCB54190682C79761730FA3 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.js?minify&ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_399C266F7C7B04F63634BBF5547862F8 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.733Z";
+    ucobs:hasFacet gpl:URL_96EA2849D70A79FBDFB51EB50F219FBA;
+    ucobs:startTime "2023-08-11T09:36:18.582Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_96EA2849D70A79FBDFB51EB50F219FBA a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/jetpack-boost/jetpack_vendor/automattic/jetpack-lazy-images/dist/intersection-observer.js?minify&ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_E12C26C7A49014DE243674B74007CF1B a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.734Z";
+    ucobs:hasFacet gpl:URL_2E0A29688D51DE642922CF2E9A750489;
+    ucobs:startTime "2023-08-11T09:36:18.583Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_2E0A29688D51DE642922CF2E9A750489 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/jetpack-boost/jetpack_vendor/automattic/jetpack-lazy-images/dist/lazy-images.js?minify&ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_5FD289DC8006C65911BC09E2EC7AB10E a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.735Z";
+    ucobs:hasFacet gpl:URL_F84EE8C7B9D11D4CED2F013705F519A0;
+    ucobs:startTime "2023-08-11T09:36:18.584Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_F84EE8C7B9D11D4CED2F013705F519A0 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/js/build/navigation.js?ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_8A7CE7D19E15539653D565EAAC285384 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.736Z";
+    ucobs:hasFacet gpl:URL_D0434CE1133287ED983281E46D0AB68A;
+    ucobs:startTime "2023-08-11T09:36:18.585Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_D0434CE1133287ED983281E46D0AB68A a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/js/build/slideshow.js?ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_8FCAFEF0F5AD01E75D9CEBA8ABA8E3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "stats.wp.com".
+gpl:HTTPCON_8BE3777A14D741C42280C375CD41EAD8 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.737Z";
+    ucobs:hasFacet gpl:URL_9F7F5D2D9D5CC8E1A7C6C17819F6DEB3;
+    ucobs:startTime "2023-08-11T09:36:18.581Z".
+gpl:IP_72B1B152C0E6852376693E6D7B0FF4FA a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.76.3".
+gpl:URL_9F7F5D2D9D5CC8E1A7C6C17819F6DEB3 a ucobs:URLFacet;
+    ucobs:fullValue "https://stats.wp.com/w.js?ver";
+    ucobs:host gpl:DOMAIN_8FCAFEF0F5AD01E75D9CEBA8ABA8E3BB, gpl:IP_72B1B152C0E6852376693E6D7B0FF4FA.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_6B76D7B2693F55C487729A7F3144D0E7 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "image", "same-origin";
+    ucobs:endTime "2023-08-11T09:36:18.738Z";
+    ucobs:hasFacet gpl:URL_E31CC3D0270564A1FFCF42F842B0C471;
+    ucobs:startTime "2023-08-11T09:36:18.610Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_E31CC3D0270564A1FFCF42F842B0C471 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/images/print-magazine-logo.svg";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_3354D8CD281F5481A2BA8E6E8501D7A6 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.740Z";
+    ucobs:hasFacet gpl:URL_E6E60622C310CA5F4F304A52649D5687;
+    ucobs:startTime "2023-08-11T09:36:18.586Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_E6E60622C310CA5F4F304A52649D5687 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/mu-plugins/printmag-mailchimp-signup-block/build/frontend.js?ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_8FCAFEF0F5AD01E75D9CEBA8ABA8E3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "stats.wp.com".
+gpl:HTTPCON_B4390258820B068D36B10B190FA7316B a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.741Z";
+    ucobs:hasFacet gpl:URL_C89F2D6FD84B489F1262090FED6CADD0;
+    ucobs:startTime "2023-08-11T09:36:18.584Z".
+gpl:IP_72B1B152C0E6852376693E6D7B0FF4FA a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.76.3".
+gpl:URL_C89F2D6FD84B489F1262090FED6CADD0 a ucobs:URLFacet;
+    ucobs:fullValue "https://stats.wp.com/e-202332.js";
+    ucobs:host gpl:DOMAIN_8FCAFEF0F5AD01E75D9CEBA8ABA8E3BB, gpl:IP_72B1B152C0E6852376693E6D7B0FF4FA.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_BC830082595FC2A00B3322285D0E872E a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-11T09:36:18.742Z";
+    ucobs:hasFacet gpl:URL_69CA4C40ECE13D39FF6FBC19845542C4;
+    ucobs:startTime "2023-08-11T09:36:18.613Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_69CA4C40ECE13D39FF6FBC19845542C4 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/fonts/Newsreader16pt-Regular.woff2";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_9C6ADC313048F261D5EE7D554089219E a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-11T09:36:18.743Z";
+    ucobs:hasFacet gpl:URL_297BA1D16A60A652A4A4FE0E813FA13B;
+    ucobs:startTime "2023-08-11T09:36:18.613Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_297BA1D16A60A652A4A4FE0E813FA13B a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/fonts/Inter-Black.woff2";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C8D05E189972711044F07858802CC7D8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagmanager.com".
+gpl:HTTPCON_057DFCAC9E098E4E322D463B5D38AD9E a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.748Z";
+    ucobs:hasFacet gpl:URL_8E8C08FB725739C3C425CECDB035FE6C;
+    ucobs:startTime "2023-08-11T09:36:18.618Z".
+gpl:IP_BF475BD30EA4025176BD821466B63690 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.201.168".
+gpl:URL_8E8C08FB725739C3C425CECDB035FE6C a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagmanager.com/gtag/js?id&l&cx";
+    ucobs:host gpl:DOMAIN_C8D05E189972711044F07858802CC7D8, gpl:IP_BF475BD30EA4025176BD821466B63690.
+gpl:DOMAIN_0877C819FB98FCC64E651D1CCFA78CF9 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.coroflot.com".
+gpl:HTTPCON_D42A22C80F6ECA44FEDFA1A6BB64E62E a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.820Z";
+    ucobs:hasFacet gpl:URL_DCC054BF92902219ABA93D04C02A53C3;
+    ucobs:startTime "2023-08-11T09:36:18.472Z".
+gpl:IP_FE06F38F482249650B6041DB0B04F9EC a ucobs:IPAddressFacet;
+    ucobs:addressValue "209.133.198.218".
+gpl:URL_DCC054BF92902219ABA93D04C02A53C3 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.coroflot.com/jobs/partners_javascript_recent_jobs_secure?origin_id&number_of_jobs";
+    ucobs:host gpl:DOMAIN_0877C819FB98FCC64E651D1CCFA78CF9, gpl:IP_FE06F38F482249650B6041DB0B04F9EC.
+gpl:DOMAIN_679DCDB8A075E6C30DDAB2AC896291A9 a ucobs:DomainNameFacet;
+    ucobs:addressValue "pixel.wp.com".
+gpl:HTTPCON_308E63488754B205AA63D4FA88C8943D a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:36:18.988Z";
+    ucobs:hasFacet gpl:URL_179AD72D77AA25A8E1BD35BABE8FAB20;
+    ucobs:startTime "2023-08-11T09:36:18.889Z".
+gpl:IP_72B1B152C0E6852376693E6D7B0FF4FA a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.76.3".
+gpl:URL_179AD72D77AA25A8E1BD35BABE8FAB20 a ucobs:URLFacet;
+    ucobs:fullValue "https://pixel.wp.com/g.gif?x_stats-initial-visibility&v&rand";
+    ucobs:host gpl:DOMAIN_679DCDB8A075E6C30DDAB2AC896291A9, gpl:IP_72B1B152C0E6852376693E6D7B0FF4FA.
+gpl:DOMAIN_E540A7FDBD4B802EDF2301322586F442 a ucobs:DomainNameFacet;
+    ucobs:addressValue "chimpstatic.com".
+gpl:HTTPCON_ED7C3112F302C844142D0C7A5D4C2071 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:36:18.991Z";
+    ucobs:hasFacet gpl:URL_7234FEED408F5EC56C671F63AFFAFE7D;
+    ucobs:startTime "2023-08-11T09:36:18.889Z".
+gpl:IP_96EAB14F098672825BD05EB1B471051D a ucobs:IPAddressFacet;
+    ucobs:addressValue "23.218.16.25".
+gpl:URL_7234FEED408F5EC56C671F63AFFAFE7D a ucobs:URLFacet;
+    ucobs:fullValue "https://chimpstatic.com/mcjs-connected/js/users/92393903161db64d4a7ef4719/cd7d1cd70d46ef0887df83920.js";
+    ucobs:host gpl:DOMAIN_E540A7FDBD4B802EDF2301322586F442, gpl:IP_96EAB14F098672825BD05EB1B471051D.
+gpl:DOMAIN_0877C819FB98FCC64E651D1CCFA78CF9 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.coroflot.com".
+gpl:HTTPCON_DF6C995935933FE04E3621DEA4CA1430 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-11T09:36:19.166Z";
+    ucobs:hasFacet gpl:URL_C746A60FE330BE1C729136912ED48070;
+    ucobs:startTime "2023-08-11T09:36:18.888Z".
+gpl:IP_FE06F38F482249650B6041DB0B04F9EC a ucobs:IPAddressFacet;
+    ucobs:addressValue "209.133.198.218".
+gpl:URL_C746A60FE330BE1C729136912ED48070 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.coroflot.com/stylesheets/partner_styles/how_mini.min.css";
+    ucobs:host gpl:DOMAIN_0877C819FB98FCC64E651D1CCFA78CF9, gpl:IP_FE06F38F482249650B6041DB0B04F9EC.
+gpl:DOMAIN_0877C819FB98FCC64E651D1CCFA78CF9 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.coroflot.com".
+gpl:HTTPCON_9C42292D2BE1F5B435574A2EE8B2DE40 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:36:19.167Z";
+    ucobs:hasFacet gpl:URL_AA0B9B329C548A62B41B0DCAD9CE6904;
+    ucobs:startTime "2023-08-11T09:36:18.887Z".
+gpl:IP_FE06F38F482249650B6041DB0B04F9EC a ucobs:IPAddressFacet;
+    ucobs:addressValue "209.133.198.218".
+gpl:URL_AA0B9B329C548A62B41B0DCAD9CE6904 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.coroflot.com/images/partner_images/powered_by.png";
+    ucobs:host gpl:DOMAIN_0877C819FB98FCC64E651D1CCFA78CF9, gpl:IP_FE06F38F482249650B6041DB0B04F9EC.
+gpl:DOMAIN_679DCDB8A075E6C30DDAB2AC896291A9 a ucobs:DomainNameFacet;
+    ucobs:addressValue "pixel.wp.com".
+gpl:HTTPCON_1F65767A2CCD7582C751FC948B095F6B a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:36:19.170Z";
+    ucobs:hasFacet gpl:URL_EB92D795EB74A0BFE4E060792100B0CC;
+    ucobs:startTime "2023-08-11T09:36:19.088Z".
+gpl:IP_72B1B152C0E6852376693E6D7B0FF4FA a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.76.3".
+gpl:URL_EB92D795EB74A0BFE4E060792100B0CC a ucobs:URLFacet;
+    ucobs:fullValue "https://pixel.wp.com/g.gif?v&blog&post&tz&srv&hp&ac&amp&j&host&ref&rand";
+    ucobs:host gpl:DOMAIN_679DCDB8A075E6C30DDAB2AC896291A9, gpl:IP_72B1B152C0E6852376693E6D7B0FF4FA.
+gpl:DOMAIN_3D21CBD29D4A0EBB6EDF2CB24089B1BA a ucobs:DomainNameFacet;
+    ucobs:addressValue "i0.wp.com".
+gpl:HTTPCON_CBBAE8A4A69F21678FEBA260E4855B0E a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:36:19.173Z";
+    ucobs:hasFacet gpl:URL_9048D8A4B33B7B7FD8D7258D4DD3CF6A;
+    ucobs:startTime "2023-08-11T09:36:19.097Z".
+gpl:IP_B321A93623EAED5C7DD599BCEAA33A94 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.2".
+gpl:URL_9048D8A4B33B7B7FD8D7258D4DD3CF6A a ucobs:URLFacet;
+    ucobs:fullValue "https://i0.wp.com/www.printmag.com/wp-content/uploads/2023/08/image.png?resize&ssl";
+    ucobs:host gpl:DOMAIN_3D21CBD29D4A0EBB6EDF2CB24089B1BA, gpl:IP_B321A93623EAED5C7DD599BCEAA33A94.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_461992D48EC6F8B41DC3157B1A66A970 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-11T09:36:19.174Z";
+    ucobs:hasFacet gpl:URL_10DE82386614CDE8697E9BDE86F34F89;
+    ucobs:startTime "2023-08-11T09:36:19.088Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_10DE82386614CDE8697E9BDE86F34F89 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/fonts/Newsreader16pt-Italic.woff2";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.printmag.com".
+gpl:HTTPCON_40A7B54DBBA9F5FCE2FE97BB889A67B8 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-11T09:36:19.424Z";
+    ucobs:hasFacet gpl:URL_06014894872D48B7D8EBEE79FEFE932E;
+    ucobs:startTime "2023-08-11T09:36:19.091Z".
+gpl:IP_0789BEDC243CEDD9475D3DC45A07245C a ucobs:IPAddressFacet;
+    ucobs:addressValue "199.16.173.242".
+gpl:URL_06014894872D48B7D8EBEE79FEFE932E a ucobs:URLFacet;
+    ucobs:fullValue "https://www.printmag.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.css?minify&ver";
+    ucobs:host gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7, gpl:IP_0789BEDC243CEDD9475D3DC45A07245C.
+gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.printmag.com".
+gpl:HTTPCON_FCBE8A3568D53F5A16B13564B60AE1D6 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T09:36:19.429Z";
+    ucobs:hasFacet gpl:URL_36F351BDF3948BDC04BE6AA3E41C4985;
+    ucobs:startTime "2023-08-11T09:36:19.090Z".
+gpl:IP_0789BEDC243CEDD9475D3DC45A07245C a ucobs:IPAddressFacet;
+    ucobs:addressValue "199.16.173.242".
+gpl:URL_36F351BDF3948BDC04BE6AA3E41C4985 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.printmag.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.defaultVendors.js?minify&ver";
+    ucobs:host gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7, gpl:IP_0789BEDC243CEDD9475D3DC45A07245C.
+gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.printmag.com".
+gpl:HTTPCON_5200CAC07DD74D39532C8158F79CBAC2 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T09:36:19.433Z";
+    ucobs:hasFacet gpl:URL_58E7DC97CB8BB62041473A2644670E8F;
+    ucobs:startTime "2023-08-11T09:36:19.091Z".
+gpl:IP_0789BEDC243CEDD9475D3DC45A07245C a ucobs:IPAddressFacet;
+    ucobs:addressValue "199.16.173.242".
+gpl:URL_58E7DC97CB8BB62041473A2644670E8F a ucobs:URLFacet;
+    ucobs:fullValue "https://www.printmag.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js?minify&ver";
+    ucobs:host gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7, gpl:IP_0789BEDC243CEDD9475D3DC45A07245C.
+gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.printmag.com".
+gpl:HTTPCON_5DAC047B4A085E49AC3812AE7B391017 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:36:19.587Z";
+    ucobs:hasFacet gpl:URL_53F6473FE0A9647201DAC3D0A1F1CB82;
+    ucobs:startTime "2023-08-11T09:36:19.442Z".
+gpl:IP_0789BEDC243CEDD9475D3DC45A07245C a ucobs:IPAddressFacet;
+    ucobs:addressValue "199.16.173.242".
+gpl:URL_53F6473FE0A9647201DAC3D0A1F1CB82 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.printmag.com/favicon.ico";
+    ucobs:host gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7, gpl:IP_0789BEDC243CEDD9475D3DC45A07245C.

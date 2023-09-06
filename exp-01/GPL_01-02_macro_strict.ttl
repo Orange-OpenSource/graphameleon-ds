@@ -1,0 +1,32 @@
+# Copyright (c) 2022-2023 Orange. All rights reserved in accordance to the CC-BY-NC-SA license
+# Project: graphameleon-ds
+# THIS SOFTWARE IS PROVIDED BY Orange "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Orange BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix gpl: <http://graphameleon.com#>.
+@prefix core: <https://ontology.unifiedcyberontology.org/uco/core#>.
+@prefix ucoact: <https://ontology.unifiedcyberontology.org/uco/action#>.
+@prefix ucobs: <https://ontology.unifiedcyberontology.org/uco/observable#>.
+@prefix types: <https://ontology.unifiedcyberontology.org/uco/types#>.
+
+gpl:DOMAIN_92CDB35822C2329D02954750A4273616 a ucobs:DomainNameFacet;
+    ucobs:addressValue "gardenestudio.com.br".
+gpl:HTTPCON_0D2809FC5062C7F6104C0AA08BD38380 a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "none";
+    ucobs:endTime "2023-08-11T10:05:19.257Z";
+    ucobs:hasFacet gpl:URL_38B84744A16632BF296E11314948CE41;
+    ucobs:startTime "2023-08-11T10:05:18.743Z".
+gpl:IP_D528887E0FBD188723B44333E0E4229D a ucobs:IPAddressFacet;
+    ucobs:addressValue "67.205.151.82".
+gpl:TRACE_0D2809FC5062C7F6104C0AA08BD38380 a ucoact:ObservableAction;
+    core:objectCreatedTime "2023-08-11T10:05:18.743Z";
+    core:tag "request";
+    core:value "req-https://gardenestudio.com.br/en";
+    ucobs:object gpl:HTTPCON_0D2809FC5062C7F6104C0AA08BD38380.
+gpl:URL_38B84744A16632BF296E11314948CE41 a ucobs:URLFacet;
+    ucobs:fullValue "https://gardenestudio.com.br/en";
+    ucobs:host gpl:DOMAIN_92CDB35822C2329D02954750A4273616, gpl:IP_D528887E0FBD188723B44333E0E4229D.

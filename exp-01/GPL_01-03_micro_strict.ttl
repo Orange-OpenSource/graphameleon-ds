@@ -1,0 +1,471 @@
+# Copyright (c) 2022-2023 Orange. All rights reserved in accordance to the CC-BY-NC-SA license
+# Project: graphameleon-ds
+# THIS SOFTWARE IS PROVIDED BY Orange "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Orange BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix gpl: <http://graphameleon.com#>.
+@prefix core: <https://ontology.unifiedcyberontology.org/uco/core#>.
+@prefix ucoact: <https://ontology.unifiedcyberontology.org/uco/action#>.
+@prefix ucobs: <https://ontology.unifiedcyberontology.org/uco/observable#>.
+@prefix types: <https://ontology.unifiedcyberontology.org/uco/types#>.
+
+gpl:DOMAIN_348210D8487EC9AA1DE2E2C14D18B51B a ucobs:DomainNameFacet;
+    ucobs:addressValue "hive.splitbee.io".
+gpl:HTTPCON_D7F85CEA0B24939EDA87397891758E97 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-11T08:52:25.182Z";
+    ucobs:hasFacet gpl:URL_F371CB9BEBA9E7FF11D5C8C92A4F63FD;
+    ucobs:startTime "2023-08-11T08:52:24.883Z".
+gpl:IP_A4EF4A35E74FE8B67DCEC6F556AB806D a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.4.120".
+gpl:URL_F371CB9BEBA9E7FF11D5C8C92A4F63FD a ucobs:URLFacet;
+    ucobs:fullValue "https://hive.splitbee.io/end";
+    ucobs:host gpl:DOMAIN_348210D8487EC9AA1DE2E2C14D18B51B, gpl:IP_A4EF4A35E74FE8B67DCEC6F556AB806D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_56A4A1E0CE63F1E7210578AFB750EC54 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-11T08:52:25.439Z";
+    ucobs:hasFacet gpl:URL_BB1C89C254826CCAA4A28CBAB9FA3DD9;
+    ucobs:startTime "2023-08-11T08:52:25.400Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_BB1C89C254826CCAA4A28CBAB9FA3DD9 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/Toaster.3a6d0da3.css";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_16A5E5BE592F5C967BE61214595AA45A a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-11T08:52:25.441Z";
+    ucobs:hasFacet gpl:URL_9E6D49DB6CF9364665FFBA0C0F67DCBF;
+    ucobs:startTime "2023-08-11T08:52:25.401Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_9E6D49DB6CF9364665FFBA0C0F67DCBF a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/_page.959659a7.css";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_C4B89A0A7C39C6B97B4B6E214B3845C0 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-11T08:52:25.443Z";
+    ucobs:hasFacet gpl:URL_F0A6262F60B802F3AF5BFDBA1BD02F16;
+    ucobs:startTime "2023-08-11T08:52:25.399Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_F0A6262F60B802F3AF5BFDBA1BD02F16 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/_layout.004d0e13.css";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_A9227B5E21D509E7FC81290527278E82 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T08:52:25.446Z";
+    ucobs:hasFacet gpl:URL_44F8D44BC47D525E3771F93DBBF8F580;
+    ucobs:startTime "2023-08-11T08:52:25.402Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_44F8D44BC47D525E3771F93DBBF8F580 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/entry/start.e58a07fe.js";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_E7F56A8FF148DAED116E07AA24F0AC4F a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T08:52:25.447Z";
+    ucobs:hasFacet gpl:URL_43DE81EAE18C5EF65C8D7D1FD4727E38;
+    ucobs:startTime "2023-08-11T08:52:25.405Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_43DE81EAE18C5EF65C8D7D1FD4727E38 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/chunks/index.94ce6a78.js";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_A522180D1FA071D33037C4E820FF252B a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T08:52:25.449Z";
+    ucobs:hasFacet gpl:URL_FF83365BA3435BBA59DCBDD0A8BD056A;
+    ucobs:startTime "2023-08-11T08:52:25.404Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_FF83365BA3435BBA59DCBDD0A8BD056A a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/chunks/singletons.53db0250.js";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_3E2ADA3A87F20129AA2BA00F548C0D4F a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T08:52:25.451Z";
+    ucobs:hasFacet gpl:URL_5A2DA9BB87FDF26BD2E78B6B0790445F;
+    ucobs:startTime "2023-08-11T08:52:25.406Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_5A2DA9BB87FDF26BD2E78B6B0790445F a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/entry/_layout.svelte.f5e16bf8.js";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_014F1059DFD9136E68EB53A5635C055F a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T08:52:25.453Z";
+    ucobs:hasFacet gpl:URL_413B0CA027B47D8D79EB4274C91D5711;
+    ucobs:startTime "2023-08-11T08:52:25.403Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_413B0CA027B47D8D79EB4274C91D5711 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/chunks/index.26fb43c8.js";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_741E5344D29CAE6F981DCAE6017F1BFD a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T08:52:25.458Z";
+    ucobs:hasFacet gpl:URL_288685F158DA817CD9A5E8A9DA898836;
+    ucobs:startTime "2023-08-11T08:52:25.407Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_288685F158DA817CD9A5E8A9DA898836 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/chunks/Toaster.svelte_svelte_type_style_lang.fec8c55e.js";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_4073C020BF5AEF07ECB24FC3E3924240 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:25.460Z";
+    ucobs:hasFacet gpl:URL_72AE367125A1C0F100B9BAC00BA53BAD;
+    ucobs:startTime "2023-08-11T08:52:25.409Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_72AE367125A1C0F100B9BAC00BA53BAD a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/coverImagex2.ff04e5b2.webp";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_8BF461CA870486FEB9ACDEEA0E952334 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T08:52:25.466Z";
+    ucobs:hasFacet gpl:URL_54BF5B0E221435FE2FF9235F28EEEA50;
+    ucobs:startTime "2023-08-11T08:52:25.407Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_54BF5B0E221435FE2FF9235F28EEEA50 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/entry/_page.svelte.5b90971f.js";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_DC2D37B773B08A611E50DDC73AC1B793 a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "none";
+    ucobs:endTime "2023-08-11T08:52:25.280Z";
+    ucobs:hasFacet gpl:URL_4DEF97D852B1C917FB9BA61767831505;
+    ucobs:startTime "2023-08-11T08:52:24.885Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_4DEF97D852B1C917FB9BA61767831505 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_9122924C145BA38D8AD08395738A6254 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:25.490Z";
+    ucobs:hasFacet gpl:URL_199DB09CE6ADD3B3F81019898F880DEC;
+    ucobs:startTime "2023-08-11T08:52:25.410Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_199DB09CE6ADD3B3F81019898F880DEC a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/checkIconFillGrey.393a0d46.svg";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_A8341EA94EB2CA1B8BB7F96CC5368679 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.splitbee.io".
+gpl:HTTPCON_CC685082DFB571B85679748FA2DAE562 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T08:52:25.520Z";
+    ucobs:hasFacet gpl:URL_7900031A1428628D8B9BF6905216FE1A;
+    ucobs:startTime "2023-08-11T08:52:25.408Z".
+gpl:IP_A2AF9F6B3411B14DA936907C44259610 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.5.120".
+gpl:URL_7900031A1428628D8B9BF6905216FE1A a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.splitbee.io/sb.js";
+    ucobs:host gpl:DOMAIN_A8341EA94EB2CA1B8BB7F96CC5368679, gpl:IP_A2AF9F6B3411B14DA936907C44259610.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_DD263714BE54AA2B06AD0F2D9296D3D6 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:25.534Z";
+    ucobs:hasFacet gpl:URL_C37B5F47D99362E762CC67528F1AACB4;
+    ucobs:startTime "2023-08-11T08:52:25.417Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_C37B5F47D99362E762CC67528F1AACB4 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/watermarkIconActive.e64d71db.svg";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_0321791AE5631B2456477F0EF762D9E5 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:25.536Z";
+    ucobs:hasFacet gpl:URL_CD7B8E1192669B17AE8FF51254EC2AB3;
+    ucobs:startTime "2023-08-11T08:52:25.416Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_CD7B8E1192669B17AE8FF51254EC2AB3 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/desktopApp.b87e76e6.png";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_3E0C5A37B6E21D0FBF9206D3D6A7B8E6 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T08:52:25.539Z";
+    ucobs:hasFacet gpl:URL_483737CC81CAAC4786876A0F5EE3DAB7;
+    ucobs:startTime "2023-08-11T08:52:25.405Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_483737CC81CAAC4786876A0F5EE3DAB7 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/entry/app.12c69c78.js";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_CBC41AE68434B5D52E8BCB985C54386E a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:25.542Z";
+    ucobs:hasFacet gpl:URL_CD681463EF8778766483F026AAECE172;
+    ucobs:startTime "2023-08-11T08:52:25.418Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_CD681463EF8778766483F026AAECE172 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/resizeIconDisabled.e8bb2672.svg";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_8F868004CCBE7871A489A52F89756859 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:25.544Z";
+    ucobs:hasFacet gpl:URL_BC50D0AD0D0E2CA1F229D4D9384819E5;
+    ucobs:startTime "2023-08-11T08:52:25.418Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_BC50D0AD0D0E2CA1F229D4D9384819E5 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/enabledIcon.e8c1edb8.svg";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_0C00001A95D71768EE707307EFE694F4 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:25.546Z";
+    ucobs:hasFacet gpl:URL_F6C2DBEEDA961C9BAE73F5BD517A492D;
+    ucobs:startTime "2023-08-11T08:52:25.419Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_F6C2DBEEDA961C9BAE73F5BD517A492D a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/disabledIcon.c965e59e.svg";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_2282F3D05F8EA7DA8EDFC342C3D22337 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:25.549Z";
+    ucobs:hasFacet gpl:URL_989F6A4D8DEBF81D7F601F758C1F4136;
+    ucobs:startTime "2023-08-11T08:52:25.420Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_989F6A4D8DEBF81D7F601F758C1F4136 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/renameIconDisabled.c936f0e7.svg";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_6E7703A76515792562E430F50CA75938 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:25.552Z";
+    ucobs:hasFacet gpl:URL_057CD37C0358FF055C62F5DAF74ED074;
+    ucobs:startTime "2023-08-11T08:52:25.421Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_057CD37C0358FF055C62F5DAF74ED074 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/eyeIconActiveGrey.e42ad491.svg";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_D0CE43F33BB6987E8459245BD02A145A a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:25.554Z";
+    ucobs:hasFacet gpl:URL_9357816D93DE2812098B7A085B473F4B;
+    ucobs:startTime "2023-08-11T08:52:25.421Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_9357816D93DE2812098B7A085B473F4B a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/checkIconFill.e0e61ced.svg";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_31B8FC706471C3F69A08DB6373F52D01 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:25.556Z";
+    ucobs:hasFacet gpl:URL_7FFB0FE608EE6779C189BA51808F2571;
+    ucobs:startTime "2023-08-11T08:52:25.422Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_7FFB0FE608EE6779C189BA51808F2571 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/gpu.e717e853.webp";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_F510FDDB1B9203718CDBDF352C1AC85D a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:25.560Z";
+    ucobs:hasFacet gpl:URL_9DAF1B0595B2EEFC637775A72D07A807;
+    ucobs:startTime "2023-08-11T08:52:25.416Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_9DAF1B0595B2EEFC637775A72D07A807 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/plusIcon.21fac9ec.svg";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_E79AC5E90281201BA0C2EE15FBA01319 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:25.563Z";
+    ucobs:hasFacet gpl:URL_42A66B910FE0EB15817A75B525A1B8D5;
+    ucobs:startTime "2023-08-11T08:52:25.422Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_42A66B910FE0EB15817A75B525A1B8D5 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/lock.3c3f9767.webp";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_16E3025334E7EE7EA175486E11DF4CD5 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:25.567Z";
+    ucobs:hasFacet gpl:URL_561A17C9D96C0E665646C76277201513;
+    ucobs:startTime "2023-08-11T08:52:25.423Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_561A17C9D96C0E665646C76277201513 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/cube.e7d63390.webp";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_C5572483BF0E3830A0CCBCD81A367293 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:25.568Z";
+    ucobs:hasFacet gpl:URL_98DA2D3ACB8A2419117A6370BCAF537C;
+    ucobs:startTime "2023-08-11T08:52:25.424Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_98DA2D3ACB8A2419117A6370BCAF537C a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/svelteLogo.dc8a06dc.svg";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_10E880959051CF905F72E95673CC6AFA a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "font", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:25.881Z";
+    ucobs:hasFacet gpl:URL_4C17947F5615C34CA96862740E0EEA21;
+    ucobs:startTime "2023-08-11T08:52:25.862Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_4C17947F5615C34CA96862740E0EEA21 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/fonts/PPEditorialNew-Regular.woff2";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_CB09C3FB889E7103A89E8D724ADE8938 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T08:52:25.884Z";
+    ucobs:hasFacet gpl:URL_DE950BE2F12982955E32064E0EAA2C0C;
+    ucobs:startTime "2023-08-11T08:52:25.865Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_DE950BE2F12982955E32064E0EAA2C0C a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/chunks/1.7821cd34.js";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_0C6926524D887F2F41146F991F69D6B7 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T08:52:25.886Z";
+    ucobs:hasFacet gpl:URL_FE2BD24B01E633167B0B02A505AE0302;
+    ucobs:startTime "2023-08-11T08:52:25.864Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_FE2BD24B01E633167B0B02A505AE0302 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/chunks/0.dee78970.js";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_CB796A6DAB68CE3F415B460936C4DF95 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T08:52:25.888Z";
+    ucobs:hasFacet gpl:URL_6493FDF2459AFD60AAD179D6701833D2;
+    ucobs:startTime "2023-08-11T08:52:25.865Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_6493FDF2459AFD60AAD179D6701833D2 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/entry/error.svelte.ae4b8463.js";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_5E533EB929EA21F6A57CCE5DCFEC1C40 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "same-origin", "script";
+    ucobs:endTime "2023-08-11T08:52:25.889Z";
+    ucobs:hasFacet gpl:URL_749483D6FCB4265EE524CDF3A09F7AA5;
+    ucobs:startTime "2023-08-11T08:52:25.866Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_749483D6FCB4265EE524CDF3A09F7AA5 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/chunks/2.b2fd00c6.js";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_348210D8487EC9AA1DE2E2C14D18B51B a ucobs:DomainNameFacet;
+    ucobs:addressValue "hive.splitbee.io".
+gpl:HTTPCON_1A3064F6AE941CBD137C6677D87AE126 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-11T08:52:26.235Z";
+    ucobs:hasFacet gpl:URL_51F38E59738440ED475A23CD3847D353;
+    ucobs:startTime "2023-08-11T08:52:26.182Z".
+gpl:IP_A4EF4A35E74FE8B67DCEC6F556AB806D a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.4.120".
+gpl:URL_51F38E59738440ED475A23CD3847D353 a ucobs:URLFacet;
+    ucobs:fullValue "https://hive.splitbee.io/i";
+    ucobs:host gpl:DOMAIN_348210D8487EC9AA1DE2E2C14D18B51B, gpl:IP_A4EF4A35E74FE8B67DCEC6F556AB806D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_C48AE76E20F1E2F16B0A4AC4B9330DC0 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:26.247Z";
+    ucobs:hasFacet gpl:URL_83A59181F6A774894AD1A57BFE0CE5B5;
+    ucobs:startTime "2023-08-11T08:52:26.232Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_83A59181F6A774894AD1A57BFE0CE5B5 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/_app/immutable/assets/rust_bg.ce3ff4ee.wasm";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.
+gpl:DOMAIN_348210D8487EC9AA1DE2E2C14D18B51B a ucobs:DomainNameFacet;
+    ucobs:addressValue "hive.splitbee.io".
+gpl:HTTPCON_66202AF2237AB699960C218348F7B64B a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-11T08:52:26.348Z";
+    ucobs:hasFacet gpl:URL_51F38E59738440ED475A23CD3847D353;
+    ucobs:startTime "2023-08-11T08:52:25.863Z".
+gpl:IP_A4EF4A35E74FE8B67DCEC6F556AB806D a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.26.4.120".
+gpl:URL_51F38E59738440ED475A23CD3847D353 a ucobs:URLFacet;
+    ucobs:fullValue "https://hive.splitbee.io/i";
+    ucobs:host gpl:DOMAIN_348210D8487EC9AA1DE2E2C14D18B51B, gpl:IP_A4EF4A35E74FE8B67DCEC6F556AB806D.
+gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.markmyimages.com".
+gpl:HTTPCON_1AFC7D6ABA9EEC2035D852BF314D0C61 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T08:52:26.412Z";
+    ucobs:hasFacet gpl:URL_8DD25A3D7A94F97BF1329972F9E4CCF0;
+    ucobs:startTime "2023-08-11T08:52:26.403Z".
+gpl:IP_2A021AB30B18A417470B950FFE59495D a ucobs:IPAddressFacet;
+    ucobs:addressValue "76.76.21.61".
+gpl:URL_8DD25A3D7A94F97BF1329972F9E4CCF0 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.markmyimages.com/favicon.png";
+    ucobs:host gpl:DOMAIN_F86109DFB973C8DC8380DDAF4FB5DB01, gpl:IP_2A021AB30B18A417470B950FFE59495D.

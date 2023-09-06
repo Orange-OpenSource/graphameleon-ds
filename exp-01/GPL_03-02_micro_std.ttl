@@ -1,0 +1,1239 @@
+# Copyright (c) 2022-2023 Orange. All rights reserved in accordance to the CC-BY-NC-SA license
+# Project: graphameleon-ds
+# THIS SOFTWARE IS PROVIDED BY Orange "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Orange BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix gpl: <http://graphameleon.com#>.
+@prefix core: <https://ontology.unifiedcyberontology.org/uco/core#>.
+@prefix ucoact: <https://ontology.unifiedcyberontology.org/uco/action#>.
+@prefix ucobs: <https://ontology.unifiedcyberontology.org/uco/observable#>.
+@prefix types: <https://ontology.unifiedcyberontology.org/uco/types#>.
+
+gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.printmag.com".
+gpl:HTTPCON_15775DC860167BA23C98AD9EF06B080B a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "none";
+    ucobs:endTime "2023-08-14T08:05:26.597Z";
+    ucobs:hasFacet gpl:URL_F060E505BD8D677C4C7A56C91FF1C435;
+    ucobs:startTime "2023-08-14T08:05:26.319Z".
+gpl:IP_0789BEDC243CEDD9475D3DC45A07245C a ucobs:IPAddressFacet;
+    ucobs:addressValue "199.16.173.242".
+gpl:URL_F060E505BD8D677C4C7A56C91FF1C435 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.printmag.com/";
+    ucobs:host gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7, gpl:IP_0789BEDC243CEDD9475D3DC45A07245C.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_F7BAC2CD73F1EACC89E1ACA0F30A6C6D a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:26.781Z";
+    ucobs:hasFacet gpl:URL_FC0344291BE70844DE491261ED91832B;
+    ucobs:startTime "2023-08-14T08:05:26.706Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_FC0344291BE70844DE491261ED91832B a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/jquery/jquery.min.js";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_65619B410AA06909D1BC63AEBC3A0669 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:26.791Z";
+    ucobs:hasFacet gpl:URL_61F924A3594CFA79C7BEB88C269421D3;
+    ucobs:startTime "2023-08-14T08:05:26.708Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_61F924A3594CFA79C7BEB88C269421D3 a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/dist/vendor/regenerator-runtime.min.js";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_FA63D6858CB0E556CD49734EA5EC78D0 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:26.798Z";
+    ucobs:hasFacet gpl:URL_E0A57299E7956E39F8DC3051ECEF309D;
+    ucobs:startTime "2023-08-14T08:05:26.709Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_E0A57299E7956E39F8DC3051ECEF309D a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/dist/vendor/wp-polyfill.min.js";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_08167DE15DA0F8F35D4C7F59A47AF505 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:26.811Z";
+    ucobs:hasFacet gpl:URL_26E4A42791EA5CE653D4FA5961C47C7D;
+    ucobs:startTime "2023-08-14T08:05:26.714Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_26E4A42791EA5CE653D4FA5961C47C7D a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/dist/hooks.min.js";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_C409F3C8E765B56E3D6AB674F1C45AB0 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:26.818Z";
+    ucobs:hasFacet gpl:URL_AFC33A66297FD8FA51E188CC908E1947;
+    ucobs:startTime "2023-08-14T08:05:26.714Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_AFC33A66297FD8FA51E188CC908E1947 a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/dist/i18n.min.js";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_E8E88837633C169F67C896E01CF27F3C a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:26.825Z";
+    ucobs:hasFacet gpl:URL_1C6CA93186FE4206C0C9492113D9170B;
+    ucobs:startTime "2023-08-14T08:05:26.721Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_1C6CA93186FE4206C0C9492113D9170B a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/dist/url.min.js";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_0BC346802CC971EF672FA08D970326C1 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-14T08:05:26.834Z";
+    ucobs:hasFacet gpl:URL_521179FE0EC028E210AD3531F828A955;
+    ucobs:startTime "2023-08-14T08:05:26.697Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_521179FE0EC028E210AD3531F828A955 a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/css/dist/block-library/style.min.css";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_CDC4204FDC37875542ADF989A2671C9F a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:26.845Z";
+    ucobs:hasFacet gpl:URL_5A93F07B4C8752CC6B99EAE4B7ED7E0F;
+    ucobs:startTime "2023-08-14T08:05:26.707Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_5A93F07B4C8752CC6B99EAE4B7ED7E0F a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/jquery/jquery-migrate.min.js";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_61BDB182D7B16B871361B3B1270EE95E a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-14T08:05:26.852Z";
+    ucobs:hasFacet gpl:URL_42B81F136AFB9306D4556CEB2352FD19;
+    ucobs:startTime "2023-08-14T08:05:26.704Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_42B81F136AFB9306D4556CEB2352FD19 a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_A0CBBE8FF6EB2887BB1D1ABC76E8BA02 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-14T08:05:26.862Z";
+    ucobs:hasFacet gpl:URL_71880E19291747952B3F4BC4D02B845B;
+    ucobs:startTime "2023-08-14T08:05:26.704Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_71880E19291747952B3F4BC4D02B845B a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/mediaelement/wp-mediaelement.min.css";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668 a ucobs:DomainNameFacet;
+    ucobs:addressValue "c0.wp.com".
+gpl:HTTPCON_C6FCE3C7D8BE406BEB342B9BFDE3504D a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:26.868Z";
+    ucobs:hasFacet gpl:URL_8077C5383DBABD8C0AB9DAE3583AF9CB;
+    ucobs:startTime "2023-08-14T08:05:26.708Z".
+gpl:IP_27746B70AB521DADA153B08FED196A58 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.37".
+gpl:URL_8077C5383DBABD8C0AB9DAE3583AF9CB a ucobs:URLFacet;
+    ucobs:fullValue "https://c0.wp.com/c/6.3/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js";
+    ucobs:host gpl:DOMAIN_0B892D37FC0D149C999CD070E5E4A668, gpl:IP_27746B70AB521DADA153B08FED196A58.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_428D821C36FF4ABB47CD395754F8000B a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-14T08:05:26.875Z";
+    ucobs:hasFacet gpl:URL_C45645894084B0EB78F5B7770FD5ED17;
+    ucobs:startTime "2023-08-14T08:05:26.705Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_C45645894084B0EB78F5B7770FD5ED17 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/jetpack/css/jetpack.css?ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_0779ECA87869370FB6895052045407E4 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-14T08:05:26.881Z";
+    ucobs:hasFacet gpl:URL_EDABEB757B6F8D29EEE9452F336001D4;
+    ucobs:startTime "2023-08-14T08:05:26.718Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_EDABEB757B6F8D29EEE9452F336001D4 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/fonts/Inter-Regular.woff2";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_80FEDDD8D5C3A8CC04158C2E6C02477C a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:26.887Z";
+    ucobs:hasFacet gpl:URL_61F6BE57EC774727075AE0D3B5D28195;
+    ucobs:startTime "2023-08-14T08:05:26.720Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_61F6BE57EC774727075AE0D3B5D28195 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/modal-block/dist/modal.js?ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_08BC97A5ABA948271559F6238445C146 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:26.894Z";
+    ucobs:hasFacet gpl:URL_6E6EBB259BCB54190682C79761730FA3;
+    ucobs:startTime "2023-08-14T08:05:26.722Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_6E6EBB259BCB54190682C79761730FA3 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.js?minify&ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_83FEB1CD8EA0E48A06DDB82C2344EAC8 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:26.900Z";
+    ucobs:hasFacet gpl:URL_E56BD798AAFF33F7936CDED0DF0B5924;
+    ucobs:startTime "2023-08-14T08:05:26.723Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_E56BD798AAFF33F7936CDED0DF0B5924 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-lazy-images/dist/intersection-observer.js?minify&ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_9F7DB6A9190AC33652FF57C3175B0D0F a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:26.905Z";
+    ucobs:hasFacet gpl:URL_B1F3D9E7993EF6A8DF7836C2A026A653;
+    ucobs:startTime "2023-08-14T08:05:26.724Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_B1F3D9E7993EF6A8DF7836C2A026A653 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-lazy-images/dist/lazy-images.js?minify&ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_A978C3A89AB5C7ADFA32063ED5ADAC0D a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:26.911Z";
+    ucobs:hasFacet gpl:URL_F84EE8C7B9D11D4CED2F013705F519A0;
+    ucobs:startTime "2023-08-14T08:05:26.725Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_F84EE8C7B9D11D4CED2F013705F519A0 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/js/build/navigation.js?ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_D19786F9255893560BCF3CD978FA481F a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:26.916Z";
+    ucobs:hasFacet gpl:URL_D0434CE1133287ED983281E46D0AB68A;
+    ucobs:startTime "2023-08-14T08:05:26.726Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_D0434CE1133287ED983281E46D0AB68A a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/js/build/slideshow.js?ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_69D9E136F07C68B177393AFD4BB881B9 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:26.924Z";
+    ucobs:hasFacet gpl:URL_E6E60622C310CA5F4F304A52649D5687;
+    ucobs:startTime "2023-08-14T08:05:26.727Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_E6E60622C310CA5F4F304A52649D5687 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/mu-plugins/printmag-mailchimp-signup-block/build/frontend.js?ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_01D602670E01698982EC5089316D2ADF a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-14T08:05:26.929Z";
+    ucobs:hasFacet gpl:URL_201105689295BB2359E0AA772430CF2D;
+    ucobs:startTime "2023-08-14T08:05:26.703Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_201105689295BB2359E0AA772430CF2D a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/modal-block/dist/blocks.style.build.css?ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_DA688D064ED62199A5FFBBF36C1ED0C1 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-14T08:05:26.935Z";
+    ucobs:hasFacet gpl:URL_BD2D1AD177FA6896E705596348163FF4;
+    ucobs:startTime "2023-08-14T08:05:26.705Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_BD2D1AD177FA6896E705596348163FF4 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/style.css?ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_88AF042F92CA02F7B2DBE8C0EE4C2B8C a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:26.941Z";
+    ucobs:hasFacet gpl:URL_0056CFA77AB8C27CF5D6C919702203F9;
+    ucobs:startTime "2023-08-14T08:05:26.715Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_0056CFA77AB8C27CF5D6C919702203F9 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-assets/build/i18n-loader.js?minify&ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_1C921FE9E253DD2E3BC179EDF7790147 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-14T08:05:26.946Z";
+    ucobs:hasFacet gpl:URL_C7243A414241E939E7044CEBF7CE45C3;
+    ucobs:startTime "2023-08-14T08:05:26.702Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_C7243A414241E939E7044CEBF7CE45C3 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/video/view.css?minify&ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_528AD16BB5D739F0E9C63AACB44ADFBA a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-14T08:05:26.986Z";
+    ucobs:hasFacet gpl:URL_E545D9E3011A889C50B677520C2FA6E9;
+    ucobs:startTime "2023-08-14T08:05:26.717Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_E545D9E3011A889C50B677520C2FA6E9 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/fonts/Newsreader-Regular.woff2";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_27D5BDF773EDC21848AE5FCD0DD027A0 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:26.995Z";
+    ucobs:hasFacet gpl:URL_2E8ACF8036B40E4BEC31DF8EE262B41C;
+    ucobs:startTime "2023-08-14T08:05:26.721Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_2E8ACF8036B40E4BEC31DF8EE262B41C a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/mu-plugins/printmag-post-type-archive-block/build/frontend.js?ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_B4228968AF739A72CB922FA077F0FCCD a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:27.000Z";
+    ucobs:hasFacet gpl:URL_EEE04A43BB85865D4F7C69D567F73D6F;
+    ucobs:startTime "2023-08-14T08:05:26.720Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_EEE04A43BB85865D4F7C69D567F73D6F a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/plugins/jetpack-boost/jetpack_vendor/automattic/jetpack-image-cdn/dist/image-cdn.js?minify&ver";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C8D05E189972711044F07858802CC7D8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagmanager.com".
+gpl:HTTPCON_44FE415CF596580F7EE10316F66959CC a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:27.005Z";
+    ucobs:hasFacet gpl:URL_8291C4692408AA7C540F4749D4C94C5A;
+    ucobs:startTime "2023-08-14T08:05:26.716Z".
+gpl:IP_B8D0BFB90218030797C80DDE2A549A69 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.214.72".
+gpl:URL_8291C4692408AA7C540F4749D4C94C5A a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagmanager.com/gtag/js?id";
+    ucobs:host gpl:DOMAIN_C8D05E189972711044F07858802CC7D8, gpl:IP_B8D0BFB90218030797C80DDE2A549A69.
+gpl:DOMAIN_8FCAFEF0F5AD01E75D9CEBA8ABA8E3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "stats.wp.com".
+gpl:HTTPCON_53F0C56F2165FBFC1335B32851ED143D a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:27.010Z";
+    ucobs:hasFacet gpl:URL_9F7F5D2D9D5CC8E1A7C6C17819F6DEB3;
+    ucobs:startTime "2023-08-14T08:05:26.723Z".
+gpl:IP_72B1B152C0E6852376693E6D7B0FF4FA a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.76.3".
+gpl:URL_9F7F5D2D9D5CC8E1A7C6C17819F6DEB3 a ucobs:URLFacet;
+    ucobs:fullValue "https://stats.wp.com/w.js?ver";
+    ucobs:host gpl:DOMAIN_8FCAFEF0F5AD01E75D9CEBA8ABA8E3BB, gpl:IP_72B1B152C0E6852376693E6D7B0FF4FA.
+gpl:DOMAIN_8FCAFEF0F5AD01E75D9CEBA8ABA8E3BB a ucobs:DomainNameFacet;
+    ucobs:addressValue "stats.wp.com".
+gpl:HTTPCON_BDEB5D8229B2E05B31A61AE0576BF2A9 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:27.015Z";
+    ucobs:hasFacet gpl:URL_79320EE17EAB9F8F9F066642D18C9AB6;
+    ucobs:startTime "2023-08-14T08:05:26.725Z".
+gpl:IP_72B1B152C0E6852376693E6D7B0FF4FA a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.76.3".
+gpl:URL_79320EE17EAB9F8F9F066642D18C9AB6 a ucobs:URLFacet;
+    ucobs:fullValue "https://stats.wp.com/e-202333.js";
+    ucobs:host gpl:DOMAIN_8FCAFEF0F5AD01E75D9CEBA8ABA8E3BB, gpl:IP_72B1B152C0E6852376693E6D7B0FF4FA.
+gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6 a ucobs:DomainNameFacet;
+    ucobs:addressValue "newmediacampaigns.report-uri.com".
+gpl:HTTPCON_B0334A777F9AFC41C18A214EE03A2D86 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "report";
+    ucobs:endTime "2023-08-14T08:05:27.275Z";
+    ucobs:hasFacet gpl:URL_21A5962DEABA1B03825C2AB2FC245942;
+    ucobs:startTime "2023-08-14T08:05:26.603Z".
+gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.17.186.88".
+gpl:URL_21A5962DEABA1B03825C2AB2FC245942 a ucobs:URLFacet;
+    ucobs:fullValue "https://newmediacampaigns.report-uri.com/r/d/csp/enforce";
+    ucobs:host gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6, gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9.
+gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6 a ucobs:DomainNameFacet;
+    ucobs:addressValue "newmediacampaigns.report-uri.com".
+gpl:HTTPCON_1BC7BA12EFE57F67114CB99E11DA6A55 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "report";
+    ucobs:endTime "2023-08-14T08:05:27.288Z";
+    ucobs:hasFacet gpl:URL_21A5962DEABA1B03825C2AB2FC245942;
+    ucobs:startTime "2023-08-14T08:05:26.601Z".
+gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.17.186.88".
+gpl:URL_21A5962DEABA1B03825C2AB2FC245942 a ucobs:URLFacet;
+    ucobs:fullValue "https://newmediacampaigns.report-uri.com/r/d/csp/enforce";
+    ucobs:host gpl:DOMAIN_36D0FA77A21A9EB49801318798206DB6, gpl:IP_7B6C0A3F2B28003B1974F2EF229BFCD9.
+gpl:DOMAIN_0877C819FB98FCC64E651D1CCFA78CF9 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.coroflot.com".
+gpl:HTTPCON_1849564E3C8D461C37C66A669847478C a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:27.420Z";
+    ucobs:hasFacet gpl:URL_DCC054BF92902219ABA93D04C02A53C3;
+    ucobs:startTime "2023-08-14T08:05:26.719Z".
+gpl:IP_FE06F38F482249650B6041DB0B04F9EC a ucobs:IPAddressFacet;
+    ucobs:addressValue "209.133.198.218".
+gpl:URL_DCC054BF92902219ABA93D04C02A53C3 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.coroflot.com/jobs/partners_javascript_recent_jobs_secure?origin_id&number_of_jobs";
+    ucobs:host gpl:DOMAIN_0877C819FB98FCC64E651D1CCFA78CF9, gpl:IP_FE06F38F482249650B6041DB0B04F9EC.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_4DED5E9F4E940ED3D660C58D17CCFF5F a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "image", "same-origin";
+    ucobs:endTime "2023-08-14T08:05:27.457Z";
+    ucobs:hasFacet gpl:URL_E31CC3D0270564A1FFCF42F842B0C471;
+    ucobs:startTime "2023-08-14T08:05:27.436Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_E31CC3D0270564A1FFCF42F842B0C471 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/images/print-magazine-logo.svg";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_7E9B9245D9577B63DE99A6AD5D5E8C3A a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-14T08:05:27.458Z";
+    ucobs:hasFacet gpl:URL_69CA4C40ECE13D39FF6FBC19845542C4;
+    ucobs:startTime "2023-08-14T08:05:27.437Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_69CA4C40ECE13D39FF6FBC19845542C4 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/fonts/Newsreader16pt-Regular.woff2";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_B76168D0148E1474037F484AE7130FBE a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-14T08:05:27.459Z";
+    ucobs:hasFacet gpl:URL_297BA1D16A60A652A4A4FE0E813FA13B;
+    ucobs:startTime "2023-08-14T08:05:27.438Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_297BA1D16A60A652A4A4FE0E813FA13B a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/fonts/Inter-Black.woff2";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_C8D05E189972711044F07858802CC7D8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagmanager.com".
+gpl:HTTPCON_1B9FE55E4DE818FF0A50FD711ACA52FB a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:27.470Z";
+    ucobs:hasFacet gpl:URL_8E8C08FB725739C3C425CECDB035FE6C;
+    ucobs:startTime "2023-08-14T08:05:27.438Z".
+gpl:IP_B8D0BFB90218030797C80DDE2A549A69 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.214.72".
+gpl:URL_8E8C08FB725739C3C425CECDB035FE6C a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagmanager.com/gtag/js?id&l&cx";
+    ucobs:host gpl:DOMAIN_C8D05E189972711044F07858802CC7D8, gpl:IP_B8D0BFB90218030797C80DDE2A549A69.
+gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "149522020.v2.pressablecdn.com".
+gpl:HTTPCON_014B4B79590A075B94C443AB42C0FA7E a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-14T08:05:27.487Z";
+    ucobs:hasFacet gpl:URL_10DE82386614CDE8697E9BDE86F34F89;
+    ucobs:startTime "2023-08-14T08:05:27.478Z".
+gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.39".
+gpl:URL_10DE82386614CDE8697E9BDE86F34F89 a ucobs:URLFacet;
+    ucobs:fullValue "https://149522020.v2.pressablecdn.com/wp-content/themes/printmag/fonts/Newsreader16pt-Italic.woff2";
+    ucobs:host gpl:DOMAIN_C5299BEA1A4BDBF4386D7DA21AB389A1, gpl:IP_F459E40DB7C5BAB3618645C8DACED7B3.
+gpl:DOMAIN_679DCDB8A075E6C30DDAB2AC896291A9 a ucobs:DomainNameFacet;
+    ucobs:addressValue "pixel.wp.com".
+gpl:HTTPCON_2D2F4B9943F484D7E3B8070402E45385 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:27.496Z";
+    ucobs:hasFacet gpl:URL_179AD72D77AA25A8E1BD35BABE8FAB20;
+    ucobs:startTime "2023-08-14T08:05:27.477Z".
+gpl:IP_72B1B152C0E6852376693E6D7B0FF4FA a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.76.3".
+gpl:URL_179AD72D77AA25A8E1BD35BABE8FAB20 a ucobs:URLFacet;
+    ucobs:fullValue "https://pixel.wp.com/g.gif?x_stats-initial-visibility&v&rand";
+    ucobs:host gpl:DOMAIN_679DCDB8A075E6C30DDAB2AC896291A9, gpl:IP_72B1B152C0E6852376693E6D7B0FF4FA.
+gpl:DOMAIN_679DCDB8A075E6C30DDAB2AC896291A9 a ucobs:DomainNameFacet;
+    ucobs:addressValue "pixel.wp.com".
+gpl:HTTPCON_19FC81D0ACA8626A8EFC96870EB2D00B a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:27.498Z";
+    ucobs:hasFacet gpl:URL_EB92D795EB74A0BFE4E060792100B0CC;
+    ucobs:startTime "2023-08-14T08:05:27.478Z".
+gpl:IP_72B1B152C0E6852376693E6D7B0FF4FA a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.76.3".
+gpl:URL_EB92D795EB74A0BFE4E060792100B0CC a ucobs:URLFacet;
+    ucobs:fullValue "https://pixel.wp.com/g.gif?v&blog&post&tz&srv&hp&ac&amp&j&host&ref&rand";
+    ucobs:host gpl:DOMAIN_679DCDB8A075E6C30DDAB2AC896291A9, gpl:IP_72B1B152C0E6852376693E6D7B0FF4FA.
+gpl:DOMAIN_0877C819FB98FCC64E651D1CCFA78CF9 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.coroflot.com".
+gpl:HTTPCON_9EBA4F3966E5CD0550BFFB907EA61125 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:27.652Z";
+    ucobs:hasFacet gpl:URL_AA0B9B329C548A62B41B0DCAD9CE6904;
+    ucobs:startTime "2023-08-14T08:05:27.474Z".
+gpl:IP_FE06F38F482249650B6041DB0B04F9EC a ucobs:IPAddressFacet;
+    ucobs:addressValue "209.133.198.218".
+gpl:URL_AA0B9B329C548A62B41B0DCAD9CE6904 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.coroflot.com/images/partner_images/powered_by.png";
+    ucobs:host gpl:DOMAIN_0877C819FB98FCC64E651D1CCFA78CF9, gpl:IP_FE06F38F482249650B6041DB0B04F9EC.
+gpl:DOMAIN_0877C819FB98FCC64E651D1CCFA78CF9 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.coroflot.com".
+gpl:HTTPCON_0F1A9E1614EB126D39A1888E5401C76E a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-14T08:05:27.656Z";
+    ucobs:hasFacet gpl:URL_C746A60FE330BE1C729136912ED48070;
+    ucobs:startTime "2023-08-14T08:05:27.475Z".
+gpl:IP_FE06F38F482249650B6041DB0B04F9EC a ucobs:IPAddressFacet;
+    ucobs:addressValue "209.133.198.218".
+gpl:URL_C746A60FE330BE1C729136912ED48070 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.coroflot.com/stylesheets/partner_styles/how_mini.min.css";
+    ucobs:host gpl:DOMAIN_0877C819FB98FCC64E651D1CCFA78CF9, gpl:IP_FE06F38F482249650B6041DB0B04F9EC.
+gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.printmag.com".
+gpl:HTTPCON_3957B9048C333F8B57B806D67D786D61 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "style";
+    ucobs:endTime "2023-08-14T08:05:27.662Z";
+    ucobs:hasFacet gpl:URL_06014894872D48B7D8EBEE79FEFE932E;
+    ucobs:startTime "2023-08-14T08:05:27.486Z".
+gpl:IP_0789BEDC243CEDD9475D3DC45A07245C a ucobs:IPAddressFacet;
+    ucobs:addressValue "199.16.173.242".
+gpl:URL_06014894872D48B7D8EBEE79FEFE932E a ucobs:URLFacet;
+    ucobs:fullValue "https://www.printmag.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.css?minify&ver";
+    ucobs:host gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7, gpl:IP_0789BEDC243CEDD9475D3DC45A07245C.
+gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.printmag.com".
+gpl:HTTPCON_59F7908D8C0A85653A3D4873B8EA49CF a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:05:27.663Z";
+    ucobs:hasFacet gpl:URL_36F351BDF3948BDC04BE6AA3E41C4985;
+    ucobs:startTime "2023-08-14T08:05:27.486Z".
+gpl:IP_0789BEDC243CEDD9475D3DC45A07245C a ucobs:IPAddressFacet;
+    ucobs:addressValue "199.16.173.242".
+gpl:URL_36F351BDF3948BDC04BE6AA3E41C4985 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.printmag.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.defaultVendors.js?minify&ver";
+    ucobs:host gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7, gpl:IP_0789BEDC243CEDD9475D3DC45A07245C.
+gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.printmag.com".
+gpl:HTTPCON_E9B8118002F30412933D64FCDE838CB0 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-origin", "script";
+    ucobs:endTime "2023-08-14T08:05:27.665Z";
+    ucobs:hasFacet gpl:URL_58E7DC97CB8BB62041473A2644670E8F;
+    ucobs:startTime "2023-08-14T08:05:27.487Z".
+gpl:IP_0789BEDC243CEDD9475D3DC45A07245C a ucobs:IPAddressFacet;
+    ucobs:addressValue "199.16.173.242".
+gpl:URL_58E7DC97CB8BB62041473A2644670E8F a ucobs:URLFacet;
+    ucobs:fullValue "https://www.printmag.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js?minify&ver";
+    ucobs:host gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7, gpl:IP_0789BEDC243CEDD9475D3DC45A07245C.
+gpl:DOMAIN_E540A7FDBD4B802EDF2301322586F442 a ucobs:DomainNameFacet;
+    ucobs:addressValue "chimpstatic.com".
+gpl:HTTPCON_414ABD9AA59B2D96045DEFCA2ECFACB2 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:27.688Z";
+    ucobs:hasFacet gpl:URL_7234FEED408F5EC56C671F63AFFAFE7D;
+    ucobs:startTime "2023-08-14T08:05:27.475Z".
+gpl:IP_96EAB14F098672825BD05EB1B471051D a ucobs:IPAddressFacet;
+    ucobs:addressValue "23.218.16.25".
+gpl:URL_7234FEED408F5EC56C671F63AFFAFE7D a ucobs:URLFacet;
+    ucobs:fullValue "https://chimpstatic.com/mcjs-connected/js/users/92393903161db64d4a7ef4719/cd7d1cd70d46ef0887df83920.js";
+    ucobs:host gpl:DOMAIN_E540A7FDBD4B802EDF2301322586F442, gpl:IP_96EAB14F098672825BD05EB1B471051D.
+gpl:DOMAIN_3D21CBD29D4A0EBB6EDF2CB24089B1BA a ucobs:DomainNameFacet;
+    ucobs:addressValue "i0.wp.com".
+gpl:HTTPCON_699E66D1A1646534FC251C195121E492 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:27.722Z";
+    ucobs:hasFacet gpl:URL_516283C73554817088D833F0A844B4AF;
+    ucobs:startTime "2023-08-14T08:05:27.624Z".
+gpl:IP_B321A93623EAED5C7DD599BCEAA33A94 a ucobs:IPAddressFacet;
+    ucobs:addressValue "192.0.77.2".
+gpl:URL_516283C73554817088D833F0A844B4AF a ucobs:URLFacet;
+    ucobs:fullValue "https://i0.wp.com/www.printmag.com/wp-content/uploads/2023/08/Billboard-scaled.jpeg?resize&ssl";
+    ucobs:host gpl:DOMAIN_3D21CBD29D4A0EBB6EDF2CB24089B1BA, gpl:IP_B321A93623EAED5C7DD599BCEAA33A94.
+gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google-analytics.com".
+gpl:HTTPCON_5CC4989B178F72999A5C651AD5B1B4E4 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:27.779Z";
+    ucobs:hasFacet gpl:URL_8B79F4996C43469646FB5ED3D37839EA;
+    ucobs:startTime "2023-08-14T08:05:27.490Z".
+gpl:IP_D7DB10AAE67F4748EAF414B4FC4EAB13 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.75.238".
+gpl:URL_8B79F4996C43469646FB5ED3D37839EA a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google-analytics.com/analytics.js";
+    ucobs:host gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1, gpl:IP_D7DB10AAE67F4748EAF414B4FC4EAB13.
+gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765 a ucobs:DomainNameFacet;
+    ucobs:addressValue "securepubads.g.doubleclick.net".
+gpl:HTTPCON_F85B5513A4A752F8B23CF5CB190391F8 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:27.975Z";
+    ucobs:hasFacet gpl:URL_5CBD058A2D0DD2BE4390164D6D0ACCA6;
+    ucobs:startTime "2023-08-14T08:05:26.763Z".
+gpl:IP_762700430BF9AC2727870841407873ED a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.194".
+gpl:URL_5CBD058A2D0DD2BE4390164D6D0ACCA6 a ucobs:URLFacet;
+    ucobs:fullValue "https://securepubads.g.doubleclick.net/tag/js/gpt.js";
+    ucobs:host gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765, gpl:IP_762700430BF9AC2727870841407873ED.
+gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google-analytics.com".
+gpl:HTTPCON_D19BC073E2D892CC159B765F4672420B a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:05:28.079Z";
+    ucobs:hasFacet gpl:URL_B9810CBB86A7D1488D09A41905F08AB9;
+    ucobs:startTime "2023-08-14T08:05:28.069Z".
+gpl:IP_D7DB10AAE67F4748EAF414B4FC4EAB13 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.75.238".
+gpl:URL_B9810CBB86A7D1488D09A41905F08AB9 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google-analytics.com/j/collect?v&_v&a&t&_s&dl&ul&de&dt&sd&sr&vp&je&_u&jid&gjid&cid&tid&_gid&_r&gtm&jsscut&z";
+    ucobs:host gpl:DOMAIN_D2153A21C926417514A224F8ABCA00F1, gpl:IP_D7DB10AAE67F4748EAF414B4FC4EAB13.
+gpl:DOMAIN_F93E75FA4BA70D59E6CE5A69111E0098 a ucobs:DomainNameFacet;
+    ucobs:addressValue "stats.g.doubleclick.net".
+gpl:HTTPCON_1431F91DCABCA4F5D91345636D4E81FE a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:05:28.143Z";
+    ucobs:hasFacet gpl:URL_81CA0FBC04ED7F4532DEA115FC01DD0F;
+    ucobs:startTime "2023-08-14T08:05:28.106Z".
+gpl:IP_675589148F6201B486EAC53BE29ADA0C a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.251.5.157".
+gpl:URL_81CA0FBC04ED7F4532DEA115FC01DD0F a ucobs:URLFacet;
+    ucobs:fullValue "https://stats.g.doubleclick.net/j/collect?t&aip&_r&v&_v&tid&cid&jid&gjid&_gid&_u&z";
+    ucobs:host gpl:DOMAIN_F93E75FA4BA70D59E6CE5A69111E0098, gpl:IP_675589148F6201B486EAC53BE29ADA0C.
+gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765 a ucobs:DomainNameFacet;
+    ucobs:addressValue "securepubads.g.doubleclick.net".
+gpl:HTTPCON_66DCF0D4ECED30F57F959FBB6FA5733A a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:28.159Z";
+    ucobs:hasFacet gpl:URL_F6DFF45042DC67C214E173D91117A907;
+    ucobs:startTime "2023-08-14T08:05:28.100Z".
+gpl:IP_762700430BF9AC2727870841407873ED a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.194".
+gpl:URL_F6DFF45042DC67C214E173D91117A907 a ucobs:URLFacet;
+    ucobs:fullValue "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202308080102/pubads_impl.js?cb";
+    ucobs:host gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765, gpl:IP_762700430BF9AC2727870841407873ED.
+gpl:DOMAIN_392DE872E024863D6E758E8B6BC3FA02 a ucobs:DomainNameFacet;
+    ucobs:addressValue "downloads.mailchimp.com".
+gpl:HTTPCON_C9E6E51F65B3F0EA5F691588C5BC28CB a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:28.174Z";
+    ucobs:hasFacet gpl:URL_FFFFE9F01F19653B0E155D57395D4535;
+    ucobs:startTime "2023-08-14T08:05:27.968Z".
+gpl:IP_35A328C7B330ED067D240AFCC821D2A9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.35".
+gpl:URL_FFFFE9F01F19653B0E155D57395D4535 a ucobs:URLFacet;
+    ucobs:fullValue "https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js";
+    ucobs:host gpl:DOMAIN_392DE872E024863D6E758E8B6BC3FA02, gpl:IP_35A328C7B330ED067D240AFCC821D2A9.
+gpl:DOMAIN_C0330C0862ACAF8499BAF3FDDA443A87 a ucobs:DomainNameFacet;
+    ucobs:addressValue "secure.gaug.es".
+gpl:HTTPCON_D31E10BA5B1CAF91B0D1ECE717C87F5E a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:28.216Z";
+    ucobs:hasFacet gpl:URL_EBC1EC5D2D3EFB67F2BE20E52C527C95;
+    ucobs:startTime "2023-08-14T08:05:27.481Z".
+gpl:IP_0B679E9D5A6582BAB57A870E698FDCA3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.86.25.93".
+gpl:URL_EBC1EC5D2D3EFB67F2BE20E52C527C95 a ucobs:URLFacet;
+    ucobs:fullValue "https://secure.gaug.es/track.js";
+    ucobs:host gpl:DOMAIN_C0330C0862ACAF8499BAF3FDDA443A87, gpl:IP_0B679E9D5A6582BAB57A870E698FDCA3.
+gpl:DOMAIN_9F5D6F112EAE6761E1C70265B66F84F5 a ucobs:DomainNameFacet;
+    ucobs:addressValue "region1.google-analytics.com".
+gpl:HTTPCON_929FCB6D1F7E76DD623EF6EE79C83007 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:28.271Z";
+    ucobs:hasFacet gpl:URL_0C268BA2E6992C22B587BF29F5D503A8;
+    ucobs:startTime "2023-08-14T08:05:27.623Z".
+gpl:IP_4494F00FA691F213E351CFADC056D6ED a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.239.32.36".
+gpl:URL_0C268BA2E6992C22B587BF29F5D503A8 a ucobs:URLFacet;
+    ucobs:fullValue "https://region1.google-analytics.com/g/collect?v&tid&gtm&_p&cid&ul&sr&ir&_eu&_s&sid&sct&seg&dl&dt&en&_fv&_nsi&_ss";
+    ucobs:host gpl:DOMAIN_9F5D6F112EAE6761E1C70265B66F84F5, gpl:IP_4494F00FA691F213E351CFADC056D6ED.
+gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.printmag.com".
+gpl:HTTPCON_374C6F4E45492619486310A3750E8F83 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:05:28.288Z";
+    ucobs:hasFacet gpl:URL_53F6473FE0A9647201DAC3D0A1F1CB82;
+    ucobs:startTime "2023-08-14T08:05:27.967Z".
+gpl:IP_0789BEDC243CEDD9475D3DC45A07245C a ucobs:IPAddressFacet;
+    ucobs:addressValue "199.16.173.242".
+gpl:URL_53F6473FE0A9647201DAC3D0A1F1CB82 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.printmag.com/favicon.ico";
+    ucobs:host gpl:DOMAIN_D6A6F109760D0BC5D05D20C1A5BD65A7, gpl:IP_0789BEDC243CEDD9475D3DC45A07245C.
+gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765 a ucobs:DomainNameFacet;
+    ucobs:addressValue "securepubads.g.doubleclick.net".
+gpl:HTTPCON_114FDA1AF7927C1ED72E0B44D5F8E88F a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:05:28.355Z";
+    ucobs:hasFacet gpl:URL_ED1196A65A6F8862AED451C23720001F;
+    ucobs:startTime "2023-08-14T08:05:28.274Z".
+gpl:IP_762700430BF9AC2727870841407873ED a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.194".
+gpl:URL_ED1196A65A6F8862AED451C23720001F a ucobs:URLFacet;
+    ucobs:fullValue "https://securepubads.g.doubleclick.net/gampad/ads?pvsid&correlator&eid&output&gdfp_req&vrg&ptt&impl&iu_parts&enc_prev_ius&prev_iu_szs&ifi&sfv&sc&cookie_enabled&abxe&dt&lmt&adxs&adys&biw&bih&scr_x&scr_y&btvi&ucis&oid&u_his&u_h&u_w&u_ah&u_aw&u_cd&u_sd&u_tz&bc&nvt&url&frm&vis&psz&msz&fws&ohw&ga_vid&ga_sid&ga_hid&ga_fc&dlt&idt&cust_params&adks";
+    ucobs:host gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765, gpl:IP_762700430BF9AC2727870841407873ED.
+gpl:DOMAIN_0329AFFFCE90C79FB49783A7E4CE8D20 a ucobs:DomainNameFacet;
+    ucobs:addressValue "0be6e7027dd56df4f5f1c1bcb3353252.safeframe.googlesyndication.com".
+gpl:HTTPCON_01C480DC4483FE00139C011469AA935F a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "iframe", "navigate";
+    ucobs:endTime "2023-08-14T08:05:28.392Z";
+    ucobs:hasFacet gpl:URL_69BF9F29DAB2DE1557850BD937D0D411;
+    ucobs:startTime "2023-08-14T08:05:28.324Z".
+gpl:IP_D0F5E414E29B3CB08ECB1D6604FFBC62 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.179.97".
+gpl:URL_69BF9F29DAB2DE1557850BD937D0D411 a ucobs:URLFacet;
+    ucobs:fullValue "https://0be6e7027dd56df4f5f1c1bcb3353252.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html";
+    ucobs:host gpl:DOMAIN_0329AFFFCE90C79FB49783A7E4CE8D20, gpl:IP_D0F5E414E29B3CB08ECB1D6604FFBC62.
+gpl:DOMAIN_C0330C0862ACAF8499BAF3FDDA443A87 a ucobs:DomainNameFacet;
+    ucobs:addressValue "secure.gaug.es".
+gpl:HTTPCON_7FAA652C035BC3A398D99C7FFED8C01B a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:28.475Z";
+    ucobs:hasFacet gpl:URL_255CE0C9FB650B8EBCB196523842B006;
+    ucobs:startTime "2023-08-14T08:05:28.264Z".
+gpl:IP_0B679E9D5A6582BAB57A870E698FDCA3 a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.86.25.93".
+gpl:URL_255CE0C9FB650B8EBCB196523842B006 a ucobs:URLFacet;
+    ucobs:fullValue "https://secure.gaug.es/track.gif?h[site_id]&h[resource]&h[referrer]&h[title]&h[user_agent]&h[unique]&h[unique_hour]&h[unique_day]&h[unique_month]&h[unique_year]&h[screenx]&h[browserx]&h[browsery]&timestamp";
+    ucobs:host gpl:DOMAIN_C0330C0862ACAF8499BAF3FDDA443A87, gpl:IP_0B679E9D5A6582BAB57A870E698FDCA3.
+gpl:DOMAIN_572CB7FA0399692ADD7F185653D7B81F a ucobs:DomainNameFacet;
+    ucobs:addressValue "mc.us4.list-manage.com".
+gpl:HTTPCON_6FBDAE90349C93E24517653BB19669A6 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:28.527Z";
+    ucobs:hasFacet gpl:URL_BD7459273126B7709215EA9C45B71C41;
+    ucobs:startTime "2023-08-14T08:05:28.219Z".
+gpl:IP_E1525EDD15B55C13BD6828559CBCB4D7 a ucobs:IPAddressFacet;
+    ucobs:addressValue "2.18.134.36".
+gpl:URL_BD7459273126B7709215EA9C45B71C41 a ucobs:URLFacet;
+    ucobs:fullValue "https://mc.us4.list-manage.com/subscribe/form-settings?u&id&f_id&u&id&c";
+    ucobs:host gpl:DOMAIN_572CB7FA0399692ADD7F185653D7B81F, gpl:IP_E1525EDD15B55C13BD6828559CBCB4D7.
+gpl:DOMAIN_6B1F4AEEB2F1C8A68C0E46AEC93D550E a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagservices.com".
+gpl:HTTPCON_A3039D69870AA3AC59E1D5EC53A4980B a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:28.542Z";
+    ucobs:hasFacet gpl:URL_514BDCEE7CA227FE5122C7103CB933D4;
+    ucobs:startTime "2023-08-14T08:05:28.404Z".
+gpl:IP_D7F2EE4666C2BB303CC0D7616227C402 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.130".
+gpl:URL_514BDCEE7CA227FE5122C7103CB933D4 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache";
+    ucobs:host gpl:DOMAIN_6B1F4AEEB2F1C8A68C0E46AEC93D550E, gpl:IP_D7F2EE4666C2BB303CC0D7616227C402.
+gpl:DOMAIN_6B1F4AEEB2F1C8A68C0E46AEC93D550E a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagservices.com".
+gpl:HTTPCON_B59D1BE81BB931BA3CCEADD247D4C90E a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:28.565Z";
+    ucobs:hasFacet gpl:URL_514BDCEE7CA227FE5122C7103CB933D4;
+    ucobs:startTime "2023-08-14T08:05:28.420Z".
+gpl:IP_D7F2EE4666C2BB303CC0D7616227C402 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.130".
+gpl:URL_514BDCEE7CA227FE5122C7103CB933D4 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache";
+    ucobs:host gpl:DOMAIN_6B1F4AEEB2F1C8A68C0E46AEC93D550E, gpl:IP_D7F2EE4666C2BB303CC0D7616227C402.
+gpl:DOMAIN_6B1F4AEEB2F1C8A68C0E46AEC93D550E a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagservices.com".
+gpl:HTTPCON_BECBB293D0A92701B61193FA1A37BD1B a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:28.571Z";
+    ucobs:hasFacet gpl:URL_514BDCEE7CA227FE5122C7103CB933D4;
+    ucobs:startTime "2023-08-14T08:05:28.505Z".
+gpl:IP_D7F2EE4666C2BB303CC0D7616227C402 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.130".
+gpl:URL_514BDCEE7CA227FE5122C7103CB933D4 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache";
+    ucobs:host gpl:DOMAIN_6B1F4AEEB2F1C8A68C0E46AEC93D550E, gpl:IP_D7F2EE4666C2BB303CC0D7616227C402.
+gpl:DOMAIN_392DE872E024863D6E758E8B6BC3FA02 a ucobs:DomainNameFacet;
+    ucobs:addressValue "downloads.mailchimp.com".
+gpl:HTTPCON_5157B606577B5EF56CC6D3AF51A8D699 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:28.588Z";
+    ucobs:hasFacet gpl:URL_3E5C88767D0981A03CAACF7FF63BC388;
+    ucobs:startTime "2023-08-14T08:05:28.580Z".
+gpl:IP_35A328C7B330ED067D240AFCC821D2A9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.35".
+gpl:URL_3E5C88767D0981A03CAACF7FF63BC388 a ucobs:URLFacet;
+    ucobs:fullValue "https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/a9a1f47eecd6d697765b294f4891a9a43a6b85d9/popup.js";
+    ucobs:host gpl:DOMAIN_392DE872E024863D6E758E8B6BC3FA02, gpl:IP_35A328C7B330ED067D240AFCC821D2A9.
+gpl:DOMAIN_6B1F4AEEB2F1C8A68C0E46AEC93D550E a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagservices.com".
+gpl:HTTPCON_A1CF059A165C5783E451C8CDC2827B18 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:28.588Z";
+    ucobs:hasFacet gpl:URL_514BDCEE7CA227FE5122C7103CB933D4;
+    ucobs:startTime "2023-08-14T08:05:28.569Z".
+gpl:IP_D7F2EE4666C2BB303CC0D7616227C402 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.130".
+gpl:URL_514BDCEE7CA227FE5122C7103CB933D4 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache";
+    ucobs:host gpl:DOMAIN_6B1F4AEEB2F1C8A68C0E46AEC93D550E, gpl:IP_D7F2EE4666C2BB303CC0D7616227C402.
+gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765 a ucobs:DomainNameFacet;
+    ucobs:addressValue "securepubads.g.doubleclick.net".
+gpl:HTTPCON_8C60358DC20F7CBC0E5CDCE70F21B779 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:28.732Z";
+    ucobs:hasFacet gpl:URL_56FFC1A66C2B2B4107EDE15D0E353499;
+    ucobs:startTime "2023-08-14T08:05:28.397Z".
+gpl:IP_762700430BF9AC2727870841407873ED a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.194".
+gpl:URL_56FFC1A66C2B2B4107EDE15D0E353499 a ucobs:URLFacet;
+    ucobs:fullValue "https://securepubads.g.doubleclick.net/pcs/view?xai&sai&sig&uach_m&adurl";
+    ucobs:host gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765, gpl:IP_762700430BF9AC2727870841407873ED.
+gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765 a ucobs:DomainNameFacet;
+    ucobs:addressValue "securepubads.g.doubleclick.net".
+gpl:HTTPCON_5F8D8B9B09BF25563053FFB5E3C53877 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:28.777Z";
+    ucobs:hasFacet gpl:URL_56FFC1A66C2B2B4107EDE15D0E353499;
+    ucobs:startTime "2023-08-14T08:05:28.411Z".
+gpl:IP_762700430BF9AC2727870841407873ED a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.194".
+gpl:URL_56FFC1A66C2B2B4107EDE15D0E353499 a ucobs:URLFacet;
+    ucobs:fullValue "https://securepubads.g.doubleclick.net/pcs/view?xai&sai&sig&uach_m&adurl";
+    ucobs:host gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765, gpl:IP_762700430BF9AC2727870841407873ED.
+gpl:DOMAIN_392DE872E024863D6E758E8B6BC3FA02 a ucobs:DomainNameFacet;
+    ucobs:addressValue "downloads.mailchimp.com".
+gpl:HTTPCON_66525C595F8B589A0169A1D19029F82D a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-14T08:05:28.790Z";
+    ucobs:hasFacet gpl:URL_56E769E10A6F48FEAF628204198DB642;
+    ucobs:startTime "2023-08-14T08:05:28.770Z".
+gpl:IP_35A328C7B330ED067D240AFCC821D2A9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.35".
+gpl:URL_56E769E10A6F48FEAF628204198DB642 a ucobs:URLFacet;
+    ucobs:fullValue "https://downloads.mailchimp.com/css/signup-forms/popup/a9a1f47eecd6d697765b294f4891a9a43a6b85d9/common.css";
+    ucobs:host gpl:DOMAIN_392DE872E024863D6E758E8B6BC3FA02, gpl:IP_35A328C7B330ED067D240AFCC821D2A9.
+gpl:DOMAIN_392DE872E024863D6E758E8B6BC3FA02 a ucobs:DomainNameFacet;
+    ucobs:addressValue "downloads.mailchimp.com".
+gpl:HTTPCON_94F1D42D76828DEE0C5698286E31207C a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-14T08:05:28.794Z";
+    ucobs:hasFacet gpl:URL_7D310DDBFDDF4F6A6971F9E4854B43D8;
+    ucobs:startTime "2023-08-14T08:05:28.770Z".
+gpl:IP_35A328C7B330ED067D240AFCC821D2A9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.35".
+gpl:URL_7D310DDBFDDF4F6A6971F9E4854B43D8 a ucobs:URLFacet;
+    ucobs:fullValue "https://downloads.mailchimp.com/css/signup-forms/popup/a9a1f47eecd6d697765b294f4891a9a43a6b85d9/banner.css";
+    ucobs:host gpl:DOMAIN_392DE872E024863D6E758E8B6BC3FA02, gpl:IP_35A328C7B330ED067D240AFCC821D2A9.
+gpl:DOMAIN_392DE872E024863D6E758E8B6BC3FA02 a ucobs:DomainNameFacet;
+    ucobs:addressValue "downloads.mailchimp.com".
+gpl:HTTPCON_8859F1C89A5B2F38FD92886A9CAFC309 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-14T08:05:28.831Z";
+    ucobs:hasFacet gpl:URL_F1CABECCF4636BCC21E3EFBAEB9D5415;
+    ucobs:startTime "2023-08-14T08:05:28.773Z".
+gpl:IP_35A328C7B330ED067D240AFCC821D2A9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.35".
+gpl:URL_F1CABECCF4636BCC21E3EFBAEB9D5415 a ucobs:URLFacet;
+    ucobs:fullValue "https://downloads.mailchimp.com/css/signup-forms/popup/a9a1f47eecd6d697765b294f4891a9a43a6b85d9/modal-slidein.css";
+    ucobs:host gpl:DOMAIN_392DE872E024863D6E758E8B6BC3FA02, gpl:IP_35A328C7B330ED067D240AFCC821D2A9.
+gpl:DOMAIN_392DE872E024863D6E758E8B6BC3FA02 a ucobs:DomainNameFacet;
+    ucobs:addressValue "downloads.mailchimp.com".
+gpl:HTTPCON_BBFDF0EF27F8523245D96875CFA26320 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-14T08:05:28.833Z";
+    ucobs:hasFacet gpl:URL_CC37C46D9E1696571E52AB964228479D;
+    ucobs:startTime "2023-08-14T08:05:28.772Z".
+gpl:IP_35A328C7B330ED067D240AFCC821D2A9 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.35".
+gpl:URL_CC37C46D9E1696571E52AB964228479D a ucobs:URLFacet;
+    ucobs:fullValue "https://downloads.mailchimp.com/css/signup-forms/popup/a9a1f47eecd6d697765b294f4891a9a43a6b85d9/layout-2.css";
+    ucobs:host gpl:DOMAIN_392DE872E024863D6E758E8B6BC3FA02, gpl:IP_35A328C7B330ED067D240AFCC821D2A9.
+gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C a ucobs:DomainNameFacet;
+    ucobs:addressValue "tpc.googlesyndication.com".
+gpl:HTTPCON_B943B595E4A0DA5ECD0AAF93EF2023AC a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:28.839Z";
+    ucobs:hasFacet gpl:URL_19D51AC548825C7BF86FDB28B310EAE8;
+    ucobs:startTime "2023-08-14T08:05:28.397Z".
+gpl:IP_77E3DAB1C5F6F44561265723E431DD08 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.129".
+gpl:URL_19D51AC548825C7BF86FDB28B310EAE8 a ucobs:URLFacet;
+    ucobs:fullValue "https://tpc.googlesyndication.com/pagead/js/r20230809/r20110914/client/window_focus_fy2021.js";
+    ucobs:host gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C, gpl:IP_77E3DAB1C5F6F44561265723E431DD08.
+gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C a ucobs:DomainNameFacet;
+    ucobs:addressValue "tpc.googlesyndication.com".
+gpl:HTTPCON_A9567B34CF3F470C559E1BBD98D180D8 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:28.844Z";
+    ucobs:hasFacet gpl:URL_698F586DC6856256DC590FC87D66CAA3;
+    ucobs:startTime "2023-08-14T08:05:28.568Z".
+gpl:IP_77E3DAB1C5F6F44561265723E431DD08 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.129".
+gpl:URL_698F586DC6856256DC590FC87D66CAA3 a ucobs:URLFacet;
+    ucobs:fullValue "https://tpc.googlesyndication.com/simgad/5297992859990375395";
+    ucobs:host gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C, gpl:IP_77E3DAB1C5F6F44561265723E431DD08.
+gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C a ucobs:DomainNameFacet;
+    ucobs:addressValue "tpc.googlesyndication.com".
+gpl:HTTPCON_C75B90356EBBD5E59C91754F70F49A58 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:28.850Z";
+    ucobs:hasFacet gpl:URL_A123C22AC1459B8669C64116E74A331F;
+    ucobs:startTime "2023-08-14T08:05:28.504Z".
+gpl:IP_77E3DAB1C5F6F44561265723E431DD08 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.129".
+gpl:URL_A123C22AC1459B8669C64116E74A331F a ucobs:URLFacet;
+    ucobs:fullValue "https://tpc.googlesyndication.com/simgad/8398840882588522346";
+    ucobs:host gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C, gpl:IP_77E3DAB1C5F6F44561265723E431DD08.
+gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C a ucobs:DomainNameFacet;
+    ucobs:addressValue "tpc.googlesyndication.com".
+gpl:HTTPCON_025907F052FC825D18F3549ADB755CEB a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:28.858Z";
+    ucobs:hasFacet gpl:URL_19D51AC548825C7BF86FDB28B310EAE8;
+    ucobs:startTime "2023-08-14T08:05:28.503Z".
+gpl:IP_77E3DAB1C5F6F44561265723E431DD08 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.129".
+gpl:URL_19D51AC548825C7BF86FDB28B310EAE8 a ucobs:URLFacet;
+    ucobs:fullValue "https://tpc.googlesyndication.com/pagead/js/r20230809/r20110914/client/window_focus_fy2021.js";
+    ucobs:host gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C, gpl:IP_77E3DAB1C5F6F44561265723E431DD08.
+gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C a ucobs:DomainNameFacet;
+    ucobs:addressValue "tpc.googlesyndication.com".
+gpl:HTTPCON_03F5AA73F8C847D95490057716D07245 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:28.865Z";
+    ucobs:hasFacet gpl:URL_19D51AC548825C7BF86FDB28B310EAE8;
+    ucobs:startTime "2023-08-14T08:05:28.568Z".
+gpl:IP_77E3DAB1C5F6F44561265723E431DD08 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.129".
+gpl:URL_19D51AC548825C7BF86FDB28B310EAE8 a ucobs:URLFacet;
+    ucobs:fullValue "https://tpc.googlesyndication.com/pagead/js/r20230809/r20110914/client/window_focus_fy2021.js";
+    ucobs:host gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C, gpl:IP_77E3DAB1C5F6F44561265723E431DD08.
+gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C a ucobs:DomainNameFacet;
+    ucobs:addressValue "tpc.googlesyndication.com".
+gpl:HTTPCON_FAFAE4BDAC408A3E18DC8BCE702EE1EE a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:28.870Z";
+    ucobs:hasFacet gpl:URL_19D51AC548825C7BF86FDB28B310EAE8;
+    ucobs:startTime "2023-08-14T08:05:28.412Z".
+gpl:IP_77E3DAB1C5F6F44561265723E431DD08 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.129".
+gpl:URL_19D51AC548825C7BF86FDB28B310EAE8 a ucobs:URLFacet;
+    ucobs:fullValue "https://tpc.googlesyndication.com/pagead/js/r20230809/r20110914/client/window_focus_fy2021.js";
+    ucobs:host gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C, gpl:IP_77E3DAB1C5F6F44561265723E431DD08.
+gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765 a ucobs:DomainNameFacet;
+    ucobs:addressValue "securepubads.g.doubleclick.net".
+gpl:HTTPCON_B93A16851E2226D81EDDCF09B68C294F a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:28.872Z";
+    ucobs:hasFacet gpl:URL_56FFC1A66C2B2B4107EDE15D0E353499;
+    ucobs:startTime "2023-08-14T08:05:28.503Z".
+gpl:IP_762700430BF9AC2727870841407873ED a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.194".
+gpl:URL_56FFC1A66C2B2B4107EDE15D0E353499 a ucobs:URLFacet;
+    ucobs:fullValue "https://securepubads.g.doubleclick.net/pcs/view?xai&sai&sig&uach_m&adurl";
+    ucobs:host gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765, gpl:IP_762700430BF9AC2727870841407873ED.
+gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765 a ucobs:DomainNameFacet;
+    ucobs:addressValue "securepubads.g.doubleclick.net".
+gpl:HTTPCON_57C8B871BF401B9B9BE8BCC754FFA864 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:28.875Z";
+    ucobs:hasFacet gpl:URL_56FFC1A66C2B2B4107EDE15D0E353499;
+    ucobs:startTime "2023-08-14T08:05:28.567Z".
+gpl:IP_762700430BF9AC2727870841407873ED a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.194".
+gpl:URL_56FFC1A66C2B2B4107EDE15D0E353499 a ucobs:URLFacet;
+    ucobs:fullValue "https://securepubads.g.doubleclick.net/pcs/view?xai&sai&sig&uach_m&adurl";
+    ucobs:host gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765, gpl:IP_762700430BF9AC2727870841407873ED.
+gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C a ucobs:DomainNameFacet;
+    ucobs:addressValue "tpc.googlesyndication.com".
+gpl:HTTPCON_B753DD75D1E54F1B0D5F229F52FA5C32 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:28.880Z";
+    ucobs:hasFacet gpl:URL_629200E37B5E22AC860A8179EB81F0A8;
+    ucobs:startTime "2023-08-14T08:05:28.403Z".
+gpl:IP_77E3DAB1C5F6F44561265723E431DD08 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.129".
+gpl:URL_629200E37B5E22AC860A8179EB81F0A8 a ucobs:URLFacet;
+    ucobs:fullValue "https://tpc.googlesyndication.com/simgad/4064647617577584724";
+    ucobs:host gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C, gpl:IP_77E3DAB1C5F6F44561265723E431DD08.
+gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C a ucobs:DomainNameFacet;
+    ucobs:addressValue "tpc.googlesyndication.com".
+gpl:HTTPCON_110799CF37FB7C766E12F13AEDD007DA a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:28.887Z";
+    ucobs:hasFacet gpl:URL_F3BB1937E9FE4CD356754F74DCE322DD;
+    ucobs:startTime "2023-08-14T08:05:28.412Z".
+gpl:IP_77E3DAB1C5F6F44561265723E431DD08 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.129".
+gpl:URL_F3BB1937E9FE4CD356754F74DCE322DD a ucobs:URLFacet;
+    ucobs:fullValue "https://tpc.googlesyndication.com/simgad/15332433717693469461";
+    ucobs:host gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C, gpl:IP_77E3DAB1C5F6F44561265723E431DD08.
+gpl:DOMAIN_9B96A2AE06D3BCFA4FF60A0EAD6B96FE a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn-images.mailchimp.com".
+gpl:HTTPCON_C4526EDFC032B70618D7A41647C43EDA a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:28.942Z";
+    ucobs:hasFacet gpl:URL_A0366043AA86E235FC1F513CFF2C4AB3;
+    ucobs:startTime "2023-08-14T08:05:28.771Z".
+gpl:IP_C1188A926F96A31CFE2A2BF033AAF09D a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.84.179.92".
+gpl:URL_A0366043AA86E235FC1F513CFF2C4AB3 a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn-images.mailchimp.com/monkey_rewards/intuit-mc-rewards-no-bg-2.svg";
+    ucobs:host gpl:DOMAIN_9B96A2AE06D3BCFA4FF60A0EAD6B96FE, gpl:IP_C1188A926F96A31CFE2A2BF033AAF09D.
+gpl:DOMAIN_9B96A2AE06D3BCFA4FF60A0EAD6B96FE a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn-images.mailchimp.com".
+gpl:HTTPCON_D94FD8DA7B945083BEDECC7AA03EEC5F a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:28.948Z";
+    ucobs:hasFacet gpl:URL_A0366043AA86E235FC1F513CFF2C4AB3;
+    ucobs:startTime "2023-08-14T08:05:28.772Z".
+gpl:IP_C1188A926F96A31CFE2A2BF033AAF09D a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.84.179.92".
+gpl:URL_A0366043AA86E235FC1F513CFF2C4AB3 a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn-images.mailchimp.com/monkey_rewards/intuit-mc-rewards-no-bg-2.svg";
+    ucobs:host gpl:DOMAIN_9B96A2AE06D3BCFA4FF60A0EAD6B96FE, gpl:IP_C1188A926F96A31CFE2A2BF033AAF09D.
+gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765 a ucobs:DomainNameFacet;
+    ucobs:addressValue "securepubads.g.doubleclick.net".
+gpl:HTTPCON_3A1CB57BAA35F2C56DB5E3400EBA12AD a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:29.006Z";
+    ucobs:hasFacet gpl:URL_56FFC1A66C2B2B4107EDE15D0E353499;
+    ucobs:startTime "2023-08-14T08:05:28.962Z".
+gpl:IP_762700430BF9AC2727870841407873ED a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.194".
+gpl:URL_56FFC1A66C2B2B4107EDE15D0E353499 a ucobs:URLFacet;
+    ucobs:fullValue "https://securepubads.g.doubleclick.net/pcs/view?xai&sai&sig&uach_m&adurl";
+    ucobs:host gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765, gpl:IP_762700430BF9AC2727870841407873ED.
+gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765 a ucobs:DomainNameFacet;
+    ucobs:addressValue "securepubads.g.doubleclick.net".
+gpl:HTTPCON_AFEFAD4ACE6598320F0564BFB69828C6 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:29.027Z";
+    ucobs:hasFacet gpl:URL_56FFC1A66C2B2B4107EDE15D0E353499;
+    ucobs:startTime "2023-08-14T08:05:28.980Z".
+gpl:IP_762700430BF9AC2727870841407873ED a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.194".
+gpl:URL_56FFC1A66C2B2B4107EDE15D0E353499 a ucobs:URLFacet;
+    ucobs:fullValue "https://securepubads.g.doubleclick.net/pcs/view?xai&sai&sig&uach_m&adurl";
+    ucobs:host gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765, gpl:IP_762700430BF9AC2727870841407873ED.
+gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765 a ucobs:DomainNameFacet;
+    ucobs:addressValue "securepubads.g.doubleclick.net".
+gpl:HTTPCON_484A1AE1932B0390A2B32726C53523F9 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:29.028Z";
+    ucobs:hasFacet gpl:URL_56FFC1A66C2B2B4107EDE15D0E353499;
+    ucobs:startTime "2023-08-14T08:05:28.983Z".
+gpl:IP_762700430BF9AC2727870841407873ED a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.194".
+gpl:URL_56FFC1A66C2B2B4107EDE15D0E353499 a ucobs:URLFacet;
+    ucobs:fullValue "https://securepubads.g.doubleclick.net/pcs/view?xai&sai&sig&uach_m&adurl";
+    ucobs:host gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765, gpl:IP_762700430BF9AC2727870841407873ED.
+gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765 a ucobs:DomainNameFacet;
+    ucobs:addressValue "securepubads.g.doubleclick.net".
+gpl:HTTPCON_484A1AE1932B0390A2B32726C53523F9 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:29.029Z";
+    ucobs:hasFacet gpl:URL_56FFC1A66C2B2B4107EDE15D0E353499;
+    ucobs:startTime "2023-08-14T08:05:28.983Z".
+gpl:IP_762700430BF9AC2727870841407873ED a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.194".
+gpl:URL_56FFC1A66C2B2B4107EDE15D0E353499 a ucobs:URLFacet;
+    ucobs:fullValue "https://securepubads.g.doubleclick.net/pcs/view?xai&sai&sig&uach_m&adurl";
+    ucobs:host gpl:DOMAIN_7398E077FA3D85CB7FA8BEC436DBA765, gpl:IP_762700430BF9AC2727870841407873ED.
+gpl:DOMAIN_014D64EC8E2E48A9EA5AA54062BC62C9 a ucobs:DomainNameFacet;
+    ucobs:addressValue "pagead2.googlesyndication.com".
+gpl:HTTPCON_55B45682DF1842477E86BA18B457DF88 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "empty";
+    ucobs:endTime "2023-08-14T08:05:29.089Z";
+    ucobs:hasFacet gpl:URL_00A0EEC6EFF5CD391C560CE36C560108;
+    ucobs:startTime "2023-08-14T08:05:28.994Z".
+gpl:IP_27B5D4D94E12E08951E1192D39260EA1 a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.162".
+gpl:URL_00A0EEC6EFF5CD391C560CE36C560108 a ucobs:URLFacet;
+    ucobs:fullValue "https://pagead2.googlesyndication.com/getconfig/sodar?sv&tid&tv&st";
+    ucobs:host gpl:DOMAIN_014D64EC8E2E48A9EA5AA54062BC62C9, gpl:IP_27B5D4D94E12E08951E1192D39260EA1.
+gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C a ucobs:DomainNameFacet;
+    ucobs:addressValue "tpc.googlesyndication.com".
+gpl:HTTPCON_CFBC3A0B1839CE131B50963988244EAF a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-14T08:05:29.278Z";
+    ucobs:hasFacet gpl:URL_2FD1A7DE006E686D80D907C00C141964;
+    ucobs:startTime "2023-08-14T08:05:29.258Z".
+gpl:IP_77E3DAB1C5F6F44561265723E431DD08 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.129".
+gpl:URL_2FD1A7DE006E686D80D907C00C141964 a ucobs:URLFacet;
+    ucobs:fullValue "https://tpc.googlesyndication.com/sodar/sodar2.js";
+    ucobs:host gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C, gpl:IP_77E3DAB1C5F6F44561265723E431DD08.
+gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C a ucobs:DomainNameFacet;
+    ucobs:addressValue "tpc.googlesyndication.com".
+gpl:HTTPCON_0D3FF4F0C729DAC91E5A6FCF1C1B5BC3 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "iframe", "navigate";
+    ucobs:endTime "2023-08-14T08:05:29.488Z";
+    ucobs:hasFacet gpl:URL_CDC0651CD9A7E39CB1A6937C131FE0F6;
+    ucobs:startTime "2023-08-14T08:05:29.345Z".
+gpl:IP_77E3DAB1C5F6F44561265723E431DD08 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.129".
+gpl:URL_CDC0651CD9A7E39CB1A6937C131FE0F6 a ucobs:URLFacet;
+    ucobs:fullValue "https://tpc.googlesyndication.com/sodar/sodar2/225/runner.html";
+    ucobs:host gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C, gpl:IP_77E3DAB1C5F6F44561265723E431DD08.
+gpl:DOMAIN_014D64EC8E2E48A9EA5AA54062BC62C9 a ucobs:DomainNameFacet;
+    ucobs:addressValue "pagead2.googlesyndication.com".
+gpl:HTTPCON_A56993356C315CE371D565C7D4AB8B9E a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "script";
+    ucobs:endTime "2023-08-14T08:05:29.530Z";
+    ucobs:hasFacet gpl:URL_7C9B82D5EE66E76CB173D965AD81CBF9;
+    ucobs:startTime "2023-08-14T08:05:29.518Z".
+gpl:IP_27B5D4D94E12E08951E1192D39260EA1 a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.162".
+gpl:URL_7C9B82D5EE66E76CB173D965AD81CBF9 a ucobs:URLFacet;
+    ucobs:fullValue "https://pagead2.googlesyndication.com/bg/jV9FxWrWuOZCJw0aisMe6ECIXrejCp7-1an5KoHTGso.js";
+    ucobs:host gpl:DOMAIN_014D64EC8E2E48A9EA5AA54062BC62C9, gpl:IP_27B5D4D94E12E08951E1192D39260EA1.
+gpl:DOMAIN_0A137B375CC3881A70E186CE2172C8D1 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google.com".
+gpl:HTTPCON_2DF1414D52F94DBA3EBA1D2D33635F71 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "iframe", "navigate";
+    ucobs:endTime "2023-08-14T08:05:29.533Z";
+    ucobs:hasFacet gpl:URL_1921687FD51191CCB0CC6BB8F0E7103B;
+    ucobs:startTime "2023-08-14T08:05:29.346Z".
+gpl:IP_1F4CE9509CD91AB638DEC7140C5C1E5E a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.164".
+gpl:URL_1921687FD51191CCB0CC6BB8F0E7103B a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google.com/recaptcha/api2/aframe";
+    ucobs:host gpl:DOMAIN_0A137B375CC3881A70E186CE2172C8D1, gpl:IP_1F4CE9509CD91AB638DEC7140C5C1E5E.
+gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C a ucobs:DomainNameFacet;
+    ucobs:addressValue "tpc.googlesyndication.com".
+gpl:HTTPCON_425C8BB0108935B317550C21A55C2BEF a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-14T08:05:29.654Z";
+    ucobs:hasFacet gpl:URL_E114F3E906A73AEC9D9B0EA9F0230FBC;
+    ucobs:startTime "2023-08-14T08:05:29.632Z".
+gpl:IP_77E3DAB1C5F6F44561265723E431DD08 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.178.129".
+gpl:URL_E114F3E906A73AEC9D9B0EA9F0230FBC a ucobs:URLFacet;
+    ucobs:fullValue "https://tpc.googlesyndication.com/generate_204?hxp-Hw";
+    ucobs:host gpl:DOMAIN_5804529EE4CFD3F4B630FA1E79E8637C, gpl:IP_77E3DAB1C5F6F44561265723E431DD08.
+gpl:DOMAIN_014D64EC8E2E48A9EA5AA54062BC62C9 a ucobs:DomainNameFacet;
+    ucobs:addressValue "pagead2.googlesyndication.com".
+gpl:HTTPCON_4F39534045BDFE87B589D790DADC39F0 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:29.713Z";
+    ucobs:hasFacet gpl:URL_371AD23257819052BBE501422BDB4304;
+    ucobs:startTime "2023-08-14T08:05:29.611Z".
+gpl:IP_27B5D4D94E12E08951E1192D39260EA1 a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.162".
+gpl:URL_371AD23257819052BBE501422BDB4304 a ucobs:URLFacet;
+    ucobs:fullValue "https://pagead2.googlesyndication.com/pagead/sodar?id&v&li&jk&rc";
+    ucobs:host gpl:DOMAIN_014D64EC8E2E48A9EA5AA54062BC62C9, gpl:IP_27B5D4D94E12E08951E1192D39260EA1.
+gpl:DOMAIN_014D64EC8E2E48A9EA5AA54062BC62C9 a ucobs:DomainNameFacet;
+    ucobs:addressValue "pagead2.googlesyndication.com".
+gpl:HTTPCON_DB49538AFCCD158CC5BD1BF917560E8E a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:30.022Z";
+    ucobs:hasFacet gpl:URL_4E8631C89F84F08572C5786D3BF8F695;
+    ucobs:startTime "2023-08-14T08:05:29.920Z".
+gpl:IP_27B5D4D94E12E08951E1192D39260EA1 a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.162".
+gpl:URL_4E8631C89F84F08572C5786D3BF8F695 a ucobs:URLFacet;
+    ucobs:fullValue "https://pagead2.googlesyndication.com/pcs/activeview?xai&sig&id&mcvt&p&mtos&tos&v&bin&avms&bs&mc&vu&app&itpl&adk&rs&la&cr&vs&r&rst&rpt&isd&lsd&met&wmsd&pbe&vae&spb&ffslot&reach&io2";
+    ucobs:host gpl:DOMAIN_014D64EC8E2E48A9EA5AA54062BC62C9, gpl:IP_27B5D4D94E12E08951E1192D39260EA1.
+gpl:DOMAIN_014D64EC8E2E48A9EA5AA54062BC62C9 a ucobs:DomainNameFacet;
+    ucobs:addressValue "pagead2.googlesyndication.com".
+gpl:HTTPCON_7EF9769859BDD8839C79DFCF279F96C3 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:30.316Z";
+    ucobs:hasFacet gpl:URL_7AD358E270CFE339F506BCD5E0015713;
+    ucobs:startTime "2023-08-14T08:05:30.213Z".
+gpl:IP_27B5D4D94E12E08951E1192D39260EA1 a ucobs:IPAddressFacet;
+    ucobs:addressValue "172.217.20.162".
+gpl:URL_7AD358E270CFE339F506BCD5E0015713 a ucobs:URLFacet;
+    ucobs:fullValue "https://pagead2.googlesyndication.com/pagead/sodar?id&v&t&li&jk&bg";
+    ucobs:host gpl:DOMAIN_014D64EC8E2E48A9EA5AA54062BC62C9, gpl:IP_27B5D4D94E12E08951E1192D39260EA1.
+gpl:DOMAIN_E8FE01A7C6C082978D9282C4BD5D6C96 a ucobs:DomainNameFacet;
+    ucobs:addressValue "mcusercontent.com".
+gpl:HTTPCON_2D21A65399D7CB09E2A9740267B9984F a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:49.156Z";
+    ucobs:hasFacet gpl:URL_AB5B3A04C5695425501A23CCE63F290D;
+    ucobs:startTime "2023-08-14T08:05:48.917Z".
+gpl:IP_749F24D52908D4628EB408F43A1FA9A6 a ucobs:IPAddressFacet;
+    ucobs:addressValue "34.96.122.219".
+gpl:URL_AB5B3A04C5695425501A23CCE63F290D a ucobs:URLFacet;
+    ucobs:fullValue "https://mcusercontent.com/92393903161db64d4a7ef4719/images/dc9e18e1-16cc-77bb-eb4b-bbb6ffbac3ab.png";
+    ucobs:host gpl:DOMAIN_E8FE01A7C6C082978D9282C4BD5D6C96, gpl:IP_749F24D52908D4628EB408F43A1FA9A6.
+gpl:DOMAIN_C948DD7A61887EDF9074A9F8C6461E34 a ucobs:DomainNameFacet;
+    ucobs:addressValue "googleads.g.doubleclick.net".
+gpl:HTTPCON_B47AC838A855BF95D1A312C6762FCD0B a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:56.276Z";
+    ucobs:hasFacet gpl:URL_D562AE5DA108884A516E21389F44658B;
+    ucobs:startTime "2023-08-14T08:05:56.200Z".
+gpl:IP_74B480A0E715933C218397EDA16CC72E a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.74.226".
+gpl:URL_D562AE5DA108884A516E21389F44658B a ucobs:URLFacet;
+    ucobs:fullValue "https://googleads.g.doubleclick.net/pagead/interaction/?ai&sigh&cid&label&gqid&qqid&fg";
+    ucobs:host gpl:DOMAIN_C948DD7A61887EDF9074A9F8C6461E34, gpl:IP_74B480A0E715933C218397EDA16CC72E.
+gpl:DOMAIN_C948DD7A61887EDF9074A9F8C6461E34 a ucobs:DomainNameFacet;
+    ucobs:addressValue "googleads.g.doubleclick.net".
+gpl:HTTPCON_5E63A2A85C6B1492256072089A59D45A a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:56.279Z";
+    ucobs:hasFacet gpl:URL_D562AE5DA108884A516E21389F44658B;
+    ucobs:startTime "2023-08-14T08:05:56.202Z".
+gpl:IP_74B480A0E715933C218397EDA16CC72E a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.74.226".
+gpl:URL_D562AE5DA108884A516E21389F44658B a ucobs:URLFacet;
+    ucobs:fullValue "https://googleads.g.doubleclick.net/pagead/interaction/?ai&sigh&cid&label&gqid&qqid&fg";
+    ucobs:host gpl:DOMAIN_C948DD7A61887EDF9074A9F8C6461E34, gpl:IP_74B480A0E715933C218397EDA16CC72E.
+gpl:DOMAIN_C948DD7A61887EDF9074A9F8C6461E34 a ucobs:DomainNameFacet;
+    ucobs:addressValue "googleads.g.doubleclick.net".
+gpl:HTTPCON_1B43F7CB2CA09EAFE35C8E79195A1F9C a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:56.281Z";
+    ucobs:hasFacet gpl:URL_D562AE5DA108884A516E21389F44658B;
+    ucobs:startTime "2023-08-14T08:05:56.201Z".
+gpl:IP_74B480A0E715933C218397EDA16CC72E a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.74.226".
+gpl:URL_D562AE5DA108884A516E21389F44658B a ucobs:URLFacet;
+    ucobs:fullValue "https://googleads.g.doubleclick.net/pagead/interaction/?ai&sigh&cid&label&gqid&qqid&fg";
+    ucobs:host gpl:DOMAIN_C948DD7A61887EDF9074A9F8C6461E34, gpl:IP_74B480A0E715933C218397EDA16CC72E.
+gpl:DOMAIN_C948DD7A61887EDF9074A9F8C6461E34 a ucobs:DomainNameFacet;
+    ucobs:addressValue "googleads.g.doubleclick.net".
+gpl:HTTPCON_76577EC36558196B8056C19A906BA783 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-14T08:05:56.282Z";
+    ucobs:hasFacet gpl:URL_D562AE5DA108884A516E21389F44658B;
+    ucobs:startTime "2023-08-14T08:05:56.203Z".
+gpl:IP_74B480A0E715933C218397EDA16CC72E a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.74.226".
+gpl:URL_D562AE5DA108884A516E21389F44658B a ucobs:URLFacet;
+    ucobs:fullValue "https://googleads.g.doubleclick.net/pagead/interaction/?ai&sigh&cid&label&gqid&qqid&fg";
+    ucobs:host gpl:DOMAIN_C948DD7A61887EDF9074A9F8C6461E34, gpl:IP_74B480A0E715933C218397EDA16CC72E.

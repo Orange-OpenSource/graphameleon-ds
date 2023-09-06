@@ -1,0 +1,663 @@
+# Copyright (c) 2022-2023 Orange. All rights reserved in accordance to the CC-BY-NC-SA license
+# Project: graphameleon-ds
+# THIS SOFTWARE IS PROVIDED BY Orange "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Orange BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix gpl: <http://graphameleon.com#>.
+@prefix core: <https://ontology.unifiedcyberontology.org/uco/core#>.
+@prefix ucoact: <https://ontology.unifiedcyberontology.org/uco/action#>.
+@prefix ucobs: <https://ontology.unifiedcyberontology.org/uco/observable#>.
+@prefix types: <https://ontology.unifiedcyberontology.org/uco/types#>.
+
+gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.britannica.com".
+gpl:HTTPCON_9D71AB00AFE733B0538349FF0F5B7886 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "style";
+    ucobs:endTime "2023-08-11T09:04:16.762Z";
+    ucobs:hasFacet gpl:URL_7DD6E4D8BE9E205DFBA87C707AB05BF3;
+    ucobs:startTime "2023-08-11T09:04:16.736Z".
+gpl:IP_6040895208DBD2F445F18BC6E582DA8E a ucobs:IPAddressFacet;
+    ucobs:addressValue "143.204.231.64".
+gpl:URL_7DD6E4D8BE9E205DFBA87C707AB05BF3 a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.britannica.com/mendel-resources/3-101/dist/vendor-bundle.css?v";
+    ucobs:host gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93, gpl:IP_6040895208DBD2F445F18BC6E582DA8E.
+gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.britannica.com".
+gpl:HTTPCON_1B34CDE5040BDDDD4487785D44A505D4 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "style";
+    ucobs:endTime "2023-08-11T09:04:16.765Z";
+    ucobs:hasFacet gpl:URL_A87F4F229F2CD6C6C304D58F1A108E7F;
+    ucobs:startTime "2023-08-11T09:04:16.737Z".
+gpl:IP_6040895208DBD2F445F18BC6E582DA8E a ucobs:IPAddressFacet;
+    ucobs:addressValue "143.204.231.64".
+gpl:URL_A87F4F229F2CD6C6C304D58F1A108E7F a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.britannica.com/mendel-resources/3-101/dist/mendel-css.css?v";
+    ucobs:host gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93, gpl:IP_6040895208DBD2F445F18BC6E582DA8E.
+gpl:DOMAIN_81A7D98658965BAC31CEC07C145F2653 a ucobs:DomainNameFacet;
+    ucobs:addressValue "fonts.googleapis.com".
+gpl:HTTPCON_7BE02E7DA7BFEF746CF754A9A6CCEF69 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "style";
+    ucobs:endTime "2023-08-11T09:04:16.767Z";
+    ucobs:hasFacet gpl:URL_D91DF974163F388566A33E85261DC8D3;
+    ucobs:startTime "2023-08-11T09:04:16.735Z".
+gpl:IP_940A0F46FD5E12C2B717AA92BA774457 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.179.106".
+gpl:URL_D91DF974163F388566A33E85261DC8D3 a ucobs:URLFacet;
+    ucobs:fullValue "https://fonts.googleapis.com/icon?family";
+    ucobs:host gpl:DOMAIN_81A7D98658965BAC31CEC07C145F2653, gpl:IP_940A0F46FD5E12C2B717AA92BA774457.
+gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.britannica.com".
+gpl:HTTPCON_3B610433CF0ACC5B0BE8DE886BF7E111 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "style";
+    ucobs:endTime "2023-08-11T09:04:16.769Z";
+    ucobs:hasFacet gpl:URL_1F9B5D3E55F9785EF50A0FB38A2F2E1C;
+    ucobs:startTime "2023-08-11T09:04:16.738Z".
+gpl:IP_6040895208DBD2F445F18BC6E582DA8E a ucobs:IPAddressFacet;
+    ucobs:addressValue "143.204.231.64".
+gpl:URL_1F9B5D3E55F9785EF50A0FB38A2F2E1C a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.britannica.com/mendel-resources/3-101/dist/home-page.css?v";
+    ucobs:host gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93, gpl:IP_6040895208DBD2F445F18BC6E582DA8E.
+gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.britannica.com".
+gpl:HTTPCON_213359C38B486E241D0C2CD3A963C974 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-site";
+    ucobs:endTime "2023-08-11T09:04:16.771Z";
+    ucobs:hasFacet gpl:URL_99177827C84E8BE2CD53F5A305B2179D;
+    ucobs:startTime "2023-08-11T09:04:16.740Z".
+gpl:IP_6040895208DBD2F445F18BC6E582DA8E a ucobs:IPAddressFacet;
+    ucobs:addressValue "143.204.231.64".
+gpl:URL_99177827C84E8BE2CD53F5A305B2179D a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.britannica.com/99/235599-050-A70EA9BE/Grandmastrer-Flash-and-the-Furious-Five-perform-1983.jpg?w&h&c&q";
+    ucobs:host gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93, gpl:IP_6040895208DBD2F445F18BC6E582DA8E.
+gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.britannica.com".
+gpl:HTTPCON_D9C54155D0A1F409ABC3E2EF7BB74FEF a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-site";
+    ucobs:endTime "2023-08-11T09:04:16.780Z";
+    ucobs:hasFacet gpl:URL_0AF048E6BF5CB256901870175C360A03;
+    ucobs:startTime "2023-08-11T09:04:16.741Z".
+gpl:IP_6040895208DBD2F445F18BC6E582DA8E a ucobs:IPAddressFacet;
+    ucobs:addressValue "143.204.231.64".
+gpl:URL_0AF048E6BF5CB256901870175C360A03 a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.britannica.com/70/245870-050-BADCA213/The-Sugarhill-Gang-performs-1990.jpg?w&h&c&q";
+    ucobs:host gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93, gpl:IP_6040895208DBD2F445F18BC6E582DA8E.
+gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.britannica.com".
+gpl:HTTPCON_2BD4977B213877F08461389C06C59114 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-site";
+    ucobs:endTime "2023-08-11T09:04:16.782Z";
+    ucobs:hasFacet gpl:URL_09A01E311AAF936CDBD9BDA1A1DA7181;
+    ucobs:startTime "2023-08-11T09:04:16.742Z".
+gpl:IP_6040895208DBD2F445F18BC6E582DA8E a ucobs:IPAddressFacet;
+    ucobs:addressValue "143.204.231.64".
+gpl:URL_09A01E311AAF936CDBD9BDA1A1DA7181 a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.britannica.com/87/240987-050-2E46910C/Queen-Latifah-1998-Super-Bowl-XXXII.jpg?w&h&c&q";
+    ucobs:host gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93, gpl:IP_6040895208DBD2F445F18BC6E582DA8E.
+gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.britannica.com".
+gpl:HTTPCON_E01FAE114341D50CED1EC3CEE05A451C a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-site";
+    ucobs:endTime "2023-08-11T09:04:16.784Z";
+    ucobs:hasFacet gpl:URL_83E086E5C30E90943F5CC919C29EF9D5;
+    ucobs:startTime "2023-08-11T09:04:16.747Z".
+gpl:IP_6040895208DBD2F445F18BC6E582DA8E a ucobs:IPAddressFacet;
+    ucobs:addressValue "143.204.231.64".
+gpl:URL_83E086E5C30E90943F5CC919C29EF9D5 a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.britannica.com/66/248066-050-48BCD7E6/Aerial-Maui-wildfires-damage-August-10-2023.jpg?w";
+    ucobs:host gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93, gpl:IP_6040895208DBD2F445F18BC6E582DA8E.
+gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.britannica.com".
+gpl:HTTPCON_DB44750BB8F905A23645C2607859FB93 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-site";
+    ucobs:endTime "2023-08-11T09:04:16.787Z";
+    ucobs:hasFacet gpl:URL_2C9D7A0E9AEC2898B39636A15AE4E80F;
+    ucobs:startTime "2023-08-11T09:04:16.748Z".
+gpl:IP_6040895208DBD2F445F18BC6E582DA8E a ucobs:IPAddressFacet;
+    ucobs:addressValue "143.204.231.64".
+gpl:URL_2C9D7A0E9AEC2898B39636A15AE4E80F a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.britannica.com/money/assets/britannica-money-global-nav-logo-250x30-2x.png";
+    ucobs:host gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93, gpl:IP_6040895208DBD2F445F18BC6E582DA8E.
+gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.britannica.com".
+gpl:HTTPCON_C5E4AF9AF826CCC0DD717117D60C0E90 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "script";
+    ucobs:endTime "2023-08-11T09:04:16.789Z";
+    ucobs:hasFacet gpl:URL_1C397E8A394BAF0DC8D5151080CA3F3A;
+    ucobs:startTime "2023-08-11T09:04:16.748Z".
+gpl:IP_6040895208DBD2F445F18BC6E582DA8E a ucobs:IPAddressFacet;
+    ucobs:addressValue "143.204.231.64".
+gpl:URL_1C397E8A394BAF0DC8D5151080CA3F3A a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.britannica.com/mendel-resources/3-101/js/libs/jquery-3.5.0.min.js?v";
+    ucobs:host gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93, gpl:IP_6040895208DBD2F445F18BC6E582DA8E.
+gpl:DOMAIN_C8D05E189972711044F07858802CC7D8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagmanager.com".
+gpl:HTTPCON_D56AAB5A8F3DE0DE71AAF56C7F6F33F1 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:04:16.796Z";
+    ucobs:hasFacet gpl:URL_8291C4692408AA7C540F4749D4C94C5A;
+    ucobs:startTime "2023-08-11T09:04:16.749Z".
+gpl:IP_BF475BD30EA4025176BD821466B63690 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.201.168".
+gpl:URL_8291C4692408AA7C540F4749D4C94C5A a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagmanager.com/gtag/js?id";
+    ucobs:host gpl:DOMAIN_C8D05E189972711044F07858802CC7D8, gpl:IP_BF475BD30EA4025176BD821466B63690.
+gpl:DOMAIN_C86954FA308CA594ADC96D47DF3704B6 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googleoptimize.com".
+gpl:HTTPCON_F4E7D2E794D51E59270489B56298FAE7 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:04:16.800Z";
+    ucobs:hasFacet gpl:URL_5318AE31C8B58EED8A06EAC50611C124;
+    ucobs:startTime "2023-08-11T09:04:16.739Z".
+gpl:IP_06F031E95CE507600E8FDD93828762EE a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.58.214.174".
+gpl:URL_5318AE31C8B58EED8A06EAC50611C124 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googleoptimize.com/optimize.js?id";
+    ucobs:host gpl:DOMAIN_C86954FA308CA594ADC96D47DF3704B6, gpl:IP_06F031E95CE507600E8FDD93828762EE.
+gpl:DOMAIN_CA926EF763DE8BBEDC9D87A5B3991FFE a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.britannica.com".
+gpl:HTTPCON_2D775D214EC9E7692BFFE0F917669AC7 a ucobs:HTTPConnectionFacet;
+    core:tag "?1", "document", "navigate", "none";
+    ucobs:endTime "2023-08-11T09:04:16.539Z";
+    ucobs:hasFacet gpl:URL_5854C86D4BD204BA79BCA787A54A2FC7;
+    ucobs:startTime "2023-08-11T09:04:15.973Z".
+gpl:IP_4AE84FA01138F3AAEA150447127F67AF a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.18.4.110".
+gpl:URL_5854C86D4BD204BA79BCA787A54A2FC7 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.britannica.com/";
+    ucobs:host gpl:DOMAIN_CA926EF763DE8BBEDC9D87A5B3991FFE, gpl:IP_4AE84FA01138F3AAEA150447127F67AF.
+gpl:DOMAIN_EE1763B7602CE28778DB23F850B3387E a ucobs:DomainNameFacet;
+    ucobs:addressValue "static.cloudflareinsights.com".
+gpl:HTTPCON_6C5C01B157A0509C223AB5A533FCA58E a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "script";
+    ucobs:endTime "2023-08-11T09:04:16.823Z";
+    ucobs:hasFacet gpl:URL_3EA8516D23C8244A8C0F41491E8E4D37;
+    ucobs:startTime "2023-08-11T09:04:16.750Z".
+gpl:IP_DB11F1A1A1F077E18F6B1D6E3C286C04 a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.16.56.101".
+gpl:URL_3EA8516D23C8244A8C0F41491E8E4D37 a ucobs:URLFacet;
+    ucobs:fullValue "https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854";
+    ucobs:host gpl:DOMAIN_EE1763B7602CE28778DB23F850B3387E, gpl:IP_DB11F1A1A1F077E18F6B1D6E3C286C04.
+gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.britannica.com".
+gpl:HTTPCON_6D575C3AD7B79E4007460EBB5D6CE0D5 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:04:17.151Z";
+    ucobs:hasFacet gpl:URL_2AEF11A739C3406EA37245F65D583A0F;
+    ucobs:startTime "2023-08-11T09:04:17.143Z".
+gpl:IP_6040895208DBD2F445F18BC6E582DA8E a ucobs:IPAddressFacet;
+    ucobs:addressValue "143.204.231.64".
+gpl:URL_2AEF11A739C3406EA37245F65D583A0F a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.britannica.com/mendel-resources/3-101/images/footer/background.png";
+    ucobs:host gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93, gpl:IP_6040895208DBD2F445F18BC6E582DA8E.
+gpl:DOMAIN_CD1A781F134611F5E4CC24F76562BB7D a ucobs:DomainNameFacet;
+    ucobs:addressValue "fonts.gstatic.com".
+gpl:HTTPCON_0ED3D4E82EE0432AC8AA7DEE3F15B624 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "cross-site", "font";
+    ucobs:endTime "2023-08-11T09:04:17.197Z";
+    ucobs:hasFacet gpl:URL_64C78E5F200ABC868FC1E901117C9A28;
+    ucobs:startTime "2023-08-11T09:04:17.144Z".
+gpl:IP_1D68F68183CEC9D2BEB192C3150A596C a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.201.163".
+gpl:URL_64C78E5F200ABC868FC1E901117C9A28 a ucobs:URLFacet;
+    ucobs:fullValue "https://fonts.gstatic.com/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2";
+    ucobs:host gpl:DOMAIN_CD1A781F134611F5E4CC24F76562BB7D, gpl:IP_1D68F68183CEC9D2BEB192C3150A596C.
+gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.britannica.com".
+gpl:HTTPCON_0838747A7358FA92AC9918B648836E33 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "script";
+    ucobs:endTime "2023-08-11T09:04:17.209Z";
+    ucobs:hasFacet gpl:URL_BF9D2B41C43845AD1F84BF0D542DB110;
+    ucobs:startTime "2023-08-11T09:04:17.191Z".
+gpl:IP_6040895208DBD2F445F18BC6E582DA8E a ucobs:IPAddressFacet;
+    ucobs:addressValue "143.204.231.64".
+gpl:URL_BF9D2B41C43845AD1F84BF0D542DB110 a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.britannica.com/mendel-resources/3-101/dist/home-page.js?v";
+    ucobs:host gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93, gpl:IP_6040895208DBD2F445F18BC6E582DA8E.
+gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.britannica.com".
+gpl:HTTPCON_CCF8003D91B53086A84EDD7E6C4FB7D5 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-site";
+    ucobs:endTime "2023-08-11T09:04:17.221Z";
+    ucobs:hasFacet gpl:URL_76D3C1F600C590F586860BD68EFA2E94;
+    ucobs:startTime "2023-08-11T09:04:17.193Z".
+gpl:IP_6040895208DBD2F445F18BC6E582DA8E a ucobs:IPAddressFacet;
+    ucobs:addressValue "143.204.231.64".
+gpl:URL_76D3C1F600C590F586860BD68EFA2E94 a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.britannica.com/mendel/eb-logo/MendelNewThistleLogo.png";
+    ucobs:host gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93, gpl:IP_6040895208DBD2F445F18BC6E582DA8E.
+gpl:DOMAIN_C8D05E189972711044F07858802CC7D8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagmanager.com".
+gpl:HTTPCON_7DB7A87FF23D441D0905ECEABF29CD81 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:04:17.225Z";
+    ucobs:hasFacet gpl:URL_8E8C08FB725739C3C425CECDB035FE6C;
+    ucobs:startTime "2023-08-11T09:04:17.194Z".
+gpl:IP_BF475BD30EA4025176BD821466B63690 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.201.168".
+gpl:URL_8E8C08FB725739C3C425CECDB035FE6C a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagmanager.com/gtag/js?id&l&cx";
+    ucobs:host gpl:DOMAIN_C8D05E189972711044F07858802CC7D8, gpl:IP_BF475BD30EA4025176BD821466B63690.
+gpl:DOMAIN_CA926EF763DE8BBEDC9D87A5B3991FFE a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.britannica.com".
+gpl:HTTPCON_8E05632D4E3A6837485A0F1275899156 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-11T09:04:17.234Z";
+    ucobs:hasFacet gpl:URL_599C58E86372A729B7588EE245316C4E;
+    ucobs:startTime "2023-08-11T09:04:17.192Z".
+gpl:IP_4AE84FA01138F3AAEA150447127F67AF a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.18.4.110".
+gpl:URL_599C58E86372A729B7588EE245316C4E a ucobs:URLFacet;
+    ucobs:fullValue "https://www.britannica.com/webstats/mendelstats.js?v";
+    ucobs:host gpl:DOMAIN_CA926EF763DE8BBEDC9D87A5B3991FFE, gpl:IP_4AE84FA01138F3AAEA150447127F67AF.
+gpl:DOMAIN_0B529C3F9033FACD34D9F82E0D123196 a ucobs:DomainNameFacet;
+    ucobs:addressValue "insitez.blob.core.windows.net".
+gpl:HTTPCON_9032B9A8B2723BCC76DB997B8D8AC8A7 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:04:17.241Z";
+    ucobs:hasFacet gpl:URL_EA17C32F1547C10700BC740A5A083C15;
+    ucobs:startTime "2023-08-11T09:04:17.142Z".
+gpl:IP_5312FAAFDB0550A4F2D379B420F6ADB1 a ucobs:IPAddressFacet;
+    ucobs:addressValue "20.60.222.228".
+gpl:URL_EA17C32F1547C10700BC740A5A083C15 a ucobs:URLFacet;
+    ucobs:fullValue "https://insitez.blob.core.windows.net/site/f780f33e-a610-4ac2-af81-3eb184037547.js";
+    ucobs:host gpl:DOMAIN_0B529C3F9033FACD34D9F82E0D123196, gpl:IP_5312FAAFDB0550A4F2D379B420F6ADB1.
+gpl:DOMAIN_4B179FC8D33CD1E3F9E2739E806369AF a ucobs:DomainNameFacet;
+    ucobs:addressValue "region1.analytics.google.com".
+gpl:HTTPCON_7A54F47194A4D1ACA5B932395D706C4E a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-11T09:04:17.271Z";
+    ucobs:hasFacet gpl:URL_154D8B31EF35E6B1ED19CA713E661AAC;
+    ucobs:startTime "2023-08-11T09:04:16.603Z".
+gpl:IP_A58F02CF3B56D080FA2E3C46B74E8367 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.239.34.36".
+gpl:URL_154D8B31EF35E6B1ED19CA713E661AAC a ucobs:URLFacet;
+    ucobs:fullValue "https://region1.analytics.google.com/g/collect?v&tid&gtm&_p&_gaz&cid&ul&sr&_s&sid&sct&seg&dl&dt&en&ep.page_type&ep.leg&ep.gisted&_et";
+    ucobs:host gpl:DOMAIN_4B179FC8D33CD1E3F9E2739E806369AF, gpl:IP_A58F02CF3B56D080FA2E3C46B74E8367.
+gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.britannica.com".
+gpl:HTTPCON_193F220FA225072D4CB85C035B906156 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "style";
+    ucobs:endTime "2023-08-11T09:04:17.340Z";
+    ucobs:hasFacet gpl:URL_A1C19E66AA6470722121CB8308D7FD5D;
+    ucobs:startTime "2023-08-11T09:04:17.320Z".
+gpl:IP_6040895208DBD2F445F18BC6E582DA8E a ucobs:IPAddressFacet;
+    ucobs:addressValue "143.204.231.64".
+gpl:URL_A1C19E66AA6470722121CB8308D7FD5D a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.britannica.com/mendel-resources/3-101/dist/1383.7d003422.css";
+    ucobs:host gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93, gpl:IP_6040895208DBD2F445F18BC6E582DA8E.
+gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.britannica.com".
+gpl:HTTPCON_D0C077B440B992ADCA556296A64728ED a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "script";
+    ucobs:endTime "2023-08-11T09:04:17.342Z";
+    ucobs:hasFacet gpl:URL_C5ADB1798AB10CF669478D8AD80BECE3;
+    ucobs:startTime "2023-08-11T09:04:17.321Z".
+gpl:IP_6040895208DBD2F445F18BC6E582DA8E a ucobs:IPAddressFacet;
+    ucobs:addressValue "143.204.231.64".
+gpl:URL_C5ADB1798AB10CF669478D8AD80BECE3 a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.britannica.com/mendel-resources/3-101/dist/1383.f643390a.js";
+    ucobs:host gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93, gpl:IP_6040895208DBD2F445F18BC6E582DA8E.
+gpl:DOMAIN_C8D05E189972711044F07858802CC7D8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagmanager.com".
+gpl:HTTPCON_4B50A1BC4C099574A99180C75EA08FFE a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:04:17.345Z";
+    ucobs:hasFacet gpl:URL_E758CDABE5635B0B4A37FB743076B226;
+    ucobs:startTime "2023-08-11T09:04:17.316Z".
+gpl:IP_BF475BD30EA4025176BD821466B63690 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.201.168".
+gpl:URL_E758CDABE5635B0B4A37FB743076B226 a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagmanager.com/gtm.js?id";
+    ucobs:host gpl:DOMAIN_C8D05E189972711044F07858802CC7D8, gpl:IP_BF475BD30EA4025176BD821466B63690.
+gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.britannica.com".
+gpl:HTTPCON_0E816D0168DA364110AF81DBC1B11F44 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "style";
+    ucobs:endTime "2023-08-11T09:04:17.346Z";
+    ucobs:hasFacet gpl:URL_82035B892A91BFC908C49BC133C24B30;
+    ucobs:startTime "2023-08-11T09:04:17.322Z".
+gpl:IP_6040895208DBD2F445F18BC6E582DA8E a ucobs:IPAddressFacet;
+    ucobs:addressValue "143.204.231.64".
+gpl:URL_82035B892A91BFC908C49BC133C24B30 a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.britannica.com/mendel-resources/3-101/dist/5702.c23b2139.css";
+    ucobs:host gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93, gpl:IP_6040895208DBD2F445F18BC6E582DA8E.
+gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93 a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn.britannica.com".
+gpl:HTTPCON_EC89B94547B5F4F5E2E75700685EF68A a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "script";
+    ucobs:endTime "2023-08-11T09:04:17.348Z";
+    ucobs:hasFacet gpl:URL_19A4CE25C1EE9194AA828E0F3FB29786;
+    ucobs:startTime "2023-08-11T09:04:17.323Z".
+gpl:IP_6040895208DBD2F445F18BC6E582DA8E a ucobs:IPAddressFacet;
+    ucobs:addressValue "143.204.231.64".
+gpl:URL_19A4CE25C1EE9194AA828E0F3FB29786 a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn.britannica.com/mendel-resources/3-101/dist/5702.8101e5c9.js";
+    ucobs:host gpl:DOMAIN_952B2E9A7A1541EAED2E094991FB1D93, gpl:IP_6040895208DBD2F445F18BC6E582DA8E.
+gpl:DOMAIN_5DBD87E6B2215CAB7495FF37669DFD21 a ucobs:DomainNameFacet;
+    ucobs:addressValue "webstats.eb.com".
+gpl:HTTPCON_C9164A5CBE367819F6C3614E974DB7ED a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:04:17.449Z";
+    ucobs:hasFacet gpl:URL_A2412C53101ED70183F7426F88D918EB;
+    ucobs:startTime "2023-08-11T09:04:17.313Z".
+gpl:IP_792260D3082D5E522385BCBFCECD5961 a ucobs:IPAddressFacet;
+    ucobs:addressValue "23.21.89.0".
+gpl:URL_A2412C53101ED70183F7426F88D918EB a ucobs:URLFacet;
+    ucobs:fullValue "https://webstats.eb.com/webstats/stats.gif?a&ac&d&od&h&rf&rq&s&json";
+    ucobs:host gpl:DOMAIN_5DBD87E6B2215CAB7495FF37669DFD21, gpl:IP_792260D3082D5E522385BCBFCECD5961.
+gpl:DOMAIN_002953C0A6C6AD060D7204E365FAD0AD a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google.fr".
+gpl:HTTPCON_78E16F95438E3A0A2D8CAD83547D7C2B a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:04:17.544Z";
+    ucobs:hasFacet gpl:URL_27549C2D88BCF0398EA66943E139C5BC;
+    ucobs:startTime "2023-08-11T09:04:16.606Z".
+gpl:IP_D2A8F049CCB6BDA9227AA90D253C5A3D a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.179.99".
+gpl:URL_27549C2D88BCF0398EA66943E139C5BC a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google.fr/ads/ga-audiences?v&t&slf_rd&_r&tid&cid&gtm&aip&z";
+    ucobs:host gpl:DOMAIN_002953C0A6C6AD060D7204E365FAD0AD, gpl:IP_D2A8F049CCB6BDA9227AA90D253C5A3D.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_8209CD376BEDEC66A191C49ABFFB78F6 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "script";
+    ucobs:endTime "2023-08-11T09:04:17.792Z";
+    ucobs:hasFacet gpl:URL_1D6533B67B4FF0C8A5C30334D31D16BE;
+    ucobs:startTime "2023-08-11T09:04:17.780Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_1D6533B67B4FF0C8A5C30334D31D16BE a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/script.js";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_44C3C030CD4704AE6072ABE0E626AB5D a ucobs:DomainNameFacet;
+    ucobs:addressValue "cdn-magiclinks.trackonomics.net".
+gpl:HTTPCON_87074A3E120D00B126CB4BE213BD621D a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:04:17.807Z";
+    ucobs:hasFacet gpl:URL_8904A995E8EE1C2959C554A52D05A0A5;
+    ucobs:startTime "2023-08-11T09:04:17.782Z".
+gpl:IP_FA717F19FF4309E02D8F3835EB274DEA a ucobs:IPAddressFacet;
+    ucobs:addressValue "52.222.174.18".
+gpl:URL_8904A995E8EE1C2959C554A52D05A0A5 a ucobs:URLFacet;
+    ucobs:fullValue "https://cdn-magiclinks.trackonomics.net/client/static/v2/merriamwebster_6e5b0_encyclopediabritannica.js";
+    ucobs:host gpl:DOMAIN_44C3C030CD4704AE6072ABE0E626AB5D, gpl:IP_FA717F19FF4309E02D8F3835EB274DEA.
+gpl:DOMAIN_C8D05E189972711044F07858802CC7D8 a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.googletagmanager.com".
+gpl:HTTPCON_327F7B070611CF180367ACBA868AE5F6 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "no-cors", "script";
+    ucobs:endTime "2023-08-11T09:04:17.825Z";
+    ucobs:hasFacet gpl:URL_8E8C08FB725739C3C425CECDB035FE6C;
+    ucobs:startTime "2023-08-11T09:04:17.781Z".
+gpl:IP_BF475BD30EA4025176BD821466B63690 a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.201.168".
+gpl:URL_8E8C08FB725739C3C425CECDB035FE6C a ucobs:URLFacet;
+    ucobs:fullValue "https://www.googletagmanager.com/gtag/js?id&l&cx";
+    ucobs:host gpl:DOMAIN_C8D05E189972711044F07858802CC7D8, gpl:IP_BF475BD30EA4025176BD821466B63690.
+gpl:DOMAIN_CA926EF763DE8BBEDC9D87A5B3991FFE a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.britannica.com".
+gpl:HTTPCON_8674C92734836A3BEC17E7D054BFD2DA a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:04:17.894Z";
+    ucobs:hasFacet gpl:URL_432EBECE3D54F80D3E7EA64E530F3E8C;
+    ucobs:startTime "2023-08-11T09:04:17.779Z".
+gpl:IP_4AE84FA01138F3AAEA150447127F67AF a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.18.4.110".
+gpl:URL_432EBECE3D54F80D3E7EA64E530F3E8C a ucobs:URLFacet;
+    ucobs:fullValue "https://www.britannica.com/favicon.ico";
+    ucobs:host gpl:DOMAIN_CA926EF763DE8BBEDC9D87A5B3991FFE, gpl:IP_4AE84FA01138F3AAEA150447127F67AF.
+gpl:DOMAIN_002953C0A6C6AD060D7204E365FAD0AD a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.google.fr".
+gpl:HTTPCON_0AD08B3F5222D9EF3C6D46539AE2DCED a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "image", "no-cors";
+    ucobs:endTime "2023-08-11T09:04:18.057Z";
+    ucobs:hasFacet gpl:URL_27549C2D88BCF0398EA66943E139C5BC;
+    ucobs:startTime "2023-08-11T09:04:17.907Z".
+gpl:IP_D2A8F049CCB6BDA9227AA90D253C5A3D a ucobs:IPAddressFacet;
+    ucobs:addressValue "142.250.179.99".
+gpl:URL_27549C2D88BCF0398EA66943E139C5BC a ucobs:URLFacet;
+    ucobs:fullValue "https://www.google.fr/ads/ga-audiences?v&t&slf_rd&_r&tid&cid&gtm&aip&z";
+    ucobs:host gpl:DOMAIN_002953C0A6C6AD060D7204E365FAD0AD, gpl:IP_D2A8F049CCB6BDA9227AA90D253C5A3D.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_68C92EA66E51673F94F1D73E1CD12596 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-site";
+    ucobs:endTime "2023-08-11T09:04:18.117Z";
+    ucobs:hasFacet gpl:URL_0F9E8276993CDAF315AE911182DC2FF7;
+    ucobs:startTime "2023-08-11T09:04:17.896Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_0F9E8276993CDAF315AE911182DC2FF7 a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/DG/DEFAULT/rest/rpc/153?referer&bcsessionid&bctempid&overruleReferrer&time&ts";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_CA926EF763DE8BBEDC9D87A5B3991FFE a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.britannica.com".
+gpl:HTTPCON_146301F57E0DCD20E3EB72CBDFE95F7A a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-11T09:04:18.164Z";
+    ucobs:hasFacet gpl:URL_A3735464FB23B1427F0072754D70B3DF;
+    ucobs:startTime "2023-08-11T09:04:18.135Z".
+gpl:IP_4AE84FA01138F3AAEA150447127F67AF a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.18.4.110".
+gpl:URL_A3735464FB23B1427F0072754D70B3DF a ucobs:URLFacet;
+    ucobs:fullValue "https://www.britannica.com/cdn-cgi/rum";
+    ucobs:host gpl:DOMAIN_CA926EF763DE8BBEDC9D87A5B3991FFE, gpl:IP_4AE84FA01138F3AAEA150447127F67AF.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_A6379D023ACC711BF4C8040A111A3DB4 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "script";
+    ucobs:endTime "2023-08-11T09:04:18.196Z";
+    ucobs:hasFacet gpl:URL_58F0179035512B11792D51DBA2BB8EBE;
+    ucobs:startTime "2023-08-11T09:04:18.176Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_58F0179035512B11792D51DBA2BB8EBE a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/plugin/plugin/6ba6d4d176059d7ac6a996e6882bdd2f";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_2A6E72531CA1FE7FCA9BC3EFFCABEFA3 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "script";
+    ucobs:endTime "2023-08-11T09:04:18.456Z";
+    ucobs:hasFacet gpl:URL_48E0878F163D90C4DBF743A97A2EAAE4;
+    ucobs:startTime "2023-08-11T09:04:18.443Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_48E0878F163D90C4DBF743A97A2EAAE4 a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/plugin/library/fc7f90e947fde6baa9ed3f93783b710a";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_4B179FC8D33CD1E3F9E2739E806369AF a ucobs:DomainNameFacet;
+    ucobs:addressValue "region1.analytics.google.com".
+gpl:HTTPCON_C505B7DCCB7ADDAAD3A13B829CF70697 a ucobs:HTTPConnectionFacet;
+    core:tag "cross-site", "empty", "no-cors";
+    ucobs:endTime "2023-08-11T09:04:18.540Z";
+    ucobs:hasFacet gpl:URL_02AE21055372F5CDE2749728B16BA91A;
+    ucobs:startTime "2023-08-11T09:04:17.903Z".
+gpl:IP_A58F02CF3B56D080FA2E3C46B74E8367 a ucobs:IPAddressFacet;
+    ucobs:addressValue "216.239.34.36".
+gpl:URL_02AE21055372F5CDE2749728B16BA91A a ucobs:URLFacet;
+    ucobs:fullValue "https://region1.analytics.google.com/g/collect?v&tid&gtm&_p&_gaz&cid&ul&sr&_s&sid&sct&seg&dl&dt&en&_fv&_nsi&_ss&ep.page_type&ep.leg&ep.gisted&up.user_type";
+    ucobs:host gpl:DOMAIN_4B179FC8D33CD1E3F9E2739E806369AF, gpl:IP_A58F02CF3B56D080FA2E3C46B74E8367.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_E46E910B13116FC1111CEC6030538A0F a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-site";
+    ucobs:endTime "2023-08-11T09:04:18.773Z";
+    ucobs:hasFacet gpl:URL_AA4EEC9E75357C542B6430C599193125;
+    ucobs:startTime "2023-08-11T09:04:18.445Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_AA4EEC9E75357C542B6430C599193125 a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/DG/DEFAULT/rest/rpc/153/LB-Zone-3?referer&bcsessionid&bctempid&overruleReferrer&time&ts";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_D3B070FC26865E4958E51A13F92FADFF a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-site";
+    ucobs:endTime "2023-08-11T09:04:18.905Z";
+    ucobs:hasFacet gpl:URL_0F9E8276993CDAF315AE911182DC2FF7;
+    ucobs:startTime "2023-08-11T09:04:18.803Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_0F9E8276993CDAF315AE911182DC2FF7 a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/DG/DEFAULT/rest/rpc/153?referer&bcsessionid&bctempid&overruleReferrer&time&ts";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_474345313A42E8FBAE5E51CEE9C5FC40 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-site";
+    ucobs:endTime "2023-08-11T09:04:19.033Z";
+    ucobs:hasFacet gpl:URL_0F9E8276993CDAF315AE911182DC2FF7;
+    ucobs:startTime "2023-08-11T09:04:18.900Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_0F9E8276993CDAF315AE911182DC2FF7 a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/DG/DEFAULT/rest/rpc/153?referer&bcsessionid&bctempid&overruleReferrer&time&ts";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_4AFF85C09ACC8066BE8A9314F493F7F1 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-site";
+    ucobs:endTime "2023-08-11T09:04:19.096Z";
+    ucobs:hasFacet gpl:URL_0F9E8276993CDAF315AE911182DC2FF7;
+    ucobs:startTime "2023-08-11T09:04:18.822Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_0F9E8276993CDAF315AE911182DC2FF7 a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/DG/DEFAULT/rest/rpc/153?referer&bcsessionid&bctempid&overruleReferrer&time&ts";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_5E894277255ADD4FA9494849F433F0CF a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-site";
+    ucobs:endTime "2023-08-11T09:04:19.153Z";
+    ucobs:hasFacet gpl:URL_0F9E8276993CDAF315AE911182DC2FF7;
+    ucobs:startTime "2023-08-11T09:04:18.893Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_0F9E8276993CDAF315AE911182DC2FF7 a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/DG/DEFAULT/rest/rpc/153?referer&bcsessionid&bctempid&overruleReferrer&time&ts";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_620225B053C9644CCB0E5D6A34EF9EE2 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-site";
+    ucobs:endTime "2023-08-11T09:04:19.157Z";
+    ucobs:hasFacet gpl:URL_0F9E8276993CDAF315AE911182DC2FF7;
+    ucobs:startTime "2023-08-11T09:04:18.898Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_0F9E8276993CDAF315AE911182DC2FF7 a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/DG/DEFAULT/rest/rpc/153?referer&bcsessionid&bctempid&overruleReferrer&time&ts";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_8AFA4350A67E6BFBB0F896DF26A42BE2 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-site";
+    ucobs:endTime "2023-08-11T09:04:20.226Z";
+    ucobs:hasFacet gpl:URL_0F9E8276993CDAF315AE911182DC2FF7;
+    ucobs:startTime "2023-08-11T09:04:19.872Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_0F9E8276993CDAF315AE911182DC2FF7 a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/DG/DEFAULT/rest/rpc/153?referer&bcsessionid&bctempid&overruleReferrer&time&ts";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_4A0F138BC5445B56C7D4ABE2CA1358E4 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-site";
+    ucobs:endTime "2023-08-11T09:04:32.376Z";
+    ucobs:hasFacet gpl:URL_0F9E8276993CDAF315AE911182DC2FF7;
+    ucobs:startTime "2023-08-11T09:04:32.242Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_0F9E8276993CDAF315AE911182DC2FF7 a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/DG/DEFAULT/rest/rpc/153?referer&bcsessionid&bctempid&overruleReferrer&time&ts";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_344452B0C0A481592E5E5B4A04E38366 a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "script";
+    ucobs:endTime "2023-08-11T09:04:32.525Z";
+    ucobs:hasFacet gpl:URL_FD90D2CD99D03A0E1FE1A433B93F6A78;
+    ucobs:startTime "2023-08-11T09:04:32.435Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_FD90D2CD99D03A0E1FE1A433B93F6A78 a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/gallery/lightboxinteractiontype/2.4.1/frontend/src/lib/fancybox/jquery.fancybox.pack.js";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_E201139CD1A1461CA0B1540A66C5CC1F a ucobs:HTTPConnectionFacet;
+    core:tag "no-cors", "same-site", "style";
+    ucobs:endTime "2023-08-11T09:04:32.627Z";
+    ucobs:hasFacet gpl:URL_EDA926F39880B8C7F80F576F9D264350;
+    ucobs:startTime "2023-08-11T09:04:32.583Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_EDA926F39880B8C7F80F576F9D264350 a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/gallery/lightboxinteractiontype/2.4.1/frontend/src/lib/fancybox/jquery.fancybox.css";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_18F469F4D77CB8CE35C460ED01976B9A a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:04:32.789Z";
+    ucobs:hasFacet gpl:URL_59385B7889D0403DDFE124F01306DFE3;
+    ucobs:startTime "2023-08-11T09:04:32.745Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_59385B7889D0403DDFE124F01306DFE3 a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/gallery/lightboxinteractiontype/2.4.1/frontend/src/lib/fancybox/fancybox_overlay.png";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_235C8DBAC893F5361B2D7CB9970981B4 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-site";
+    ucobs:endTime "2023-08-11T09:04:32.975Z";
+    ucobs:hasFacet gpl:URL_0F9E8276993CDAF315AE911182DC2FF7;
+    ucobs:startTime "2023-08-11T09:04:32.837Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_0F9E8276993CDAF315AE911182DC2FF7 a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/DG/DEFAULT/rest/rpc/153?referer&bcsessionid&bctempid&overruleReferrer&time&ts";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_340E8E60BC11ECAEE1C5C577F54F00E7 a ucobs:HTTPConnectionFacet;
+    core:tag "image", "no-cors", "same-origin";
+    ucobs:endTime "2023-08-11T09:04:33.081Z";
+    ucobs:hasFacet gpl:URL_AF358D968D2F96B6FDEE6CB42AC570E7;
+    ucobs:startTime "2023-08-11T09:04:33.072Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_AF358D968D2F96B6FDEE6CB42AC570E7 a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/gallery/lightboxinteractiontype/2.4.1/frontend/src/lib/fancybox/fancybox_sprite.png";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B a ucobs:DomainNameFacet;
+    ucobs:addressValue "bc-script.britannica.com".
+gpl:HTTPCON_EBDB0D9DCF914666AA26DD04D0CC9781 a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-site";
+    ucobs:endTime "2023-08-11T09:04:33.182Z";
+    ucobs:hasFacet gpl:URL_0F9E8276993CDAF315AE911182DC2FF7;
+    ucobs:startTime "2023-08-11T09:04:33.073Z".
+gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87 a ucobs:IPAddressFacet;
+    ucobs:addressValue "99.86.91.30".
+gpl:URL_0F9E8276993CDAF315AE911182DC2FF7 a ucobs:URLFacet;
+    ucobs:fullValue "https://bc-script.britannica.com/DG/DEFAULT/rest/rpc/153?referer&bcsessionid&bctempid&overruleReferrer&time&ts";
+    ucobs:host gpl:DOMAIN_ED772DD8FD7E29D914C679700A502F9B, gpl:IP_8DD9B2E6C73BA4CE4061ED1C1A43AF87.
+gpl:DOMAIN_CA926EF763DE8BBEDC9D87A5B3991FFE a ucobs:DomainNameFacet;
+    ucobs:addressValue "www.britannica.com".
+gpl:HTTPCON_0890636B373414230D9F58E5AB458D7A a ucobs:HTTPConnectionFacet;
+    core:tag "cors", "empty", "same-origin";
+    ucobs:endTime "2023-08-11T09:04:47.914Z";
+    ucobs:hasFacet gpl:URL_A3735464FB23B1427F0072754D70B3DF;
+    ucobs:startTime "2023-08-11T09:04:47.899Z".
+gpl:IP_4AE84FA01138F3AAEA150447127F67AF a ucobs:IPAddressFacet;
+    ucobs:addressValue "104.18.4.110".
+gpl:URL_A3735464FB23B1427F0072754D70B3DF a ucobs:URLFacet;
+    ucobs:fullValue "https://www.britannica.com/cdn-cgi/rum";
+    ucobs:host gpl:DOMAIN_CA926EF763DE8BBEDC9D87A5B3991FFE, gpl:IP_4AE84FA01138F3AAEA150447127F67AF.
