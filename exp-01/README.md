@@ -65,6 +65,25 @@ See measurements details in the [exp-01.csv](exp-01.csv) file:
 
 See additional statistics in the [exp-01-stats.csv](exp-01-stats.csv) file.
 
+## Statistics for the Website complexity experiment
+
+The following table summarizes the statistics based on the "micro" (CM = mu sign) and "macro" (CM = M) data collection mode, and as a function of the Web browser's anti-tracking policy:
+
+![exp-01-stats](./exp-01-stats.png)
+
+The following abbreviations apply:
+
+* CM = collection mode,
+* Trk. = anti-tracking policy (strict *vs* standard),
+* TC = Triples count,
+* SC = Subjects count,
+* UOA = `ucobs:DomainNameFacet` entities count,
+* UDN = `ucobs:DomainNameFacet` entities count,
+* UHC = `ucobs:HTTPConnectionFacet` entities count,
+* UIP = `ucobs:IPAddressFacet` entities count,
+* UURL = `ucobs:URLFacet` entities count,
+* n.a. = non applicable.
+
 ## References
 
 - <a id="1">[1]</a> Madhu Murali. 2023. 
