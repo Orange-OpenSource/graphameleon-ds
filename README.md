@@ -52,18 +52,20 @@ Semantic representation of a micro-activity:
 
 If you use this dataset in a scientific publication, please cite:
 
-> Benjamin Stach, Lionel Tailhardat, Yoan Chabot, and Raphaël Troncy. 2024.
+> Lionel Tailhardat, Benjamin Stach, Yoan Chabot, and Raphaël Troncy. 2024.
 > Graphameleon: Relational Learning and Anomaly Detection on Web Navigation Traces Captured as Knowledge Graphs.
 > In The Web Conference 2024, WWW '24, Singapore, May 13--17, 2024, Proceedings.
+> https://doi.org/10.1145/3589335.3651447
 
 BibTex format:
 
 ```bibtex
 @inproceedings{graphemeleon-2024,
   title = {{Graphameleon: Relational Learning and Anomaly Detection on Web Navigation Traces Captured as Knowledge Graphs}},
-  author = {{Benjamin Stach} and {Lionel Tailhardat} and {Yoan Chabot} and {Rapha\"el Troncy}},
+  author = {{Lionel Tailhardat} and {Benjamin Stach} and {Yoan Chabot} and {Rapha\"el Troncy}},
   booktitle = {{The Web Conference 2024, WWW '24, Singapore, May 13--17, 2024, Proceedings}},
-  year = {2024}
+  year = {2024},
+  doi = {10.1145/3589335.3651447}
 }
 ```
 
