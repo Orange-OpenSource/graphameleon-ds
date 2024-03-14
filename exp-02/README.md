@@ -25,7 +25,6 @@ The arrows correspond to the sequence of steps for each scenario:
 * **XSS attack scenario (abnormal behavior)**: [basic authentication + XSS injection].  
   An attacker accesses the website, logs in to their account using their username and password, navigates to the "Sell a Book" page, and performs a code injection in the "Author" field. Finally, they return to the homepage where the injected script is executed.
 
-
 ## Workbench settings
 
 Here is a summary of the settings for the experiment:
@@ -50,4 +49,3 @@ GPL_attack_scenario.ttl
 ```
 
 The *NavigationScenarioName* field refers to the above-mentioned scenarios.
-
