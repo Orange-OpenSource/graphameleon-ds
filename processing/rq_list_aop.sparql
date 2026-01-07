@@ -1,0 +1,32 @@
+#  Copyright (c) 2022-2026 Orange. All rights reserved in accordance to the CC-BY-NC-SA license
+#  Project: graphameleon-ds
+#  THIS SOFTWARE IS PROVIDED BY Orange "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Orange BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+PREFIX ucoact: <https://ontology.unifiedcyberontology.org/uco/action#>
+PREFIX ucobs: <https://ontology.unifiedcyberontology.org/uco/observable#>
+PREFIX core: <https://ontology.unifiedcyberontology.org/uco/core#>
+
+SELECT DISTINCT ?actionTag ?object ?page
+WHERE {
+    ?action a ucoact:ObservableAction ;
+        core:tag ?actionTag .
+
+    ?action core:value ?object .
+
+    {
+        ?action ucobs:location ?location .
+        ?location a ucobs:URLFacet ;
+        ucobs:fullValue ?page .
+    }
+    UNION
+    {
+        ?action core:tag "request" ;
+            ucobs:object ?httpConnection .
+
+        ?httpConnection a ucobs:HTTPConnectionFacet ;
+            ucobs:hasFacet ?urlFacet .
+
+        ?urlFacet a ucobs:URLFacet ;
+            ucobs:fullValue ?page .
+    }
+}
