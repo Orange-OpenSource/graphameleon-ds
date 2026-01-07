@@ -71,7 +71,7 @@ BibTex format:
 
 ## Copyright
 
-Copyright (c) 2023, Orange. All rights reserved.
+Copyright (c) 2023-2026, Orange. All rights reserved.
 
 ## License
 
