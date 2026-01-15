@@ -1,0 +1,11 @@
+P1: http1270018000livroslogin
+P2: httpsmaxcdnbootstrapcdncombootstrap400-betajsbootstrapminjs
+P3: httpscdnjscloudflarecomajaxlibspopperjs1110umdpopperminjs
+P4: httpscodejquerycomjquery-321slimminjs
+P5: httpscdnjscloudflarecomajaxlibsfont-awesome5153jsallminjs
+P6: http1270018000livroshome
+P7: httpscodejquerycomjquery-321minjs
+P8: http1270018000livrossell
+P9: http1270018085exploit
+P10: httpsaccountsgooglecomooauth2v2authclient_idredirect_uriscoperesponse_typestateaccess_type
+P11: httpsaccountsgooglecom
