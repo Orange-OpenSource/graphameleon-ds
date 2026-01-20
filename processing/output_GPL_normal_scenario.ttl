@@ -20,7 +20,7 @@ P8 O19 A75 T3 high R3
 P8 O20 A76 T2 medium R3
 P8 O21 A77 T3 high R3
 P8 O22 A78 T2 medium R3
-P8 O23 A79 T3 medium R3
+P8 O23 A79 T3 high R3
 P8 O24 A80 T2 high R3
 P8 O25 A81 T4 low R3
 P8 O15 A82 T1 low R3

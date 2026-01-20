@@ -2,6 +2,9 @@ from rdflib import Graph, Literal
 import re
 from datetime import datetime
 from dateutil.parser import isoparse
+import numpy as np
+
+files = ['GPL_attack_scenario.ttl','GPL_alternative_scenario.ttl','GPL_normal_scenario.ttl']
 
 query = """
 PREFIX ucoact: <https://ontology.unifiedcyberontology.org/uco/action#>
@@ -53,27 +56,37 @@ def calculate_temporal_delta(action_time_str, previous_action_time_str):
     except:
         return 0.0
 
-def discretize_temporal_deltas(deltas):
-    """Discretize temporal deltas based on percentiles: 0-33% = low, 33-66% = medium, 66-100% = high"""
-    import numpy as np
-    if not deltas:
-        return []
-    # Calculate percentiles
-    p33 = np.percentile(deltas, 33.33)
-    p66 = np.percentile(deltas, 66.66)
-    discretized = []
-    for delta in deltas:
-        if delta <= p33:
-            discretized.append("low")
-        elif delta <= p66:
-            discretized.append("medium")
-        else:
-            discretized.append("high")
+def discretize_with_global_percentiles(delta):
+    """Discretize a delta using global percentiles"""
+    if delta <= global_p33:
+        return "low"
+    elif delta <= global_p66:
+        return "medium"
+    else:
+        return "high"
     
-    return discretized
+# First pass: collect all temporal deltas from all files for global discretization
+all_temporal_deltas = []
+file_results = {}
 
-files = ['GPL_attack_scenario.ttl','GPL_alternative_scenario.ttl','GPL_normal_scenario.ttl']
+for f in files:
+    g = Graph()
+    g.parse(f, format='turtle')
+    results = list(g.query(query))
+    file_results[f] = results
+    
+    # Collect temporal deltas for this file
+    previous_action_time = None
+    for i, row in enumerate(results):
+        if i > 0:  # Skip first action as it has no previous action
+            temporal_delta = calculate_temporal_delta(row.actionTime, previous_action_time)
+            all_temporal_deltas.append(temporal_delta)
+        previous_action_time = row.actionTime
+# Calculate global percentiles for discretization
+global_p33 = np.percentile(all_temporal_deltas, 33.33)
+global_p66 = np.percentile(all_temporal_deltas, 66.66)
 
+# Second pass: process each file using global discretization
 # Dictionary to store mappings for shorter variable names
 action_map = {}
 tag_map = {}
@@ -85,27 +98,10 @@ tag_counter = 1
 page_counter = 1
 object_counter = 1
 appreciation_counter = 1
-
 for f in files:
-    g = Graph()
-    g.parse(f, format='turtle')
-    results = list(g.query(query))  
+    results = file_results[f]
     appreciation = Literal(f"{f.split('.')[0]}")
     
-    # First pass: collect all temporal deltas for discretization
-    temporal_deltas = []
-    previous_action_time = None
-    for i, row in enumerate(results):
-        if i > 0:  # Skip first action as it has no previous action
-            temporal_delta = calculate_temporal_delta(row.actionTime, previous_action_time)
-            temporal_deltas.append(temporal_delta)
-        previous_action_time = row.actionTime
-    
-    # Discretize temporal deltas
-    discretized_deltas = discretize_temporal_deltas(temporal_deltas)
-    
-    # Second pass: write output files
-
     # Debug version without mapping and slugification
     with open(f"debug_raw_{f}", "w") as debug_file:
         previous_action_time = None
@@ -122,19 +118,18 @@ for f in files:
     # Production version with mapping and slugification
     with open(f"output_{f}", "w") as out_file:
         previous_action_time = None
-        delta_index = 0
         for i, row in enumerate(results):
             action_slug = slugify(row.action)
             tag_slug = slugify(row.actionTag)
             page_slug = slugify(row.page)
             object_slug = slugify(row.object)
             appreciation_slug = slugify(appreciation)
-            # Get discretized temporal delta (0 for first action)
+            # Get discretized temporal delta using global percentiles
             if i == 0:
                 temporal_delta_discretised = "none"
             else:
-                temporal_delta_discretised = discretized_deltas[delta_index]
-                delta_index += 1
+                temporal_delta_value = calculate_temporal_delta(row.actionTime, previous_action_time)
+                temporal_delta_discretised = discretize_with_global_percentiles(temporal_delta_value)
             # Create shorter variable names for actions
             if action_slug not in action_map:
                 action_map[action_slug] = f"A{action_counter}"

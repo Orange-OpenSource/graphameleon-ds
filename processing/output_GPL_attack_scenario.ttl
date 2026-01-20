@@ -3,7 +3,7 @@ P2 O2 A2 T1 medium R1
 P3 O3 A3 T1 low R1
 P4 O4 A4 T1 low R1
 P5 O5 A5 T1 low R1
-P1 O6 A6 T2 high R1
+P1 O6 A6 T2 medium R1
 P1 O7 A7 T3 high R1
 P1 O8 A8 T2 medium R1
 P1 O9 A9 T3 high R1
@@ -19,7 +19,7 @@ P8 O18 A18 T2 medium R1
 P8 O19 A19 T3 high R1
 P8 O20 A20 T2 medium R1
 P8 O21 A21 T3 high R1
-P8 O22 A22 T2 low R1
+P8 O22 A22 T2 medium R1
 P8 O23 A23 T3 high R1
 P8 O24 A24 T2 high R1
 P8 O25 A25 T4 low R1
