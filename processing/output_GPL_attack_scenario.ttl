@@ -1,29 +1,29 @@
-P1 O1 A1 none R1
-P2 O2 A2 medium R1
-P3 O3 A3 low R1
-P4 O4 A4 low R1
-P5 O5 A5 low R1
-P1 O6 A6 high R1
-P1 O7 A7 high R1
-P1 O8 A8 medium R1
-P1 O9 A9 high R1
-P1 O10 A10 medium R1
-P1 O11 A11 low R1
-P6 O12 A12 medium R1
-P7 O13 A13 medium R1
-P6 O14 A14 high R1
-P8 O15 A15 low R1
-P8 O16 A16 medium R1
-P8 O17 A17 high R1
-P8 O18 A18 medium R1
-P8 O19 A19 high R1
-P8 O20 A20 medium R1
-P8 O21 A21 high R1
-P8 O22 A22 low R1
-P8 O23 A23 high R1
-P8 O24 A24 high R1
-P8 O25 A25 low R1
-P8 O15 A26 low R1
-P8 O26 A27 high R1
-P6 O12 A28 low R1
-P9 O27 A29 medium R1
+P1 O1 A1 T1 none R1
+P2 O2 A2 T1 medium R1
+P3 O3 A3 T1 low R1
+P4 O4 A4 T1 low R1
+P5 O5 A5 T1 low R1
+P1 O6 A6 T2 high R1
+P1 O7 A7 T3 high R1
+P1 O8 A8 T2 medium R1
+P1 O9 A9 T3 high R1
+P1 O10 A10 T2 medium R1
+P1 O11 A11 T4 low R1
+P6 O12 A12 T1 medium R1
+P7 O13 A13 T1 medium R1
+P6 O14 A14 T2 high R1
+P8 O15 A15 T1 low R1
+P8 O16 A16 T2 medium R1
+P8 O17 A17 T3 high R1
+P8 O18 A18 T2 medium R1
+P8 O19 A19 T3 high R1
+P8 O20 A20 T2 medium R1
+P8 O21 A21 T3 high R1
+P8 O22 A22 T2 low R1
+P8 O23 A23 T3 high R1
+P8 O24 A24 T2 high R1
+P8 O25 A25 T4 low R1
+P8 O15 A26 T1 low R1
+P8 O26 A27 T2 high R1
+P6 O12 A28 T1 low R1
+P9 O27 A29 T1 medium R1

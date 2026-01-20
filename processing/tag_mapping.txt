@@ -1,0 +1,4 @@
+T1: request
+T2: click
+T3: change
+T4: submit

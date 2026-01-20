@@ -160,12 +160,15 @@ for f in files:
                 appreciation_map[appreciation_slug] = f"R{appreciation_counter}"
                 appreciation_counter += 1
             appreciation_var = appreciation_map[appreciation_slug]
-            out_file.write(f"{page_var} {object_var} {action_var} {temporal_delta_discretised} {appreciation_var}\n")
+            out_file.write(f"{page_var} {object_var} {action_var} {tag_var} {temporal_delta_discretised} {appreciation_var}\n")
             previous_action_time = row.actionTime
 
 # Write mapping files for reference
 with open("action_mapping.txt", "w") as f:
     for original, variable in action_map.items():
+        f.write(f"{variable}: {original}\n")
+with open("tag_mapping.txt", "w") as f:
+    for original, variable in tag_map.items():
         f.write(f"{variable}: {original}\n")
 with open("page_mapping.txt", "w") as f:
     for original, variable in page_map.items():
